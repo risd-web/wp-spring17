@@ -1,9 +1,10 @@
 body{
 	font-family: Helvetica, Arial, sans-serif;
+	color: white;
 }
 
 .cats{
- 	background: #ffffff url("img_tree.png") no-repeat right top; 
+ 	background: #ffffff url("media/giphy.gif") repeat right top fixed; 
  	/* shorthand for
 	background-color: #ffffff; 
  	background-image: url("img_tree.png");
