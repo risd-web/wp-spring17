@@ -35,7 +35,7 @@ This three-session workshop combines the tactical skills needed to structure web
 ### Week Four
 >Putting it all together
 * Lecture: From sketch to code
-* In-class activity: 
+* In-class activity 
 * Possible future assignments
 
 ## Software needed
@@ -45,7 +45,7 @@ This three-session workshop combines the tactical skills needed to structure web
 * Google Chrome browser or Safari
 
 ## Resources
-* [Lectures](https://drive.google.com/open?id=1-KSBbAr7KkB7T5TKYKzZUnwC-zXXVGNm8WxZrR7uz-w) are available on Google Drive for additional reference
+* [Lectures](https://drive.google.com/open?id=0B3lDDEnD7CkNOVBFdk9xX2pGams) are available on Google Drive
 * Be sure to refer to the [Wiki](https://github.com/risd-web/wp17/wiki) on the Github page for useful resources
 * Check out & add to [Examples](https://github.com/risd-web/wp17/wiki/Examples) for inspiration
 * Clone the Github Repo from [last year's class](https://github.com/risd-gd/wp16)
