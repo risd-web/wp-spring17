@@ -1,0 +1,199 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+    /*background: rgba(191,231,247,1);*/
+ 	
+
+}
+
+::selection {
+  	background: rgba(255,242,0,1);lds connections across campus and initiates collaborations between com
+  	background-blend-mode: multiply;
+}
+::-moz-selection {
+   	background: rgba(255,242,0,1);
+ 	background-blend-mode: multiply;
+}
+
+
+@media (max-width: 300px) {
+  body {
+    background: rgba(255,216,237,1); /*pink*/
+    background-image: url("images/Fermata_Web_BG-01.png");  
+    -webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+
+  }
+}
+
+@media (min-width: 319px) and (max-width: 600px) {
+  body {
+    font-size:18px;
+    line-height:2.2em;
+    letter-spacing:-0.025em;
+    background: rgba(255,216,237,1); /*pink*/
+    background-image: url("images/Fermata_Web_BG-02.png");
+    -webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: 100% 100%;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 601px) and (max-width: 898px) {
+  body {
+    font-size:18px;
+    line-height:2.2em;
+    letter-spacing:-0.025em;
+    background: rgba(202,230,208,1); /*green*/
+    background-image: url("images/Fermata_Web_BG-04.png");
+    -webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: 100% 100%;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 899px) and (max-width: 1024px) {
+  body {
+    font-size:35px;
+    line-height:2em;
+    letter-spacing:-0.07em;
+    background: rgba(255,249,174,1); /*yellow*/
+    background-image: url("images/Fermata_Web_BG-03.png");
+
+    -webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: 100% 100%;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 3500px) {
+  body {
+    font-size:35px;
+    line-height:2em;
+    letter-spacing:-0.07em;
+    background: rgba(191,231,247,1); /*blue*/
+    background-image: url("images/Fermata_Web_BG-01.png");
+    background-position: center;
+    -webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: 100% 100%;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+  }
+}
+
+
+h1{
+	color: rgba(0,0,255,1);
+	/*text-transform: uppercase;*/
+	
+	mix-blend-mode: multiply;
+
+
+}
+
+h2{
+	font-size:38px;
+	margin:0;
+	padding:0;
+	color: rgba(255,242,0,1);
+	mix-blend-mode: multiply;
+
+}
+
+h3{
+    font-size:18px;
+    line-height:1.2em;
+    letter-spacing:-0.025em;
+	margin:0;
+	padding:0;
+	color: rgba(0,0,255,1);
+	mix-blend-mode: multiply;
+
+}
+
+p{
+	margin:0;
+}
+
+.description{
+	border-top:2px solid blue;
+	padding:.2em;
+	box-sizing:border-box;
+
+	}
+
+a {
+    color: rgba(236,28,36,1);
+    mix-blend-mode: multiply;
+    text-decoration: none;
+
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+	background-color: rgba(255,242,0,1);
+    color: rgba(236,28,36,1);
+    mix-blend-mode: multiply;
+
+
+}
+
+a:active {
+    text-decoration: none;
+
+}
+
+section{
+	overflow: auto;
+}
+
+#scroll{
+	padding: 0;
+	margin: 0;
+
+}
+
+#intro1.text{
+	float: left;
+	width: 33%;
+	padding: 1em;
+	box-sizing:border-box;
+
+}
+
+#intro2.text{
+	float: left;
+	width: 33%;
+	border: 1px solid tomato;
+	padding: 1em;
+	box-sizing:border-box;
+}
+
+#intro3.text{
+	flex:1;
+}
+
+
+
+
+
