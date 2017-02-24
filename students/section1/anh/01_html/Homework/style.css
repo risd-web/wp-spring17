@@ -1,0 +1,93 @@
+#page1 { 
+    background: #e37272;
+    background-image: url(image/header.tif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.header {
+    text-align:center;
+    font-family: helvetica;
+
+}
+.header > div {
+    vertical-align:top;
+    display:inline-block;  
+    padding: 30%;
+    float: 30%; 
+}
+h1 {
+    text-decoration: underline overline line-through;
+    justify-content: 5px; 
+    border-top: 50px solid #f1f1f1;
+    border-bottom: 50px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+.menu {
+    text-align:center;
+    ;
+}
+.menu > div {
+    vertical-align:top;
+    display:inline-block;  
+    padding: 30%;
+    float: 30%; 
+}
+h3 {
+    font-family: helvetica;
+    font-variant: 
+    line-height: 5pt;
+    padding-top: 20%;
+    padding-bottom: 5pt;
+    text-decoration: none;
+}
+
+#page2 { 
+    background: #e37272;
+    background-image: url(image/header.tif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#text {
+    font-family: helvetica;
+}
+
+.quote1 {
+    font-family:times;
+    font-size: 30pt;
+}
+
+.quote2 {
+    font-family:times;
+    font-size: 25pt;
+}
+.quote3 {
+    font-family:times;
+    font-size: 15pt;
+
+}
+.quote4 {
+    font-family:times;
+    font-size: 5pt;
+
+}
+
+.footer {text-align:center;
+    font-family: helvetica;
+    display:block;  
+
+}
+#page3 {
+    background: #e37272;
+    background-image: url(image/header.tif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+p {
+    text-align:center;
+    font-family: helvetica;
+
+}
