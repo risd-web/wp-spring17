@@ -1,0 +1,15 @@
+body{font-family: 'Roboto', sans-serif; background-color: blue; font-family: : helvetica;}
+
+h1 {color: white; font-style: helvetica;
+	font-size: 300px;}
+h4 {font-size: 50px; background: yellow;}
+h5 {font-size: 100px; line-height: 100px}
+p {font-size: 70px;  background: pink;}
+.event {font-size: 100px}
+.event1 { font size: 300px; text-align: left;
+        height: 100vh;
+        background: #c8dfff;
+        display: flex;
+        align-items: center;}
+.event2 {color: white;}
+

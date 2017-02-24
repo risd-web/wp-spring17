@@ -1,0 +1,12 @@
+h1 {margin-left: 200px; color: pink; font-size: 200px;}
+h2 {color: white; margin-top: 60px; margin-left: 650px;}
+body {background-color: green}
+p {align-content: center;}
+#flex .event {font-size: 100px; 
+				color: green; 
+				width: 500px; 
+				height: 900px; 
+				background-color: yellow;
+				float: left;
+				margin-left: 400px;
+				text-align: center;}
