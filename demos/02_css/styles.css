@@ -1,4 +1,13 @@
 
+ul.nav{
+    color: blue;
+}
+
+.orange ul{
+    color: orange;
+}
+
+
 body{
         margin: 0;
 }
@@ -113,9 +122,9 @@ li{
         width: 500px;
 }
 
-li::before{
+/*li::before{
         content: '$ ';
-}
+}*/
 
 h2::after{
         content: '*';
