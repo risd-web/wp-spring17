@@ -1,0 +1,66 @@
+body {
+	background: url(images/layout2-01.jpg);
+}
+#main {
+	
+}
+#title {
+	margin: 21px 0 0 500px;
+	width: 525px;
+	height: 143px;
+}
+.textBox {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+h1 {
+	font-family: 'Mada', sans-serif;
+	font-size: 60px;
+	padding: 9px 0 0 17px;
+	line-height: 63px;
+	margin: 0;
+}
+#back {
+	font-size: 10px;
+	margin: 0 0 0 7px;
+}
+#recipe {
+	width: 742px;
+	height: 153px;
+	margin: 101px 0 0 283px;
+}
+#subTitle {
+	margin: 21px 0 0 500px;
+	height: 183px;
+	width: 750px;
+}
+h2 {
+	font-family: 'Mada', sans-serif;
+	font-size: 28px;
+	padding: 21px 0 0 20px;
+	line-height: 24px;
+	margin: 0;
+}
+ul {
+	list-style: none;
+	padding: 0 21px 0 21px;
+}
+.link:hover {
+	color: rgba(0, 120, 200, 1);
+}
+table {
+	padding: 12px 0 0 0;
+}
+.text {
+	font-family: 'Mada', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: left;
+}
+th {
+	padding: 0 0 0 19px;
+}
