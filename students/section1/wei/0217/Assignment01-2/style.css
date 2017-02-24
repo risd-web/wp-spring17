@@ -5,12 +5,19 @@ table{
 .bird{
 	width:200px;
 	height:200px;
+	
 	background:
-	url(images/Bird.jpg);
+	url(images/Bird.jpg)
+	no-repeat;
+	background-blend-mode:multiply;
 }
 
 th:hover{
 	background:
-	url(images/Cat.jpg);
+	url(images/Cat.jpg)
+	no-repeat;
+}
+table, th, tr{
+	border-collapse: collapse;
 }
 
