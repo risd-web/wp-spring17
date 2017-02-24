@@ -1,0 +1,22 @@
+h3{
+	color: yellow;
+	font-family: Helvetica;
+	font-size: 40px;
+}
+
+p{
+	color: blue;
+}
+
+div {
+color:blue;
+border: 3px solid gray;
+width: 10px;
+
+}
+
+span {
+	color: red;
+	border: 6px solid blue;
+	font-family: sans-serif;
+}
