@@ -1,1 +1,16 @@
-table:;
+table{
+	width:100%;
+	height:100%;
+}
+.bird{
+	width:200px;
+	height:200px;
+	background:
+	url(images/Bird.jpg);
+}
+
+th:hover{
+	background:
+	url(images/Cat.jpg);
+}
+
