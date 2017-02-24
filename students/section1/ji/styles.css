@@ -1,0 +1,161 @@
+/*a:link    {
+  text-decoration:  none;
+  color: red;
+  } */
+
+a:link{
+ color: #ffffff;
+ text-decoration: none;
+}
+a:hover{
+color: red;
+}
+
+body{}
+/*Top*/
+#floated{}
+.event {
+		float: left;
+        width: 50%; 
+        height:760px;
+        margin: auto;
+        background-image: url("img/leak01.jpg");
+}
+
+
+.event2 {
+		float: left;
+        width: 50%; 
+        height:760px;
+        margin: auto;
+        background-image: url("img/mona-lisa01.jpg");
+}
+
+.event h1 {
+font-size: 15em;
+font-family: 'Anton', sans-serif;
+text-align: center;
+color: #000000;
+}
+
+.event h1:hover {
+color: red;
+mix-blend-mode: multiply;
+
+}
+
+
+.event2 h2 {
+font-size: 15em;
+font-family: 'Anton', sans-serif;
+text-align: center;
+color: #000000;
+}
+
+.event2:hover {
+	background-image: url("img/flynn02.jpg");
+	background-image-size: 150%;
+}
+
+.event2 h2:hover {
+color: red;
+mix-blend-mode: multiply;
+
+}
+
+
+#NEWS{}
+
+.event3 {
+		float: left;
+        width: 50%; 
+        height:760px;
+        margin: auto;
+        background-image: url("img/trump-tweet.jpg");
+}
+
+
+.event4 {
+		float: left;
+        width: 50%; 
+        height:760px;
+        margin: auto;
+        background-image: url("img/fake01.jpg");
+}
+
+.event3 h1 {
+font-size: 15em;
+font-family: 'Anton', sans-serif;
+text-align: center;
+color: #000000;
+}
+
+.event3 h1:hover {
+color: red;
+mix-blend-mode: multiply;
+
+}
+
+
+.event4 h2 {
+font-size: 15em;
+font-family: 'Anton', sans-serif;
+text-align: center;
+color: #fffff;
+}
+
+.event4:hover {
+	background-image: url("img/nytimes2.jpg");
+}
+
+.event4 h2:hover {
+color: red;
+mix-blend-mode: multiply;
+
+}
+
+/*Gradient*/
+#gradient{
+        display: flex;
+}
+.tone1 {
+        flex: 1;
+        height: 98vh;
+        background-image: url("img/xerox07.jpg");
+}
+
+.hate1{
+        flex: 1;
+        height: 98vh;
+        background-image: url("img/collage02.jpg");
+}
+
+.tone1 h3 { 
+        font-size: 15em;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+        color: #000000;
+}
+
+.hate1 h3 { 
+        font-size: 15em;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+        color: #000000;
+}
+
+.hate1:hover {
+        background-image: url("img/trump01.jpg");
+}
+
+.hate1 h3:hover {
+color: red;
+mix-blend-mode: multiply;
+
+}
+
+.tone1 h3:hover {
+color: red;
+mix-blend-mode: multiply;
+
+}
