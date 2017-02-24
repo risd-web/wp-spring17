@@ -1,0 +1,27 @@
+h1 {
+	font-family: Arial;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 90px;
+}
+
+#ny {
+	display: block;
+	margin: auto;
+	padding-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	display: inline-block;
+  margin-left: 18.5%;
+  margin-bottom: 5px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+a:hover {
+	color: red;
+}
