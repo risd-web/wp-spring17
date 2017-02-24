@@ -24,13 +24,14 @@ This three-session workshop combines the tactical skills needed to structure web
 
 ### Week Two: Form
 >Week two encourages a different mindset, using code and the browser to discover designs as you make.  
-* Assignment 3: Draw objects or abstract compositions and create a series of web posters
-* Assignment 4: Incorporate the work of peers to develop patterns
+* Assignment 3: Draw a concrete object
+* Assignment 4: Use abstract shapes to create a web poster
+* Assignment 5: Incorporate the work of peers to develop patterns
 
 ### Week Three: Behavior
 >Week three delves into designing with time: interactivity and motion.
-* Assignment 5: Movement and interaction
-* Assignment 6: Responsive animations
+* Assignment 6: Movement and interaction
+* Assignment 7: Responsive animations
 
 ### Week Four
 >Putting it all together

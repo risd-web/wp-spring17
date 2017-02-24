@@ -78,7 +78,6 @@ section{
 
 /*vertical centering*/
 #centering{
-        text-align: center;
         height: 100vh;
         background: #c8dfff;
         display: flex;
