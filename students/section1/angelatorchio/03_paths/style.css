@@ -1,0 +1,15 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.cats{
+ 	background: #ffffff url("img_tree.png") no-repeat right top; 
+ 	/* shorthand for
+	background-color: #ffffff; 
+ 	background-image: url("img_tree.png");
+ 	background-repeat: no-repeat;
+ 	background-position: right top;
+ 	background-attachment: fixed;
+ 	*/
+ 	background-size: 100px;
+}

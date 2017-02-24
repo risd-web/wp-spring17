@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>angela torchio</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+       <h2> angela torchio </h2>
+      <nav>        
+        <a href="work/work.html">work</a>
+        <section></section>
+           <p></p>
+        <a href="about/about.html">about</a>
+           <section></section>
+           <p></p>
+        <a href="contact/contact.html">contact</a>
+           <section></section>
+           <p></p>
+        </nav>
+        
+
+          <body>
+            <section id="floated">
+
+<div class="event" style="max-width:400px">
+  <div class="media">
+  <img class="media" src="media/1.jpg" style="width:100%">
+
+  </div>
+  <div class="media">
+  <img class="media" src="media/2.jpg" style="width:100%">
+
+  </div>
+  <div class="media">
+  <img class="media" src="media/2499_OCcards1card copy.jpg" style="width:100%">
+
+  </div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("media");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
+  
+    </section>
+      </body>
+</html>
