@@ -1,0 +1,41 @@
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 90px;
+}
+
+h2{
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 70px;
+}
+
+h2{
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 50px;
+}
+
+#pvd {
+	display: block;
+	margin: auto;
+	padding-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	display: inline-block;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+a:hover {
+	color: red;
+}
