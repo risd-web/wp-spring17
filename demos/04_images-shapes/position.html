@@ -5,41 +5,78 @@
 				background: cyan;
 			}
 			div {
-				background: red; 
+				background-image: url(http://pix.iemoji.com/images/emoji/apple/ios-9/256/pouting-face.png); 
 				width: 300px; 
 				height: 300px;
 				margin: 1px;
-				float: left;
+				float: right;
+			}
+
+			p {
+				position: fixed;
+				font-family: Helvetica;
+				font-size: 100px;
+				font-weight: bolder;
+				transform: rotate(-20deg);
+				right: 300px;
+				top: 300px;
+				z-index: 30;
+				transition: transform 125ms ease-out;
+			}
+
+			p:hover {
+				transform: scale(2) rotate(30deg);
+				color: red;
+				mix-blend-mode: multiply;
 			}
 
 			.container {
-				position: absolute;
-				border: 3px solid #000;
+				position: fixed;
+				border: 1px solid black;
 				right: 500px;
 				top: 300px;
+				width: 500px;
+				z-index: 15;
 			}
+
+			.container:hover {
+				mix-blend-mode: multiply;
+			}
+
 			.logo { 
 				position: absolute;
-				top: 100px;
-				left: 50px;
-				background: blue;
-				z-index: 15;
-				opacity: 0.8;
+				top: 0px;
+				left: 0px;
+				background-image: url(http://prod-filesbucket-7hmmorphht20.s3-ap-southeast-2.amazonaws.com/face-with-look-of-triumph.png);
+				z-index: 1;
+				opacity: 0.5;
 			}
 
 			.logo2 { 
-				position: absolute;
-				top: 200px;
-				left: 100px;
-				background: pink;
+				position: fixed;
+				top: 100px;
+				left: 400px;
+				background: orange;
 				z-index: 10;
+				transform: scale(2) skew(30deg);
+				border-radius: 50%;
+				opacity: 0.7;
+				background-image: url(http://pix.iemoji.com/images/emoji/apple/ios-9/256/thinking-face.png);
+				transition: transform 125ms ease-out;
+
+			}
+
+			.logo2:hover {
+				filter: sepia(1) hue-rotate(200deg);
+				transform: scale(3);
 			}
 
 			.rel{
-				background: purple;
+				background-image: url(http://prod-filesbucket-7hmmorphht20.s3-ap-southeast-2.amazonaws.com/face-with-look-of-triumph.png);
 				position: relative;
 				left: 50px;
 				top: 50px;
+				z-index: 3;
 			}
 
 			.anchor { 
@@ -53,6 +90,7 @@
 				text-align: center;
 				display: flex;
 				overflow: hidden;
+
 			}
 
 			.white{
@@ -75,6 +113,7 @@
 		<title>Positioning</title>
 	</head>
 	<body>
+		<p>HELLO</p>
 		<div class="container">
 			<div class="logo"></div>
 			<div class="logo2"></div>

@@ -1,0 +1,11 @@
+.bg {
+	width: 1000px;
+	height: 1400px;
+	background-color: #f2f2f2;
+}
+
+div {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
