@@ -1,0 +1,242 @@
+<html>
+	<head>
+	<style>
+	body{
+		background-color: #f9f6ed;
+		font-family: helvetica;
+	}
+		
+	p {
+		
+		line-height: 0.2;
+		color: green;
+		font-size: 10pt;
+/*		margin-left: 150px;*/
+	}
+	h1 {
+		font-weight: bold;
+		color: #121c60;
+/*		margin-left: 150px;*/
+		margin-bottom: -13px;
+		margin-top: -13px;
+		font-size: 105px;
+	}
+
+	h2 {
+		font-weight: bold;
+		color: green; 
+/*		margin-left: 150px;*/
+		margin-bottom: -13px;
+		margin-top: -13px;
+		font-size: 105px;
+	}
+	.date {
+		padding-top: 100px;
+		padding-bottom: 5px;
+	}
+
+	.blue-line {
+		background-color: #121c60;
+/*		margin-left: 150px;*/
+		height: 35px;
+		width: 80%;
+	}
+
+	.green-line {
+		background-color: green;
+/*		margin-left: 150px;*/
+		height: 35px;
+		width: 80%;	
+	}
+	.footer {
+		margin-bottom: 100px
+	}
+
+	.circle2{
+		width: 100px;
+		height: 100px;
+		background-color: black;
+		border-radius: 50%;
+		display: none;
+	}
+
+	.circle1{
+		width: 100px;
+		height: 100px;
+		background-color: red;
+		border-radius: 50%;
+		display: none;
+	}
+
+	.circle3{
+		width: 100px;
+		height: 100px;
+		background-color: purple;
+		border-radius: 50%;
+		display: none;
+	}
+
+	.circle4{
+		width: 100px;
+		height: 100px;
+		background-color: orange;
+		border-radius: 50%;
+		display: none;
+	}
+
+	.circle5{
+		width: 100px;
+		height: 100px;
+		background-color: black;
+		border-radius: 50%;
+		display: none;
+	}
+
+
+	section{
+		margin-left: 150px;
+	}
+
+	@media screen and (max-width: 1150px) {
+		
+		body {
+			background-color: black;
+		}
+
+		.blue-line {
+			background-color: green;
+		}
+
+		.green-line {
+			background-color: #121c60;
+		}
+
+		#hide1{
+			display: none;
+		}
+
+		.circle1{
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 993px) {
+		
+		body {
+			background-color: #fff17a;
+		}
+
+		.blue-line {
+			background-color: green;
+		}
+
+		.green-line {
+			background-color: #121c60;
+		}
+
+		#hide2{
+			display: none;
+		}
+
+		.circle2{
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 930px) {
+		
+		#hide3{
+			display: none;
+		}
+
+		.circle3{
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 811px) {
+		
+		.blue-line {
+			background-color: #121c60;
+		}
+
+		.green-line {
+			background-color: green;
+		}
+
+		#hide4{
+			display: none;
+		}
+
+		.circle4{
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 726px) {
+
+		#hide5{
+			display: none;
+		}
+
+		.circle5{
+			display: block;
+		}
+	}
+
+	</style>
+	</head>
+<body>
+	<section>
+		<div class="date">
+			<p>Sontang,12.November 1972. 2015 Uhr</p>
+			<p>Tonhalle Surich, Grosser Saal</p>
+		</div>
+		<div class="blue-line"></div>
+		<div class="green-text">
+			<h2 id="hide3">Franz Schubert</h2>
+			<div class="circle3"></div>
+			
+		</div>
+		<div class="blue-line"></div>
+		<div class="green-text">
+			<h2 id="hide4">Es durMesse</h2>
+			<div class="circle4"></div>
+			</div>
+		</div>
+		<div class="blue-line"></div>
+		<div class="green-text">
+			<h2 id="hide5">Paul Muller</h2>
+			<dir class="circle5"></dir>
+		</div>
+		<div class="blue-line"></div>
+		<div class="green-text">
+			<h2 id="hide5">Te Deum</h2>
+			<dir class="circle5"></dir>
+		</div>	
+		<div class="green-line"></div>
+		<div class="blue-text">
+			<h1 id="hide1">Kammerchor zurich</h1>
+			<div class="circle1"></div>
+		</div>
+		<div class="green-line"></div>
+		<div class="blue-text">
+			<h1 id="hide2">Johannes Fuchs</h1>
+			<div class="circle2"></div>
+		</div>
+		<div class="green-line"></div>
+		<div class="footer">
+			<p>Solisten:</p>
+			<p>Elisabeth Speiser, Sopran, Margrit Conrad, Alt</p>
+			<p>Fritz Peter, Tenor, Jurt Widmer, Bass</p>
+			<p>Tonhalle-Orchestrer Zurich</p>
+			<p>Siegfried Hildenbrand, Orgel</p>
+			<p>Eintrittskarten:</p>
+			<p>Fr.9 - bis 30. - inkl. Billettsteueur</p>
+			<p>Vorverkauf:</p>
+			<p>Sekretariat. Telefon 01 - 54 58 51</p>
+			<p>und ab 30. Oktober bei Hug. Jecklin und Kuoni</p>
+		</div>
+	</section>
+</body>
+</html>
