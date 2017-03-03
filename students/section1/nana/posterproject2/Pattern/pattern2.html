@@ -20,30 +20,40 @@
 			div~.brick {  /* declarations */ }
 			/* if brick class comes before div  */
 
-			.layer1 { 
-				background: none;
+			body {
+            background-color: #FFF6A5  ;
+        }
+
+			.pattern { 
+				background:none;
 				width: 120%;
 				   }
 
-			.layer1 div { 
-				 transform: rotate(10deg);
-				 border: 80px solid rgba(150,255,5,1);
-				 margin: -40px;
-				 width: 50px; height: 50px;
+			.pattern div { 
+				 width: 70px; height: 70px;
 				 float: left;
 				 mix-blend-mode: multiply;
 				 border-radius: 50%;
-				 border-right: 80px solid transparent;
-				  }
-			.layer1 div:nth-child(even) {
-				 border: 80px solid rgba(0,155,245,1);
-				 border-left: 80px solid transparent;
+				 background-color: #F44FFF;
+				 opacity: 0.5;
+				}
+			.pattern div:nth-child(even) {
+				background-color: #1ADEEB;
+				transform: translateX(-20px);
+				opacity: 0.5;
 			}
+			.pattern div:nth-child(even):hover{
+				background-color: #5E75FF; 
+				transform:translateX(20px);
+
+			}
+
+				 
 		</style>
 	</head>
 	<body>
 		<!-- for humans -->
-		<div class="layer1">
+		<div class="pattern">
 			<div></div>
 			<div></div>
 			<div></div>
