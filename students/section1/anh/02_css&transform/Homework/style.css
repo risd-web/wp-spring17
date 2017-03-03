@@ -93,7 +93,7 @@ a.ex4:hover, a.ex4:active {font-family: georgia;}
 .circle {
     height: 1%;
     width: 20%;
-    border-radius: 50%%;
+    border-radius: 50%;
     background-color: #3d9970;
     border-radius: 150px;
     transform: rotate(360deg);
