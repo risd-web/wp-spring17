@@ -1,0 +1,176 @@
+.container{
+	margin:100px auto 0 auto;
+	width:280px;
+}
+#toy{	
+	position: relative;
+}
+#tamaRe{
+	position: relative;
+	width:150px;
+	left:65px;
+}
+#tama{
+	width: 150px;
+	height: 150px;
+	background: red;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+
+	position: fixed;
+	top:20px;
+	z-index:5;
+
+}
+#ken{
+
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 45px 380px 45px;
+	border-color: transparent transparent rgba(250,180,100,1) transparent;
+	
+	position: absolute;
+	top: 295px;
+	left: 95px;
+	z-index:3;
+}
+/*#leftCounter{
+	transform:rotate(6.39deg);
+	width: 40px;
+	height: 400px;
+	background:rgba(255,255,255,1);
+
+	position:absolute;
+	top:280px;
+	left:280px;
+    z-index:4;
+
+}
+#rightCounter{
+	transform:rotate(-6.39deg);
+	width: 40px;
+	height: 400px;
+	background:rgba(255,255,255,1);
+
+	position:absolute;
+	top:280px;
+	left:360px;
+    z-index:4;
+}*/
+#column{
+	width: 150px;
+	height: 120px;
+	background:rgba(250,180,100,1);
+
+	position:absolute;
+	top:345px;
+	left:65px;
+    z-index:1;
+}
+#columnShadow{
+	width:150px;
+	height:30px;
+	background:rgba(180,150,100,1);
+
+	position:absolute;
+	top:440px;
+	left:65px;
+	z-index:1;
+
+}
+#upCounter{
+	width: 280px;
+	height: 280px;
+	background: white;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	z-index:2;
+
+	position:absolute;
+	top:98px;
+	left:0;
+    z-index:1;
+
+}
+#lowerCounter{
+	width: 280px;
+	height: 280px;
+	background: white;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	z-index:2;
+
+	position:absolute;
+	top:442px;
+	left:0;
+    z-index:1;
+}
+
+#bottom{
+	width: 100px;
+	height: 40px;
+	background: rgba(250,180,100,1);
+	z-index:2;
+
+	position:absolute;
+	top:680px;
+	left:90px;
+    z-index:1;
+}
+#bottomShadow{
+	height:10px;
+	width:100px;
+	background:rgba(180,150,100,1);	
+
+	position:absolute;
+	left:90px;
+	top:710px;
+	z-index:3;
+
+}
+
+
+.bowl{
+	width:30px;
+	height:120px;
+	background: rgba(250,180,100,1);
+}
+
+#bigBowl{
+	position:absolute;
+	left:30px;
+	top:350px;
+	z-index:3;
+}
+#smallBowl{
+	position:absolute;
+	left:220px;
+	top:350px;
+	z-index:3;	
+}
+.bowlShadow{
+	height:30px;
+	width:30px;
+	background:rgba(180,150,100,1);
+}
+#bigShadow{
+	position:absolute;
+	left:30px;
+	top:440px;
+	z-index:3;
+}
+#smallShadow{
+	position:absolute;
+	left:220px;
+	top:440px;
+	z-index:3;	
+}
+#blank{
+	position:relative;
+	height:800px;
+}
+
