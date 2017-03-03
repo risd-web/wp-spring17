@@ -58,11 +58,17 @@ figure p {
 	margin-top: .5em;
 }
 
+.forimage{
+
+}
 
 .element:first-child {
 	border-radius: 50%;
-	border: 5px dashed tomato;
+	background: red;
+	width: 300px;
+	height: 300px;
 	/*box-sizing: border-box;*/
+	animation: wheel 1s ease-in-out alternate infinite;
 }
 
 
@@ -114,12 +120,12 @@ a:hover{
 /*Animations*/
 
 @keyframes wheel {
-
+	0% {
+		transform: rotateY(0deg);
+	}
 	100% {
-		transform: rotate(360deg);
+		transform: rotateY(360deg) ;
 	}
 }
 
-.element:first-child {
-	animation: wheel 3s linear infinite;
-}
+
