@@ -50,7 +50,19 @@ footer {
 
 }
 
-@media screen and (max-width: 900px) {
+img{
+  width: 100%;
+  /*or max-width: 100%;*/
+}
+
+@media screen and (min-width: 1300px) {
+  body{
+    background: yellow;
+  }
+
+ }
+  
+@media screen and (max-width: 1000px) {
   .left {
     width: 100%;
     margin-bottom: 2%;
@@ -68,11 +80,22 @@ footer {
 
 
 @media screen and (max-width: 400px) {
-  .left, .middle, .right {
+  .left, .middle {
     width: 100%;
     margin: 0;
   }
 
+  .right{
+    display: none;
+  }
+
 }
 
+/*Printed styles
+
+@media print{
+
+}
+
+*/
 

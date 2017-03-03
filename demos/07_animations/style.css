@@ -84,7 +84,7 @@ figure p {
 }
 
 .element:nth-child(6) {
-	transition-property: transform, background-color;
+	transition-property: all;
 	transition-duration: 2s;
 	transition-timing-function: ease-in;
 }
@@ -104,7 +104,7 @@ a {
 	margin-top: 3rem;
 	color: red;
 	font-weight: bold;
-	transition: color 0.5s ease-in 1s; /*shorthand for: property, duration, timing-function, delay*/
+	transition: color 0.5s ease-in; /*shorthand for: property, duration, timing-function, delay*/
 }
 
 a:hover{
