@@ -1,0 +1,95 @@
+body{
+	background-color: #8eafe5
+}
+.one{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 200px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.two{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 400px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.three{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 100px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.four{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 300px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.five{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 500px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.six{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 700px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.seven{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 900px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.eight{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 600px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd
+}
+.nine{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 800px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd
+}
+.ten{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 1000px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd
+}
+.line1{
+	width: 2000px;
+	height: 5px;
+	left: 0px;
+	top: 185px;
+	background-color: #0716ed;
+}
