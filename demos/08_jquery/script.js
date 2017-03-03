@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$('.hi').fadeToggle(2000);
 	});
 
-	$('#play').click(function(){
+	$('#start').click(function(){
 		$('.circle').addClass('play');
 	});
 

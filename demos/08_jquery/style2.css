@@ -23,7 +23,8 @@ body{
 	animation: wheel 1s ease-in-out alternate infinite;
 }
 
-#play, #stop{
+
+#start, #stop{
 	color: red;
 	font-size: 3rem;
 }
