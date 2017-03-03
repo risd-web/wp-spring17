@@ -1,0 +1,146 @@
+<html>
+	<head>
+		<style>
+			body{
+			}
+			div {
+				background-image: url(http://pix.iemoji.com/images/emoji/apple/ios-9/256/pouting-face.png); 
+				width: 300px; 
+				height: 300px;
+				margin: 1px;
+				float: right;
+			}
+
+			p {
+				position: fixed;
+				font-family: Helvetica;
+				font-size: 100px;
+				font-weight: bolder;
+				transform: rotate(-20deg);
+				right: 300px;
+				top: 300px;
+				z-index: 30;
+				transition: transform 125ms ease-out;
+			}
+
+			p:hover {
+				transform: scale(2) rotate(30deg);
+				color: red;
+				mix-blend-mode: multiply;
+			}
+
+			.container {
+				position: fixed;
+				border: 1px solid black;
+				right: 500px;
+				top: 300px;
+				width: 500px;
+				z-index: 15;
+			}
+
+			.container:hover {
+				mix-blend-mode: multiply;
+			}
+
+			.logo { 
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background-image: url(http://prod-filesbucket-7hmmorphht20.s3-ap-southeast-2.amazonaws.com/face-with-look-of-triumph.png);
+				z-index: 1;
+				opacity: 0.5;
+			}
+
+			.logo2 { 
+				position: fixed;
+				top: 100px;
+				left: 400px;
+				background: orange;
+				z-index: 10;
+				transform: scale(2) skew(30deg);
+				border-radius: 50%;
+				opacity: 0.7;
+				background-image: url(http://pix.iemoji.com/images/emoji/apple/ios-9/256/thinking-face.png);
+				transition: transform 125ms ease-out;
+
+			}
+
+			.logo2:hover {
+				filter: sepia(1) hue-rotate(200deg);
+				transform: scale(3);
+			}
+
+			.rel{
+				background-image: url(http://prod-filesbucket-7hmmorphht20.s3-ap-southeast-2.amazonaws.com/face-with-look-of-triumph.png);
+				position: relative;
+				left: 50px;
+				top: 50px;
+				z-index: 3;
+			}
+
+			.anchor { 
+				mix-blend-mode: multiply;
+				background: green;
+				position: fixed;
+				right: 0;
+				bottom: 0;
+				z-index: 5;
+				border-radius: 50%;
+				text-align: center;
+				display: flex;
+				overflow: hidden;
+
+			}
+
+			.white{
+				background: #fff;
+				width: 250px;
+				height: 250px;
+				margin: auto;
+				align-items: center;
+			}
+
+
+			.image-crop{
+				border-radius: 50%;
+				background-image: url(giraffe.jpg);
+				background-blend-mode: multiply;
+			}
+
+		
+		</style>
+		<title>Positioning</title>
+	</head>
+	<body>
+		<p>HELLO</p>
+		<div class="container">
+			<div class="logo"></div>
+			<div class="logo2"></div>
+		</div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="rel"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="anchor">
+			<div class="white">
+			</div>
+		</div>
+		<div class="image-crop">
+		</div>
+	</body>
+	
+</html>
