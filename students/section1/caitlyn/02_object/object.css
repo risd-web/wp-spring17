@@ -1,0 +1,107 @@
+
+
+	body{
+		background-color: #FEE9E5;
+	}
+
+	.exterior {
+	height: 245px;
+	width: 125px;
+	background: #dac3bf;
+	position: fixed;
+	border-radius: 15px;
+	top: 142.5px;
+	left: 247.5px;
+	}
+
+	.body {
+	height: 240px;
+	width: 120px;
+	background: white;
+	position: fixed;
+	border-radius: 15px;
+	top: 145px;
+	left: 250px;
+	}
+
+	.screen {
+	height: 230px;
+	width: 110px;
+	background: gray;
+	background-image: url("pinkbg.jpg");
+	background-size: 210px, 300px;
+	position: fixed;
+	border-radius: 15px;
+	top: 150px;
+	left: 255px;
+	z-index: 1;
+	}
+
+	.top {
+	height: 25px;
+	width: 110px;
+	background: white;
+	position: fixed;
+	border-radius: 10px 10px 0px 0px;
+	top: 150px;
+	left: 255px;
+	z-index: 2;
+	}
+
+	.bottom {
+	height: 25px;
+	width: 110px;
+	background: white;
+	position: fixed;
+	border-radius: 0px 0px 10px 10px;
+	top: 355px;
+	left: 255px;
+	z-index: 2;
+	}
+
+	.home {
+	width: 16px;
+	height: 16px;
+	background: white;
+	position: fixed;
+	border: 1px solid #dac3bf; 
+	border-radius: 50%;
+	top: 362px;
+	left: 302px;
+	z-index: 3;
+	}
+
+	.camera {
+	width: 6px;
+	height: 6px;
+	background: #563D39;
+	position: fixed; 
+	border-radius: 50%;
+	top: 157px;
+	left: 290px;
+	z-index: 3;
+	}
+	
+	.speaker {
+	width: 20px;
+	height: 3px;
+	background: #563D39;
+	position: fixed; 
+	border-radius: 2px;
+	top: 158px;
+	left: 305px;
+	z-index: 3;
+	}
+
+	.home:hover .speaker {
+		background:white;
+	
+	}
+
+
+
+
+
+
+
+

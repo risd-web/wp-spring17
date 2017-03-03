@@ -1,0 +1,11 @@
+
+.sky {
+	 width:782px;
+     height:920px;
+     background:#FFA1A1 url("whitesky.jpg");
+}
+
+.sky.multiply
+ {
+        background-blend-mode: overlay;
+ }
