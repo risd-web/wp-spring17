@@ -15,5 +15,10 @@ $(document).ready(function(){
 		$('.circle').removeClass('play');
 	});
 
+	$('.element').hover(function(){
+		// console.log("element hover");
+		$(this).toggleClass('red');
+	});
+
 });
 
