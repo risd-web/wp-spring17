@@ -1,0 +1,38 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+@media screen and (max-width: 900px) {
+  .left {
+    width: 100%;
+    margin-bottom: 2%;
+    background: rgba(255,0,0,.5);
+  }
+
+  .middle {
+    width: 59%;
+  }
+
+  .right {
+    width: 39%;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .left, .middle, .right {
+    width: 100%;
+    margin: 0;
+  }
+
+.left {
+  width: 39%;
+}
+.middle {
+	width: 40%;
+}
+.right {
+	width: 40%;
+}
+}
