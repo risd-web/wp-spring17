@@ -1,0 +1,355 @@
+<html>
+	<head>
+
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+		<style>
+			
+			div {
+				background: red; 
+				width: 100px; 
+				height: 100px;
+				margin: 1px;
+				float: left;
+			}
+			/*.logo { 
+				position: absolute;
+				left: 0;
+				top: 0;
+				background: blue;
+				z-index: 6;
+			}
+			.anchor { 
+				background: green;
+				position: fixed;
+				right: 0;
+				bottom: 0;
+				z-index: 5;
+			}
+
+			.small{
+				width: 50px;
+				height: 50px;
+			}
+			.yellow{
+				background: yellow;
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				left: 10px;
+				top: 10px; 
+				z-index: 20;
+			}*/
+
+			.dough { 
+				position: fixed;
+				float: auto;
+				left: 140;
+				top: 200;
+				width: 480px; 
+				height: 480px; 
+				background: rgba(216, 178, 143,1); 
+				border-radius: 48%; 
+				transform: skew(-0deg) rotate(0deg);
+				z-index: 1;
+
+			} 
+
+			.hole { 
+				position: fixed;
+				float: auto;
+				left: 280;
+				top: 340;
+				width: 200px; 
+				height: 200px; 
+				background: white; 
+				border-radius: 50%; 
+				transform: skew(-0deg) rotate(0deg);
+				z-index: 3;
+
+			} 
+		/*	.frosting { 
+				position: relative;
+				float: auto;
+				left: 380;
+				top: 40;
+				width: 300px; 
+				height: 200px; 
+				background: pink; 
+				z-index: 10;
+				 background: red; width: 80px; height: 80px; position: relative; text-align: center; -webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20eg);
+			}*/
+
+
+			.frosting { 
+				background: #330C00; 
+				top: 250; 
+				left: 200;
+				width: 350px; 
+				height: 350px; 
+				position: fixed; 
+				text-align: center; 
+				-webkit-transform: rotate(20deg); 
+				-moz-transform: rotate(20deg); 
+				-ms-transform: rotate(20deg); 
+				-o-transform: rotate(20eg); 
+				border-radius: 90px;
+				z-index: 2;
+				} 
+
+			.frosting:before { 
+				content: ""; 
+				position: absolute; 
+				top: 20; 
+				left: 10; 
+				height: 350px; 
+				width: 350px; 
+				background: #330C00; 
+				-webkit-transform: 
+				rotate(135deg); 
+				-moz-transform: rotate(135deg); 
+				-ms-transform: rotate(135deg); 
+				-o-transform: rotate(135deg); 
+				border-radius: 90px;
+				z-index: 2;
+			} 
+
+
+			.sprinkles1 { 
+				position: relative;
+				float: auto;
+				left: 200;
+				top: 380;
+				width: 60px; 
+				height: 12px; 
+				background: rgba(224, 52, 22,1); 
+				border-radius: 10%; 
+				transform: skew(-0deg) rotate(15deg);
+				z-index: 6;
+			} 
+			.sprinkles2 { 
+				position: relative;
+				float: auto;
+				left: 120;
+				top: 520;
+				width: 60px; 
+				height: 12px; 
+				background: rgba(255, 181, 193, 1); 
+				border-radius: 10%; 
+				transform: skew(-0deg) rotate(-20deg);
+				z-index: 6;
+			} 
+
+			.sprinkles3 { 
+				position: relative;
+				float: auto;
+				left: 380;
+				top: 450;
+				width: 60px; 
+				height: 12px; 
+				background: rgba(124, 208, 226, 1); 
+				border-radius: 10%; 
+				transform: skew(-0deg) rotate(0deg);
+				z-index: 6;
+			} 
+
+			.sprinkles4 { 
+				position: relative;
+				float: auto;
+				left: 250;
+				top: 530;
+				width: 60px; 
+				height: 12px; 
+				background: rgba(255, 181, 193, 1); 
+				border-radius: 10%; 
+				transform: skew(-0deg) rotate(50deg);
+				z-index: 6;
+			} 
+
+			.sprinkles5 { 
+				position: relative;
+				float: auto;
+				left: 150;
+				top: 240;
+				width: 60px; 
+				height: 12px; 
+				background: rgba(124, 208, 226, 1); 
+				border-radius: 10%; 
+				transform: skew(-0deg) rotate(-50deg);
+				z-index: 6;
+			} 
+
+			.sprinkles6 { 
+				position: relative;
+				float: auto;
+				left: 150;
+				top: 350;
+				width: 60px; 
+				height: 12px; 
+				background: rgba(224, 52, 22,1); 
+				border-radius: 10%; 
+				transform: skew(-0deg) rotate(20deg);
+				z-index: 6;
+			} 
+
+
+
+			.cupbase { 
+				position: fixed;
+				float: auto;
+				left: 800;
+				top: 250;
+				border-top: 440px solid #EDEDED; 
+				border-left: 50px solid white; 
+				border-right: 50px solid white; 
+				height: 0; 
+				width: 240px;
+				z-index: 0;
+			}
+
+			.cuplid1 { 
+				position: absolute;
+		/*		float: auto;*/
+				left: 790;
+				top: 250;
+				border-bottom: 10px solid #E3E3E3; 
+				border-left: 10px solid white; 
+				border-right: 10px solid white; 
+				height: 0; 
+				width: 340px;
+				z-index: 0;
+			}
+
+			.cuplid2 { 
+				position: absolute;
+		/*		float: auto;*/
+				left: 790;
+				top: 240;
+				border-top: 10px solid #DEDEDE; 
+				border-left: 10px solid white; 
+				border-right: 10px solid white; 
+				height: 0; 
+				width: 340px;
+				z-index: 0;
+			}
+
+			.cuplid3 { 
+				position: absolute;
+		/*		float: auto;*/
+				left: 790;
+				top: 200;
+				border-bottom: 40px solid #EDEDED; 
+				border-left: 5px solid white; 
+				border-right: 5px solid white; 
+				height: 0; 
+				width: 350px;
+				z-index: 0;
+			}
+
+			.cuplid4 { 
+				position: absolute;
+		/*		float: auto;*/
+				left: 795;
+				top: 197;
+				width: 350px;
+				height: 7px;
+				background: #E8E8E8;
+				-moz-border-radius: 100px / 50px;
+				-webkit-border-radius: 100px / 50px;
+				border-radius: 400px / 50px;
+			}
+
+
+			.boltcircle1 { 
+				position: fixed;
+				float: auto;
+				left: 845;
+				top: 320;
+				width: 250px; 
+				height: 250px; 
+				background: #000000; 
+				border-radius: 50%; 
+				transform: skew(-0deg) rotate(0deg);
+				z-index: 3;
+
+			} 
+
+			.boltcircle2 { 
+				position: fixed;
+				float: auto;
+				left: 850;
+				top: 325;
+				width: 240px; 
+				height: 240px; 
+				background: #EDEDED; 
+				border-radius: 50%; 
+				transform: skew(-0deg) rotate(0deg);
+				z-index: 3;
+
+			} 
+
+			h1 {
+				font-family: 'Fjalla One', sans-serif;
+				font-size:30px;
+				text-align:center;
+				letter-spacing: .3em;
+				line-height: .5em;
+
+
+			}
+
+
+
+
+
+
+			
+
+		
+
+		</style>
+		<title>Positioning</title>
+	</head>
+	<body>
+	
+		
+		<div class="dough">
+		</div>
+		<div class="hole">
+		</div>
+		<div class="frosting">
+		</div>
+
+		<div class="sprinkles1">
+		</div>
+		<div class="sprinkles2">
+		</div>
+		<div class="sprinkles3">
+		</div>
+		<div class="sprinkles4">
+		</div>
+		<div class="sprinkles5">
+		</div>
+		<div class="sprinkles6">
+		</div>
+		<div class="cupbase">
+		</div>
+		<div class="cuplid1">
+		</div>
+		<div class="cuplid2">
+		</div>
+		<div class="cuplid3">
+		</div>
+		<div class="cuplid4">
+		</div>
+		<div class="boltcircle1">
+		</div>
+		<h1>
+			<div class="boltcircle2">
+			<br><br><p>BOLT</p><br><p>COFFEE</p>
+		</h1>
+		</div>
+
+	</body>
+	
+</html>
