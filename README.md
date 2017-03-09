@@ -29,16 +29,17 @@ This three-session workshop combines the tactical skills needed to structure web
 * Assignment 5: Web Poster 2: incorporate the work of peers to develop patterns
 
 ### Week Three: Behavior
->Week three delves into designing with time: interactivity and motion.
+>Week three delves into designing with time, adding interactivity and motion.
 * Assignment 6: Create a responsive animation with Web Poster 2
 * Assignment 7: Animate a Web Poster with css
-* Assignment 8: Set triggers with jQuery 
+* Assignment 8: Set triggers with jQuery
+* Final: Combine your skills to make a website
 
 ### Week Four
 >Putting it all together
-* Lecture: From sketch to code
-* In-class activity 
-* Possible future assignments
+* From sketch to code
+* Review examples
+* Possible explorations
 
 ## Software needed
 * [Sublime Text](https://www.sublimetext.com/3) or other HTML editor, such as [Atom](https://atom.io/) or [Text Wrangler](http://www.barebones.com/products/TextWrangler/)
