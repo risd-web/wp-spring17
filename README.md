@@ -1,7 +1,7 @@
 # Syllabus
 
 * WKSHP: WEB PROGRAMMING; RISD GRAPH-3188 (20880)
-* Spring 2016, 8:00–1:00pm, Fridays. Room 404
+* Spring 2017, 8:00am–1:00pm, Fridays. Room 404
 * 1 credit
 * Instructor: Marie Otsuka (motsuka@risd.edu)
 
