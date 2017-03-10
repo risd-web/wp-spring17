@@ -1,0 +1,13 @@
+body{
+	margin: 2em; 
+}
+
+.button{
+	width: 300px;
+	background-color: yellow;
+	padding: 30px;
+}
+
+.hi{
+	display: none;
+}

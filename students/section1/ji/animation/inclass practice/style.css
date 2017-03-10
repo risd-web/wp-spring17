@@ -1,0 +1,13 @@
+body {
+	counter-reset: section;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+.container {
+	height: 80vh;
+	display: flex;
+	align-content: center;
+	-webkit-flex-flow: wrap;
+	justify-content: center;
+}
