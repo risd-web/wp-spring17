@@ -28,5 +28,60 @@ h1{
 	height:19px;
 }
 #cata{
-	
+	position:fixed;
+	top:109px;
+	left:10%;
+	width:280px;
 }
+.preview{
+	float:left;
+	width:120px;
+	height:120px;
+	margin:0 20px 20px 0;
+}
+.preview:hover{
+	opacity: 0.5;
+}
+#work{
+	padding: 109px 0 0 445px;
+	margin-bottom:100px;
+}
+.pic{
+	margin-bottom:20px;
+}
+#textContainer{
+	position:fixed;
+	top:109px;
+	right:5%;
+	width:250px;
+}
+#text{
+	display:none;
+	background-color:rgba(255 ,255 ,255, 0.5);
+	padding:10px;
+	margin:20px 0 0 0;
+}
+#text p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size:12px;
+	margin:0;
+	line-height: 18px;
+
+}
+
+
+@media screen and (max-width: 1250px) {
+  #work{
+  	padding: 109px 0 0 250px;
+	margin-bottom:100px;
+  }
+  #textContainer{
+  	position:fixed;
+	top:109px;
+	right:5%;
+	width:150px;
+  }
+
+}
+
