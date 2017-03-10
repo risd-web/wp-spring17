@@ -31,12 +31,12 @@ body{
 #left{
 	position:absolute;
 	top:80px;
-	left:350px;
+	left:20%;
 }
 #right{
 	position:absolute;
 	top:80px;
-	right:300px;
+	right:20%;
 }
 .eyes{
 	align-content:center;
@@ -76,7 +76,7 @@ body{
 #nose{
 	position:absolute;
 
-	left:600px;
+	left:40%;
 	top:300px;
 }
 .noseBridge{
@@ -131,3 +131,18 @@ body{
   }
 }
 
+@media screen and (max-width: 900px) {
+  .left {
+    width: 100%;
+    margin-bottom: 2%;
+    background: rgba(255,0,0,.5);
+  }
+
+  .middle {
+    width: 59%;
+  }
+
+  .right {
+    width: 39%;
+  }
+}

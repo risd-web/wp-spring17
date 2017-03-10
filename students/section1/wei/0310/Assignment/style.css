@@ -1,0 +1,32 @@
+body{
+	margin:0;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size:16px;
+	margin:0;
+	text-align:right;
+}
+#menu{
+	position:fixed;
+	left:20%;
+	height:50px;
+}
+#menu > div{
+	float:left;
+}
+.btn{
+	padding:20px 40px;
+	border-left: 3px solid black;
+}
+#ww{
+	padding:20px;
+
+}
+#blankBtn{
+	height:19px;
+}
+#cata{
+	
+}

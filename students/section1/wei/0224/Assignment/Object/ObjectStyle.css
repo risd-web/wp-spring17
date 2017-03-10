@@ -4,6 +4,7 @@
 }
 #toy{	
 	position: relative;
+	overflow: hidden;
 }
 #tamaRe{
 	position: relative;

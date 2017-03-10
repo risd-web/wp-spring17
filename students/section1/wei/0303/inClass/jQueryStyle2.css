@@ -1,0 +1,8 @@
+#cat{
+	position:absolute;
+	left:200px;
+	top:100px;
+	font-size:80px;
+	font-family: 'Amiko', sans-serif;
+	line-height:0;
+}
