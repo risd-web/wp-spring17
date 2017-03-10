@@ -1,0 +1,38 @@
+body{
+	margin: 2em;
+}
+.button{
+	width: 300px;
+	background: yellow;
+	padding: 30px;
+}
+
+.hi{
+	display: none;
+}
+
+
+.circle {
+	border-radius: 50%;
+	background: red;
+	width: 300px;
+	height: 300px;
+}
+
+.play{
+	animation: wheel 1s ease-in-out alternate infinite;
+}
+
+#play, #stop{
+	color: red;
+	font-size: 3rem;
+}
+
+@keyframes wheel {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg) ;
+	}
+}

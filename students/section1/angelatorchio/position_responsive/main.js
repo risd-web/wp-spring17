@@ -4,5 +4,6 @@ $(document).ready(function() {
 
   // console.log(hText);
 
-  $(".circleinpurple").click(function(){
-
+  $('.circleinpurple').click(function(){
+$('.smallmouth').fadeToggle (2000);
+});
