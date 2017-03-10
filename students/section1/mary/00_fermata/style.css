@@ -4,7 +4,7 @@ body{
 	font-family: 'Roboto Condensed', sans-serif;
  	transition: all .4s ease-in;
   	mix-blend-mode: multiply;
-
+	background-blend-mode: multiply;
 }
 
 #bg{
@@ -78,7 +78,6 @@ section{
 #intro2.text{
 	float: left;
 	width: 33%;
-	border: 1px solid tomato;
 	padding: 1em;
 	box-sizing:border-box;
 }
@@ -95,7 +94,10 @@ section{
 
 }
 
-.circleblue { 
+.circleblue:first-child {
+	border-radius: 50%;
+	/*box-sizing: border-box;*/
+
 	position: absolute;
 	float:left;
 	top: 20%;
@@ -110,10 +112,10 @@ section{
     background: rgba(113,202,239,1); /*blue*/
     background-position: center;
   	display: none;
+}
 
-} 
 
-.squareyellow {
+.squareyellow:nth-child(2) {
 	position: absolute;
 	float:left;
 	top: 5%;
@@ -128,7 +130,7 @@ section{
 	display: none;
 }
 
-.circlegreen { 
+.circlegreen:nth-child(3) { 
 	position: absolute;
 	float:left;
 	top: 20%;
@@ -145,19 +147,18 @@ section{
   	display: none;
 } 
 
-.trianglepink {
+.trianglepink:last-child {
 	position: absolute;
 	float:left;
   	top: 0%; 
   	border-bottom: 99vh solid rgba(243,146,189,1); /*pink*/
-  	border-left: 98vw solid white;
-  	
-/*  	width: 50vw;
- 	height: 50vh;*/
+  	border-left: 98vw solid rgba(255,216,237,1);
     background-position: center;
     background-blend-mode: multiply;
 	display: none;
 }
+
+
 
 
 @media (min-width: 1025px) and (max-width: 3500px) {
@@ -173,7 +174,7 @@ section{
 
 
 @media (min-width: 1025px) and (max-width: 3500px) {
-.circleblue { 
+.circleblue:first-child { 
 	display: block;
 	background-blend-mode: multiply;
 	
@@ -194,8 +195,10 @@ section{
 }
 
 @media (min-width: 851px) and (max-width: 1024px) {
-  .squareyellow { 
+.squareyellow:nth-child(2) { 
 	display: block;
+	background-blend-mode: multiply;
+
 	}
 }
 
@@ -214,7 +217,7 @@ section{
 
 
 @media (min-width: 601px) and (max-width: 850px) {
-  .circlegreen { 
+  .circlegreen:nth-child(3) { 
 	display: block;
 	}
 }
@@ -233,13 +236,37 @@ section{
 }
 
 @media (min-width: 319px) and (max-width: 600px) {
-	.trianglepink { 
+	.trianglepink:last-child { 
 		display: block;
 
 	}
 }
 
 
+/*Animations*/
+
+@keyframes wheel {
+
+	100% {
+		transform: rotateY(-180deg);
+	}
+}
+
+.circleblue:first-child {
+	animation: wheel 10s alternate infinite;
+}
+
+.squareyellow:nth-child(2) {
+	animation: wheel 10s alternate infinite;
+}
+
+.circlegreen:nth-child(3) {
+	animation: wheel 10s alternate infinite;
+}
+
+.trianglepink:last-child {
+	animation: wheel 10s alternate infinite;
+}
 
 
 
