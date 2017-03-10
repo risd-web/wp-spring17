@@ -79,10 +79,32 @@ img{
 }
 
 
+<<<<<<< Updated upstream:demos/06_responsive/style.css
 @media screen and (max-width: 400px) {
   .left, .middle {
+=======
+@media screen and (min-width: 1000px) {
+    .middle, .right {
+>>>>>>> Stashed changes:demos/07_responsive/style.css
     width: 100%;
     margin: 0;
+    background:yellow;
+  }
+
+  .left {
+    width: 100%;
+    margin-bottom: 2%;
+    background:green;
+  }
+  .middle {
+    width: 100%;
+    margin-bottom: 2%;
+    background:lightblue;
+  }
+  .right {
+    width: 100%;
+    margin-bottom: 2%;
+    background:brown;
   }
 
 <<<<<<< HEAD:demos/07_responsive/style.css

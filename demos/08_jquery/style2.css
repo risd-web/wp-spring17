@@ -1,38 +1,40 @@
-body{
-	margin: 2em;
-}
-.button{
-	width: 300px;
-	background: yellow;
-	padding: 30px;
-}
-
-.hi{
-	display: none;
-}
-
-
-.circle {
-	border-radius: 50%;
-	background: red;
-	width: 300px;
-	height: 300px;
-}
-
 .play{
 	animation: wheel 1s ease-in-out alternate infinite;
 }
 
-#play, #stop{
+<<<<<<< Updated upstream
+#start, #stop{
 	color: red;
 	font-size: 3rem;
 }
 
-@keyframes wheel {
-	0% {
-		transform: rotateY(0deg);
-	}
-	100% {
-		transform: rotateY(360deg) ;
-	}
+
+.elementcontainer {
+	height: 80vh;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
 }
+
+.element {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background-color: #f4ca16;    
+}
+
+.red{
+	background: tomato;
+}
+
+=======
+>>>>>>> Stashed changes
+@keyframes wheel {
+	100% {
+		transform: rotateX(360deg);
+	}
+	40% {
+		transform: rotateY(300deg);
+	}
