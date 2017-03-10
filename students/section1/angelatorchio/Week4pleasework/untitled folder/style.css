@@ -1,0 +1,32 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.containter {
+	height: 800px;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+}
+.largesquare {
+	width: 800px;
+	height: 800px;
+	margin: 10px;
+	background-color: blue;
+	z-index: 0;
+}
+
+.mediumsquare {
+	width: 600px;
+	height: 600px;
+	background-color: darkblue;
+	z-index: 20;
+}
+.smallsquare {
+	width: 400px;
+	height: 400px;
+	background-color: yellow;
+	z-index: 40;
+}

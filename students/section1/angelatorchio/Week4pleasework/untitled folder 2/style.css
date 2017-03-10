@@ -24,3 +24,21 @@ body{
 	z-index: 0;
 	opacity: multiply;
 }
+
+.play{
+	animation: spin 1s ease-in-out alternate infinite;
+}
+
+#play, #stop{
+	color: red;
+	font-size: 3rem;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg) ;
+	}
+}
