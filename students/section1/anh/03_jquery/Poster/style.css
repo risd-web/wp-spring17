@@ -103,7 +103,7 @@ a.ex2:hover, a.ex2:active {font-family: verdana;}
     border-radius: 150px;
     transform: rotate(360deg);
     animation: roll 1s infinite;
-    box-shadow: brown;
+    box-shadow: black;
 }
 
 @keyframes roll {

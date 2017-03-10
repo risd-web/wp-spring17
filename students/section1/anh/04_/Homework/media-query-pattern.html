@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<style>
+
+		body{
+			margin: 0;
+		}
+		#h1 {
+			font-family: helvetica;
+			font-size: 40pt;
+			;
+		}
+	
+  		.bg{
+  			height: 100vh;
+  			width: 100vw;
+  			background: #36c;
+  			background-color: blue;
+			background-image: linear-gradient(transparent 25%, rgba(145,68,0,.2) 50%);
+			background-size: 50px 50px;
+			transition: all 1s;
+			transform: scale(100);
+			transform: rotate(25deg);
+			animation: roll 7s infinite;
+		}
+
+		@keyframes roll {
+  0% {
+    transform: rotate(15deg);
+    transform: skew(5deg);
+    transform: scale(35);
+
+  }
+  50% {
+    transform: scale(230);
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(90deg);
+    transform: scale(90);
+  }
+}
+
+		
+		@media (max-width: 1000px) {
+  			.bg{
+  				background: 
+					linear-gradient(135deg, orange 25%, transparent 10%) -200px 0,
+					linear-gradient(45deg, indigo 25%, red 50%, cyan 40%, transparent 25%) -250px 0,
+					linear-gradient(15deg, teal 25%, transparent 25%),-50px 0,
+					linear-gradient(85deg, pink 25%, transparent 25%),
+					linear-gradient(25deg, teal 25%, transparent 25%),-50px 0,
+					linear-gradient(90deg, pink 35%, transparent 70%);
+
+				background-size: 100px 100px;
+				background-color: purple;}
+
+				}
+				}
+		}
+		
+  			
+  		</style>
+	</head>
+	
+	<body>
+		<div class ="bg"></div>
+	
+		
+	</body>
+	
+	
+</html>

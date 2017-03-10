@@ -52,7 +52,7 @@ align-content: center;
 }
 
 #rectangle {
-    width:400px;
+    width:200px;
     height:10000px;
     border-radius:250px;
     background-color:yellow;
