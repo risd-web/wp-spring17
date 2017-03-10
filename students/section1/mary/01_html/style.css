@@ -3,9 +3,11 @@ body{
 	padding: 0;
 	font-family: 'Roboto Condensed', sans-serif;
     /*background: rgba(191,231,247,1);*/
-
+  transition: all .4s ease-in;
+  mix-blend-mode: multiply;
 
 }
+
 
 ::selection {
   	background: rgba(255,242,0,1);
@@ -29,7 +31,7 @@ h1{
 }
 
 h2{
-	font-size:38px;
+	font-size:30px;
 	margin:0;
 	padding:0;
 	color: rgba(255,242,0,1);
@@ -38,9 +40,9 @@ h2{
 }
 
 h3{
-    font-size:18px;
-    line-height:1.2em;
-    letter-spacing:-0.025em;
+  font-size:18px;
+  line-height:1.2em;
+  letter-spacing:-0.025em;
 	margin:0;
 	padding:0;
 	color: rgba(0,0,255,1);
@@ -56,6 +58,7 @@ p{
 	border-top:2px solid blue;
 	padding:.2em;
 	box-sizing:border-box;
+
 
 	}
 
@@ -85,6 +88,16 @@ a:active {
 
 }
 
+a.with-background-transition { 
+  transition-duration: 2s; 
+  transition-property: background;
+
+}
+
+a.with-all-transition { 
+  transition-duration: 2s;
+}
+
 section{
 	overflow: auto;
 }
@@ -97,7 +110,7 @@ section{
 
 #intro1.text{
 	float: left;
-	width: 33%;
+  width:50%;
 	padding: 1em;
 	box-sizing:border-box;
 
@@ -113,22 +126,26 @@ section{
 
 #intro3.text{
 	flex:1;
+   width:50%;
 }
 
 
 .circle { 
-	width: 100px; 
-	height: 100px; background: red; 
+	width: 100%; 
+	height: 100%; 
 	-moz-border-radius: 50px; 
 	-webkit-border-radius: 50px; 
 	border-radius: 50%; 
 	transform: skew(20deg) rotate(20deg);
-
+  display: none;
 	} 
 
-.square{
+/*.square{
+  width: 500px;
+  height: 500px;
+  background: yellow;
 	display: none;
-}
+}*/
 
 @media (max-width: 300px) {
   body {
@@ -146,11 +163,6 @@ section{
  	 }
  }
 
-  .square{
-  	display: block;
-
-
-}
 
 
 
@@ -190,7 +202,7 @@ section{
 
 @media (min-width: 899px) and (max-width: 1024px) {
   body {
-    font-size:35px;
+    font-size:30px;
     line-height:2em;
     letter-spacing:-0.07em;
     background: rgba(255,249,174,1); /*yellow*/
@@ -203,11 +215,15 @@ section{
     background-blend-mode: multiply;
     background-repeat: no-repeat;
   }
+
+/*  .square{
+    display: block;
+  }*/
 }
 
 @media (min-width: 1025px) and (max-width: 3500px) {
   body {
-    font-size:35px;
+    font-size:30px;
     line-height:2em;
     letter-spacing:-0.07em;
     background: rgba(191,231,247,1); /*blue*/
@@ -219,5 +235,9 @@ section{
  	background-size: 100% 100%;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
+  }
+
+  .circle{
+        display: block;
   }
 }
