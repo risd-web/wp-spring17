@@ -1,0 +1,12 @@
+.face{
+	width: 100px; height: 100px;
+	border-radius: 50%;
+	color: yellow;
+}
+
+.blush {
+	width: 20px; height: 20px;
+	border-radius: 50%;
+	color: pink;
+
+}

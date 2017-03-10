@@ -1,0 +1,204 @@
+ 
+        .hard{
+               position: relative;
+    margin-top: 20px;
+    margin-left:-70px;
+    font-size: 20pt;
+
+        }
+
+        .hard:hover{
+            color: white;
+            transition-duration: 0.6s;
+        }
+
+        .easy{
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 180px;
+        }
+        .easy:hover{
+            color: white;
+            transition-duration: 0.6s
+
+        }
+
+
+
+
+
+ .bowl{
+ float: inherit;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 400px;
+    z-index: 2;
+   }
+.watertext{
+    font-family: 'Quicksand', sans-serif;
+    float: none;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 650px;
+
+}
+.watertext:hover{
+    color: white;
+    transition-duration: 0.6s;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 340px;
+    font-size: 20pt;
+}
+
+
+
+
+.ricetext{
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 210px;
+}
+.ricetext:hover{
+    color: white;
+    transition-duration: 0.6s;
+}
+
+.next {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 420px;
+    transition-duration: 0.8s; 
+}
+
+.next:hover{
+    animation: wheel 1s ease-in-out alternate infinite;
+}
+
+@keyframes wheel {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) ;
+    }
+}
+/*
+ .ricecup{
+
+    float: inherit;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}*/
+
+/*.water {
+	float: inherit;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 560px;
+}*/
+
+.ricecup2{
+    display: none;
+	float: inherit;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 240px;
+    z-index: 1;
+}
+
+.water2{
+    display: none;
+	float: inherit;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    z-index: -1;
+}
+
+/*hardway2*/
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 370px;
+    font-size: 20pt;
+}
+
+/*h2:hover {
+    color: white;
+    transition-duration: 0.6s;
+
+}*/
+
+.lid {
+    position: relative;
+    margin-top: 275px;
+    margin-left: 247px;
+}
+
+.bowl2{
+   /* display: none;*/
+    position: absolute;
+    margin-left: 315px;
+    margin-top: 250px;
+    z-index: 2;
+
+}
+
+.ricecooker {
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 250px;
+    z-index:2;
+}
+
+.button2 {
+    display: none;
+    position: relative;
+    margin-top: 330.5px;
+    margin-left: 529px;
+    z-index: 5;
+}
+
+.button1 {
+    position: relative;
+    margin-top: 330.5px;
+    margin-left: 529px;
+    z-index: 4;
+}
+
+/*Finish*/
+
+a {
+    margin-left: 290px;
+}
+
+.next2 {
+    transform: rotate(180deg);
+    position: absolute;
+    margin-left: 400px;
+}
+.next2 :hover{
+    animation: wheel 1s ease-in-out alternate infinite;
+}
+
+@keyframes wheel {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) ;
+    }
+}
+
+div
+
