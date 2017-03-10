@@ -2,8 +2,11 @@ $(document).ready(function(){
 	$("#textSwitch").click(function(){
 		$("#text").toggle(500);
 	});
-	$("#contactBtn h1").click(function(){
-		this.empty();
+	$("#contactBtn").mouseover(function(){
+		 $(this).empty().append("<h1>wwang03@risd.edu</h1>");
+	});
+	$("#contactBtn").mouseout(function(){
+		 $(this).empty().append("<h1>contact</h1>");
 	});
 });
 
