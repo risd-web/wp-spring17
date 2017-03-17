@@ -6,6 +6,12 @@ body {
 	margin: 0;
 }
 
+iframe {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 30%
+}
+
 .header {
 	height: 100vh;
 	background-color: #000;
