@@ -1,7 +1,16 @@
 body{
 	font-family: Helvetica, Arial, sans-serif;
-	color: white;
 }
+
+a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: underline;
+}
+
 
 .cats{
  	background: #ffffff url("media/giphy.gif") repeat right top fixed; 
@@ -13,6 +22,10 @@ body{
  	background-attachment: fixed;
  	*/
  	background-size: 100px;
+}
+
+.red{
+	background: red;
 }
 
 .yellow{
