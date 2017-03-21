@@ -1,0 +1,70 @@
+body {
+    padding: 2em;
+    background: #efefef;
+
+}
+
+p {
+    font-size: 15px;
+}
+
+img {
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 15px;
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+    padding: 2px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 80px;
+    border: 3px solid blue;
+    background-color: blue;
+    padding: 0.25rem;
+    margin: 0;
+    margin-bottom:0.5em;
+}
+
+#left, #right {
+    width: 50%;
+    float: left;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#topleft {
+    width: 20%;
+    float: left;
+    font-size: 14px;
+    padding: 0.75em;
+}
+
+#main {
+    width: 75%;
+    float: right;
+    margin-right:0.5em;
+    margin-top: 0.5em;
+}
+
+#intro {
+    font-size: 12px;
+}
+
+section {
+    overflow: auto;
+
+}
+body {
+    font-family: "Andale Mono", AndaleMono, monospace
+}
