@@ -1,0 +1,50 @@
+
+
+        	body { 
+                        font-family: 'Slabo 27px', serif;
+				}
+
+        	h1 { 
+
+        	background-color: rgba(255, 64, 0, 0.45);
+        	border: 2px red solid; 
+        	color: white;
+        	padding: 1em; 
+                font-size: 40px
+
+        	 }
+
+        	p { font-size: 20px;
+
+        	}
+
+        	h2 { color: rgba(255, 0, 0, 0.5);
+
+        	}
+
+       .left, .right {
+                float: left;
+                width: 50%;
+                padding: 1em;
+                box-sizing: border-box;
+                }
+
+
+        	section {
+        		
+                        font-size: 20px;
+        
+                }
+
+                .blueberry {
+                        font-weight: bold; 
+                        border: solid grey; 
+                        width: 40%; 
+                        padding: 1em;
+                       
+                }
+
+                ul{
+                        padding: 0;
+                        text-align: center;
+	               }
