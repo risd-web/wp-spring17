@@ -1,4 +1,9 @@
-div{
+body{
+	background: #ccc;
+	height: 200vh;
+}
+
+.box{
 	width: 300px;
 	height: 300px;
 	float: left;
@@ -7,21 +12,41 @@ div{
 }
 
 .relative{
-	/*position: relative;
+	position: relative;
 	top: 100px;
-	right: 100px;*/
-	background: red;
+	right: 100px;
+	background: black;
 }
 
 .absolute{
 	position: absolute;
-	top: 200px;
-	left: 200px;
+	top: 40px;
+	left: 40px;
 	background: yellow;
+	overflow: hidden;
+}
+
+.fixed{
+	background: blue;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	border-radius: 50%;
 }
 
 .container{
 	position: absolute;
-	top: 500px;
-	right: 300px;
+	bottom: 100px;
+	right: 500px;
 }
+
+.circle{
+	width: 300px;
+	height: 300px;
+	background: red;
+	border-radius: 50%;
+	position: relative;
+	top: 150px;
+	left: 150px;
+}
+
