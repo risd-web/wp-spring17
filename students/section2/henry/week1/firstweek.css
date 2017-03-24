@@ -1,0 +1,109 @@
+
+
+.container{
+    height: 210%;
+    width: 100%;
+    background-color: F7F7F7;
+    /*#FFD000*/
+    position: absolute;
+    display: block;
+    margin: 0;
+}
+
+
+
+.title{
+    position: relative;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height:1.5vw;
+}
+
+.cover{
+    position: relative;
+    background-color: white; 
+    overflow: hidden;
+    width: 100%;
+    height: calc(100% - 2vw);
+}
+
+.work1{
+    border-radius: .3vw;
+    top: 27vw;
+    left: 61.2vw;
+    position: absolute;
+    height: 19vw;
+    width: 27vw;
+    cursor: all-scroll;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,.4);
+}
+
+.work2{
+    border-radius: .3vw;
+    top: 10vw;
+    left: 6.2vw;
+    position: absolute;
+    height: 19vw;
+    width: 27vw;
+    cursor: all-scroll;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,.4);
+}
+
+.work3{
+    border-radius: .3vw;
+    top: 19vw;
+    left: 26.2vw;
+    position: absolute;
+    height: 19vw;
+    width: 27vw;
+    cursor: all-scroll;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,.4);
+}
+
+.work4{
+    border-radius: .3vw;
+    top: 1vw;
+    left: 60.2vw;
+    position: absolute;
+    height: 19vw;
+    width: 27vw;
+    cursor: all-scroll;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,.4);
+}
+
+.work5{
+    border-radius: .3vw;
+    top: 30vw;
+    left: 2.2vw;
+    position: absolute;
+    height: 19vw;
+    width: 27vw;
+    cursor: all-scroll;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,.4);
+}
+
+.work6{
+    border-radius: .3vw;
+    top: 15vw;
+    left: 30vw;
+    position: absolute;
+    height: 19vw;
+    width: 27vw;
+    cursor: all-scroll;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,.4);
+}
+
+h2,p {
+    margin: 0;
+    font-size:.8vw;
+    display:table-cell;
+    display: inline-block;
+    font-family: roboto;
+    font-weight:400;
+}
