@@ -15,7 +15,7 @@ body{
 	position: relative;
 	top: 100px;
 	right: 100px;
-	background: black;
+	background: red;
 }
 
 .absolute{
@@ -43,7 +43,7 @@ body{
 .circle{
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	border-radius: 50%;
 	position: relative;
 	top: 150px;
