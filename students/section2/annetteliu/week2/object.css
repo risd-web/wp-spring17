@@ -1,0 +1,120 @@
+
+body{
+	text-align: center;
+	background-color: pink;
+	display: block;
+	margin: 25px;
+}
+
+h1 {font-family: 'Clicker Script', cursive;
+	color: white;
+	font-size: 54px}
+
+.container {
+	margin: 0 auto;
+	top: 60px;
+	position: relative;
+	width: 500px;
+	height: 500px
+
+}
+
+.half{
+	width: 200px;
+	height: 300px;
+	background-color: rgba(252, 239, 169, 100);
+	border-radius: 50%;
+	position: relative;
+	top: 110px;
+	left: 20px;
+	transform: rotate(-5deg);
+	display: inline-block;
+	z-index: 20;
+}
+
+.half2{ 
+	width: 200px;
+	height: 300px;
+	background-color: rgba(252, 239, 169, 100);
+	border-radius: 50%;
+	position: relative;
+	top: 110px;
+	left: 30px;
+	transform: rotate(5deg);
+	display: inline-block;
+	z-index: 20; }
+
+.seed{
+	width: 15px;
+	height: 35px;
+	background-color: rgba(80, 48, 17, 0.87);
+	border-radius: 50%;
+	position: relative;
+	top: -20px;
+	left: -225px;
+	transform: rotate(-5deg);
+	display: inline-block;
+	z-index: 30;}
+
+.seed2{
+	width: 15px;
+	height: 35px;
+	background-color: rgba(80, 48, 17, 0.87);
+	border-radius: 50%;
+	position: relative;
+	top: -20px;
+	left: -170px;
+	transform: rotate(5deg);
+	display: inline-block;
+	z-index: 30;}
+
+.red {
+	width: 250px;
+	height: 350px;
+	background-color: rgba(248, 36, 36, 0.74);
+	border-radius: 50%;
+	position: absolute;
+	top: 90px;
+	left: 10px;
+	transform: rotate(-5deg);
+	display: inline-block;
+	z-index: 10;
+}
+
+.red2 {width: 250px;
+	height: 350px;
+	background-color: rgba(248, 36, 36, 0.74);
+	border-radius: 50%;
+	position: absolute;
+	top: 90px;
+	left: 245px;
+	transform: rotate(5deg);
+	display: inline-block;
+	z-index: 10;}
+
+ 
+
+
+.stem {position:absolute;
+            width:95px;
+            height:196px;
+            border-top:10px solid #4a3213;
+            border-left:5px solid #4a3213;
+            border-top-left-radius:196px;
+            left:250px;
+            top:10px;
+           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
