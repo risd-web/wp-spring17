@@ -39,9 +39,10 @@
                 font-size:8em;
                 width: 100%;
                 color:rgb(200, 80, 80);
-                display: fixed;
+/*                display: fixed;*/
                 position: fixed;
                 text-align: center;
+                z-index: -10;
                 /*this class gets applied to anything that has the same class in its heading*/
         }
 
