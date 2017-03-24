@@ -5,18 +5,18 @@ body {
     background-color: rgba(236, 125, 63, 0.53);
 }
 
+#laundry {font-family: 'Lobster', cursive; 
+color: #128112;}
 
-#laundry {color: #128112;}
-
-
-#green {color: white;
-		font-size: 25px;
-		 padding-top: 5em;
-
-		}
 
 #white {color: #f17389;
 		font-size: 25px;
-		 padding-top: 5em;
+		 padding-top: 0em;
+
+		}
+
+#pink {color: white;
+		font-size: 25px;
+		 padding-top: 0em;
 
 		}

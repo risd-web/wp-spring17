@@ -1,20 +1,23 @@
 body { 
-    font-family: 'Raleway', sans-serif;
+    
     text-align: center;	
  	margin-top: 200px;
     background-color: rgba(162, 203, 198, 0.53);
 }
 
-#laundry {color: #128112;}
+#laundry {font-family: 'Lobster', cursive; 
+color: #128112;}
 
 
-#green {color: white;
+#green {font-family: 'Raleway', sans-serif;
+color: white;
 		font-size: 25px;
 		 padding-top: 0em;
 
 		}
 
-#white {color: #f17389;
+#white {font-family: 'Raleway', sans-serif;
+color: #f17389;
 		font-size: 25px;
 		 padding-top: 0em;
 

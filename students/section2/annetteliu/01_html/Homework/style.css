@@ -1,36 +1,42 @@
 body { 
-    font-family: 'Raleway', sans-serif;
+    
     text-align: center;	
  	margin-top: 200px;
     background-color: rgba(227, 114, 114, 0.53);
 }
 
-h1{ color: white;
-	font-weight: bold; 
-	font-size: 80px;
-	text-decoration: underline grey;
+h1{ font-family: 'Lobster', cursive; 
+	color: white;
+	font-weight: normal; 
+	font-size: 200px;
+	text-decoration: underline rgba(245, 175, 45, 0.86);
 
 }
     
-#pink { color: #128112;
+#pink { font-family: 'Raleway', sans-serif;
+color: #128112;
 		font-size: 25px;
 		 padding-top: 5em;}
 
-#green {color: white;
+#green {font-family: 'Raleway', sans-serif;
+color: white;
 		font-size: 25px;
 		 padding-top: 5em;
 
 		}
 
-#white {color: #f17389;
+#white {font-family: 'Raleway', sans-serif;
+color: #f17389;
 		font-size: 25px;
 		 padding-top: 5em;
 
 		}
 
 
-#para {margin: -15px;
+#para {margin: -50px;
 	padding-bottom: 50px;
+	font-size: 30px; 
+	color: rgba(80, 80, 80, 0.95);
 
 }
 
