@@ -1,0 +1,39 @@
+body {
+	background: #e3e3e3
+}
+
+.text {
+	position: contain;
+	width: 500px;
+	height: 700px;
+	background: #fff;
+	left: 500px;
+}
+
+.topText {
+	position: relative;
+	left: 100px;
+	top: 100px;
+}
+
+.leftText {
+	position: relative;
+	transform: rotate(-90deg);
+	top: 100px;
+	left: -140px;
+}
+
+.botText {
+	position: relative;
+	transform: rotate(180deg);
+	left: 320px;
+	top: 520px;
+}
+
+.rightText {
+	position: relative;
+	transform: rotate(90deg);
+	left:490px;
+	top: 260px;
+
+}
