@@ -7,17 +7,17 @@ div{
 }
 
 .relative{
-	/*position: relative;
+	position: relative
 	top: 100px;
-	right: 100px;*/
+	right: 100px;
 	background: red;
 }
 
-.absolute{
-	position: absolute;
-	top: 200px;
-	left: 200px;
-	background: yellow;
+.fixed{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	background: blue;
 }
 
 .container{

@@ -1,0 +1,147 @@
+body {
+	background-color: #b3e5fb;
+	font-family: Lucida;
+}
+
+.cookie {
+	position: fixed;
+	top:100px;
+	left:550px;
+	width: 250px;
+	height: 250px;
+	background: #d39b52;
+	border-radius: 50%;
+}
+
+.chip1 {
+    background: #330C00;
+    top: 22%;
+    left: 22%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 13px;
+    transform: rotate(45deg);
+}
+
+.chip2 {
+    background: #330C00;
+    top: 48%;
+    left: 52%;
+    width: 18px;
+    height: 16px;
+    position: relative;
+    border-radius: 8px;
+    transform: rotate(-40deg);
+}
+
+.chip3 {
+    background: #330C00;
+    top: 40%;
+    left: 80%;
+    width: 21px;
+    height: 20px;
+    position: relative;
+    border-radius: 8px;
+    transform: rotate(25deg);
+}
+
+.chip4 {
+    background: #330C00;
+    top: 27%;
+    left: 23%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 8.5px;
+    transform: rotate(-30deg);
+}
+
+.chip5 {
+    background: #330C00;
+    top: 3.5%;
+    left: 65%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 15px;
+    transform: rotate(-30deg);
+}
+
+.chip6 {
+    background: #330C00;
+    top: 33%;
+    left: 27%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 9.5px;
+    transform: rotate(-30deg);
+}
+
+.chip7 {
+	background: #330C00;
+    top: -30%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 9px;
+    transform: rotate(-30deg);
+}
+
+.chip8 {
+	background: #330C00;
+    top: 23%;
+    left: 55%;
+    width: 20px;
+    height: 20.5px;
+    position: relative;
+    border-radius: 9px;
+    transform: rotate(-30deg);
+}
+
+.container {
+	background-color: #b3e5fb;
+	width: 340px;
+	position:relative;
+	top:400px;
+	left:495px;
+}
+
+.cup {
+	position: relative;
+	margin: 0 auto;
+    border-top: 500px solid #EDEDED;
+    border-left: 50px solid #b3e5fb;
+    border-right: 50px solid #b3e5fb;
+    height: 0;
+    width: 230px;
+    background-blend-mode: overlay;
+}
+
+.circle {
+	position: absolute;
+	margin: 70px;
+	top: 0px;
+    width: 200px;
+    height: 200px;
+    background: #EDEDED;
+    border: 3px solid black;
+    border-radius: 50%;
+    transform: skew(-0deg) rotate(0deg);
+}
+
+.h1 {
+	font-size: 80px;
+	text-align:center;
+	letter-spacing: 3px;
+}
+
+.text {
+	color: black;
+	clear: both;
+	text-align: center;
+	position: relative;
+	top: 60px;
+}
