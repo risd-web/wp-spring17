@@ -5,6 +5,8 @@ body {
     background-color: rgba(252, 227, 147, 0.59);
 }
 
+img { height: 850px; width: 850px;  }
+
 #laundry {font-family: 'Lobster', cursive; 
 color: #128112;}
 
