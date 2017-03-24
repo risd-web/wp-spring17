@@ -1,0 +1,9 @@
+body { 
+    font-family: 'Raleway', sans-serif;
+    text-align: center;	
+ 	margin-top: 200px;
+    background-color: rgba(227, 114, 114, 0.53);
+}
+
+
+
