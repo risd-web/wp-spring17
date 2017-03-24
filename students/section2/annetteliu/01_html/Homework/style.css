@@ -12,9 +12,16 @@ h1{ font-family: 'Lobster', cursive;
 	text-decoration: underline rgba(245, 175, 45, 0.86);
 
 }
+
+h2 {
+
+	font-style: none;
+}
     
 #pink { font-family: 'Raleway', sans-serif;
 color: #128112;
+border-bottom: solid blue 1px;
+font-style: none;
 		font-size: 25px;
 		 padding-top: 5em;}
 
