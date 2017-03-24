@@ -1,0 +1,22 @@
+body { 
+    font-family: 'Raleway', sans-serif;
+    text-align: center;	
+ 	margin-top: 200px;
+    background-color: rgba(236, 125, 63, 0.53);
+}
+
+
+#laundry {color: #128112;}
+
+
+#green {color: white;
+		font-size: 25px;
+		 padding-top: 5em;
+
+		}
+
+#white {color: #f17389;
+		font-size: 25px;
+		 padding-top: 5em;
+
+		}
