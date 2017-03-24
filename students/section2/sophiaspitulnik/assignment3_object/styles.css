@@ -1,4 +1,4 @@
-#sawblade {
+/*#sawblade {
 	width: 500px;
 	height: 150px;
 	background:rgb(200, 200, 200);
@@ -7,5 +7,45 @@
 	left: 45%;
 	z-index: -10;
 	transform: rotate(-20deg);
-	transform: skewY(20deg);
+	transform: skew(-20deg);
+}*/
+
+.location {
+	top: 10%;
+	left: 25%;
+
+}
+
+#crop{
+	width: 430px;
+	height: 190px;
+	transform: skew(-20deg);
+/*	border: solid #000;*/
+	overflow: hidden;
+	position: absolute;
+}
+
+#triangle-right {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-top: 30px solid transparent;
+	border-left: 510px solid rgb(200, 200, 200);
+	border-bottom: 180px solid transparent;
+}
+
+.move {
+	top:50%;
+}
+
+#triangle-cut {
+	width: 0;
+	height: 0;
+	border-top: 80px solid red;
+	border-right: 80px solid transparent;
+	position: absolute;
+	left: 40px;
+	top: 10px;
+
+	
 }
