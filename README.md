@@ -25,8 +25,8 @@ This three-session workshop combines the tactical skills needed to structure web
 ### Week Two: Form
 >Week two encourages a different mindset, using code and the browser to discover designs as you make.  
 * Assignment 3: Draw concrete objects using CSS shapes
-* Assignment 4: Web Poster 1 — use abstract shapes / grids (Muller-Brockman)
-* Assignment 5: Web Poster 2 — incorporate the work of peers to develop patterns
+* Assignment 4: Web Poster — use abstract shapes / grids (Muller-Brockman)
+* Assignment 5: Pattern — incorporate the work of peers / repeat shapes to develop patterns
 
 ### Week Three: Behavior
 >Week three delves into designing with time, adding interactivity and motion.
