@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Yellowtail');
+
+body{
+	background: #000;
+	font-family: Helvetica, sans-serif;
+}
+
+section{
+	width: 70%;
+	margin: auto;
+	height: 720px;
+	overflow: hidden;
+	background: rgb(30,60,82);
+}
+
+.container {
+	transform: rotate(-20deg);
+}
+
+.top {
+	overflow: auto;
+	position: absolute;
+	width: 1200px;
+	position: relative;
+	height: 270px;
+	margin-top: -200px;
+	margin-left: -100px;
+}
+
+.bottom {
+	overflow: auto;
+	position: absolute;
+	width: 1200px;
+	position: relative;
+	height: 270px;
+	margin-top: 140px;
+}
+
+.bar {
+	width: 100%;
+	height: 20px;
+	background-color: rgb(227,77,77);
+	margin-bottom: 5px;
+	mix-blend-mode: multiply;
+}
+
+.text {
+	text-align: center;
+	margin-top: 80px;
+	position: relative;
+}
+
+p {
+	color: rgb(227,77,77);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 10px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+h1 {
+	color: rgb(227,77,77);
+	font-family: 'Yellowtail', cursive;
+	font-style: italic;
+	font-size: 60px;
+	margin: 0;
+}
+
+h3 {
+	color: rgb(230,230,230);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: 'open sans',sans-serif;
+	font-weight: 10;
+}

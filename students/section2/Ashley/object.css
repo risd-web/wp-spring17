@@ -1,0 +1,236 @@
+.house {
+position: relative;
+left: 20px;
+}
+
+#roof {
+	height: 0;
+	width: 120px;
+	border-bottom: 70px solid rgb(143,175,201);
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	position: relative;
+}
+
+#roof2 {
+	width: 0;
+	height: 0;
+	border-bottom: 70px solid rgb(184,206,224);
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	margin-left: 40px;
+	z-index: 10;
+}
+
+#roof2window {
+	height: 0;
+	width: 0px;
+	border-bottom: 20px solid rgb(223,239,242);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	position: relative;
+	top: 30px;
+	left: -25px;
+}
+
+#roof2frame {
+	width: 2px;
+	height: 20px;
+	background-color: black;
+	left: 45%;
+	position: relative;
+}
+
+#wall {
+	width: 280px;
+	height: 100px;
+	background-color: rgb(227,211,197);
+}
+
+#window1 {
+	width: 15px;
+	height: 40px;
+	background-color: rgb(115,121,128);
+	position: relative;
+	left: 25px;
+	top: 30px;
+}
+
+#window2 {
+	width: 15px;
+	height: 40px;
+	background-color: rgb(115,121,128);
+	position: relative;
+	left: 65px;
+	top: -10px;
+}
+
+#room {
+	width: 160px;
+	height: 100px;
+	background-color: rgb(250,246,235);
+	position: absolute;
+	top: 70px;
+	left: 120px;
+}
+
+#roofwindow {
+	width: 80px;
+	height: 20px;
+	background: rgb(223,239,242);
+	-webkit-transform: skew(-50deg);
+	-moz-transform: skew(-50deg);
+	-o-transform: skew(-50deg);
+	left: -25px;
+	z-index: 10;
+	top: -40px;
+	position: relative;
+}
+
+#frame {
+	width: 2px;
+	height: 20px;
+	background-color: black;
+	rotate: -45deg;
+	position: relative;
+	left: 50%;
+}
+
+#door {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(187,194,201);
+	border-radius: 50%;
+	left: 30px;
+	top: 30px;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+	z-index: 1;
+}
+
+#door2 {
+	width: 2px;
+	height: 120px;
+	background-color: rgb(100,100,105);
+	position: relative;
+	left: 50%;
+	top: -20px;
+}
+
+#handle1 {
+	width: 2px;
+	height: 12px;
+	background-color: rgb(242,245,247);
+	position: relative;
+	left: 45px;
+	top: 35px;
+}
+
+#handle2 {
+	width: 2px;
+	height: 20px;
+	background-color: rgb(148,87,93);
+	position: relative;
+	left: 60px;
+}
+
+#stairs1 {
+	width: 420px;
+	height: 45px;
+	background-color: rgb(102,107,112);
+	margin-left: 10px;
+	z-index: 15;
+	position: relative;
+}
+
+#step1 {
+	width: 50px;
+	height: 5px;
+	background-color: white;
+	left: 185px;
+	top: 5px;
+	position: relative;
+}
+
+#step2 {
+	width: 53px;
+	height: 5px;
+	background-color: rgb(220,220,220);
+	left: 195px;
+	top: 10px;
+	position: relative;
+}
+
+#step3 {
+	width: 65px;
+	height: 5px;
+	background-color: rgb(200,200,200);
+	left: 190px;
+	top: 15px;
+	position: relative;
+}
+
+#step4 {
+	width: 90px;
+	height: 5px;
+	background-color: rgb(180,180,180);
+	left: 180px;
+	top: 20px;
+	position: relative;
+}
+
+.tree {
+	position: relative;
+	left: 330px;
+	top: -170px;
+}
+
+#leaves {
+    position: relative;
+    width: 54px;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: rgb(169,214,191) transparent;
+}
+
+#leaves:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent rgb(169,214,191);
+}
+
+#trunk {
+	width: 3px;
+	height: 155px;
+	background-color: rgb(128,94,87);
+	position: relative;
+	left: 42px;
+	top: -55px;
+}
+
+#branch1 {
+	width: 3px;
+	height: 20px;
+	background-color: rgb(128,94,87);
+	position: relative;
+	transform: rotate(40deg);
+	left: 48px;
+	top: -205px;
+}
+
+#branch2 {
+	width: 3px;
+	height: 20px;
+	background-color: rgb(128,94,87);
+	position: relative;
+	transform: rotate(-40deg);
+	left: 35px;
+	top: -210px;
+}
