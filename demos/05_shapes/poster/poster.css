@@ -13,8 +13,9 @@ section{
 .container{
 	transform: rotate(30deg);
 	width: 1200px;
-
+	background: inherit;
 }
+
 .graphic{
 	position: relative;
 	height: 600px;
@@ -24,6 +25,11 @@ section{
 .boxes1, .boxes2{
 	overflow: auto;
 	position: absolute;
+	mix-blend-mode: multiply;
+}
+
+.boxes1{
+	z-index: 20;
 }
 
 .boxes2 {
@@ -33,7 +39,6 @@ section{
 
 .yellow{
 	background: yellow;
-	mix-blend-mode: multiply;
 	width: 200px;
 	height: 200px;
 	float: left;
@@ -44,7 +49,6 @@ section{
 	width: 250px;
 	height: 250px;
 	background: #4f4f90;
-	mix-blend-mode: multiply;
 	float: left;
 	margin-right: 10px;
 }
