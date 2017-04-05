@@ -1,0 +1,53 @@
+body{
+	background: #ccc;
+	height: 200vh;
+}
+
+.box{
+	width: 300px;
+	height: 300px;
+	float: left;
+	background: #000;
+	margin-right: 10px;
+}
+
+.relative{
+	position: relative;
+	top: 100px;
+	right: 100px;
+	background: red;
+}
+
+.absolute{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	background: yellow;
+	overflow: hidden;
+}
+
+.fixed{
+	background: blue;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	border-radius: 50%;
+	transform: skew(30deg);
+}
+
+.container{
+	position: absolute;
+	bottom: 100px;
+	right: 500px;
+}
+
+.circle{
+	width: 300px;
+	height: 300px;
+	background: green;
+	border-radius: 50%;
+	position: relative;
+	top: 150px;
+	left: 150px;
+}
+
