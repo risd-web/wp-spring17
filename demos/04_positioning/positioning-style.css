@@ -9,6 +9,7 @@ body{
 	float: left;
 	background: #000;
 	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .relative{
@@ -20,8 +21,8 @@ body{
 
 .absolute{
 	position: absolute;
-	top: 40px;
-	left: 40px;
+	top: 200px;
+	left: 100px;
 	background: yellow;
 	overflow: hidden;
 }
@@ -45,9 +46,11 @@ body{
 	width: 300px;
 	height: 300px;
 	background: green;
+	border-radius: 3px;
+	position: absolute;
 	border-radius: 50%;
-	position: relative;
 	top: 150px;
 	left: 150px;
+
 }
 
