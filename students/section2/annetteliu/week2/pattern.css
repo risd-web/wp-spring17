@@ -1,0 +1,20 @@
+body {background-color: #ffc9a5;}
+
+.line1 {
+height:1000px;
+width:20px;
+background-color: rgba(255, 255, 255, 0.7);
+transform: rotate(10deg);
+float:left;
+position: relative;
+}
+
+.line2 {
+height: 1000px;
+width: 10px;
+background-color: rgba(191, 123, 86, 0.7);
+transform: rotate(-5deg);
+float: left;
+position: relative;
+mix-blend-mode: multiply;
+}
