@@ -1,0 +1,73 @@
+<style>
+			body{
+				margin:0;
+			}
+			
+			.background {
+				height:600px;
+				width:435px;
+				background: #dddfdf;
+				position: absolute;
+				top:20px;
+				left:20px;
+				overflow: hidden;
+			}
+
+			.musica{
+				color: black;
+                float: right;
+                margin-top: 475px;
+                margin-right: 20px;
+				font-family: Helvetica,Arial,sans-serif;
+				font-size: 22px;
+			}
+.info{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 9.7px;
+    float:left;
+    margin-top: 480px;
+    margin-left: 5px;
+}
+.info2 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 9.7px;
+    margin-top: 480px;
+    float:left;
+    margin-left: 9px;
+}
+
+.info3 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 9.7px;
+    float:right;
+    margin-top:42px;
+    margin-right: 5px;  
+}
+
+.one {position: absolute;
+    background: black;
+    border-radius: 100%;
+    width:245px;
+    height:245px;
+    margin-top: 165px;
+    margin-left: 10px;   
+}
+.two {
+    position: absolute;
+    background: black;
+    border-radius: 100%;
+    width:90px;
+    height:90px;
+    margin-top: 360px;
+    margin-left: 212px;  
+}
+.three{
+    position: absolute;
+    background: black;
+    border-radius: 100%;
+    width:35px;
+    height:35px;
+    margin-top: 336px;
+    margin-left: 280px;  
+    
+}

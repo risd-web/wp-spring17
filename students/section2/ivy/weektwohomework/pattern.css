@@ -1,0 +1,140 @@
+
+	/*body*/
+	body {background-color:green; cursor:pointer; background-color: #fff;
+    margin:auto; position:absolute; top:0; bottom:0; left:0; right:0;
+ transition: all 0.3s ease-out; -webkit-animation: random 5s infinite;
+     animation: random 5s infinite;
+}
+
+@keyframes  random {
+    15% { background-color: #DA413D; } 
+    30% { background-color: #4F84C4; } 
+    45% { background-color: #9C9A40; } 
+    60% { background-color: #CE3175; }
+    75% { background-color: #D8AE47; }  
+}
+
+/*https://codepen.io/beben-koben/pen/iCIna*/ 
+
+	/*category*/
+	#category1{position:relative; left:-25rem; transform:scale(0.4);}
+	#category2{position:relative; left:-18rem; transform:scale(0.4);}
+	#category3{position:relative; left:-11rem; transform:scale(0.4);}
+	#category4{position:relative; left:-4rem; transform:scale(0.4);}
+	#category5{position:relative; left:3rem; transform:scale(0.4);}
+	#category6{position:relative; left:10rem; transform:scale(0.4);}
+	#category7{position:relative; left:17rem; transform:scale(0.4);}
+	#category8{position:relative; left:24rem; transform:scale(0.4);}
+	#category9{position:relative; left:31rem; transform:scale(0.4);}
+	#category10{position:relative; left:38rem; transform:scale(0.4);}
+	#category11{position:relative; left:45rem; transform:scale(0.4);}
+
+	#biggercategory1 {position:relative; top:6rem;}
+	#biggercategory2 {position:relative; top:12rem;}
+	#biggercategory3 {position:relative; top:18rem;}
+	#biggercategory4 {position:relative; top:24rem;}
+	#biggercategory5 {position:relative; top:30rem;}
+	#evenbigger2 {position:relative;top:30rem;}
+	#whole {position:absolute; left:27rem; top:0rem;}
+	
+
+	
+
+	/*main*/
+	#main {position:absolute; top:1rem; left:-0.3rem; transform:rotate(-5deg); z-index:100;}
+	#cone2 {position:absolute;top:60px; width: 0; height:0; border-left: 50px solid transparent;border-right: 50px solid transparent; border-top: 120px solid #FFDEAD;border-radius: 50%; z-index:1;}
+
+	#vanilla2 {position: absolute; width: 30px; height:30px; top:60px; background: #fdf5c9; border-radius: 50px; z-index:3;}
+
+	#strawberry2 { position: absolute; width: 35px; height:35px; left:30px; top:60px; background: #ffc5d9; border-radius: 50px; z-index:3;}
+
+	#mint2 { position: absolute; left:30px; width: 35px; height:35px; left:60px; top:60px; background: #c2f2d0; border-radius: 50px; z-index:3; }
+
+	#mango2 {position: absolute; width: 35px; height:35px; left:15px; top:40px; background: #FFC143; border-radius: 50px; z-index:3;}
+
+	#chocolate2 { position: absolute; width: 35px; height:35px; left:50px; top:40px; background: #6b3e26; border-radius: 50px; z-index:3;}
+
+	#cotton2 { position: absolute; width:35px; height:35px; left:35px; top:18px; background:#97ffff; border-radius:50px; z-index:3;}
+
+
+	/*main2*/
+	#main2 {position:absolute; top:40px; left:180px; transform:rotate(50deg); z-index:100;}
+	#cone2 {position:absolute;top:60px; width: 0; height:0; border-left: 50px solid transparent;border-right: 50px solid transparent; border-top: 120px solid #FFDEAD;border-radius: 50%; z-index:1;}
+
+	#vanilla2 {position: absolute; width: 30px; height:30px; top:60px; background: #fdf5c9; border-radius: 50px; z-index:3;}
+
+	#strawberry2 { position: absolute; width: 35px; height:35px; left:30px; top:60px; background: #ffc5d9; border-radius: 50px; z-index:3;}
+
+	#mint2 { position: absolute; left:30px; width: 35px; height:35px; left:60px; top:60px; background: #c2f2d0; border-radius: 50px; z-index:3; }
+
+	#mango2 {position: absolute; width: 35px; height:35px; left:15px; top:40px; background: #FFC143; border-radius: 50px; z-index:3;}
+
+	#chocolate2 { position: absolute; width: 35px; height:35px; left:50px; top:40px; background: #6b3e26; border-radius: 50px; z-index:3;}
+
+	#cotton2 { position: absolute; width:35px; height:35px; left:35px; top:18px; background:#97ffff; border-radius:50px; z-index:3;}
+
+	/*main3*/
+	#main3 {position:absolute; top:12rem; left:16.5rem; transform:rotate(100deg); z-index:100;}
+	#cone2 {position:absolute;top:60px; width: 0; height:0; border-left: 50px solid transparent;border-right: 50px solid transparent; border-top: 120px solid #FFDEAD;border-radius: 50%; z-index:1;}
+
+	#vanilla2 {position: absolute; width: 30px; height:30px; top:60px; background: #fdf5c9; border-radius: 50px; z-index:3;}
+
+	#strawberry2 { position: absolute; width: 35px; height:35px; left:30px; top:60px; background: #ffc5d9; border-radius: 50px; z-index:3;}
+
+	#mint2 { position: absolute; left:30px; width: 35px; height:35px; left:60px; top:60px; background: #c2f2d0; border-radius: 50px; z-index:3; }
+
+	#mango2 {position: absolute; width: 35px; height:35px; left:15px; top:40px; background: #FFC143; border-radius: 50px; z-index:3;}
+
+	#chocolate2 { position: absolute; width: 35px; height:35px; left:50px; top:40px; background: #6b3e26; border-radius: 50px; z-index:3;}
+
+	#cotton2 { position: absolute; width:35px; height:35px; left:35px; top:18px; background:#97ffff; border-radius:50px; z-index:3;}
+
+	/*main4*/
+	#main4 {position:absolute; top:23rem; left:11rem; transform:rotate(160deg); z-index:100;}
+	#cone2 {position:absolute;top:60px; width: 0; height:0; border-left: 50px solid transparent;border-right: 50px solid transparent; border-top: 120px solid #FFDEAD;border-radius: 50%; z-index:1;}
+
+	#vanilla2 {position: absolute; width: 30px; height:30px; top:60px; background: #fdf5c9; border-radius: 50px; z-index:3;}
+
+	#strawberry2 { position: absolute; width: 35px; height:35px; left:30px; top:60px; background: #ffc5d9; border-radius: 50px; z-index:3;}
+
+	#mint2 { position: absolute; left:30px; width: 35px; height:35px; left:60px; top:60px; background: #c2f2d0; border-radius: 50px; z-index:3; }
+
+	#mango2 {position: absolute; width: 35px; height:35px; left:15px; top:40px; background: #FFC143; border-radius: 50px; z-index:3;}
+
+	#chocolate2 { position: absolute; width: 35px; height:35px; left:50px; top:40px; background: #6b3e26; border-radius: 50px; z-index:3;}
+
+	#cotton2 { position: absolute; width:35px; height:35px; left:35px; top:18px; background:#97ffff; border-radius:50px; z-index:3;}
+ 
+ 	/*main5*/
+	#main5 {position:absolute; top:24rem; left:-1.5rem; transform:rotate(220deg); z-index:100;}
+	#cone2 {position:absolute;top:60px; width: 0; height:0; border-left: 50px solid transparent;border-right: 50px solid transparent; border-top: 120px solid #FFDEAD;border-radius: 50%; z-index:1;}
+
+	#vanilla2 {position: absolute; width: 30px; height:30px; top:60px; background: #fdf5c9; border-radius: 50px; z-index:3;}
+
+	#strawberry2 { position: absolute; width: 35px; height:35px; left:30px; top:60px; background: #ffc5d9; border-radius: 50px; z-index:3;}
+
+	#mint2 { position: absolute; left:30px; width: 35px; height:35px; left:60px; top:60px; background: #c2f2d0; border-radius: 50px; z-index:3; }
+
+	#mango2 {position: absolute; width: 35px; height:35px; left:15px; top:40px; background: #FFC143; border-radius: 50px; z-index:3;}
+
+	#chocolate2 { position: absolute; width: 35px; height:35px; left:50px; top:40px; background: #6b3e26; border-radius: 50px; z-index:3;}
+
+	#cotton2 { position: absolute; width:35px; height:35px; left:35px; top:18px; background:#97ffff; border-radius:50px; z-index:3;}
+
+	/*main6*/
+	#main6 {position:absolute; top:10rem; left:-8rem; transform:rotate(300deg); z-index:100;}
+	#cone2 {position:absolute;top:60px; width: 0; height:0; border-left: 50px solid transparent;border-right: 50px solid transparent; border-top: 120px solid #FFDEAD;border-radius: 50%; z-index:1;}
+
+	#vanilla2 {position: absolute; width: 30px; height:30px; top:60px; background: #fdf5c9; border-radius: 50px; z-index:3;}
+
+	#strawberry2 { position: absolute; width: 35px; height:35px; left:30px; top:60px; background: #ffc5d9; border-radius: 50px; z-index:3;}
+
+	#mint2 { position: absolute; left:30px; width: 35px; height:35px; left:60px; top:60px; background: #c2f2d0; border-radius: 50px; z-index:3; }
+
+	#mango2 {position: absolute; width: 35px; height:35px; left:15px; top:40px; background: #FFC143; border-radius: 50px; z-index:3;}
+
+	#chocolate2 { position: absolute; width: 35px; height:35px; left:50px; top:40px; background: #6b3e26; border-radius: 50px; z-index:3;}
+
+	#cotton2 { position: absolute; width:35px; height:35px; left:35px; top:18px; background:#97ffff; border-radius:50px; z-index:3;}
+
+

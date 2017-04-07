@@ -9,25 +9,32 @@ body{
 	float: left;
 	background: #000;
 	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .relative{
 	position: relative;
 	top: 100px;
 	right: 100px;
-	background: red;
+	background: blue;
 }
 
 .absolute{
 	position: absolute;
+<<<<<<< Updated upstream
+	top: 200px;
+	left: 100px;
+	background: yellow;
+=======
 	top: 40px;
 	left: 40px;
-	background: yellow;
+	background: red;
+>>>>>>> Stashed changes
 	overflow: hidden;
 }
 
 .fixed{
-	background: blue;
+	background: red;
 	position: fixed;
 	top: 30px;
 	right: 30px;
@@ -44,10 +51,18 @@ body{
 .circle{
 	width: 300px;
 	height: 300px;
+<<<<<<< Updated upstream
 	background: green;
+	border-radius: 3px;
+	position: absolute;
+=======
+	background: red;
+>>>>>>> Stashed changes
 	border-radius: 50%;
-	position: relative;
 	top: 150px;
 	left: 150px;
+
 }
 
+.absolute img:hover { 
+ }

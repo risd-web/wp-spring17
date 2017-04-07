@@ -4,7 +4,8 @@ body {background-color:#fffff0; }
 div {width:85%; margin:0 auto;}
 
 /*h1*/
-h1{margin:1.5rem; margin-left:0rem;}
+h1 {margin:1.5rem; margin-left:0rem;}
+h1 a {color:#7e0b1b;}
 h1 a:link {color:black; text-decoration:none;}
 h1 a:visited {color:black;}
 h1 a:hover {text-decoration:underline;}

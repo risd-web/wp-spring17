@@ -1,0 +1,85 @@
+body { 
+    
+    text-align: center;	
+ 	margin-top: 200px;
+    background-color: rgba(227, 114, 114, 0.53);
+}
+
+h1{ font-family: 'Clicker Script', cursive;
+
+	color: white;
+	font-weight: bold; 
+	font-size: 250px;
+	text-decoration: underline rgba(245, 175, 45, 0.86);
+
+}
+
+h2 {
+
+	font-style: none;
+}
+
+a {text-decoration: underline;
+text-decoration-color: pink;
+}
+    
+#pink { font-family: 'Raleway', sans-serif;
+color: #128112;
+text-decoration: underline;
+text-decoration-color: pink;
+		font-size: 25px;
+		 padding-top: 10em;
+		 margin: 80px;}
+
+#green {font-family: 'Raleway', sans-serif;
+color: white;
+		font-size: 25px;
+		 padding-top: 0em;
+
+		}
+
+#white {font-family: 'Raleway', sans-serif;
+color: #f17389;
+		font-size: 25px;
+		 padding-top: 3em;
+
+		}
+
+
+#para {margin: -200px;
+	padding-bottom: 50px;
+	font-size: 30px; 
+	color: rgba(80, 80, 80, 0.95);
+
+}
+
+
+
+
+#title {  /*border: solid grey; 
+	 width: 50%; 
+     padding: 1em;	
+     padding-bottom: 150px;
+    padding-top: 150px;*/
+
+
+
+}
+
+img { height: 850px; width: 850px;  }
+
+#laundry {font-family: 'Lobster', cursive; 
+color: #128112;}
+
+
+#white {color: #f17389;
+		font-size: 25px;
+		 padding-top: 0em;
+
+		}
+
+#pink {color: white;
+		font-size: 25px;
+		 padding-top: 0em;
+
+		}

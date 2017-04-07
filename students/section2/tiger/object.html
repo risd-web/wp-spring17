@@ -1,0 +1,172 @@
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Kitchen Knife</title>
+		<style>
+			div {
+				box-sizing: border-box;
+			}
+
+			/*containing div*/
+			.object {
+				margin-left: 100px;
+				margin-top: 100px;
+			}  
+
+			#kitchen_knife{
+				position: relative;
+			}
+
+			/*handle portion of knife*/
+			#handle{
+				position: absolute;
+				background: black;
+				width: 300px;
+				height: 100px;
+/*				overflow-y: hidden;
+*/			}
+
+			#curve_1{
+				position: absolute;
+				background: black;
+				width:100px;
+				height:100px;
+				border-radius: 50% 10% 50% 50%;
+				left: -50px;
+
+			}
+
+			#curve_2{
+				position: absolute;
+				background: black;
+				width: 100px;
+				height: 100px;
+				display: inline-block;
+				left:0px;
+			}
+
+			#curve_2:after{
+				background: white;
+				height:40px;
+				width:120px;
+				border-radius:50% 50% 0 0;
+				top:90px;
+				position: relative;
+				display: inline-block;
+				content:"";
+				left:-5px;
+
+			}
+			#curve_3{
+				position: absolute;
+				background: black;
+				width: 100px;
+				height: 100px;
+				display: inline-block;
+				left:145px;
+			}
+
+			#curve_3:after{
+				background: white;
+				height:40px;
+				width:120px;
+				border-radius:50% 50% 0 0;
+				top:90px;
+				left:-5px;
+				position: relative;
+				display: inline-block;
+				content:"";
+			}
+
+			#curve_4{
+				position: absolute;
+				background: black;
+				width:200px;
+				height:101px;
+				border-radius: 0 0 50% 50%;
+				left: 25px;
+
+			}
+			/*Bottom portion, handle and screw*/
+			#blade{ 
+				position: absolute;
+				overflow: hidden;
+				width: 700px;
+				height:200px;
+				left: 300px;
+				top: 0px;
+			}
+
+			#shine{
+				position: absolute;
+				width: 1200px;
+				height: 800px;
+				border-radius: 50% 30%;
+				background: #ddd;
+				top: -600px;
+				left: -420px;
+			}
+
+			#circle{
+				position: absolute;
+				width: 1200px;
+				height: 800px;
+				border-radius: 50% 30%;
+				background: lightgrey;
+				top: -640px;
+				left: -390px;
+			}
+
+			#connect{
+				position: absolute;
+				background: darkgrey;
+				width: 10px;
+				height: 100px;
+				left: 290px;
+				overflow: hidden;
+			}
+
+			#small_curve{
+				background: white;
+				position: absolute;
+				width: 20px;
+				height:20px;
+				border-radius: 50%;
+				top:90px;
+			}
+
+
+
+		</style>
+	</head>
+	<body>
+		<!-- kitchen Knife-->
+		<div class="object">
+			<div id="kitchen_knife">
+				<div id="handle">
+					<div id="curve_2">
+					</div>
+					<div id="curve_3">
+					</div>
+					<div id="curve_1">
+					</div>
+					<div id="curve_4">
+					</div>
+					<div id="connect">
+						<div id="small_curve">
+						</div>
+					</div>						
+				</div>
+				<div id="blade">
+					<div id="shine">
+					</div>
+					<div id="circle">
+					</div>					
+				</div>
+			</div>
+		</div><!-- close object -->
+	
+	</body>
+</html>

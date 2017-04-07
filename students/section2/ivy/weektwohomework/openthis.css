@@ -1,0 +1,9 @@
+/*body*/
+*{margin:0; padding:0; font-family:"Brown", sans-serif;text-decoration:none; list-style:none;}
+body {background-color:#00FFFF; color:black;}
+ul {position:absolute; float:left; border:1px dotted purple; left:50%; top:50%; margin-left:-16rem; margin-top:-8rem;}
+ul li {float:left;margin:4rem;}
+ul li a:link {color:purple;}
+ul li a:hover {text-decoration:underline;}
+ul li a:active {color:purple;}
+ul li a:visited {color:purple;}
