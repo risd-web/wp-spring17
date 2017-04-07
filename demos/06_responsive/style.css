@@ -55,11 +55,10 @@ img{
   /*or max-width: 100%;*/
 }
 
-/*@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
   body{
     background: yellow;
   }
-
  }
   
 @media screen and (max-width: 1000px) {
@@ -80,10 +79,10 @@ img{
 
 
 @media screen and (max-width: 600px) {
-    .middle, .right {
+  .middle, .right {
     width: 100%;
     margin: 0;
-    background:yellow;
+    background: yellow;
   }
 
   .left {
@@ -102,14 +101,13 @@ img{
     background:brown;
   }
 
-
-}*/
+}
 
 /*Printed styles
 
 @media print{
 
->>>>>>> origin/gh-pages:demos/06_responsive/style.css
+
 }
 
 */

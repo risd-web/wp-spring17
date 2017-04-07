@@ -2,12 +2,27 @@
 	animation: wheel 1s ease-in-out alternate infinite;
 }
 
-<<<<<<< Updated upstream
+#red.play{
+	background: blue;
+}
+
 #start, #stop{
 	color: red;
 	font-size: 3rem;
 }
 
+.button{
+	padding: 2rem 3rem;
+	background: green;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
 
 .elementcontainer {
 	height: 80vh;
@@ -18,6 +33,10 @@
   	justify-content: center;
 }
 
+h1{
+	display: none;
+}
+
 .element {
 	width: 100px;
 	height: 100px;
@@ -25,16 +44,17 @@
 	background-color: #f4ca16;    
 }
 
-.red{
+#red{
+	border-radius: 50%;
 	background: tomato;
 }
 
-=======
->>>>>>> Stashed changes
+
+
 @keyframes wheel {
 	100% {
-		transform: rotateX(360deg);
+		transform: rotateY(0deg);
 	}
 	40% {
-		transform: rotateY(300deg);
+		transform: rotateY(360deg);
 	}
