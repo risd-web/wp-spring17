@@ -2,14 +2,13 @@ body{ background-color: #b43b3b;
 	font-family: helvetica, sans-serif;
 	font-weight: bold;
 	}
-
-.whole {margin: 0 auto;
-width: 50%;}
+.whole {margin: auto 0;
+margin:40%;}
 
 .red1 { width: 55px;
 		height: 208px;
 		background-color: #872424;
-		position: absolute;
+		position: relative;
 		transform: rotate(50deg);
 		left: 70px;
 		top: -95px;}
