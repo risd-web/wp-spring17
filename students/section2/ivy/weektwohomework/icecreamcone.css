@@ -1,0 +1,162 @@
+*{margin:0; padding:0; font-family:"Brown", sans-serif;}
+
+body { 
+    background: #E4E4FF; /* For browsers that do not support gradients */
+    
+}
+
+/*main*/
+.main { position:relative; border:1px solid transparent; margin:0 auto; width:900px; height:60rem;}
+.flavor {top:4rem;}
+#h201 {margin:2rem;margin-left:0;}
+
+#vanilla {
+	position: absolute;
+	width: 100px;
+	height:100px;
+	background: #fdf5c9;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#strawberry {
+	
+	position: absolute;
+	left:150px;
+	width: 100px;
+	height:100px;
+	background: #ffc5d9;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#mint {
+	position: absolute;
+	left:300px;
+	width: 100px;
+	height:100px;
+	background:#c2f2d0;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#mango {
+	position: absolute;
+	left:450px;
+	width: 100px;
+	height:100px;
+	background:#FFC143;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#chocolate {
+	position: absolute;
+	left:600px;
+	width: 100px;
+	height:100px;
+	background:#6b3e26;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#cotton {
+	position: absolute;
+	left:750px;
+	width: 100px;
+	height:100px;
+	background:#97ffff;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#cone {position:absolute;
+left:50%;
+top:50%;
+margin-left:-90px;
+margin-top:-90px;
+
+width: 0;
+height:0;
+border-left: 120px solid transparent;
+border-right: 120px solid transparent;
+border-top: 300px solid #FFDEAD;
+border-radius: 50%;
+z-index:1;
+}
+
+#cone2 {position:absolute;
+top:30%;
+width: 0;
+height:0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 120px solid #FFDEAD;
+border-radius: 50%;
+z-index:1;
+}
+
+#vanilla2 {
+	position: absolute;
+	width: 30px;
+	height:30px;
+	top:300px;
+	background: #fdf5c9;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#strawberry2 {
+	position: absolute;
+	width: 35px;
+	height:35px;
+	left:30px; 
+	top:300px;
+	background: #ffc5d9;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#mint2 {
+	position: absolute;
+	width: 35px;
+	height:35px;
+	left:60px;
+	top:300px;
+	background: #c2f2d0;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#mango2 {
+	position: absolute;
+	width: 35px;
+	height:35px;
+	left:15px;
+	top:280px;
+	background: #FFC143;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#chocolate2 {
+	position: absolute;
+	width: 35px;
+	height:35px;
+	left:45px;
+	top:280px;
+	background: #6b3e26;
+	border-radius: 50px;
+	z-index:3;
+}
+
+#cotton2 {
+	position: absolute;
+	left:35px;
+	top:255px;
+	width: 35px;
+	height:35px;
+	background:#97ffff;
+	border-radius: 50px;
+	z-index:3;
+}
