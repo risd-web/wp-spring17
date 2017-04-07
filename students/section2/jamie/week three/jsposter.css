@@ -1,0 +1,100 @@
+body{
+	background: white;
+	font-family: Helvetica, sans-serif;
+}
+
+section{
+	width: 1000px;
+	margin: auto;
+	height: 1350px;
+	overflow: hidden;
+	background: #fffbe8;
+}
+
+.graphic {
+	position: relative;
+}
+
+.triangle {
+	mix-blend-mode: multiply;
+	width: 0;
+	height: 0;
+	border-bottom: 1000px solid #169ea0;
+	border-right: 1000px solid transparent;
+	position: absolute;
+	margin-bottom: 400px;
+}
+.triangle:hover {
+	transition-property: color;
+	background-color: rgb(255, 109, 86);
+	mix-blend-mode: multiply;
+	transition-duration: 2s;
+	transition-timing-function: ease-in;
+}
+
+.triangle2 {
+	mix-blend-mode: multiply;
+	width: 0;
+	height: 0;
+	border-bottom: 1000px solid #ffe035;
+	border-left: 1000px solid transparent;
+	position:absolute;
+	margin-top:350px;
+}
+
+.triangle, .triangle2{
+	overflow: auto;
+	position: absolute;
+}
+
+#left {
+	width:49%;
+	margin-right:5%;
+	text-align: right;
+	margin-top:300px;
+}
+
+#right {
+	width:46%;
+	text-align: left;
+	margin-top:100px;
+}
+
+#left, #right{
+	float: left;
+}
+
+h1 {
+	font-size: 6rem;
+	margin: 0;
+	line-height: .9;
+	letter-spacing: -1px;
+}
+
+p {
+	font-size:0.5rem;
+}
+
+.top{
+	margin-bottom: 3rem;
+}
+
+.container{
+	transform: rotate(-45deg);
+	margin-right:45%;
+	margin-top:29%;
+}
+
+@media (max-width: 1920px) {
+  			body {
+  				background: 
+					linear-gradient(135deg, teal 25%, transparent 25%) -50px 0,
+					linear-gradient(225deg, teal 25%, transparent 25%) -50px 0,
+					linear-gradient(315deg, teal 25%, transparent 25%),
+					linear-gradient(45deg, teal 25%, transparent 25%);	
+				background-size: 150px 30px;
+				background-color: white;}
+				}
+		}
+
+body {width: 100%;

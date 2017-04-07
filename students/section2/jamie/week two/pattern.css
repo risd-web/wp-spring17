@@ -1,31 +1,20 @@
+			.layer1 { 
+				background-color: black;
+				width: 120%;
+				   }
 
-			body { margin:0; }
-			
-			.circle { 
-				background: #ffffff;
-				width: 100vh; height: 100vh;
-				overflow: hidden; 
-				 
+			.layer1 div { 
+				 transform: rotate(10deg);
+				 border: 80px solid violet;
+				 margin: -40px;
+				 width: 50px; height: 50px;
+				 float: left;
+				 mix-blend-mode: multiply;
+				 border-radius: 50%;
+				 border-right: 80px solid transparent;
 				  }
-
-			.circle div { 
-				mix-blend-mode: multiply;
-				float: left;
-				height:50px;
-				width:50px;
-				background:#f26f6f;
-
-
-				top:50%;
-				left:50%;
-				border-radius:200px;
-
-			
-				  }
-				  
-			.circle div:nth-child(n) {  background: #ff78ff; }
-			.circle div:nth-child(2n) {  background: #7ccdff; }
-            .circle div:nth-child(3n) {  background: #7cff7c; }
-
-
+			.layer1 div:nth-child(even) {
+				 border: 80px solid pink;
+				 border-left: 80px solid transparent;
+			}
 		
