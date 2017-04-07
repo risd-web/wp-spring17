@@ -14,7 +14,7 @@ $(document).ready(function(){
 		$('#target').removeClass('play');
 	});
 
-	$('#red').click(function(){
+	$('.element').click(function(){
 		$(this).toggleClass('play');
 	});
 
