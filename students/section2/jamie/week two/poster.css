@@ -50,6 +50,7 @@ section{
 #right {
 	width:46%;
 	text-align: left;
+	margin-top:100px;
 }
 
 #left, #right{
@@ -59,6 +60,8 @@ section{
 h1 {
 	font-size: 6rem;
 	margin: 0;
+	line-height: .9;
+	letter-spacing: -1px;
 }
 
 p {
