@@ -2,8 +2,20 @@ body{ background-color: #b43b3b;
 	font-family: helvetica, sans-serif;
 	font-weight: bold;
 	}
+
 .whole {margin: auto 0;
 margin:40%;}
+
+
+.red div:hover {
+	border-radius: 50%;
+	}
+
+.blck div:hover {
+	border-radius: 50%;
+}
+
+<!--.rotate {transform:rotate(50deg);}-->
 
 .red1 { width: 55px;
 		height: 208px;
