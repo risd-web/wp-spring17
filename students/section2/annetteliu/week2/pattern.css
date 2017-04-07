@@ -1,6 +1,6 @@
 body {background-color: #ffc9a5;}
 
-.line1 {
+.line1 div {
 height:1000px;
 width:20px;
 background-color: rgba(255, 255, 255, 0.7);
@@ -9,7 +9,7 @@ float:left;
 position: relative;
 }
 
-.line2 {
+.line1 div:nth-child(even) {
 height: 1000px;
 width: 10px;
 background-color: rgba(191, 123, 86, 0.7);
