@@ -62,7 +62,7 @@
 	height:600px;
 	background: white;
 	border-radius:50%;
-	bottom:-150px;
+	top:450px;
 }
 
 .nose{
@@ -70,8 +70,9 @@
 	height: 120px;
 	background: black;
 	border-radius: 160px/70px 70px 150px 150px;
-	bottom:300px;
-	position: fixed;
+	top: 35px;
+    left: 335px;
+	position: absolute;
 }
 
 .mouth{
@@ -79,17 +80,17 @@
 	height: 120px;
 	background: black;
 	border-radius: 600px/40px 40px 200px 200px;
-	bottom: 70px;
-	position: fixed;
+	top: 213px;
+    left: 78px;
+	position: absolute;
 }
 
 .cheeks{
 	position: absolute;
 	overflow: auto;
 	z-index: 3;
-
-	width: 1500px;
-	bottom: 100px;
+    width: 1555px;
+    top: 446px;
 }
 
 .leftcheek{
