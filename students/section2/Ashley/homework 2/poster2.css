@@ -19,7 +19,6 @@ section{
 
 .top {
 	overflow: auto;
-	position: absolute;
 	width: 1200px;
 	position: relative;
 	height: 270px;
@@ -29,7 +28,6 @@ section{
 
 .bottom {
 	overflow: auto;
-	position: absolute;
 	width: 1200px;
 	position: relative;
 	height: 270px;
