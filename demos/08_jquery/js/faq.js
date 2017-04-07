@@ -7,17 +7,14 @@ $(document).ready(function() {
 
   $("#trigger").click(function(){
       
-      $("h3").html("This <em>is</em> replaced text");
-      $("h2").append(" this is appended via jQuery");  
-
 
       var h3TextColor = $("h3").css("color");
       console.log("The heading 3 text color is " + h3TextColor);
 
-      $("h3").css("color", "red");
+      // $("h3").css("color", "red");
       
-      h3TextColor = $("h3").css("color");
-      console.log('After changing, "change" the heading 3 text color is' + h3TextColor);
+      // h3TextColor = $("h3").css("color");
+      // console.log('After changing, "change" the heading 3 text color is' + h3TextColor);
   });
 
   $(".dropdown").click(function(){
@@ -36,4 +33,5 @@ $(document).ready(function() {
     $(this).toggleClass("selected");
   });
 });
+
 console.log(8+8);
