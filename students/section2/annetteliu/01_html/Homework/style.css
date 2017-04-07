@@ -5,10 +5,11 @@ body {
     background-color: rgba(227, 114, 114, 0.53);
 }
 
-h1{ font-family: 'Lobster', cursive; 
+h1{ font-family: 'Clicker Script', cursive;
+
 	color: white;
-	font-weight: normal; 
-	font-size: 200px;
+	font-weight: bold; 
+	font-size: 250px;
 	text-decoration: underline rgba(245, 175, 45, 0.86);
 
 }
@@ -20,27 +21,27 @@ h2 {
     
 #pink { font-family: 'Raleway', sans-serif;
 color: #128112;
-border-bottom: solid blue 1px;
 font-style: none;
 		font-size: 25px;
-		 padding-top: 5em;}
+		 padding-top: 5em;
+		 margin: 80px;}
 
 #green {font-family: 'Raleway', sans-serif;
 color: white;
 		font-size: 25px;
-		 padding-top: 5em;
+		 padding-top: 0em;
 
 		}
 
 #white {font-family: 'Raleway', sans-serif;
 color: #f17389;
 		font-size: 25px;
-		 padding-top: 5em;
+		 padding-top: 3em;
 
 		}
 
 
-#para {margin: -50px;
+#para {margin: -200px;
 	padding-bottom: 50px;
 	font-size: 30px; 
 	color: rgba(80, 80, 80, 0.95);

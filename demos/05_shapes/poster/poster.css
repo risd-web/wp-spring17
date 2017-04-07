@@ -1,0 +1,72 @@
+body{
+	background: #000;
+	font-family: Helvetica, sans-serif;
+}
+
+section{
+	width: 80%;
+	margin: auto;
+	height: 1200px;
+	overflow: hidden;
+	background: #4faccb;
+}
+.container{
+	transform: rotate(30deg);
+	width: 1200px;
+
+}
+.graphic{
+	position: relative;
+	height: 600px;
+	margin-left: 100px;
+}
+
+.boxes1, .boxes2{
+	overflow: auto;
+	position: absolute;
+}
+
+.boxes2 {
+	top: 80px;
+	left: 250px;
+}
+
+.yellow{
+	background: yellow;
+	mix-blend-mode: multiply;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+.blue{
+	width: 250px;
+	height: 250px;
+	background: #4f4f90;
+	mix-blend-mode: multiply;
+	float: left;
+	margin-right: 10px;
+}
+
+#left, #right{
+	float: left;
+}
+#left{
+	width: 48%;
+	margin-right: 2%;
+	text-align: right;
+}
+
+#right{
+	width: 50%;
+}
+
+h2{
+	font-size: 3rem;
+	margin: 0;
+}
+
+.top{
+	margin-bottom: 2rem;
+}

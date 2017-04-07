@@ -1,0 +1,76 @@
+body{
+	background: white;
+	font-family: Helvetica, sans-serif;
+}
+
+section{
+	width: 1000px;
+	margin: auto;
+	height: 1350px;
+	overflow: hidden;
+	background: #fffbe8;
+}
+
+.graphic {
+	position: relative;
+}
+
+.triangle {
+	mix-blend-mode: multiply;
+	width: 0;
+	height: 0;
+	border-bottom: 1000px solid #169ea0;
+	border-right: 1000px solid transparent;
+	position: absolute;
+	margin-bottom: 400px;
+}
+
+.triangle2 {
+	mix-blend-mode: multiply;
+	width: 0;
+	height: 0;
+	border-bottom: 1000px solid #ffe035;
+	border-left: 1000px solid transparent;
+	position:absolute;
+	margin-top:350px;
+}
+
+.triangle, .triangle2{
+	overflow: auto;
+	position: absolute;
+}
+
+#left {
+	width:49%;
+	margin-right:5%;
+	text-align: right;
+	margin-top:300px;
+}
+
+#right {
+	width:46%;
+	text-align: left;
+}
+
+#left, #right{
+	float: left;
+}
+
+h1 {
+	font-size: 6rem;
+	margin: 0;
+}
+
+p {
+	font-size:0.5rem;
+}
+
+.top{
+	margin-bottom: 3rem;
+}
+
+.container{
+	transform: rotate(-45deg);
+	margin-right:45%;
+	margin-top:29%;
+}

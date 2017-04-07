@@ -1,0 +1,38 @@
+h1 {
+font-family: Arial;
+text-align: center;
+font-size: 200px;
+}
+
+
+
+.name:hover {cursor:default;
+    visibility: visible;
+}
+
+
+p {
+border: solid 1.5px black;
+text-align:center;
+font-size: 200px;
+font-family: Arial;
+background-color: black;
+}
+
+p:hover {color:white;
+cursor: help;}
+
+nav{
+text-align: center;
+    }
+
+a {
+color:black;
+font-family: Arial;
+text-align: center;
+font-size: 250px;
+}
+
+a:hover {
+color:#3deb9b;
+}
