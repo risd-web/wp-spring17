@@ -11,27 +11,34 @@ $(document).ready(function() {
       var h3TextColor = $("h3").css("color");
       console.log("The heading 3 text color is " + h3TextColor);
 
-      // $("h3").css("color", "red");
+      $('#message').append("The heading 3 text color is " + h3TextColor);
+
+      $("h3").css("color", "red");
       
-      // h3TextColor = $("h3").css("color");
-      // console.log('After changing, "change" the heading 3 text color is' + h3TextColor);
+      h3TextColor = $("h3").css("color");
+      console.log('After changing, the heading 3 text color is ' + h3TextColor);
+
   });
 
-  $(".dropdown").click(function(){
-  	var text = $("dd",this);
-  	var icon = $(this).children('.toggle');
-    
-    text.slideToggle(400, function (){
-    	if (text.is(':visible')) {
-    	             icon.text('–');                
-    	        } else {
-    	             icon.text('+');                
-    	        }        
-      console.log("dropdown opened");
+  $(".dropdown").click(function(){ //<div class="dropdown"> is my trigger
+  	var text = $("dd",this); //store dd of clicked dropdown in 'text' variable
+  	var icon = $('.toggle',this); //store .toggle of clicked dropdown in 'icon' variable
+
+    text.slideToggle(400,callbackExample); //slideToggle dd when dropdown is clicked. execute callback function when done.
+ 
+      console.log("text"); 
+
+      function callbackExample(){
+       if (text.is(':visible')) { //check if dd is displaying
+            icon.text('–');  //if yes, set .toggle text to –              
+         } else {
+            icon.text('+');  //if not, set .toggle text to +              
+         }        
+      }
+
     });
 
-    $(this).toggleClass("selected");
-  });
+    // $(this).toggleClass("selected"); 
 });
 
 console.log(8+8);
