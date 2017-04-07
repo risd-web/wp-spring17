@@ -30,10 +30,9 @@ This three-session workshop combines the tactical skills needed to structure web
 
 ### Week Three: Behavior
 >Week three delves into designing with time, adding interactivity and motion.
-* Assignment 6: Create a responsive animation with Web Poster 2
-* Assignment 7: Animate a Web Poster with css
-* Assignment 8: Set triggers with jQuery
-* Final: Combine your skills to make a website
+* Assignment 6: Create a responsive animation
+* Assignment 7: Animate your web poster and set triggers with jQuery
+* Final: Combine your skills to make a responsive website
 
 ### Week Four
 >Putting it all together

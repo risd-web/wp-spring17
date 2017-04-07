@@ -55,7 +55,7 @@ img{
   /*or max-width: 100%;*/
 }
 
-@media screen and (min-width: 1300px) {
+/*@media screen and (min-width: 1300px) {
   body{
     background: yellow;
   }
@@ -79,13 +79,8 @@ img{
 }
 
 
-<<<<<<< Updated upstream:demos/06_responsive/style.css
-@media screen and (max-width: 400px) {
-  .left, .middle {
-=======
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 600px) {
     .middle, .right {
->>>>>>> Stashed changes:demos/07_responsive/style.css
     width: 100%;
     margin: 0;
     background:yellow;
@@ -107,16 +102,8 @@ img{
     background:brown;
   }
 
-<<<<<<< HEAD:demos/07_responsive/style.css
-.right {
-  width: 39%;
-}
-=======
-  .right{
-    display: none;
-  }
 
-}
+}*/
 
 /*Printed styles
 
