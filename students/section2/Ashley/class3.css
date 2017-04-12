@@ -1,0 +1,20 @@
+.circle {
+	background-color: black;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+	0% {
+		background-color: rgb(200,200,200);
+	}
+	50% {
+		background-color: rgb(100,120,150);
+	}
+
+	100% {
+		background-color: rgb(200,200,200);
+	}
+}
