@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Responsive animation</title>
+        <link href="class3.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".circle").click(function(){
+                    $(".circle").animate({
+                        opacity: '0.5',
+                        height: '150px',
+                        width: '150px'});
+                    $("h1").hide();
+                    $("h2").css("color","black");
+                });
+            });
+        </script>
+    </head>
+
+	<body>
+		<div class="box"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+        <br>
+        <h1> Click on the circle! It will become bigger</h1>
+        <div class="circle"></div>
+        <h2> Don't listen to strangers...now you made the circle smaller</h2>
+        <div class="box"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+	</body>
