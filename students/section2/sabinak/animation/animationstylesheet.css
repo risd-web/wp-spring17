@@ -17,13 +17,13 @@ body {
 	width: 50px;
 	height: 50px;
 	margin: 10px;
-	background-color: #f4ca16;    
+	background-color: #BFD0F4;    
 }
 
 .element::before{
 	counter-increment: section; 
 	content: counter(section); 
-	color: #fff;
+	color: #BFD0F4;
 	padding-top: 10px;
 	display: block;
 }
@@ -61,10 +61,10 @@ figure p {
 
 
 .element:first-child {
-	border-radius: 50%;
-	background: red;
-	width: 300px;
-	height: 300px;
+	border-radius: 0%;
+	background: purple;
+	width: 50px;
+	height: 100px;
 	/*box-sizing: border-box;*/
 	
 }
@@ -75,16 +75,17 @@ figure p {
 
 
 .element:nth-child(3) {
-	background: #613056;
+	background: #BFD0F4;;
 	color: #fff;
 	transition: border-radius 1s ease-in-out;
+
 	width: 100px;
 	height: 100px;
 }
 
-.element:nth-child(sabina):hover {
+.element:nth-child(3):hover {
 	border-radius: 50%;
-	background: tomato;
+	background: purple;
 }
 
 
@@ -99,7 +100,7 @@ figure p {
 }
 
 .element:nth-child(6):hover {
-	background-color: tomato;
+	background-color: #BFD0F4;
 	transform: rotate(20deg) scale(5);
 }
 
@@ -130,5 +131,3 @@ a:hover{
 		transform: rotateY(360deg) ;
 	}
 }
-
-
