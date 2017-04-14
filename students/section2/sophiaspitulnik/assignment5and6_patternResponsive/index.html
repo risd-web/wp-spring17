@@ -11,16 +11,17 @@
 	<style>
 
 		body {
-			background:rgba(200,200,150, 0.4);
+			background:rgba(200, 200, 150, 0.4);
 		}
 
-		@keyframes color {
-			0% {
-				border:50px solid rgba(150,50,20, 0.2);
-				}
-			100% {
-				border:80px solid rgba(150,120,20, 0.6);
-				}
+		@media (max-width: 800px) {
+			body{
+				background:yellow;
+
+			/*.layer1 {
+				border-color:rgba(150, 50, 20, 0.2);*/
+				
+			}
 			}
 
 		
@@ -36,8 +37,10 @@
 			float: left;
 			border-radius: 50%;
 			border-right: 80px solid transparent;
-			animation: color 1s ease-in-out alternate infinite;
+			/*animation: color 1s ease-in-out alternate infinite;*/
+			border-color:rgba(20, 50, 200, 0.2);
 			z-index: -20;
+			transition: all 1s;
 
 		}
 
