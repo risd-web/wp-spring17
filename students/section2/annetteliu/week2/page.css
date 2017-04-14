@@ -1,0 +1,42 @@
+body { background: rgba(161, 205, 244, 0.63); 
+font-family: 'Raleway', sans-serif; 
+}
+
+.back {animation: pulse 3s infinite;}
+@keyframes pulse {
+	0% {background-color: rgba(125, 187, 241, 0.63);}
+	50% {background-color: rgba(101, 197, 240, 0.81);}
+	100% {background-color: rgba(161, 205, 244, 0.63);}
+}
+
+h1 {color: white;
+font-weight: bold;
+font-size: 200px;
+text-decoration: underline #fecece;
+margin: -10px;}
+
+h2 {font-size: 35px;
+	margin: -5px;
+	top: -80px;
+	color: #868686;}
+
+.cloud1 { animation: clouds 8s linear infinite;
+  margin-left: 0; }
+
+.text {margin-top: 300px;
+margin-left: -10px;}
+	.title {margin-left: 200px; }
+
+	.seats {margin-left: 850px;
+ 	margin-top: -150px;
+ 	}
+
+ 	#seata {text-decoration: underline;
+text-decoration-color: none;}
+
+#seatb {text-decoration: underline;
+text-decoration-color: none;}
+
+#seatc {text-decoration: underline;
+text-decoration-color: none;}
+
