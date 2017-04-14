@@ -2,7 +2,9 @@ body { background: rgba(161, 205, 244, 0.63);
 font-family: 'Raleway', sans-serif; 
 }
 
-.back {animation: pulse 3s infinite;}
+.back {animation: pulse 3s alternate infinite;
+margin-top: 150px;}
+
 @keyframes pulse {
 	0% {background-color: rgba(125, 187, 241, 0.63);}
 	50% {background-color: rgba(101, 197, 240, 0.81);}
@@ -20,16 +22,85 @@ h2 {font-size: 35px;
 	top: -80px;
 	color: #868686;}
 
-/*.cloud1 { animation: clouds 8s linear infinite;
-  margin-left: 0; }*/
+.cloud1 {
+		position: absolute;
+opacity: 0.5; width: 80px; 
+  animation: clouds 8s linear infinite;
+  margin-left: 0;
+  margin-top: 200px;
+}
 
- /*.line1 div {
-height:1000px;
-width:20px;
-background-color: black;}*/
+.cloud2 { 	position: absolute;
+
+	opacity: 0.8; width: 150px;
+  animation: clouds 12s linear infinite;
+ margin-left: 0;
+  margin-top: 200px;}
+
+.cloud3 { 
+	position: absolute;
+	opacity: 0.5; width: 200px; margin-top: 500px;
+  animation: clouds 7s linear infinite;
+  right: auto; left: 620px; opacity: 0.5;
+}
+
+.cloud4 { 	position: fixed;
+
+	opacity: 0.5; width: 250px; margin-top: 500px;
+  animation: clouds 10s linear infinite;
+  bottom: auto; top: 400px; right: auto; left: 80px; opacity: 0.75;
+}
+
+.cloud5 { 	position: absolute;
+
+  animation: clouds 9s linear infinite;
+  bottom: auto; top: 90px; right: auto; left: 320px; opacity: 0.5;
+}
+
+.cloud6 { 	position: absolute;
+
+  bottom: auto; top: 600px; right: auto;
+   left: 320px; opacity: 0.7;
+  animation: clouds 10s linear infinite;
+}
+
+.cloud7 {
+		position: absolute;
+opacity: 0.5; width: 80px; 
+  animation: clouds 8s linear infinite;
+  margin-left: 0;
+  margin-top: 200px;
+}
+
+.cloud8 { 	position: absolute;
+
+	opacity: 0.5; width: 150px;
+  animation: clouds 12s linear infinite;
+ margin-left: 0;
+  margin-top: 200px;}
+
+@keyframes clouds{
+  0%{ 
+      transform: translateX(-100px); 
+  }
+  100%{
+    transform: translateX(1600px); 
+  }
+}
 
 
-.text {margin-top: 300px;
+@keyframes clouds2 {
+  0%{ 
+    transform: translateX(-100px); 
+}
+  100%{
+    transform: translateX(1600px); 
+  }
+}
+
+
+
+.text { position: absolute;
 margin-left: -10px;}
 	.title {margin-left: 200px; }
 
@@ -37,14 +108,13 @@ margin-left: -10px;}
  	margin-top: -150px;
  	}
 
- 	#seata {text-decoration: underline;
-text-decoration-color: none;}
+a {text-decoration: none;}
 
-/*#seata div:hover {font-color: yellow;}*/
+#seata:hover {	/*position: absolute;*/
+color: rgba(173, 60, 60, 0.63);}
 
-#seatb {text-decoration: underline;
-text-decoration-color: none;}
+#seatb: hover {	/*position: absolute;*/
+color: seagreen;}
 
-#seatc {text-decoration: underline;
-text-decoration-color: none;}
+#seatc {}
 

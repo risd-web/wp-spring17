@@ -3,9 +3,6 @@ body {
 	font-family: 'Raleway', sans-serif; 
 	text-align: center;	}
 
-
-.back {animation: pulse 3s infinite;}
-@keyframes pulse {
 	
 	50% {background-color: rgb(255, 211, 110);}
 	100% {background-color: rgba(161, 205, 244, 0.63);}
