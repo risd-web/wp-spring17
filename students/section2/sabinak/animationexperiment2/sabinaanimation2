@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sabina Animation</title>
+	<link rel="stylesheet" type="text/css" href="animationstylesheet2.css">
+</head>
+<body>
+<a href="sabinaanimationpg2"> So...</a>
+
+<section class="container">
+	<div class="element">
+	</div>
+	<div class="element">
+	</div>
+	<div class="element">
+	</div>
+	<div class="element">
+	</div>
+	<div class="element">
+	</div>	
+	<div class="element">
+	</div>
+	<div class="element">	
+	</div>
+	<div class="element ">	
+	</div>
+	<div class="element">	
+	</div>
+	<div class="element">	
+	</div>
+	<div class="element">	
+	</div>
+	<div class="element">	
+	</div>
+	<div class="element">	
+	</div>
+</section>
+</body>
+</html>
