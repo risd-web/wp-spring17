@@ -4,7 +4,10 @@
  }
 }
 
-
+dd{
+	display: none;
+	margin-left: -1em;
+}
 
 @font-face {
   font-family: 'avenir';

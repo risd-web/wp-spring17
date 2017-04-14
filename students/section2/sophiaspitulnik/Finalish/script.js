@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   $(".dropdown").click(function(){
     var text = $("dd",this);
-    var icon = $(this).children('.toggle');
+    var icon = $(this).children('.sectionHeading p specialSpacingforthePlus .toggle');
     
     text.slideToggle(400, function (){
       if (text.is(':visible')) {
