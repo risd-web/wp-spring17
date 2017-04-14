@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning</title>
+	<link rel="stylesheet" type="text/css" href="poster-style.css">
+</head>
+<body>
+<div class="container">
+	<div class="box">
+	</div>
+	<div class="box relative">
+	</div>
+	<div class="box">
+	</div>
+	<div class="box">
+	</div>
+	<div class="box absolute">
+		<div class="circle">
+		</div>
+	</div>
+	<div class="box fixed">
+	</div>
+</div>
+</body>
+</html>

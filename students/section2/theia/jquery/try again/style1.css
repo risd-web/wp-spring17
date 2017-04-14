@@ -5,22 +5,37 @@ height:1000px;
  }
 
 #base {
-	position: relative;
+	position: absolute;
 margin-left: 500px;
-margin-top: 1000px	
+margin-top: 600px	
 width:304px;
 height:400px;
-z-index: 10;
+position:center;
 }
 
- #div2{
- 	mix-blend-mode: multiply;
+
+ #div1{
  	display:none;
 position: absolute;
-margin-left: -100px;
-margin-top:-3000px
- width:800px;
+width:800px;
 height:800px;
-z-index: 20;
+
  }
 
+
+ #div2{
+ 	display:none;
+position: absolute;
+ 	width:800px;
+height:800px;
+
+ }
+
+
+  #div3{
+  	display:none;
+position: absolute;
+ 	width:800px;
+height:800px;
+
+ }
