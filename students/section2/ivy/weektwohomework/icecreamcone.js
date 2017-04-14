@@ -1,5 +1,7 @@
 $(document).ready(function(){
- $(".flavor").draggable();
+ 
 
-
+ $(".flavor").draggable().resizable();
 }); //ready
+
+// $(".flavor").draggable().resizable();

@@ -26,7 +26,7 @@ section{
   margin-right: 2%;
 }
 
-article {
+article { border:1px solid red;
   padding: 1em;
 }
 
@@ -51,29 +51,37 @@ footer {
 }
 
 img{
-  width: 100%;
-  /*or max-width: 100%;*/
+  width: 100%; /*width: 100% heightauto 가 숨어있다. */
+  max-width: 500px; /* width:500px = width가 정해져있고, 그러므고 브라우저를 늘려도 이미지 커지지 않음.*/
 }
 
+<<<<<<< Updated upstream
 @media screen and (min-width: 1400px) {
+=======
+<<<<<<< HEAD
+@media screen and (min-width: 700px) {
+=======
+@media screen and (min-width: 1400px) {
+>>>>>>> origin/gh-pages
+>>>>>>> Stashed changes
   body{
     background: yellow;
   }
  }
   
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   .left {
-    width: 100%;
+   width: 100%; 
     margin-bottom: 2%;
-    background: rgba(255,0,0,.5);
+    background: orange;
   }
 
   .middle {
-    width: 59%;
+    width: 49%;
   }
 
   .right {
-    width: 39%;
+    width: 41%;
   }
 }
 
