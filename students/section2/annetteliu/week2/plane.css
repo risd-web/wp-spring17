@@ -1,7 +1,8 @@
 body {
 	background: rgb(255, 215, 202);
 	font-family: 'Raleway', sans-serif; 
-	text-align: center;	}
+	text-align: center;
+    	}
 
 
 .back {animation: pulse 3s infinite;}
@@ -24,7 +25,7 @@ position: absolute;
  #head {color: white;
  	text-decoration: underline;
 text-decoration-color: none;
-margin-top: 100px;
+margin-top: 200px;
 }
 
 h1 {font-size: 80px;}
@@ -58,6 +59,12 @@ margin-top: -180px;}
 .swing:hover
 {
         -webkit-animation: swing 5s ease;
-        animation: swing 5s ease;
-      
-}
+        animation: swing 5s ease;}
+
+
+.line1 div {
+height:1000px;
+width:20px;
+background-color: black; /*rgba(255, 255, 255, 0.7)*/;
+/*background-color: rgba(135, 206, 235, 0.85);*/
+transform: rotate(10deg);}
