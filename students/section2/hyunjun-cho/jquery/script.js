@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 	$('.button').click(function(){
 		console.log("button clicked");
-		$('.hi').fadeToggle(100);
+		$('.hi').fadeToggle();
 	});
 
 	$('#start').click(function(){
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 	$('.element').hover(function(){
 		// console.log("element hover");
-		$(this).toggleClass('red');
+		$(this).fadeToggle('red');
 	});
 
 });

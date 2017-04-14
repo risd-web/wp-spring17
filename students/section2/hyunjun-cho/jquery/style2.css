@@ -1,35 +1,20 @@
-.button {background-color: 
-        border: none;
+.button {background-color: rgb(255, 63, 97);
         color: white;
-        border-radius: 5px;
-        display: inline-block;
         text-align: center;
-        padding: 10px 10px;}
+        border-radius: 3px;
+        padding: 10px;
+        display: inline-block;}
+.button {cursor: pointer;}
 .play{
 	animation: wheel 1s ease-in-out alternate infinite;
 }
 
-#red.play{
-	background: blue;
-}
-
+<<<<<<< Updated upstream
 #start, #stop{
 	color: red;
 	font-size: 3rem;
 }
 
-.button{
-	padding: 2rem 3rem;
-	background: green;
-	color: white;
-	text-align: center;
-	border-radius: 10px;
-	cursor: pointer;
-}
-
-.button:hover{
-	opacity: 0.8;
-}
 
 .elementcontainer {
 	height: 80vh;
@@ -40,10 +25,8 @@
   	justify-content: center;
 }
 
-h1{
-	display: none;
-}
-
+.element {transform-style: preserve-3d;
+animation: rotate 20s linear infinite;}
 .element {
 	width: 100px;
 	height: 100px;
@@ -51,21 +34,16 @@ h1{
 	background-color: #f4ca16;    
 }
 
-<<<<<<< Updated upstream
-#red{
-	border-radius: 50%;
-=======
 .red{border-radius: 50%;
->>>>>>> Stashed changes
 	background: tomato;
 }
 
-
-
+=======
+>>>>>>> Stashed changes
 @keyframes wheel {
 	100% {
-		transform: rotateY(0deg);
+		transform: rotateX(360deg);
 	}
 	40% {
-		transform: rotateY(360deg);
+		transform: rotateY(300deg);
 	}
