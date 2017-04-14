@@ -5,11 +5,15 @@ html, body {
 h1, h2, a {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
+  color: white;
 }
 
 p {
   font-family: Helvetica, Arial, sans-serif; 
 }
+
+a: link {text-decoration: none;}
 
 .container {
   max-width: 940px;
@@ -20,7 +24,7 @@ p {
 .main {
   text-align: center;
   background:  no-repeat center center;
-  background-image: url("file:///Users/sabinakariat/Desktop/sabinakwebsitepractice/MEDIA/saban1.jpg");
+  background-image: url("MEDIA/saban1.jpg");
   background-size: cover;
   height: 600px;
 
@@ -32,10 +36,10 @@ p {
   top: 100px;
 }
 
-.main h1 {
-  color: #fff;
-  margin: 0;
-  font-size: 150px;
+.main h2 {
+  color: #000;
+  margin: 40;
+  font-size: 18px;
 }
 
 .main p {
@@ -67,10 +71,11 @@ p {
 }
 
 .supporting h2 {
-  color: #ffa800;
+  color: #FFEBCD;
   font-size: 20px;
   margin-bottom: 10px;
 }
+
 
 .clearfix {
   clear: both;
@@ -95,7 +100,7 @@ p {
 /* Feature */
 .feature {
   background: no-repeat center center;
-  background-image: url("file:///Users/sabinakariat/Desktop/sabinakwebsitepractice/MEDIA/saban2.jpg");
+  background-image: url("MEDIA/saban2.jpg");
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -112,6 +117,7 @@ p {
   margin:0;
   padding:50px 0 0;
 }
+
 
 /* Footer */
 .footer {
@@ -140,7 +146,8 @@ p {
 }
 
 .footer .btn {
-  background-color: #1c1c1c;
+  background-color: #FFEBCD;
+  opacity: 0.6;
   color: #fff;
   font-size: 18px;
   padding: 8px 30px;
@@ -149,6 +156,6 @@ p {
 }
 
 a.btn:hover {
-  background:#ffa800;
+  background:#FFEBCD;
   color:#000;
 }
