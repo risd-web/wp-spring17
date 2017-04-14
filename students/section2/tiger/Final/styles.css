@@ -1,0 +1,237 @@
+			div {
+				box-sizing: border-box;
+			}
+
+			.text1, .text2, .text3, .text4, .text5 {
+				width: 50%;
+			}
+
+			.text{
+				margin-top: -400px;
+			}
+
+
+
+
+			.hovered1 {
+				background-color: pink;
+				color: blue;
+				animation: glide 30s linear alternate infinite;
+
+			}
+
+			.hovered2 {
+				background-color: mistyrose;
+				color: blue;
+				animation: glide 31s linear alternate infinite;
+			}
+
+			.hovered3 {
+				background-color: blue;
+				color: yellow;
+				animation: glide 32s linear alternate infinite;
+			}
+
+			.hovered4 {
+				background-color: salmon;
+				color: blue;
+				animation: glide 33s linear alternate infinite;
+			}
+
+			.hovered5 {
+				background-color: lightpink;
+				color: blue;
+				animation: glide 34s linear alternate infinite;
+			}
+
+			/*containing div*/
+			.object {
+				margin-left: 0px;
+				padding-top: 400px;
+				transform: scale(0.7);
+				position: relative;
+			} 
+
+
+
+			#kitchen_knife{
+				position: relative;
+			}
+
+			#kitchen_knife:hover{
+				animation: spin 2.5s linear infinite;
+
+			}
+
+			/*handle portion of knife*/
+			#handle{
+				position: absolute;
+				background: black;
+				width: 300px;
+				height: 100px;
+/*				overflow-y: hidden;
+*/			}
+
+			#handle div{
+				background-blend-mode: multiply;
+			}
+
+			#curve_1{
+				position: absolute;
+				background: black;
+				width:100px;
+				height:100px;
+				border-radius: 50% 10% 50% 50%;
+				left: -50px;
+
+			}
+
+			#curve_2{
+				position: absolute;
+				background: black;
+				width: 100px;
+				height: 100px;
+				display: inline-block;
+				left:0px;
+			}
+
+			#curve_3{
+				position: absolute;
+				background: black;
+				width: 100px;
+				height: 100px;
+				display: inline-block;
+				left:145px;
+			}
+
+			#curve_4{
+				position: absolute;
+				background: black;
+				width:200px;
+				height:101px;
+				border-radius: 0 0 50% 50%;
+				left: 25px;
+
+			}
+			/*Bottom portion, handle and screw*/
+			#blade{ 
+				position: absolute;
+				overflow: hidden;
+				width: 100%;
+				height:200px;
+				left: 300px;
+				top: 0px;
+			}
+
+			#blade div{
+				transition: all 1s ease-in;
+			}
+
+			#shine{
+				position: absolute;
+				width: 1200px;
+				height: 800px;
+				border-radius: 50% 30%;
+				background: #ddd;
+				top: -600px;
+				left: -420px;
+			}
+
+			#circle{
+				position: absolute;
+				width: 1200px;
+				height: 800px;
+				border-radius: 50% 30%;
+				background: lightgrey;
+				top: -640px;
+				left: -390px;
+			}
+
+			#connect{
+				position: absolute;
+				background: darkgrey;
+				width: 10px;
+				height: 100px;
+				left: 290px;
+				overflow: hidden;
+			}
+
+			#small_curve{
+				background: white;
+				position: absolute;
+				width: 20px;
+				height:20px;
+				border-radius: 50%;
+				top:90px;
+			}
+
+			@media screen and (min-width: 1400px){
+				#blade div {
+					transform: scaleX(2.2);
+				}
+			}
+			@media screen and (min-width: 1200px) and (max-width: 1399px){
+				#blade div {
+					transform: scaleX(1.8);
+				}
+			}
+
+			@media screen and (min-width: 1000px) and (max-width: 1199px){
+				#blade div {
+					transform: scaleX(1.4);
+				}
+			}
+
+			@media screen and (min-width: 800px) and (max-width: 999px){
+				#blade div {
+					transform: scaleX(0.9);
+				}
+			}
+
+			@media screen and (max-width: 799px){
+				#blade div {
+					transform: scaleX(0.6);
+				}
+			}
+
+
+/*			@media screen and (min-width: 1000px) and (max-width: 1399px){
+				.object {
+					transform: rotate3d(1, 2, 1, 180deg) scale(0.7);
+				}
+			}
+*/
+			@keyframes spin {
+				0% {
+					transform: rotate3d(1, 2, 1, 0deg);
+				}
+     			50%{
+					transform: rotate3d(1, 2, 1, 180deg);
+				}
+				
+				100%{
+					transform: rotate3d(1, 2, 1, 361deg);
+				}
+
+			}
+
+			@keyframes glide {
+				0% {
+					transform: translate(0px,0px);
+				}
+
+				25% {
+					transform: translate(10%, 1000%) rotate3d(-1, -1, -1, 180deg);
+				}
+
+				50% {
+					transform: translate(100%, 70%) rotate3d(1,-2,-1, 180deg);
+				}
+
+				75% {
+					transform: translate(30%, 100%) rotate3d(3,2,1,180deg);
+				}
+				100% {
+					transform: translate(50%,150%) rotate3d(2,-1,1, 0deg);
+				}
+			}
