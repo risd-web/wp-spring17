@@ -17,6 +17,7 @@ position: absolute;
     top: 0; bottom:0; left: 0; right:0;
     margin: auto;}
 
+
 .text {margin-top: 150px; margin-left: -5px;
 }
 
@@ -34,4 +35,29 @@ font-weight: bold;
 margin-top: -200px;}
 
 .seats {margin-top: 2050px;
+}
+
+@-webkit-keyframes swing
+{
+     
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+   
+  
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+.swing:hover
+{
+        -webkit-animation: swing 5s ease;
+        animation: swing 5s ease;
+      
 }
