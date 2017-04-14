@@ -1,3 +1,7 @@
+html{
+	background-color: blue;
+}
+
 
 .box{
 	margin-left: 200px;
@@ -7,8 +11,8 @@
 }
 
 body{  
-width: 100%;
-height: 700px;
+width: 1000px;
+height: 1000px;
 }
 
 										/* SWISSAIR 1*/
@@ -155,17 +159,7 @@ height: 700px;
 												/* background */
 
 
-.blueback {
-	background: blue;
-	mix-blend-mode: multiply;
-	width: 2000px;
-	height: 2000px;
-	float: left;
-	margin-left: -500px;
-	margin-top: -500px;
-	position: fixed;
-	z-index: 10;
-}
+
 
 .bluefront {
 	background: yellow(0.1);
@@ -213,6 +207,17 @@ height: 700px;
     position: absolute;
     margin-left: 270px;
 	margin-top: -2000px;
+	
+}
+
+.swissair :hover {
+ 	z-index: 1800;
+    text-align: center;
+    position: absolute;
+    margin-left: 270px;
+	margin-top: -2000px;	
+	transition:5s;
+	left:3px;
 }
 
 .swissair2 {
@@ -223,12 +228,33 @@ height: 700px;
 	margin-top: -1000px;
 }
 
+.swissair2 :hover  {
+ 	z-index: 1800;
+    text-align: center;
+    position: absolute;
+    margin-left: 1010px;
+	margin-top: -1000px;
+	transition:5s;
+	left:3px;
+}
+
 .swissair3 {
  	z-index: 1800;
     text-align: center;
     position: absolute;
     margin-left: 2100px;
 	margin-top: -400px;
+
+}
+
+.swissair3 :hover {
+ 	z-index: 1800;
+    text-align: center;
+    position: absolute;
+    margin-left: 2100px;
+	margin-top: -400px;
+	transition:5s;
+	left:3px;
 }
 
 

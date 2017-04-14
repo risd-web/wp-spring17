@@ -1,0 +1,26 @@
+ body {
+width: 100%;
+height:1000px;
+ 	background-color: pink;
+ }
+
+#base {
+	position: absolute;
+margin-left: 500px;
+margin-top: 800px	
+width:304px;
+height:400px;
+z-index: 10;
+}
+
+ #div2{
+ 	mix-blend-mode: multiply;
+ 	display:none;
+position: relative;
+margin-left: -100px;
+margin-top:-800px
+ 	width:800px;
+height:800px;
+z-index: 1;
+ }
+

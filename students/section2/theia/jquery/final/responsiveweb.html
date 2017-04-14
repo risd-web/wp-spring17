@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>responsive website</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <link rel="stylesheet" href="stylesheety.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>  <!--Reference to latest version hosted on Google server-->
+<script>
+$(document).ready(function() {
+
+  var banana = $("h3").html();
+
+  console.log(banana);
+
+
+  $("#trigger").click(function(){
+      
+      $("h3").html("This <em>is</em> replaced text");
+      $("h2").append(" this is appended via jQuery");  
+
+
+      var h3TextColor = $("h3").css("color");
+      console.log("The heading 3 text color is " + h3TextColor);
+
+      $("h3").css("color", "red");
+      
+      h3TextColor = $("h3").css("color");
+      console.log('After changing, "change" the heading 3 text color is' + h3TextColor);
+  });
+
+  $(".dropdown").click(function(){
+  	var text = $("dd",this);
+  	var icon = $(this).children('.toggle');
+    
+    text.slideToggle(400, function (){
+    	if (text.is(':visible')) {
+    	             icon.text('–');                
+    	        } else {
+    	             icon.text('+');                
+    	        }        
+      console.log("dropdown opened");
+    });
+
+    $(this).toggleClass("selected");
+  });
+});
+console.log(8+8);
+    </script>
+</head>
+
+
+
+<body>
+	
+	<div class="somecontainer">
+        <div class="button">Button</div>
+
+   
+        
+        <div class="controls">
+            <div id="start">Play</div>
+            <div id="stop">Stop</div>
+        </div>
+
+        <div class="circle">
+        </div>
+
+        <div class="elementcontainer">
+            <div class="element">
+            </div>
+
+</body>
+</html>
