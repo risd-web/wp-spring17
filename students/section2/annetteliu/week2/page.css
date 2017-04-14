@@ -89,15 +89,6 @@ opacity: 0.5; width: 80px;
 }
 
 
-@keyframes clouds2 {
-  0%{ 
-    transform: translateX(-100px); 
-}
-  100%{
-    transform: translateX(1600px); 
-  }
-}
-
 
 
 .text { position: absolute;
@@ -110,11 +101,12 @@ margin-left: -10px;}
 
 a {text-decoration: none;}
 
-#seata:hover {	/*position: absolute;*/
-color: rgba(173, 60, 60, 0.63);}
+#seata:hover {	
+color: rgba(173, 60, 60, 0.83);}
 
-#seatb: hover {	/*position: absolute;*/
-color: seagreen;}
+#seatb:hover {	
+color: #c9c42b;}
 
-#seatc {}
+#seatc:hover {	
+color: #3a3ab0 ;}
 

@@ -3,9 +3,12 @@ body {
 	font-family: 'Raleway', sans-serif; 
 	text-align: center;
     	}
+img {height: 400px; width: 400px;
+position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;}
 
-
-.back {animation: pulse 3s infinite;}
+.back {animation: pulse 3s alternate infinite;}
 @keyframes pulse {
 	
 	50% {background-color: rgb(255, 211, 110);}
@@ -13,34 +16,27 @@ body {
 	100% {background-color: rgba(161, 205, 244, 0.63);}
 }
 
-.cloud1 {
-  animation: clouds 8s linear infinite;
-  margin-left: 0;
-}
 
-img {height: 400px; width: 400px;
-position: absolute;
-    top: 0; bottom:0; left: 0; right:0;
-    margin: auto;}
-
-
-.text {margin-top: 150px; margin-left: -5px;
+.text {margin-top: 210px; margin-left: -5px;
 }
 
  #head {color: white;
  	text-decoration: underline;
 text-decoration-color: none;
 margin-top: -140px;
+font-size: 28px;
 }
 
 h1 {font-size: 80px;}
 
 h2 {color: #868686;
-font-size: 55px;
+font-size: 16px;
 font-weight: bold;
-margin-top: -180px;}
+margin-top: -14px;}
 
-.seats {margin-top: 2050px;
+.seats {margin-top: 450px;
+  
+
 }
 
 @-webkit-keyframes swing
@@ -61,11 +57,88 @@ margin-top: -180px;}
 }
 
 
-.swing:hover
-{
-        -webkit-animation: swing 5s ease;
-        animation: swing 5s ease;}
 
+.cloud1 {
+        position: absolute;
+opacity: 0.5; width: 80px; height: 40px; 
+  animation: clouds 6.5s linear infinite;
+  margin-left: 0;
+  margin-top: 200px;
+}
+
+.cloud2 {   position: absolute;
+
+    opacity: 0.8; width: 150px; height: 75px;
+  animation: clouds 12s linear infinite;
+ margin-left: 0;
+  margin-top: 200px;}
+
+.cloud3 { 
+    position: absolute;
+    opacity: 0.9; width: 200px; height: 100px;
+     margin-top: 500px;
+  animation: clouds 7s linear infinite;
+  right: auto; left: 620px; opacity: 0.5;
+}
+
+.cloud4 {   position: fixed;
+
+    opacity: 0.4; width: 250px; height: 125px;
+    margin-top: 500px;
+  animation: clouds 10s linear infinite;
+  bottom: auto; top: 400px; right: auto; left: 80px; opacity: 0.75;
+}
+
+.cloud5 {   position: absolute;
+width: 60px; height: 30px; opacity: 0.6;
+  animation: clouds 9s linear infinite;
+  bottom: auto; top: 90px; right: auto; left: 320px; opacity: 0.5;
+}
+
+.cloud6 {   position: absolute;
+width: 200px; height: 100px; opacity: 0.8;
+  bottom: auto; top: 400px; right: auto;
+   left: 320px; opacity: 0.7;
+  animation: clouds 10s linear infinite;
+}
+
+.cloud7 {
+        position: absolute;
+opacity: 0.5; width: 120px; height: 60px;
+  animation: clouds 4.5s linear infinite;
+  margin-left: 0;
+  margin-top: 160px;
+}
+
+.cloud8 {   position: absolute;
+
+    opacity: 0.5; width: 150px; height: 75px;
+  animation: clouds 8s linear infinite;
+ margin-left: 0;
+  margin-top: 180px;}
+
+@keyframes clouds{
+  0%{ 
+      transform: translateX(-100px); 
+  }
+  100%{
+    transform: translateX(1600px); 
+  }
+}
+
+
+
+
+a {text-decoration: none;}
+
+#seata:hover {  
+color: rgba(173, 60, 60, 0.83);}
+
+#seatb:hover {  
+color: #c9c42b;}
+
+#seatc:hover {  
+color: #3a3ab0 ;}
 
 .line1 div {
 height:1000px;
