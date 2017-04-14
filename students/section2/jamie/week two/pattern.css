@@ -4,17 +4,17 @@
 				   }
 
 			.layer1 div { 
-				 transform: rotate(10deg);
+				 transform: rotate(25deg);
 				 border: 80px solid violet;
-				 margin: -40px;
+				 margin: -20px;
 				 width: 50px; height: 50px;
 				 float: left;
 				 mix-blend-mode: multiply;
-				 border-radius: 50%;
-				 border-right: 80px solid transparent;
+				 border-radius: 30%;
+				 border-right: 50px solid transparent;
 				  }
 			.layer1 div:nth-child(even) {
 				 border: 80px solid pink;
-				 border-left: 80px solid transparent;
+				 border-left: 80px solid;
 			}
 		
