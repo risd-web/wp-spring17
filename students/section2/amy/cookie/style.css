@@ -1,0 +1,32 @@
+.box {background-color: aquamarine;
+    padding: 10px;
+    
+}
+
+html {background-color: antiquewhite;}
+
+h1 {padding: 40px;
+float: left;
+margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 200px;
+    color:  rgba(255,255,255,.6);
+    position:fixed;
+    }
+
+#subtitle {
+margin-left: 1000px;
+    margin-top: 
+font-family: 'Raleway', sans-serif;
+font-size: 12px;
+}
+
+#instruction {
+    margin-top: 380px;
+    margin-left: 690px;
+    margin-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    
+}
+ul {list-style: none;}
