@@ -5,9 +5,9 @@ height:1000px;
  }
 
 #base {
-	position: absolute;
+	position: relative;
 margin-left: 500px;
-margin-top: 800px	
+margin-top: 1000px	
 width:304px;
 height:400px;
 z-index: 10;
@@ -16,11 +16,11 @@ z-index: 10;
  #div2{
  	mix-blend-mode: multiply;
  	display:none;
-position: relative;
+position: absolute;
 margin-left: -100px;
-margin-top:-800px
- 	width:800px;
+margin-top:-3000px
+ width:800px;
 height:800px;
-z-index: 1;
+z-index: 20;
  }
 
