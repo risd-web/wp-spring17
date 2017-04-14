@@ -6,10 +6,6 @@
 				width: 50%;
 			}
 
-			.text{
-				margin-top: -400px;
-			}
-
 
 
 
@@ -47,11 +43,11 @@
 			/*containing div*/
 			.object {
 				margin-left: 0px;
-				padding-top: 400px;
+				padding-top: 0px;
 				transform: scale(0.7);
 				position: relative;
+				top: 350px;
 			} 
-
 
 
 			#kitchen_knife{
@@ -69,8 +65,7 @@
 				background: black;
 				width: 300px;
 				height: 100px;
-/*				overflow-y: hidden;
-*/			}
+			}
 
 			#handle div{
 				background-blend-mode: multiply;
