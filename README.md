@@ -4,6 +4,7 @@
 * Spring 2017, 8:00am–1:00pm, Fridays. Room 404
 * 1 credit
 * Instructor: Marie Otsuka (motsuka@risd.edu)
+* TA: Eury Kim (ekim06@risd.edu)
 
 This three-session workshop combines the tactical skills needed to structure web pages with a looser more playful compositional mindset. Students are introduced to the structural elements and properties of HTML and CSS through hands-on demos, in-class exercises and take-home assignments. Typographic markup and hierarchy establishes the basis for more abstract form making in week two. Week three incorporates interaction, introducing CSS3 transform, animation, and other user-controlled properties. The final assignment for week four will allow you to combine what you learned in the first three weeks.
 
@@ -30,7 +31,7 @@ This three-session workshop combines the tactical skills needed to structure web
 
 ### Week Three: Behavior
 >Week three delves into designing with time, adding interactivity and motion.
-* Assignment 6: Create a responsive animation
+* Assignment 6: Create a responsive animation using media queries
 * Assignment 7: Animate your web poster and set triggers with jQuery
 * Final: Combine your skills to make a responsive website
 
