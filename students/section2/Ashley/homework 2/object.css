@@ -234,3 +234,18 @@ left: 20px;
 	left: 35px;
 	top: -210px;
 }
+
+.page {
+	margin-left: 33%;
+	margin-top: 200px;
+}
+
+a {
+    float: left;
+}
+
+.buttons {
+    width: 200px;
+    margin: auto;
+    margin-top: -200px;
+}

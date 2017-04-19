@@ -143,7 +143,7 @@ h1 {
 
 
 h1:active {
-  background-color: #3e8e41;
+  background-color: brown;
   box-shadow: 0 5px #666;
   transform: translateY(20px);
 }
@@ -154,6 +154,16 @@ p {
     font-family: arial;
     text-align: center;
     margin-top: 20px;
+}
+
+
+a {
+    float: left;
+}
+
+.buttons {
+    width: 200px;
+    margin: auto;
 }
 
 @keyframes fly{

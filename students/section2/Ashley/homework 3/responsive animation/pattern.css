@@ -56,6 +56,7 @@ body {
 .p1:hover {
 	background-color: rgba(250,250,255,0.5);
 	z-index: 10;
+	cursor: pointer; cursor: hand;
 }
 
 .c {
@@ -71,6 +72,18 @@ body {
 	width: 100%;
 	height: 800px;
 	z-index: 0;
+}
+
+a {
+    float: left;
+}
+
+.buttons {
+    width: 200px;
+    margin-left: 43%;
+    margin-top: -140px;
+    position: absolute;
+    z-index: 30;
 }
 
 #p2 {
