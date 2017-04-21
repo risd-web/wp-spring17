@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	color: rgb(255,0,0);
+	text-align: center;
+}
+
+strong{
+	background: yellow;
+}
+
+
+li{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.special{
+	text-decoration: underline;
+}
+
+.box{
+	border: 1px dashed blue;
+	font-family: Georgia, serif;
+	width: 500px;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+
+p{
+	background: green;
+}
+
+p{
+	background: yellow;
+}
+
+.box p{
+	background: pink;
+	padding: 1rem;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: pink;*/
+}
+
+.liststyle{
+	font-family: Helvetica, sans-serif;
+}
