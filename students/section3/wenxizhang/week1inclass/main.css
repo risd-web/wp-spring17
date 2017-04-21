@@ -1,15 +1,19 @@
 h1{
-	color: rgb(255,240,204,30)
+	color: rgb(255,240,204,30);
 }
 
+body{
+	background:cyan;
+	text-decoration-color: rgb(255)
+}
 h2{
-	color: rgb(255,0,0)
+	color: rgb(255,0,0);
 	font-family: 'Oswald', sans-serif;
 
 }
 
 li{
-	color: rgb(255,0,0)
+	color: rgb(255,0,0);
 	margin-bottom: 2rem;
 }
 
