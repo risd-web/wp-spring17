@@ -1,14 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i');
 
 body{
-	font-family: 'Work Sans', sans-serif;
-	font-size: 16px;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	/*background: cyan;*/
 }
 
-h1{
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover{
+	opacity: 0.5;
+}
+
+h1,h2{
 	color: rgb(255,0,0);
 	text-align: center;
-}
+} /*Use comma to set the same rules to multiple selectors*/
 
 strong{
 	background: yellow;
@@ -19,7 +30,9 @@ li{
 	font-size: 2rem;
 	margin-bottom: 1rem;
 }
-
+#top{
+	font-size: 3rem;
+}
 .special{
 	text-decoration: underline;
 }
@@ -38,6 +51,10 @@ p{
 
 p{
 	background: yellow;
+}
+
+em{
+	font-style: italic;
 }
 
 .box p{
