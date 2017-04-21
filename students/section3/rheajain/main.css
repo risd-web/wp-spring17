@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+
+h1{
+	font-size: 120px;
+	color: white;
+	font-family: Helvetica;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: magenta;
+    letter-spacing: -20px;
+}
+.special{
+	text-decoration: line-through;
+}
+.box{
+	border: dotted;
+	width: 200px;
+	padding: 1rem;
+}
+.new{
+	font-family: 'Rubik Mono One', sans-serif;
+
+}
