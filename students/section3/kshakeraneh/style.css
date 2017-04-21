@@ -1,0 +1,13 @@
+ body {
+        	font-family:verdana;
+        	background-image:url(http://wallpapercave.com/wp/KHjmeCJ.jpg);
+        	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color:red;
+        }
+
+h1{
+	color:#cc6699;font-family:verdana;
+	text-align:center;
+}
