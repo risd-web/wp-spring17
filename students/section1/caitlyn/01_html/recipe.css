@@ -1,0 +1,97 @@
+body{
+	font-family: sans-serif;
+	background: white;
+	color: white;
+	font-family: 'Nunito Sans', sans-serif;;
+	padding: 30px;
+}
+
+body.fettuccini{
+	font-family: sans-serif;
+	background: white;
+	color: black;
+	font-family: 'Nunito Sans', sans-serif;;
+	padding-left:30px;
+}
+
+#home {
+	color: black;
+	font-size: 40px;
+	background: white;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.home {
+	padding: 30px;
+	max-width: 90%;
+	height: auto;
+	margin: 50px;
+}
+
+.fettucciniImg {
+	width: 50px;
+	height: auto;
+	margin: 50px;
+}
+nav {
+	background-color: black;
+	margin-right: 45px;
+}
+
+nav li {
+	display: inline;
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul {
+	display: inline;
+}
+
+nav a {
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	padding: 5px, 5px;
+}
+
+nav a:hover {
+	background-color: blue;
+}
+
+ul{
+	font-size:12px;
+}
+
+ol{
+	font-size:12px;
+}
+
+h1.pgone{
+	background: linear-gradient(to right, #FF5733, #C70039) ;
+	margin:50px;
+	color:rgba(255,255,255,.3);
+	padding:4%;
+	text-transform:uppercase;
+	text-align: center;
+	letter-spacing:5px;
+	line-height: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.pgone:hover{
+	color:rgba(255,255,255,1);
+	-webkit-transition:color .5s ease-in; 
+}
+
+h2{
+	font-size: 14px;
+}
+
+h4{
+	font-family: 'Dosis', sans-serif;
+}

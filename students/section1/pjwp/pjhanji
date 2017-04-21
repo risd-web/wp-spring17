@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="stylec.css" type="text/css"/>
+	<title>Poornima Jhanji</title>
+</head>
+<body>
+    <div class="box">
+    </div>
+	<h1>My Works</h1>
+    <img src="giphy.gif">
+    <p> Throughout the four weeks, I have learned about html, css, and jquery.<br>
+    Though it was fast, I explored a lot within a short amount of time.
+    </p>
+    <img src="img.png">
+    <p> Below are some of the works I have made throughout the workshop.
+    </p>
+    <div class="links">
+    	<a href="wk1/index.html">wk1</a><br>
+    	<a href="wk2/derfilmposter.html">Derfilm</a><br>
+    	<a href="wk2/poster2.html">poster2</a><br>
+    	<a href="wk2/icecream.html">icecream</a><br>
+    	<a href="wk3/derfilmanimation.html">Derfilm Animation</a><br>
+    	<a href="wk3/jquery.html">Animation</a><br>
+    	<a href="wk3/poster2animation.html">Poster 2 Animation</a><br>
+  	</div>
+</body>
+</html>
+    </body>
+</html>

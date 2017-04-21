@@ -1,0 +1,80 @@
+html{
+    background-color: aliceblue;
+}
+
+#line{
+    position: absolute;
+    background-color: aliceblue;
+    width:1800px;
+    height:10px;
+    
+}
+
+#line2{
+    position: absolute;
+    background-color: aliceblue;
+    width:10px;
+    height:1800px;  
+}
+
+.b{top:250px;}
+.c{top:300px;}
+.d{top:350px;}
+.e{top:400px;}
+.f{top:450px;}
+.g{top:500px;}
+.h{top:550px;}
+.j{top:600px;}
+.k{top:650px;}
+.l{top:700px;}
+
+.m{left:600px;}
+.n{left:650px;}
+.o{left:700px;}
+.p{left:750px;}
+.q{left:800px;}
+.r{left:850px;}
+.s{left:900px;}
+.t{left:950px;}
+.u{left:1000px;}
+.v{left:1050px;}
+
+
+
+.a{
+    position: absolute;
+    background-color: bisque;
+    color: red;
+    width:500px;
+    height:500px;
+    top:250px;
+    left:600px;
+}
+
+
+/*
+.a:hover{
+    background-color: pink;
+    transform: rotate(90deg);
+    transition:5s;
+    
+}
+*/
+
+/*
+.a{
+    animation: play 2s alternate infinite;
+}
+*/
+
+/*
+@keyframes play{
+    0%{
+        transform: rotate(0);
+    }
+    
+    100%{
+        transform: rotateZ(90deg) rotateY(90deg) translateY(-600px);
+    }
+*/
+}

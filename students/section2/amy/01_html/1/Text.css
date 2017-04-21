@@ -1,0 +1,28 @@
+body {cursor:help;}
+
+h1 {
+font-family: Arial;
+text-align: center;
+font-size: 300px;
+}
+
+   
+
+
+nav{
+text-align: center;
+    }
+
+
+a {
+color:black;
+font-family: Arial;
+text-align: center;
+font-size: 220px;
+width: 50px;
+position: inherit;
+}
+
+a:hover {
+color:#3deb9b;
+}

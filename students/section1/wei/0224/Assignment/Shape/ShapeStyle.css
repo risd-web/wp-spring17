@@ -1,0 +1,148 @@
+#eggplant{
+	position: absolute;
+	left:300px;
+	height:100%;
+	overflow: hidden;
+
+}
+body{
+	background:
+	red;
+	margin:0;
+}
+#leaf{
+	position:absolute;
+	top:10px;
+	left:425px;
+	width:0px;
+	height:0px;
+	border-bottom:200px solid rgba(150,230,0,0.9);
+	border-left:150px solid transparent;
+
+}
+#body{
+	position:absolute;
+	top:210px;
+	left:425px;
+	width:150px;
+	height:400px;
+	background-color: rgba(200,0,255,0.9);
+}
+#left{
+	position:absolute;
+	top:80px;
+	left:20%;
+}
+#right{
+	position:absolute;
+	top:80px;
+	right:20%;
+}
+.eyes{
+	align-content:center;
+}
+.eyeWhite{
+	width: 100px;
+	height: 200px;
+	background: white;
+	-moz-border-radius: 50px / 100px;
+	-webkit-border-radius: 50px / 100px;
+	border-radius: 50px / 100px;
+	/*vertical-align: middle;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.eyeBlack{
+	width: 70px;
+	height: 140px;
+	background: black;
+	-moz-border-radius: 35px / 70px;
+	-webkit-border-radius: 35px / 70px;
+	border-radius: 35px / 70px;
+
+}
+
+.eyeWhite:hover .eyeBlack{
+	width: 90px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 25px / 5px;
+	-webkit-border-radius: 25px / 5px;
+	border-radius: 25px / 5px;
+
+}
+#nose{
+	position:absolute;
+
+	left:40%;
+	top:300px;
+}
+.noseBridge{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+}
+.noseHoles{
+	width: 30px;
+	height: 30px;
+	background: blue;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	float:left;
+	margin:12px;
+}
+.noseHoles:hover{
+	width: 30px;
+	height: 100px;
+	background: blue;
+	-moz-border-radius: 10px / 20px;
+	-webkit-border-radius: 10px / 20px;
+	border-radius: 10px / 20px;
+}
+#mouthZone{
+	position:absolute;
+	top:600px;
+	left:800px;
+	width:180px;
+	height:40px;
+}
+#mouth{
+	width: 150px;
+	height: 15px;
+	background-color: black;
+	transform: rotate(-30deg);
+
+}
+#mouthZone:hover #mouth{
+     animation: roll 3s infinite;
+
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(3600deg);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .left {
+    width: 100%;
+    margin-bottom: 2%;
+    background: rgba(255,0,0,.5);
+  }
+
+  .middle {
+    width: 59%;
+  }
+
+  .right {
+    width: 39%;
+  }
+}

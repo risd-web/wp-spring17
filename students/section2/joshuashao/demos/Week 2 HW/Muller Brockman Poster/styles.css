@@ -1,0 +1,112 @@
+body{
+	font-family: Helvetica;
+}
+
+.container{
+	z-index: 1;
+	width:463px;
+	height: 690px;
+	position: absolute;
+	left:30%;
+	background: ghostwhite;
+}
+
+
+.text{
+	z-index: 3;
+	float: left;
+	position: absolute;
+	top:225px;
+	left: 50px;
+	line-height: 30px;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+
+
+.texttwo{
+	z-index: 3;
+	width:30%;
+	float: left;
+	position: absolute;
+	top:217px;
+	left:110px;
+	line-height: 27px;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.textthree{
+	z-index: 3;
+	width:30%;
+	float: left;
+	position: absolute;
+	top:427px;
+	left:111px;
+	line-height: 10px;
+	font-size: 10px;
+	text-align: left;
+}
+
+.textfour{
+	z-index: 3;
+	float: left;
+	position: absolute;
+	top:500px;
+	left: 7px;
+	line-height: 30px;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+
+#blockone{
+	z-index: 2;
+	position: absolute;
+	background-color:orange;
+	width:245px;
+	height:410px;
+}
+
+#blocktwo{
+	z-index: 2;
+	position: absolute;
+	background-color:orange;
+	width:100px;
+	height:350px;
+	top:100px;
+	left:246px;
+}
+
+#blockthree{
+	z-index: 2;
+	position: absolute;
+	background-color:orange;
+	width:60px;
+	height:338px;
+	top:350px;
+	left:347px;
+}
+
+#blockfour{
+	z-index: 2;
+	position: absolute;
+	background-color:orange;
+	width:35px;
+	height:380px;
+	top:45px;
+	left:408px;
+}
+
+#blockfive{
+	z-index: 2;
+	position: absolute;
+	background-color:orange;
+	width:19px;
+	height:350px;
+	top:0px;
+	left:444px;
+}
+

@@ -1,0 +1,51 @@
+html{
+    background-color: black;
+}
+        h1{
+    		color: white;
+    		padding: 0.7em; 
+    		font-size: 70px; 
+            margin-left: 20px;
+    	}
+        body {
+            color:white;
+        }
+    	p {
+            font-size:15px;
+    		font-family: times, serif;
+    	}
+    		h3{
+    		color: rgba(247,103,101,1);
+    	}
+    	.white{
+    		color:black
+    		background-color: white;
+    	}
+    	#left, #right {
+    		width: 50%;
+    		float: left;
+    		padding: 1rem;
+            box-sizing: border-box;
+    	}
+        #last {
+            font-size: 13px;
+            padding: 1rem;
+        }
+        #center {
+            padding: 2rem;
+            margin-right: 100px;
+            margin-left: 40px;
+        }
+        #intro {
+            text-align: center;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        hr {
+            margin-right: 370px;
+            margin-left:75px;
+        }
+        section {
+            margin-left: 40px;
+            margin-right: 100px;
+        }

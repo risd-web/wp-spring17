@@ -1,0 +1,39 @@
+body{
+	margin: 1;
+	font-family: helvetica; 
+	color: black;
+}
+h2{font-family: helvetica; font-size: 30px; color: grey}
+
+section{
+        overflow: auto;
+}
+
+/*Floated*/
+#floated .event{
+        float: left;
+       
+}
+
+.work{
+ 	background: #ffffff url("media/IMG_2331.JPG") repeat right top fixed; 
+ 	/* shorthand for
+	background-color: #ffffff; 
+ 	background-image: url("img_tree.png");
+ 	background-repeat: no-repeat;
+ 	background-position: right top;
+ 	background-attachment: fixed;
+ 	*/
+ 	background-size: 100px;
+}
+
+.event{
+      
+        border: 3px ;
+       /* above is shorthand for
+        border-width: 1px;
+        border-style: solid;
+        border-color: tomato;*/
+        padding: 1em;
+        box-sizing: border-box;
+}

@@ -1,0 +1,83 @@
+body {background-color: white;
+                }
+
+            h1 {font-family: helvetica;
+                color: white;
+                text-transform: uppercase;
+                text-align: center;
+                border-style:solid;
+                padding: 50px;
+                border-width: 3px;
+                background-color: rgb(180,180,198);
+                letter-spacing: 5px;
+                clear: both;}
+
+			a{
+			    text-decoration:none;
+			    color:rgb(130,130,168);
+			}
+
+
+            h2 {font-family: helvetica;
+            	color: rgb(151,168,200);
+            	text-align: center;
+            	border-style: dotted;
+            	border-width: 1px;
+            	border-color: rgb(161,178,210);}
+
+            h3 {font-family: helvetica;
+            	color: rgb(170,178,195);
+            	text-align: center;
+                border: 4px solid rgb(220,228,245);
+            	margin-top: 20px;
+            	margin-bottom: 20px;
+            	font-size: 40px;}
+
+
+            .try h1:hover{
+                color: grey;
+                -webkit-transition:color .5s ease-in;}
+
+            #intro:hover{
+            	color: rgb(170,178,195);
+            }
+
+            #other:hover{
+            	color: rgb(170,178,195);
+
+            }
+
+            #intro {
+            	float: left;
+            	width: 300px;
+            	height:300px;
+            	border: 2px solid grey;
+            	border-style: dashed;
+            	padding: 20px;
+            	margin: 10px 100px 20px 100px;
+            	font-family: helvetica;
+            	color: grey;
+            }
+
+            #other {
+            	float: right;
+            	width: 300px;
+            	height:300px;
+            	border: 2px solid grey;
+            	border-style: dashed;
+            	padding: 20px;
+            	margin: 10px 100px 20px 100px;
+            	font-family: helvetica;
+            	color: grey;
+            }
+
+            p {font-family: helvetica;
+            	color: grey;
+            	margin-top: 40px;
+            	margin-bottom: 55px;
+            	text-align: center;
+            }
+
+           a:hover{
+                color: rgba(0,0,0,0.2);
+            }

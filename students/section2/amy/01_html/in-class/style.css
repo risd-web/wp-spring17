@@ -1,0 +1,46 @@
+   
+        body{font-family: 'Frank Ruhl Libre', sans-serif;}
+        
+        /*main*/
+
+
+        /*title*/
+        *{margin:0; padding:0;}
+        #title {position:relative; }
+        h1{ font-size:100px; color:#07ff00; font-family: 'Palanquin Dark', sans-serif; text-align:center;  }
+        span { padding-bottom:2rem; display:inline-block; width:100%;text-align:center;}
+}
+
+
+        p{font-size: 20px;
+            z-index: 2; 
+          
+        	}
+        h3{color: blue;}
+        
+
+ 
+        #author{
+        	font-style: italic;
+        }
+        
+        #left,#right{
+        	float: left; width: 35%;
+        	padding:1rem;
+        }
+        #last {
+            padding:1rem;
+        }
+        
+
+<section> 
+<article>
+</article>
+<article>
+<article>
+</section>
+
+ul li 
+p 
+
+dl dt dd 

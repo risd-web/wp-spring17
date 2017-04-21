@@ -1,0 +1,50 @@
+body {background-color: #ffc9a5;
+			}
+
+
+
+.line1 div {
+height:1000px;
+width:20px;
+/*background-color: rgba(255, 255, 255, 0.7);*/
+background-color: rgba(135, 206, 235, 0.85);
+transform: rotate(10deg);
+float:left;
+position: relative;
+}
+
+.line1 div:nth-child(even) {
+height: 1000px;
+width: 10px;
+/*background-color: rgba(191, 123, 86, 0.7);*/
+background-color: seagreen;
+transform: rotate(-5deg);
+float: left;
+position: relative;
+mix-blend-mode: multiply;
+}
+
+@media screen and (max-width: 900px)
+{.line div {background-color: white;}
+.line1 div:nth-child(even) {background-color: rgba(255, 255, 58, 0.86);}
+}
+
+@media screen and (max-width: 800px)
+{.line div {background-color: white;}
+.line1 div:nth-child(even) {background-color: white;}
+}
+
+@media screen and (max-width: 700px)
+{.line div {background-color: white;}
+.line1 div:nth-child(even) {background-color: #d79da8;}
+}
+
+@media screen and (max-width: 600px)
+{.line div {background-color: white;}
+.line1 div:nth-child(even) {background-color: purple;}
+}
+
+@media screen and (max-width: 500px)
+{.line div {background-color: white;}
+.line1 div:nth-child(even) {background-color: rgba(193, 178, 46, 0.89); }
+}

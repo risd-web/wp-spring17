@@ -1,0 +1,18 @@
+.forimage{"star.jpg"}
+.orange { background: red; 
+             margin-top: 15px;
+             opacity: 50%; }
+div:hover {
+          background: url('star.jpg')width:200px; height:200px; no-repeat center center;
+          opacity: 50%;
+          }
+.buttondown {}
+.animate {
+       animation-name: hover;
+       animation-duration: 15s;
+       animation-iteration-count: 10s;
+       animation-direction: alternate;
+       animation-timing-function: ease-in;
+       animation-fill-mode: forwards;
+       animation-delay: 20s;
+       }

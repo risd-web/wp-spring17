@@ -1,0 +1,58 @@
+.circle {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%%;
+    background-color: #3d9970;
+    border-radius: 150px;
+    transform: rotate(30deg);
+    animation: roll 3s infinite;
+    box-shadow: brown;
+}
+
+@keyframes roll {
+	0% {
+		transform: rotate(0);
+
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: orange;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+	text-transform: 45deg;
+	font-size: 500%;
+	font-color: orange;
+
+}
+.smcircle {
+	height: 25%;
+	width: 25%;
+}
+
+

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Trophy yay!</title>
+	    <style>
+	    	div {
+	    		box-sizing: border-box;  
+	    	}
+	    /*containing div*/
+	    .object {
+	    	margin: auto;
+	    	margin-top: 50px;
+	    	width: 300px;
+	    }
+
+	    #trophy {
+	    	position: relative;
+	    }
+
+	    /*Top portion of trophy*/
+	    #top {
+	    	width: 340px;
+			height: 500px;
+			background: #D4AF37;
+	        -moz-border-radius: 170px / 250px;
+	        -webkit-border-radius: 170px / 250px;
+	        border-radius: 210px / 250px;
+		}
+
+		#crop {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 340px;
+		height: 150px;
+		background: white;
+		}
+
+		#handle1 {
+			position: absolute;
+			top: 200px;
+			left: -70px;
+			width: 150px;
+			height: 150px;
+		    background: #D4AF37;
+	        -moz-border-radius: 150px;
+	        -webkit-border-radius: 150px;
+	        border-radius: 150px;
+	    }
+
+		#handle2 {
+			position: absolute;
+			top: 200px;
+			left: 260px;
+			width: 150px;
+			height: 150px;
+		    background: #D4AF37;
+	        -moz-border-radius: 150px;
+	        -webkit-border-radius: 150px;
+	        border-radius: 150px;
+	    }
+
+
+		#triangle {
+			position: absolute;
+			top: 480px;
+			left: 140px;
+			/*position: relative;
+			float: center;*/
+			width: 0;
+	        height: 0;
+	        border-left: 30px solid transparent;
+	        border-right: 30px solid transparent;
+	        border-top: 150px solid #D4AF37
+		} 
+
+		#triangle2 {
+		position: absolute;
+		top: 580px;
+		left: 70px;
+		/*position: relative;
+		float: center;*/
+		width: 0;
+         height: 0;
+	     border-left: 100px solid transparent;
+	     border-right: 100px solid transparent;
+	     border-bottom: 80px solid #D4AF37
+		} 
+
+		#rectangle1 {
+			position: absolute;
+			top: 660px;
+			left: 20px;
+			width: 300px;
+			height: 20px;
+			background: #f45c42;
+			margin-bottom: 100px;
+		}
+		
+		#rectangle2 {
+			position: absolute;
+			top: 680px;
+			left: 0px;
+			width: 340px;
+			height: 230px;
+			background: #f44141;
+			margin-bottom: 100px;
+		}
+
+		#star {
+			position: absolute;
+			top: 300px;
+			left: -20px;
+            width: 0;
+	        height: 0;
+	        border-left: 50px solid transparent;
+	        border-right: 50px solid transparent;
+	        border-bottom: 100px solid #42f4d9;
+	        position: relative;
+	        transform: rotate(10deg);
+		}
+		#star:after {
+			width: 0;
+			height: 0;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-top: 100px solid #42f4d9;
+			position: absolute;
+			content: "";
+			top: 30px;
+			left: -50px;
+}
+		#star2 {
+			position: absolute;
+			top: 120px;
+			left: 200px;
+            width: 0;
+	        height: 0;
+	        border-left: 50px solid transparent;
+	        border-right: 50px solid transparent;
+	        border-bottom: 100px solid #b4ff5e;
+	        position: relative;
+	        transform: rotate(-20deg);
+		}
+		#star2:after {
+			width: 0;
+			height: 0;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-top: 100px solid #b4ff5e;
+			position: absolute;
+			content: "";
+			top: 30px;
+			left: -50px;
+}
+		#star3 {
+			position: absolute;
+			top: -80px;
+			left: 30px;
+            width: 0;
+	        height: 0;
+	        border-left: 50px solid transparent;
+	        border-right: 50px solid transparent;
+	        border-bottom: 100px solid #0037ef;
+	        position: relative;
+	        transform: skew(-20deg);
+		}
+		#star3:after {
+			width: 0;
+			height: 0;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-top: 100px solid #0037ef;
+			position: absolute;
+			content: "";
+			top: 30px;
+			left: -50px;
+}
+
+	    </style>
+	    
+
+	</head>
+	<body>
+	<!--Trophy-->
+	<div class="object">
+		<div id="trophy">
+			<div id="top">
+				<div id="handle1"></div>
+				<div id="hole1"></div>
+				<div id="handle2"></div>
+				<div id="oval"></div>	
+				<div id="crop"></div>
+			</div>
+		<div id="triangle"></div>
+		<div id="triangle2"></div>
+		<div id="rectangle1"></div>
+	    <div id="rectangle2"></div>
+			<div id="star"></div>
+			<div id="star2"></div>
+			<div id="star3"></div>
+			</div>
+
+	</div>
+
+
+
+	</body>
+	</html>

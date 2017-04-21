@@ -1,0 +1,45 @@
+body{
+	width: 80%;
+	margin: auto;
+}
+
+#h3Trigger {
+	padding: 1em;
+	background: yellow;
+    width: 500px;
+}
+/* Dropdowns */
+
+
+.toggle {
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.toggle, dl{
+    display: table-cell;
+}
+
+.question:hover {
+    cursor: pointer;
+}
+
+dt { 
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+dd {
+    margin-left: 2em;
+}
+
+.answer{ 
+    display: none; 
+}
+
+/*.selected {
+	background-color: green;
+}*/
+
+
+

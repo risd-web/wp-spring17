@@ -1,0 +1,58 @@
+body{
+	background:
+	url(images/layout2-01.jpg);
+}
+#main{
+
+}
+#title{
+	margin: 275px 0 0 500px;
+	width: 525px;
+	height: 143px;
+}
+.textBox{
+	
+	background-color: rgba(255,255,255,0.9);
+	
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+h1{
+	font-family: 'Mada', sans-serif;
+	font-size:120px;
+	padding: 21px 0 0 12px;
+	line-height: 85px;
+	margin: 0;
+}
+
+#subTitle{
+	margin: 21px 0 0 500px;
+	height: 148px;
+	width: 247px;
+}
+h2{
+	font-family: 'Mada', sans-serif;
+	font-size:28px;
+	padding: 21px 0 0 20px;
+	line-height: 24px;
+	margin: 0;
+}
+ul{
+	list-style: none;
+	padding: 0 0 0 21px;
+
+}
+
+li{
+	font-family: 'Mada', sans-serif;
+	font-size:16px;
+	line-height: 24px;
+	margin: 0;
+
+}
+
+.link:hover{
+	color: rgba(0,120,200,1);
+};

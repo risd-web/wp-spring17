@@ -1,0 +1,86 @@
+body {background-color: rgb(255,255,255);}
+section {position: relative;
+left:-80px; background: #bcbab3;
+margin:auto; width: 850px; height: 1200px; overflow: hidden;}
+.container {transform: rotate(-45deg); position: relative; top: 60px;}
+#navy {width: 600px;
+            height: 100px;
+            background: navy;
+position:relative;
+left:100px;}
+#red {width: 600px;
+        height:50px;
+        background:red;
+        position:relative;
+        left:250px;}
+#navy_2 {width: 400px;
+            height: 100px;
+            background: navy;
+position:relative;
+left:100px;}
+#orange {width:250px;
+        height:50px;
+background:orange;
+position: absolute;
+float:left;}
+#red_2 {width: 500px;
+        height:50px;
+        background:red;
+        position:relative;
+        left:350px;}
+#navy_3 {width: 200px;
+            height: 100px;
+            background: navy;
+position:relative;
+left:100px;}
+#orange_2 {width:350px;
+        height:50px;
+background:orange;
+position: absolute;
+float:left;}
+#red_3 {width: 400px;
+        height:50px;
+        background:red;
+        position:relative;
+        left:450px;}
+#navy_4 {width: 600px;
+            height: 100px;
+            background: navy;
+position:relative;
+left:100px;}
+#orange_3 {width:450px;
+        height:50px;
+background:orange;
+position: absolute;
+float:left;}
+#red_4 {width: 200px;
+        height:50px;
+        background:red;
+        position:relative;
+        left:650px;}
+#navy_5 {width: 400px;
+            height: 100px;
+            background: navy;
+position:relative;
+left:100px;}
+#orange_4 {width:550px;
+        height:50px;
+background:orange;
+position: relative;}
+#navy_6 {width: 200px;
+            height: 100px;
+            background: navy;
+position:relative;
+left:100px;
+}
+
+main {display: inline-block; padding: 1em; width: 900px; position: relative; top:-170px; left: 250px;}
+main {font-size: 10pt; font-family: helvetica, sans-serif; font-weight: 570; }
+.text1 {position: relative;
+float: left; width:20%;}
+.text2 {position: relative;
+float: left; width:20%; padding-left: 0.5em;}
+.text3 {position: relative;
+float: left; width:20%;padding-left: 0.5em;}
+.text4 {position: relative;
+float: left; width:20%;padding-left: 0.5em;}

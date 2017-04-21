@@ -1,0 +1,16 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+.cats{
+ 	background: #ffffff url("media/giphy.gif") repeat right top fixed; 
+ 	/* shorthand for
+	background-color: #ffffff; 
+ 	background-image: url("img_tree.png");
+ 	background-repeat: no-repeat;
+ 	background-position: right top;
+ 	background-attachment: fixed;
+ 	*/
+ 	background-size: 100px;
+}

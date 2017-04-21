@@ -1,13 +1,12 @@
 # Syllabus
 
-* WKSHP: WEB PROGRAMMING; RISD GRAPH-3188 (20882)
-* Spring 2016, 8:00–1:00pm, Fridays. Room 404
+* WKSHP: WEB PROGRAMMING; RISD GRAPH-3188 (20880)
+* Spring 2017, 8:00am–1:00pm, Fridays. Room 404
 * 1 credit
 * Instructor: Marie Otsuka (motsuka@risd.edu)
+* TA: Eury Kim (ekim06@risd.edu)
 
-This three-session workshop combines the tactical skills needed to structure web pages with a looser more playful compositional mindset. Students are introduced to the structural elements and properties of HTML and CSS through hands-on demos, in-class exercises and take-home assignments. Tight technical HTML drawings in week one give way to full-screen abstract compositions in week two. Week three incorporates interaction, introducing CSS3 transform, animation, and other user-controlled properties. The final assignment for week four will allow you to combine what you learned in the first three weeks.
-
-Although written with HTML/CSS, the assignments are inspired by the contemporary and historical print works of Bradbury Thomspon, Karel Martens and Paul Elliman. Paramount is that students become attuned to the vocabulary and possibilities of graphic form in the digital age. The digital age, similar to the era before in its capacity to precisely arrange or playfully experiment.
+This three-session workshop combines the tactical skills needed to structure web pages with a looser more playful compositional mindset. Students are introduced to the structural elements and properties of HTML and CSS through hands-on demos, in-class exercises and take-home assignments. Typographic markup and hierarchy establishes the basis for more abstract form making in week two. Week three incorporates interaction, introducing CSS3 transform, animation, and other user-controlled properties. The final assignment for week four will allow you to combine what you learned in the first three weeks.
 
 ## Course objectives
 * Be introduced to HTML and CSS syntax to help conceptualize future projects
@@ -19,33 +18,41 @@ Although written with HTML/CSS, the assignments are inspired by the contemporary
 * Learn to work collaboratively in an open-source model
 
 ## Schedule
-### Week One: Concrete Forms
->Week one emphasizes the strategic and deliberate construction of space on a web page. There is a certain mindset and process in making what you've sketched/imagined.
-* Assignment 1: Drawing a flag
-* Assignment 2: Draw found objects
+### Week One: Content
+>Week one emphasizes the strategic and deliberate construction of space on a web page, working with content. 
+* Assignment 1: Semantically markup and style some text
+* Assignment 2: Create a multi-page website
 
-### Week Two: Abstract Forms
->Week two encourages a different mindset. How can you work with the code and the browser to discover designs as you make.  
-* Assignment 3: Abstract compositions
-* Assignment 4: Patterns
+### Week Two: Form
+>Week two encourages a different mindset, using code and the browser to discover designs as you make.  
+* Assignment 3: Draw concrete objects using CSS shapes
+* Assignment 4: Web Poster — use abstract shapes / grids (Muller-Brockman)
+* Assignment 5: Pattern — incorporate the work of peers / repeat shapes to develop patterns
 
-### Week Three: Active Forms
->Motion is an incredibly important part of a site. Here you learn CSS properites for movement and how to activate events using jQuery.
-* Assignment 5: Movement and interaction
-* Assignment 6: Responsive animation
+### Week Three: Behavior
+>Week three delves into designing with time, adding interactivity and motion.
+* Assignment 6: Create a responsive animation using media queries
+* Assignment 7: Animate your web poster and set triggers with jQuery
+* Final: Combine your skills to make a responsive website
 
 ### Week Four
-* Review assignment 6
-* Lecture: From sketch to code
-* In-class activity: Putting it all together
-* Possible future assignments
+>Putting it all together
+* From sketch to code
+* Review examples
+* Possible explorations
 
 ## Software needed
-* [Textwrangler](http://www.barebones.com/products/textwrangler/) or other HTML editor
+* [Sublime Text](https://www.sublimetext.com/3) or other HTML editor, such as [Atom](https://atom.io/) or [Text Wrangler](http://www.barebones.com/products/TextWrangler/)
 * Join GitHub and let's add you to the team!
 * [Download GitHub Mac client](https://desktop.github.com/) and clone class repo
-* Safari or Chrome browser
+* Google Chrome browser or Safari
 
+## Resources
+* [Lectures](https://drive.google.com/open?id=0B3lDDEnD7CkNOVBFdk9xX2pGams) are available on Google Drive 
+* Sample [web planning docs](https://drive.google.com/open?id=0B3lDDEnD7CkNc1FVQVdlYUtiLXM)
+* Be sure to refer to the [Wiki](https://github.com/risd-web/wp17/wiki) on the Github page for useful resources
+* Check out & add to [Examples](https://github.com/risd-web/wp17/wiki/Examples) for inspiration
+* Clone the Github Repo from [last year's class](https://github.com/risd-gd/wp16)
 
 ## Grading
 * 40% attendance, 40% completion of all assignments

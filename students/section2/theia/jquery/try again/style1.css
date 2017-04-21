@@ -1,0 +1,41 @@
+ body {
+width: 100%;
+height:1000px;
+ 	background-color: pink;
+ }
+
+#base {
+	position: absolute;
+margin-left: 500px;
+margin-top: 600px	
+width:304px;
+height:400px;
+position:center;
+}
+
+
+ #div1{
+ 	display:none;
+position: absolute;
+width:800px;
+height:800px;
+
+ }
+
+
+ #div2{
+ 	display:none;
+position: absolute;
+ 	width:800px;
+height:800px;
+
+ }
+
+
+  #div3{
+  	display:none;
+position: absolute;
+ 	width:800px;
+height:800px;
+
+ }

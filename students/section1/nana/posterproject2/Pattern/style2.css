@@ -1,0 +1,31 @@
+.container {
+
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: left;
+}
+
+.circle {
+	width: 150px;
+	height:150px;
+	background-color: blue;
+	border-radius: 50%;
+	
+}
+
+.container div:first-child{
+	background-color: #ff00ff;
+	opacity: 0.5;
+}
+.container div:nth-child(2){
+	background-color: #00ffff;
+	opacity: 0.5;
+	transform:translate(-50px);
+}
+.container div:nth-child(3){
+	background-color: #ffff00;
+	opacity: 0.5;
+	transform:translate(-250px,75px);
+}

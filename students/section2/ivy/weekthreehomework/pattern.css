@@ -1,0 +1,46 @@
+*{margin:0; padding:0; text-decoration:none; list-style:none;}
+
+body {transition: all 0.3s ease-in-out; -webkit-animation: random 5s infinite;
+     animation: random 5s infinite;
+}
+
+@keyframes  random {
+    15% { background-color: #bc0909; } 
+    30% { background-color: #ffbf00; } 
+    45% { background-color: #d0ff00; } 
+    60% { background-color: #00ffe9	; }
+    75% { background-color: #0021ff; }  
+    100% { background-color:#9800ff; }  
+}
+
+/*div*/
+#main {width:100%;}
+.circle {width:8rem; height:8rem; background-color:red; float:left; border-radius:50%;}
+
+@media only screen and (max-width: 480px) {
+    .circle { width:8rem; height:8rem; border:4px solid rgba(255,215,0,0.7); background-color:transparent;}
+}
+
+@media only screen and (min-width:481px) and (max-width: 600px) {
+    .circle {background-color:rgba(0,144,255,0.7); background-blend-mode: multiply;}
+}
+
+@media only screen and (min-width:601px) and (max-width: 800px) {
+    .circle {border:4px dashed rgba(153,50,204,0.7); background-color:transparent;}
+}
+
+@media only screen and (min-width:801px) and (max-width: 1000px) {
+    .circle {background-color:rgba(127,255,0,0.7); border:4px solid rgba(255,236,71,0.7); background-blend-mode: screen;}
+}
+
+@media only screen and (min-width:1001px) and (max-width: 1200px) {
+    .circle {border:4px groove rgba(240,248,255,0.7); background-color:transparent;}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1400px) {
+    .circle {background-color: rgba(255,69,255,0.7); background-color-blend-mode:color-dodge;}
+}
+
+@media only screen and (min-width:1401px){
+    .circle {background-color: rgba(119,109,14,0.7); background-color-blend-mode:saturation;}
+}

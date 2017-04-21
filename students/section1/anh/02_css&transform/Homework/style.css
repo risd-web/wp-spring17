@@ -1,0 +1,155 @@
+
+
+.rectangle {
+    width:100px;
+    height:50px;
+    border-radius:10px;
+    background-color:#AAAAAA;
+  }
+}
+
+.type {
+  font-family: helvetica;
+  font-size: 10px;
+  opacity: 0.5;
+  position: center;
+  text-align: justify;
+  text-overflow: hidden;
+}
+
+h1 {
+  font-size: 100pt;
+  font-family: helvetica;
+  font-size: 50;
+  opacity: 0.5;
+  position: absolute;
+  text-align: justify;
+  text-overflow: hidden;
+letter-spacing: -10pt;
+}
+
+
+#circle {
+    background-color:blue;
+    width:25px;
+    height:100px;
+    border-radius:90px;
+    z-index:25;
+    margin-left:50px;
+    opacity: 0.9;
+    color-interpolation-filters: sRGB;
+
+    
+}
+
+.firstgroup {
+padding: 15px,5px,60px,10px;
+float: 10px;
+border-radius: 100px;
+border-color: pink;
+align-content: center;
+
+}
+
+#rectangle {
+    width:200px;
+    height:10000px;
+    border-radius:250px;
+    background-color:yellow;
+    transform: rotate(25deg);
+    transform: translateY(10);
+    transform: translateX(20);
+}
+
+div {
+  text-overflow: ellipsis;
+}
+
+  body{
+     background-color: orange;
+   padding: 0px;
+   margin: 0px;
+ }
+
+#gradient
+{
+  width: 100%;
+  height: 100px;
+  padding: 100px;
+}
+
+a:hover {
+  background-color: red;
+  color: blue;
+  opacity: 1;
+}
+}
+
+a.ex1:hover, a.ex1:active {font-family: monospace;}
+a.ex2:hover, a.ex2:active {font-family: verdana;}
+a.ex3:hover, a.ex3:active {font-family: times;}
+a.ex4:hover, a.ex4:active {font-family: georgia;}
+
+.circle {
+    height: 1%;
+    width: 20%;
+    border-radius: 50%;
+    background-color: #3d9970;
+    border-radius: 150px;
+    transform: rotate(360deg);
+    animation: roll 1s infinite;
+    box-shadow: brown;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  padding: 10px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: orange;
+  }
+  45% {
+    background-color: red;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: 45deg;
+  font-size: 500%;
+  font-color: orange;
+
+}
+.smcircle {
+  height: 25%;
+  width: 25%;
+}
+

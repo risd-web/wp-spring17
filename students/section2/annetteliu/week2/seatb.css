@@ -1,0 +1,33 @@
+body {
+	background: rgb(255, 215, 202);
+	font-family: 'Raleway', sans-serif; 
+	text-align: center;	}
+
+	
+	50% {background-color: rgb(255, 211, 110);}
+	100% {background-color: rgba(161, 205, 244, 0.63);}
+}
+
+
+img {height: 1500px; width: 1500px;
+position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;}
+
+.text {margin-top: 150px; margin-left: -5px;
+}
+
+ #head {color: white;
+ 	text-decoration: underline;
+text-decoration-color: none;
+margin-top: 100px;
+}
+
+h1 {font-size: 80px;}
+
+h2 {color: #868686;
+font-size: 55px;
+font-weight: bold;
+margin-top: -200px;}
+
+.seats {margin-top: 1800px;}

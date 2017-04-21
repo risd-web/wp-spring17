@@ -1,0 +1,20 @@
+html {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+	border: 15px solid #000;
+	margin: 5% 15% 15% 15%;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+
+
+}
+
+.author {
+	text-align: right;
+	margin-right: 2%;
+}

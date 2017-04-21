@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+	body{
+		background-color: #f9f6ed;
+		font-family: helvetica;
+	}
+		
+	p {
+		
+		line-height: 0.2;
+		color: green;
+		font-size: 10pt;
+/*		margin-left: 150px;*/
+	}
+	h1 {
+		font-weight: bold;
+		color: #121c60;
+/*		margin-left: 150px;*/
+		margin-bottom: -13px;
+		margin-top: -13px;
+		font-size: 105px;
+	}
+
+	h2 {
+		font-weight: bold;
+		color: green; 
+/*		margin-left: 150px;*/
+		margin-bottom: -13px;
+		margin-top: -13px;
+		font-size: 105px;
+	}
+
+	h2 {
+		font-weight: bold;
+		color: green; 
+		margin-bottom: 0px;
+		margin-top: 0px;
+		font-size: 105px;
+	}
+
+
+	.date {
+		padding-top: 100px;
+		padding-bottom: 5px;
+	}
+
+	.blue-line {
+		background-color: #121c60;
+/*		margin-left: 150px;*/
+		height: 35px;
+		width: 80%;
+	}
+
+	.green-line {
+		background-color: green;
+/*		margin-left: 150px;*/
+		height: 35px;
+		width: 80%;	
+	}
+	.footer {
+		margin-bottom: 100px
+	}
+
+	.circle2{
+		width: 100px;
+		height: 100px;
+		background-color: black;
+		border-radius: 50%;
+		display: none;
+	}
+
+	.circle1{
+		width: 100px;
+		height: 100px;
+		background-color: #c7281b;
+		border-radius: 50%;
+		display: none;
+	}
+
+	.circle3{
+		width: 100px;
+		height: 100px;
+		background-color: #ffab0d;
+		border-radius: 50%;
+		display: none;
+	}
+
+	.circle4{
+		width: 100px;
+		height: 100px;
+		background-color: #003c5d;
+		border-radius: 50%;
+		display: none;
+	}
+
+	.circle5{
+		width: 140px;
+		height: 140px;
+		background-color: black;
+		border-radius: 50%;
+		display: none;
+		padding: 0;
+	}
+
+	.circle6{
+		width: 140px;
+		height: 140px;
+		background-color: #ffab0d;
+		border-radius: 50%;
+		display: none;
+		padding: 0;
+	}
+
+	.rectangle1{
+		width: 170px;
+		height: 170px;
+		background-color: #121c60;
+		margin-top: 10px;
+		display: none;
+	}
+
+	.rectangle2{
+		width: 100px;
+		height: 100px;
+		background-color: green;
+		display: none;
+	}
+
+	section{
+		margin-left: 150px;
+	}
+
+
+	@media screen and (max-width: 1150px) {
+		
+		body {
+			background-color: black;
+		}
+
+		.blue-line {
+			background-color: green;
+		}
+
+		.green-line {
+			background-color: #121c60;
+		}
+
+		#hide1{
+			display: none;
+		}
+
+		.circle1{
+			display: block;
+		}
+
+		.circle1:hover {
+		    transform: rotate(20deg) scale(5);
+			transition-duration: 1.5s;
+			mix-blend-mode: multiply;
+		}
+
+		.triangle1{
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 993px) {
+		
+		body {
+			background-color: #ffab0d;
+		}
+
+		.blue-line {
+			background-color: green;
+		}
+
+		.green-line {
+			background-color: #121c60;
+		}
+
+		#hide2{
+			display: none;
+		}
+
+		.circle2{
+			display: block;
+		}
+
+		.circle2:hover {
+			transform: translateX(-200px);
+			transform: rotateY(360deg);
+			transition-duration: 1.5s;
+		}
+	}
+
+	@media screen and (max-width: 930px) {
+		
+		body {
+			background-color: #003c5e;
+		}
+
+		#hide3{
+			display: none;
+		}
+
+		.circle3{
+			display: block;
+		}
+
+		.circle3:hover {
+			transform: rotate(20deg) scale(5);
+			transition-duration: 1.5s;
+			mix-blend-mode: multiply;
+		}
+	}
+
+	@media screen and (max-width: 811px) {
+		
+		body {
+			background-color: #a09991;
+		}
+		.blue-line {
+			background-color: #121c60;
+		}
+
+		.green-line {
+			background-color: green;
+		}
+
+		#hide4{
+			display: none;
+		}
+
+		.circle4{
+			display: block;
+		}
+
+		.circle4:hover {
+		    transform: rotate(20deg) scale(5);
+			transition-duration: 1.5s;
+			mix-blend-mode: multiply;
+		}
+	}
+
+	@media screen and (max-width: 726px) {
+
+		body {
+			background-color: #6eb579;
+		}
+
+		#hide5{
+			display: none;
+		}
+
+		.circle5{
+			display: block;
+		}
+
+		.circle5:hover {
+			transform: translateX(-200px);
+			transform: rotateY(360deg);
+			transition-duration: 1.5s;
+		}
+
+		.circle6{
+			display: block;
+		}
+
+		.circle6:hover {
+			transform: rotate(20deg) scale(5);
+			transition-duration: 1.5s;
+			mix-blend-mode: multiply;
+		}
+
+	}
+
+	@media screen and (max-width: 517px) {
+
+		body {
+			background-color: #f9f6ed;
+		}
+
+		#hide6{
+			display: none;
+		}
+
+		#hide7{
+			display: none;
+		}
+
+		.triangle1{
+			display: block;
+		}
+
+		.rectangle1{
+			display: block;
+		}
+		
+		.rectangle2{
+			display: block;
+		}
+
+
+/*Anmation*/
+
+		.green-line:hover {
+		transform: scaleX(4);
+		transition-duration: 2s;
+	    }
+
+	    .blue-line:hover {
+		transform: scaleX(4);
+		transition-duration: 2s;
+	    }
+
+	    .rectangle2:hover {
+	    transform: skew(-40deg);
+	    }
+
+	    .rectangle1:hover {
+	    transform: skew(40deg);
+	    }
+}
+
+
+	</style>
+	</head>
+<body>
+	<section>
+		<div class="date">
+			<div id="hide7">
+				<p>Sontang,12.November 1972. 2015 Uhr</p>
+				<p>Tonhalle Surich, Grosser Saal</p>
+				</div>
+			<div class="rectangle2"></div>	
+		</div>
+		<div class="blue-line"></div>
+		<div class="green-text">
+			<h2 id="hide3">Franz Schubert</h2>
+			<div class="circle3"></div>
+			
+		</div>
+		<div class="blue-line"></div>
+		<div class="green-text">
+			<h2 id="hide4">Es durMesse</h2>
+			<div class="circle4"></div>
+			</div>
+		</div>
+		<div class="blue-line"></div>
+		<div class="green-text">
+			<h2 id="hide5">Paul Muller</h2>
+			<div class="circle5"></dir>
+		</div>
+		<div class="blue-line"></div>
+		<div class="green-text">
+			<h2 id="hide5">Te Deum</h2>
+			<div class="circle6"></dir>
+		</div>	
+		<div class="green-line"></div>
+		<div class="blue-text">
+			<h1 id="hide1">Kammerchor zurich</h1>
+			<div class="circle1"></div>
+		</div>
+		<div class="green-line"></div>
+		<div class="blue-text">
+			<h1 id="hide2">Johannes Fuchs</h1>
+			<div class="circle2"></div>
+		</div>
+		<div class="green-line"></div>
+		<div class="footer">
+		 	<div id="hide6">
+				<p>Solisten:</p>
+				<p>Elisabeth Speiser, Sopran, Margrit Conrad, Alt</p>
+				<p>Fritz Peter, Tenor, Jurt Widmer, Bass</p>
+				<p>Tonhalle-Orchestrer Zurich</p>
+				<p>Siegfried Hildenbrand, Orgel</p>
+				<p>Eintrittskarten:</p>
+				<p>Fr.9 - bis 30. - inkl. Billettsteueur</p>
+				<p>Vorverkauf:</p>
+				<p>Sekretariat. Telefon 01 - 54 58 51</p>
+				<p>und ab 30. Oktober bei Hug. Jecklin und Kuoni</p>
+				</p>
+			</div>	
+		<div class="rectangle1"></div>	
+		</div>	
+		
+	</section>
+</body>
+</html>

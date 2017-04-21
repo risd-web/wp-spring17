@@ -1,0 +1,92 @@
+body { background: #A3BFD8; 
+  transition: background 2s; }
+
+div{
+  display: block;
+  position: absolute;
+  margin: auto;
+  top:0; bottom:0; left:0; right:0;
+}
+
+.cloud {
+  background: white;
+  width: 78px;
+  height: 32px; 
+  animation: clouds 8s linear alternate infinite;
+  margin-left: 0;
+}
+
+.cloud:before {
+    border-radius: 50%;
+    box-shadow: 10px -10px 0 0 white,
+                80px 0 0 0 white,
+                52px -20px 0 8px white;
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: -22px;
+    bottom: 0;
+    background: white;
+}
+
+.cloud:nth-child(1){ 
+  top: auto; bottom: 120px; opacity: 0.75;
+  animation: clouds2 12s linear infinite;
+}
+.cloud:nth-child(2){ 
+  right: auto; left: 620px; opacity: 0.5;
+}
+.cloud:nth-child(3){ 
+  bottom: auto; top: 320px; right: auto; left: 80px; opacity: 0.75;
+  animation: clouds2 5s linear infinite;
+}
+.cloud:nth-child(4){ 
+  bottom: auto; top: 90px; right: auto; left: 320px; opacity: 0.5;
+}
+.cloud:nth-child(5){ 
+  bottom: auto; top: 600px; right: auto; left: 320px; opacity: 0.7;
+  animation: clouds2 10s linear infinite;
+}
+
+.sun {
+  height: 100px;
+  width: 100px;
+  background: #FFCF87;
+  top: -280px;
+  left: -300px;
+  border-radius: 60px;
+  box-shadow: 0 0 60px 1px #FFCF87;
+  mix-blend-mode: lighten;
+}
+
+.night{
+  background: #242530;
+}
+
+.moon{
+  background: #E4E6F4;
+  box-shadow: 0 0 60px 1px white;
+  mix-blend-mode: screen;
+}
+
+@keyframes clouds{
+    0%{ 
+      transform: translateX(0px); 
+  }
+  100%{
+    transform: translateX(900px); 
+  }
+}
+
+
+@keyframes clouds2 {
+  0%{ 
+    transform: translateX(-100px); 
+}
+  100%{
+    transform: translateX(1500px); 
+  }
+}
+
+

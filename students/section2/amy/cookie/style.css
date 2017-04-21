@@ -1,0 +1,42 @@
+.box {background-color: aquamarine;
+    padding: 10px;
+    
+}
+
+html {background-color: antiquewhite;}
+
+h1 {padding: 30px;
+float: left;
+margin-top: 0px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 200px;
+        color:  rgba(255,255,255,.4);
+        position:fixed;
+        }
+h1:hover{color:white;
+    
+}
+
+img {
+    float:right;
+    width:200px;
+    margin-top: 300px;
+    margin-right: 20px;
+    
+}
+#subtitle {
+margin-left: 1000px;
+margin-top: 0px;
+font-family: 'Raleway', sans-serif;
+font-size: 12px;
+}
+
+#instruction {
+    margin-top: 300px;
+    margin-left: 690px;
+    margin-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    
+}
+ul {list-style: none;}

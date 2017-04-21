@@ -1,0 +1,26 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.greycircles {				
+	background: grey;
+	width: 100px;
+	height: 100px;
+	margin: 10px; 
+	flex: left;
+	float: left;
+	z-index: 20;
+	border-radius: 50%;
+	opacity: multiply;
+
+}
+.smallsquare {
+	background: orange;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	flex: left;
+	float: left;
+	z-index: 0;
+	opacity: multiply;
+}

@@ -1,0 +1,52 @@
+		body{
+			padding-top:150px;
+			padding-left:50px;
+			background-color: #27253a;
+
+}
+		div {
+		background-color: #f9b9be;
+		width:100vw; height:30px;
+		float:left;
+
+		margin:10px;
+		transition: all 40s;
+		overflow: hidden;
+			}
+
+		div:nth-child(2) { 
+			background-color: #f9d4b9; 
+		}
+
+		div:nth-child(3) { 
+			background-color: #f9ecb9; 
+		}
+
+		div:nth-child(4) { 
+			background-color: #e6f9b9; 
+		}
+
+		div:nth-child(5) { 
+			background-color: #b9f9c1; 
+		}
+
+		div:nth-child(6) { 
+			background-color: #b9f9ee; 
+		}
+
+		div:nth-child(7) { 
+			background-color: #b9d6f9; 
+		}
+
+		div:nth-child(8) { 
+			background-color: #bbb9f9; 
+		}
+
+		div:nth-child(9) { 
+			background-color: #e0b9f9; 
+		}
+
+		div:hover{ 
+			width:500vw; height:500vw; 
+			transform: rotate(1200deg);
+		}

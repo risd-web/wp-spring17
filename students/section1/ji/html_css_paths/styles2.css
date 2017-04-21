@@ -1,0 +1,39 @@
+/*Top*/
+#floated{}
+.event {
+		float: left;
+        width: 50%; 
+        height:760px;
+        margin: auto;
+        background-image: url("img/leak03.jpg");
+        background-size: 150%
+        background-blend-mode: multiply;
+}
+
+
+.event2 {
+		float: left;
+        width: 50%; 
+        height:760px;
+        margin: auto;
+        background-image: url("img/real01.jpg");
+        background-size: 150%
+        background-blend-mode: multiply;
+}
+
+.event h1 {
+font-size: 15em;
+font-family: 'Anton', sans-serif;
+text-align: center;
+color: #304396;
+mix-blend-mode: multiply;
+}
+
+
+.event2 h2 {
+font-size: 15em;
+font-family: 'Anton', sans-serif;
+text-align: center;
+color: #792422;
+mix-blend-mode: multiply;
+}

@@ -1,0 +1,42 @@
+body{
+	background-color: yellow
+}
+h1{
+	font-size: 150px;
+	font-family: 'Baloo Bhaina', cursive;
+	line-height: 1.2;
+	background-color: rgb(255,255,2);
+	padding:.2em;
+}
+
+section{
+                  overflow: auto;
+}
+
+#flexbox{
+         display: flex;
+}
+.fixed {
+         width: 100px;
+         
+}
+ 
+
+.col1, .col2, .col3{
+    flex: 1;
+    border: 30px solid yellow;
+    background-color: white;
+
+}
+
+.unicorn{
+	     font-family: 'Roboto Slab', serif;
+	     padding:1.6em;
+
+}
+
+.panda{
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	padding:.5em;
+}

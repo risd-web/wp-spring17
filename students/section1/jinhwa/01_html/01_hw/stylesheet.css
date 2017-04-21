@@ -1,0 +1,32 @@
+h1 {
+	font-family: Arial;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 90px;
+}
+
+#pvd {
+	display: block;
+	margin: auto;
+	padding-top: 100px;
+}
+
+nav{
+	margin: auto;
+	width: 600px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	display: inline-block;
+  margin-left: 60px;
+  margin-bottom: 5px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+a:hover {
+	color: red;
+}

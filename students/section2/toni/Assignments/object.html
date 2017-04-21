@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .face {
+        background-color: #FFA726;
+        width: 500px;
+        height: 500px;
+        border-radius: 250px;
+        left: 200px;
+        top: 200px;
+        position: absolute;
+        border: 2px solid #F57C00;
+
+    }
+
+    .eye1 {
+        background-color: black;
+        width: 70px;
+        height: 70px;
+        left: 100px;
+        top: 100px;
+        border-radius: 35px;
+        position: absolute;
+
+    }
+
+    .eye2 {
+        background-color: black;
+        width: 70px;
+        height: 70px;
+        top: 100px;
+        border-radius: 35px;
+        position: absolute;
+        left: 300px;
+    }
+
+    .nose {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid black;
+        left: 185px;
+        top: 200px;
+        position: absolute;
+    }
+
+    .mouth1 {
+        position: absolute;
+        left: 120px;
+        top: 190px;
+        width: 100px;
+        height: 100px;
+        border-radius: 500px;
+        border: 10px solid black;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        -webkit-transform:rotate(-135deg);
+
+    }
+
+    .mouth2 {
+        position: absolute;
+        left: 230px;
+        top: 190px;
+        width: 100px;
+        height: 100px;
+        border-radius: 500px;
+        border: 10px solid black;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        -webkit-transform:rotate(-135deg);
+
+    }
+
+    .body {
+        background-color: #FFA726;
+        width: 800px;
+        height: 800px;
+        border-radius: 400px;
+        left: 220px;
+        top: 500px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .belly {
+        background-color: #FFB74D;
+        width: 600px;
+        height: 600px;
+        border-radius: 300px;
+        left: 250px;
+        top: 650px;
+        position: absolute;
+        z-index: -1;
+    }
+
+
+</style>
+
+<title>Object</title>
+</head>
+<body>
+
+<div class="face">
+
+    <div class="eye1"></div>
+
+    <div class="eye2"></div>
+
+    <div class="nose"></div>
+
+    <div class="mouth1"></div>
+
+    <div class="mouth2"></div>
+
+</div>
+
+<div class="body">
+</div>
+
+<div class="belly">
+</div>
+
+</body>
+</html>

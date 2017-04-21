@@ -1,0 +1,17 @@
+body{font-family: 'Roboto', sans-serif;font-family: : helvetica;}
+
+h1 {font-style: helvetica;
+	font-size: 300px; text-align: center;}
+h4 {font-size: 50px; background: yellow;}
+h5 {font-size: 100px; line-height: 100px}
+p {font-size: 70px;  background: pink;}
+.event3 h1:hover {background-size: cover; color: red; mix-blend-mode: multiply;}
+.event {font-size: 100px;
+		}
+.event1 {font size: 300px; text-align: left;
+        height: 100vh;
+        background: #c8dfff;
+        display: flex;
+        align-items: center;}
+.event2 {color: white;}
+
