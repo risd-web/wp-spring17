@@ -1,13 +1,17 @@
 
     h1{
-    	color:coral;
+    	color:red;
     	text-align: center;
     }
     h2{
-    	color:black;
+    	color:coral;
     	text-align: left;
     	font-family: "Universe", sans-serif;
     	
+    }
+    h3{
+    	color: blue
+   
     }
 
 
@@ -19,7 +23,7 @@
 		text-decoration: underline;}
 
 	.box{
-		border:1px dashed blue;
+		border:3px dashed yellow;
 		font-family: Georgia; 
 		padding: 1rem; 
 		width: 500px; 
