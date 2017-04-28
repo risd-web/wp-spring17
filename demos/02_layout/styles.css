@@ -64,8 +64,8 @@ section{
 
 /*Floated*/
 #floated .event{
-        float: left;
-        width: 300px;
+    float: left;
+    width: 300px;
 }
 
 .tall{

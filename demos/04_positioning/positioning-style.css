@@ -10,6 +10,8 @@ body{
 	background: #000;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	color: white;
+	font-size: 5rem;
 }
 
 .relative{
@@ -20,49 +22,40 @@ body{
 }
 
 .absolute{
+	width: 200px;
+	height: 200px;
 	position: absolute;
-<<<<<<< Updated upstream
-	top: 200px;
-	left: 100px;
-	background: yellow;
-=======
 	top: 40px;
-	left: 40px;
+	left: 300px;
 	background: red;
->>>>>>> Stashed changes
-	overflow: hidden;
+/*	overflow: hidden;*/
 }
 
 .fixed{
-	background: red;
+	background: green;
 	position: fixed;
 	top: 30px;
 	right: 30px;
-	border-radius: 50%;
-	transform: skew(30deg);
+	/*transform: skew(30deg);*/
 }
 
-.container{
+.circle-container{
 	position: absolute;
-	bottom: 100px;
-	right: 500px;
+	background: red;
+	overflow: hidden;
+	top: 30px;
+	left: 50px;
+	z-index: -10;
 }
 
 .circle{
 	width: 300px;
 	height: 300px;
-<<<<<<< Updated upstream
-	background: green;
-	border-radius: 3px;
-	position: absolute;
-=======
-	background: red;
->>>>>>> Stashed changes
+	background: yellow;
 	border-radius: 50%;
+	position: absolute;
 	top: 150px;
 	left: 150px;
-
+	overflow: hidden;
 }
 
-.absolute img:hover { 
- }
