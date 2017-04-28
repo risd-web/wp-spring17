@@ -1,0 +1,21 @@
+body {
+	color: tomato;
+}
+
+
+h1:hover {
+	opacity: 0.50;
+}
+
+a {
+	text-decoration: none; color: tomato;
+}
+
+p {
+	color: tomato;
+}
+
+img.resize {
+	max-width: 30%;
+	max-height: 30%;
+}
