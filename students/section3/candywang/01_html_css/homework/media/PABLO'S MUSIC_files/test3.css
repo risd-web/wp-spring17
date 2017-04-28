@@ -22,27 +22,28 @@ div.i6{
 
 }
 
-h1{
-		position: absolute;
-   		top: 80px;
-   		right: 400px;
-    	width: 500px;
-    	height: 100px;
-    	
 
-		font-family: 'Gravitas One', regular;
+h1{
+	font-family: 'Gravitas One', regular;
 		letter-spacing: 2px;
 		color: black;
 		font-size: 550%;
-		text-align: center;		
-	
+		text-align: center;	
+		position: absolute;
+		float:left;
+		left: 100px;
+			
 }
+		
+	
 
-div.back{
-	padding-left: 700px;
-	padding-top: 800 px;
+
+h2 {
+	width: 200px; 
+	position: absolute;
 	letter-spacing: 2px;
-
+	float: left;
+	left: 700px;
 
 }
 a:link{
@@ -57,4 +58,4 @@ a:visited{
 a:hover{
 	color: rgb(255,255,77);
 	text-decoration: line-through red;
-
+}

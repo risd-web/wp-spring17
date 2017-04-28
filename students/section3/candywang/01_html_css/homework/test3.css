@@ -22,18 +22,41 @@ div.i6{
 
 }
 
-h1{
-		position: absolute;
-   		top: 30px;
-   		right: 3000px;
-    	width: 10000px;
-    	height: 100px;
-    	
 
-		font-family: 'Gravitas One', regular;
+h1{
+	font-family: 'Gravitas One', regular;
 		letter-spacing: 2px;
 		color: black;
 		font-size: 550%;
-		text-align: center;		
+		text-align: center;	
+		position: absolute;
+		float:left;
+		left: 380px;
+		top:16px;
+
+}
+		
 	
+
+
+h2 {
+	width: 200px; 
+	position: absolute;
+	letter-spacing: 2px;
+	float: left;
+	left: 400px;
+
+}
+a:link{
+	color: rgb(134,0,179);
+	text-decoration: none;
+}
+
+a:visited{
+	color: rgb(200,0,179);
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(255,255,77);
+	text-decoration: line-through red;
 }
