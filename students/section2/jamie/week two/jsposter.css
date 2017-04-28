@@ -85,7 +85,7 @@ p {
 	margin-top:29%;
 }
 
-@media (max-width: 1920px) {
+@media screen and (min-width: 520px) {
   			body {
   				background: 
 					linear-gradient(135deg, teal 25%, transparent 25%) -50px 0,

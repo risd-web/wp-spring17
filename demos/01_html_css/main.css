@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i');
+
+body{
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	/*background: cyan;*/
+}
+
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover{
+	opacity: 0.5;
+}
+
+h1,h2{
+	color: rgb(255,0,0);
+	text-align: center;
+} /*Use comma to set the same rules to multiple selectors*/
+
+strong{
+	background: yellow;
+}
+
+
+li{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+#top{
+	font-size: 3rem;
+}
+.special{
+	text-decoration: underline;
+}
+
+.box{
+	border: 1px dashed blue;
+	font-family: Georgia, serif;
+	width: 500px;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+
+p{
+	background: green;
+}
+
+p{
+	background: yellow;
+}
+
+em{
+	font-style: italic;
+}
+
+.box p{
+	background: pink;
+	padding: 1rem;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: pink;*/
+}
+
+.liststyle{
+	font-family: Helvetica, sans-serif;
+}

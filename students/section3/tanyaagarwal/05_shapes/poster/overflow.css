@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(255, 251, 239);
+}
+
+.layer1 { 
+	background: none;
+	width: 120%;
+}
+
+.layer1 div { 
+	transform: rotate(45deg);
+	border: 100px solid rgb(186, 230, 252);
+	margin: -20px;
+	float: left;
+	mix-blend-mode: multiply;
+	border-radius: 50%;
+	border-right: 80px solid transparent;
+}
+
+.layer1 div:nth-child(even) {
+	border: 100px solid rgb(255, 233, 0);
+	border-left: 80px solid transparent;
+}

@@ -1,0 +1,73 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
+</style>
+    		h1{
+                color: white;
+                -webkit-text-stroke-width 1px;
+                -webkit-text-stroke-color:black;
+                letter-spacing: 40px;
+                font-size: 3rem;
+                text-align: center;
+            }
+            
+
+            h4{
+                color:#3f51b5;
+                font-size: 2rem;
+                font-family:'UnifrakturCook', cursive;
+                
+            }
+
+            ul{
+            	font size: 2rem;
+            	margin-bottom: 1rem;
+
+            } 
+       		
+       		.special{
+       			text-decoration: underline
+       		}
+
+       		.box{
+       			border: 1px dashed blue;
+       			padding: 1rem;
+       			width: 500px;
+       			box-sizing: border-box; 
+       			font-family:'UnifrakturCook', cursive;
+       		    background: pink; 
+       			width:800px
+
+       		 }
+
+       		 p{
+       		 	
+       		 	width:200px;
+       		 	box-sizing:border-box;
+    
+       		 	border: 5px double;
+       		 	border-color:rgba(255,0,0,0.3);
+
+       		 	}
+
+       		 body{
+       			background:linear-gradient(to bottom right,rgba(255,0,0,0.3), rgba(0,0,255,0.5) );
+      
+       			border-image: url(http://img12.deviantart.net/954e/i/2008/134/b/b/border_iii_by_struckdumb.jpg) 30 stretch;
+       			box-sizing: border-box;
+       		}
+
+       		.work{
+       			color: black;
+               
+                letter-spacing: 20px;
+                font-size: 3rem;
+                text-align: right;
+
+       		} 
+
+
+
+
+       			}
+
+       		
