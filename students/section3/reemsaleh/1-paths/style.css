@@ -1,0 +1,42 @@
+body{
+	font-family: 'Hanalei Fill', cursive;
+	background-size: 100%;
+	background-position: 100% 26%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 12px;
+}
+
+li a:hover {
+    color: white;
+}
+
+
+a{
+	color: rgb(255,0,0);
+	font-size: 200%;
+}
+
+
+nav{
+	font-size: 150%;
+}
+
+	nav a:hover {
+	color: white;
+}
+
+
+
+
+
+	
