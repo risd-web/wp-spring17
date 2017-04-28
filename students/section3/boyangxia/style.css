@@ -1,0 +1,115 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+
+header {
+  height: 4em;
+  border-bottom: 5px solid #333;
+}
+
+nav {
+  border: 1px solid #cccccc;
+  height: 20%;
+  padding: .5em;
+}
+
+section{
+  min-height: 100vh;
+  overflow: auto;
+  border-bottom: 1px solid red;
+}
+
+.cropper{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.column {
+  background: #efefef;
+  float: left;
+  margin-right: 2%;
+}
+
+article { border:1px solid red;
+  padding: 1em;
+}
+
+.left {
+  width: 20%;
+}
+
+.middle {
+  width: 55%;
+}
+
+.right {
+  width: 21%;
+  margin-right: 0;
+}
+
+
+footer {
+  height: 5em;
+  background: 333333;
+
+}
+
+img{
+  width: 100%; 
+  max-width: 500px; 
+}
+
+@media screen and (max-width: 500px) {
+  .left {
+   width: 100%; 
+    margin-bottom: 2%;
+    background: orange;
+  }
+
+  .middle {
+    width: 49%;
+  }
+
+  .right {
+    width: 41%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .middle, .right {
+    width: 100%;
+    margin: 0;
+    background: yellow;
+  }
+
+  .left {
+    width: 100%;
+    margin-bottom: 2%;
+    background:green;
+  }
+  .middle {
+    width: 100%;
+    margin-bottom: 2%;
+    background:lightblue;
+  }
+  .right {
+    width: 100%;
+    margin-bottom: 2%;
+    background:brown;
+  }
+
+}
+
+/*Printed styles
+
+@media print{
+
+
+}
+
+*/
+
