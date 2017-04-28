@@ -1,6 +1,7 @@
 body{
-    font-family: 'Lora', serif;
+    font-family: 'Times New Roman', serif;
     padding: 1rem 5rem;
+    margin: 0;
 }
 
 
@@ -9,14 +10,14 @@ ul.nav{
     color: blue;
 }
 
+.orange{
+    background: grey;
+
+}
 .orange ul{
     color: orange;
 }
 
-
-body{
-        margin: 0;
-}
 
 .yellow{
     background: yellow;
@@ -52,10 +53,13 @@ p:hover{
         box-sizing: border-box;
 }
 
-
+.event img{
+    width: 100%;
+}
 
 section{
-        overflow: auto;
+    overflow: auto;
+    border: 5px solid green;
 }
 
 /*Floated*/
@@ -78,18 +82,18 @@ section{
 }
 
 .col1{
-        flex: 1;
+        flex: 3;
 }
 
 .col2, .col3{
-        flex: 2;
+        flex: 1;
 }
 
 /*change display property*/
 
 #display .event{
         width: 300px;
-        display: inline-block;
+        display: table-cell; /*or inline-block;*/
 }
 
 /*vertical centering*/
@@ -139,17 +143,28 @@ h2::after{
 
 /*Responsive Design via Media Queries*/
 
-@media screen and (max-width: 920px){
-    #first .event{
-        width: 100%;
-        }    
+@media screen and (max-width: 1200px){
+    #floated .event{
+        width: 50%;
+        background: orange;
+    }    
+
+    h3{
+        color: white;
+    }
+
 
 }
 
-@media screen and (max-width: 620px){
-    #first .event{
-        background: yellow; 
-        }    
+@media screen and (max-width: 600px){
+    body{
+        padding: 0;
+    }
+   #floated .event{
+        width: 100%;
+        background: blue;
+        color: white;
+    }       
 
 }
 
