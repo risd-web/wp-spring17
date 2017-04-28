@@ -1,0 +1,19 @@
+body { font-family:'helvetica';
+    font-weight: lighter;  
+padding: 2rem;
+margin-bottom: 500p;
+margin-right: 2rem;
+margin-left: 2rem;
+
+}
+
+
+a:hover{
+	opacity:0.5;
+}
+
+
+
+h1 {text-decoration: underline;
+	color: tomato;
+}
