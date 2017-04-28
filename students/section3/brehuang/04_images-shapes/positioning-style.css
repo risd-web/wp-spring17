@@ -1,0 +1,27 @@
+div{
+	width: 300px;
+	height: 300px;
+	float: left;
+	background: #000;
+	margin-right: 10px;
+}
+
+.relative{
+	position: relative
+	top: 100px;
+	right: 100px;
+	background: red;
+}
+
+.fixed{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	background: blue;
+}
+
+.container{
+	position: absolute;
+	top: 500px;
+	right: 300px;
+}

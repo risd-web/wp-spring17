@@ -6,14 +6,13 @@
     line-height: 40px;
 }
 
-@import "glide";
-
 header {
     position: fixed;
-    margin-left: 20px;
+        margin-left: 20px;
 }
 
 h2 {
+    
     font-size: 15px;
     display: inline-block;
     padding: 5px;
@@ -45,7 +44,7 @@ main {
     float: left;
     display: inline-block;
     height: 700px;
-    width: 3325px;
+    width: 6500px;
 }
 
 img {
@@ -61,3 +60,32 @@ navbar {
     clear: both;
 }
 
+
+
+
+/* UNDERLINE */
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: lightpink;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
