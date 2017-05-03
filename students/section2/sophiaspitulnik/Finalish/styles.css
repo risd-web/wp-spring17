@@ -6,7 +6,7 @@
 
 dd{
 	display: none;
-	margin-left: -1em;
+	margin-left: 1.5em;
 }
 
 @font-face {
@@ -41,7 +41,7 @@ body {
 	display: flex;
 	flex-direction: ltr;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: right;
 	padding-top: -10%;
 	padding-right: 6.25%;
 	padding-left: 20%;
@@ -50,7 +50,7 @@ body {
 }
 
 .menuSection {
-	flex: 1;
+	flex: 0;
 	padding: 2.1%;
 	flex-wrap: wrap;
 	flex-basis: 20%;
