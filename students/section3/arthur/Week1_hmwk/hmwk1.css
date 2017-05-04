@@ -1,4 +1,5 @@
 body {
+	font-family: Helvetica, sans-serif;
 	color: tomato;
 }
 
@@ -18,4 +19,10 @@ p {
 img.resize {
 	max-width: 30%;
 	max-height: 30%;
+}
+
+.container{
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left:40px;
 }

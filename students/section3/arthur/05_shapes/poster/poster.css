@@ -1,0 +1,76 @@
+body{
+	background: rgb(0,0,0);
+	font-family: Helvetica, sans-serif;
+}
+
+section{
+	width: 80%;
+	margin: auto;
+	height: 1200px;
+	overflow: hidden;
+	background: #5790bf;
+}
+.container{
+	transform: rotate(30deg);
+	width: 1200px;
+	background: inherit;
+}
+
+.graphic{
+	position: relative;
+	height: 600px;
+	margin-left: 100px;
+}
+
+.boxes1, .boxes2{
+	overflow: auto;
+	position: absolute;
+	mix-blend-mode: multiply;
+}
+
+.boxes1{
+	z-index: 20;
+}
+
+.boxes2 {
+	top: 80px;
+	left: 250px;
+}
+
+.yellow{
+	background: yellow;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+.blue{
+	width: 250px;
+	height: 250px;
+	background: #4f4f90;
+	float: left;
+	margin-right: 10px;
+}
+
+#left, #right{
+	float: left;
+}
+#left{
+	width: 48%;
+	margin-right: 2%;
+	text-align: right;
+}
+
+#right{
+	width: 50%;
+}
+
+h2{
+	font-size: 3rem;
+	margin: 0;
+}
+
+.top{
+	margin-bottom: 2rem;
+}
