@@ -1,6 +1,7 @@
 body{
 		background-image: url(https://s-media-cache-ak0.pinimg.com/originals/4c/de/b1/4cdeb18a2598507e71c6618746fc90cd.jpg);
-    	background-color: rgb(255, 162, 0)
+    	background-color: rgb(255, 162, 0);
+    	text-align: center;
 }
 
 
@@ -30,45 +31,41 @@ a:hover{
 }
 	
 
-div.da1{
+/*div.da1{
 	position: absolute;
    		top: 200px;
    		right: 560px;
     	width: 500px;
     	height: 100px;
 }
+*/
 
-div.t1{
-	position: absolute;
-		top: 80px;
-   		right: 0px;
-    	width: 500px;
-    	height: 100px;
-    	font-family: 'Gravitas One', regular;
-		letter-spacing: 2px;
-		color: rgb(134,0,179);
-		font-size: 60%;
-
+.diamonds{
+	overflow: auto;
+	margin: auto;
+	bottom: 200px;
+	left: 200px;
+	width: 600px;
 }
+
+.da{
+	float: left;
+	width: 300px;
+}
+	
 
 img:hover{
 	opacity:0.5;
 }
 
-div.da2{
+/*div.da2{
 	position: absolute;
 		float: left;
    		left:850px;
    		float: bottom;
    		bottom: 400px;
-}
+}*/
 
-div.t2{
-	position: absolute;
-		float:left,bottom;
-		left:850px;
-		bottom:450px;
-    	font-family: 'Gravitas One', regular;
-		letter-spacing: 2px;
-		color: rgb(134,0,179);
-		font-size: 60%;
+
+
+
