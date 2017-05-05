@@ -1,0 +1,157 @@
+body {
+    background-color: #ffa54b;
+
+}
+
+* {
+    border-radius: 2px;
+
+}
+
+div {
+    transform: skew(50deg);
+    transform: rotate(50deg)
+}
+
+p {
+    transform: skew(50deg);
+    transform: rotate(50deg)
+}
+
+#one {
+    height: 10px;
+    width: 5000px;
+    background-color: #3dd2ff;
+    float: right;
+    
+}
+
+#two {
+    height: 5px;
+    width: 200px;
+    background-color: #98e7ff;
+    float: right;
+    
+}
+
+#three {
+    height: 20px;
+    width: 70px;
+    background-color: #3dd2ff;
+    float: right;
+}
+
+#four {
+    height: 60px;
+    width: 102px;
+    background-color: #ff803d;
+    float: right;
+}
+
+#five {
+    height: 50px;
+    width: 210px;
+    background-color: #ff803d;
+    float: right;
+    
+}
+
+#six {
+    height: 24px;
+    width: 2570px;
+    background-color: #3dd2ff;
+    float: right;
+    
+}
+
+#seven {
+    height: 120px;
+    width: 332px;
+    background-color: #98e7ff;
+    float: right;
+}
+
+#eight {
+    height: 210px;
+    width: 121px;
+    background-color: #3dd2ff;
+    float: right;
+}
+
+#nine {
+    height: 60px;
+    width: 102px;
+    background-color: #ff803d;
+    float: right;
+}
+
+#ten {
+    height: 10px;
+    width: 800px;
+    background-color: #ff803d;
+    float: right;
+    
+}
+
+p {
+   text-align: center;
+    position: relative;
+    font-family: Roboto;
+    text-transform: uppercase;
+    top: 30vh;
+    left: 50vh;
+    font-size: 25px;
+    width: 180px;
+    padding: 50px;
+    border: 2px solid #ff7600;
+}
+
+
+h2 {
+    font-family: "Roboto";
+    font-size: 10px;
+    width: 300px;
+    transform: rotate(-40deg);
+    position: relative;
+    width: 300px;
+    line-height: 2;
+    top: 50px;
+    left: 100px;
+    clear: both;
+    padding: 50px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

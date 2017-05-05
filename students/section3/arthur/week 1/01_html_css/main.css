@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Asar');
+
+h1{
+   color: yellow;
+   text-align: center;
+   background: #182f9d;
+}
+h2{
+	color: yellow;
+	text-align: center;
+	background: #182f9d;
+}
+h3{
+	color: yellow;
+	text-align: center;
+	background: #182f9d;
+}
+li{
+	font-size: 1rem;
+}
+.book {
+	text-decoration: italic;
+}
+
+a {text-decoration: none; color: black;}
+
+a:hover { opacity: 0.5;
+}

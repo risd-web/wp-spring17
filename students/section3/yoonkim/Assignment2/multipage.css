@@ -1,0 +1,85 @@
+
+
+.background{
+    background-color: #97E2FF;
+}
+
+.background_1{
+    background-color: #74FFD7;
+}
+
+.background_2{
+    background-color: #FFF9B7;
+}
+
+.background_3{
+    background-color: #F7DCB8;
+}
+
+
+.container{
+    height: 150%;
+    width: 150%;
+    background-color: F7F5C3;
+    /*#FFD000*/
+    position: absolute;
+    display: inline;
+    margin: 2;
+}
+
+
+
+.title{
+    position: relative;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height:1.5vw;
+}
+
+.cover{
+    position: absolute;
+    background-color: white; 
+    overflow: hidden;
+    width: 50%;
+    height: calc(80% - 2vw);
+}
+
+.work1{
+    border-radius: .3vw;
+    top: 27vw;
+    left: 38.2vw;
+    position: absolute;
+    height: 19vw;
+    width: 27vw;
+    background-color: white;
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,.4);
+}
+
+.work2{
+    border-radius: .3vw;
+    top: 10vw;
+    left: 6.2vw;
+    position: absolute;
+    height: 19vw;
+    width: 27vw;
+    background-color: white;
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,.4);
+}
+
+.work3{
+  background-image: file:///Users/yoonshikkim/Desktop/wp17/students/section3/yoonkim/Assignment2/globe_png.png ("globe_png.png"); 
+}
+
+h2,p {
+    font-size:.3vw;
+    display:table-cell;
+    display: inline-block;
+    line-height:0.8;
+    font-family: american typewriter;
+    font-weight:400;
+    margin-top:20px;
+}
+
+img {
+    width: 100%;
+}

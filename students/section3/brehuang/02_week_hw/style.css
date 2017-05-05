@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Pacifico');
+
+* {
+    box-shadow: 10px 10px 10px 10px #f7d371;
+}
+
+h1 {
+    font-family: 'Karla';
+    font-size: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+body {
+    background-color: #ffd591;
+}
+
+div {
+    margin: -40px;
+    margin-bottom: -50px;
+}
+
+.one {
+    background-color: #ffd1d1;
+    float: left;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.one:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-color: #e2acff;
+
+}
+
+.two {
+    background-color: #dcc9ff;
+    float: left;
+    width: 200px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+    padding: 30px;
+}
+
+.two:hover {
+    transform: rotate(360deg);
+    border-radius: 100%; 
+    background-color: #ffefac;
+
+}
+
+.three {
+	height: 0px;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 140px solid pink;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.three:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-size: cover;
+    background-color: #9affd0;
+}
+
+.four {
+    border-bottom: 140px solid #afd1ff;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.four:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+}
+
+.five {
+    width: 150px;
+	height: 140px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #b1e6e6;
+    float: left;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.five:hover {
+    transform: skew(-10deg);
+    background: #ffdc9b;
+    border-radius: 20px;
+}
+
+.six {
+    background-color: #ffd1d1;
+    float: left;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.six:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-color: #e2acff;
+
+}
+
+.seven {
+    background-color: #dcc9ff;
+    float: left;
+    width: 200px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+    padding: 30px;
+}
+
+.seven:hover {
+    transform: rotate(360deg);
+    border-radius: 100%; 
+    background-color: #ffefac;
+
+}
+
+.eight {
+	height: 0px;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 140px solid pink;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.eight:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-size: cover;
+    background-color: #9affd0;
+}
+
+.nine {
+    border-bottom: 140px solid #afd1ff;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.nine:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+}
+
+.ten {
+    width: 150px;
+	height: 140px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #c5b1e6;
+    float: left;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.ten:hover {
+    transform: skew(-10deg);
+    background: #f862e1;
+    border-radius: 20px;
+}
+
+
+.eleven {
+    background-color: #ffd1d1;
+    float: left;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.eleven:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-color: #e2acff;
+
+}
+
+.twelve {
+    background-color: #dcc9ff;
+    float: left;
+    width: 200px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+    padding: 30px;
+}
+
+.twelve:hover {
+    transform: rotate(360deg);
+    border-radius: 100%; 
+    background-color: #ffefac;
+
+}
+
+.thirteen {
+	height: 0px;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 140px solid pink;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.thirteen:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-size: cover;
+    background-color: #9affd0;
+}
+
+.fourteen {
+    border-bottom: 140px solid #afd1ff;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.fourteen:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+}
+
+.fifteen {
+    width: 150px;
+	height: 140px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #b1e6e6;
+    float: left;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.fifteen:hover {
+    transform: skew(-10deg);
+    background: #ffdc9b;
+    border-radius: 20px;
+}
+
+.sixteen {
+    background-color: #ffd1d1;
+    float: left;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sixteen:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-color: #e2acff;
+
+}
+
+.seventeen {
+    background-color: #dcc9ff;
+    float: left;
+    width: 200px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+    padding: 30px;
+}
+
+.seventeen:hover {
+    transform: rotate(360deg);
+    border-radius: 100%; 
+    background-color: #ffefac;
+
+}
+
+.eighteen {
+	height: 0px;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 140px solid pink;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.eighteen:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-size: cover;
+    background-color: #9affd0;
+}
+
+.nineteen {
+    border-bottom: 140px solid #ff9575;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.nineteen:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+
+}
+
+.twentyone:hover {
+    transform: skew(-10deg);
+    background: #f862e1;
+    border-radius: 20px;
+}
+
+
+.twentyone {
+    background-color: #d1ffd3;
+    float: left;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.one:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-color: #e2acff;
+
+}
+
+.twentytwo {
+    background-color: #ffc9f7;
+    float: left;
+    width: 200px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+    padding: 50px;
+}
+
+.twentytwo:hover {
+    transform: rotate(360deg);
+    border-radius: 100%; 
+    background-color: #ffefac;
+
+}
+
+.twentythree {
+	height: 0px;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 140px solid pink;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.twentythree:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background-size: cover;
+    background-color: #9affd0;
+}
+
+.twentyfour {
+    border-bottom: 140px solid #afd1ff;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.twentyfour:hover {
+    transform: rotate(360deg);
+    border-radius: 100%;
+}
+
+.twentyfive {
+    width: 150px;
+	height: 140px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #b1e6e6;
+    float: left;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.twentyfive:hover {
+    transform: skew(-10deg);
+    background: #ffdc9b;
+    border-radius: 20px;
+}
+
+* {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

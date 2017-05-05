@@ -1,0 +1,26 @@
+
+body { 
+font-family: 'Questrial', sans-serif;
+margin-top: 50pt; 
+background-color: seashell;}
+
+
+
+h1 {color: salmon ; 
+	text-align: center;
+	font-size: 25pt
+	
+	 }
+
+
+p { text-align: left;
+	font-size: :13pt;
+		 }
+
+ .url {text-align: center;
+ 		margin-top: 9px;}
+
+ .track { text-align: center;
+ 		   margin-top:42px;
+
+ }

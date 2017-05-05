@@ -1,0 +1,39 @@
+body {
+	background-color: rgb(255,162,0);
+}
+
+
+
+div.i4{
+	padding-left: 400px;
+	padding-top: 20px;
+
+}
+
+div.i5{
+	padding-left: 400px;
+	padding-top: 100 px;
+
+}
+
+div.i6{
+	padding-left: 400px;
+	padding-top: 100 px;
+
+}
+
+h1{
+		position: absolute;
+   		top: 30px;
+   		right: 3000px;
+    	width: 10000px;
+    	height: 100px;
+    	
+
+		font-family: 'Gravitas One', regular;
+		letter-spacing: 2px;
+		color: black;
+		font-size: 550%;
+		text-align: center;		
+	
+}
