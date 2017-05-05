@@ -57,6 +57,12 @@ figure{
 	overflow:auto;
 }
 
+.frame{
+	width:2000px;
+	height: 200px;
+	overflow: hidden;
+}
+
 body{
 
 	font-family:Arial,Georgia,serif;
