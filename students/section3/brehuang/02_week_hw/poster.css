@@ -1,19 +1,44 @@
-body {
-    background-color: #ffa54b;
+html {
+    background-color: #3e3e48;
+    font-family: Roboto;
+    transition: all 1s fadeIn;
+}
+    @keyframes fadein {
+        0% {opacity:0;}
+        50% {opacity:0}
+        100% {opacity:100}
+    }
+    @-moz-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+    @-webkit-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
 
+
+section {
+    background-color: #ffa54b;
+    width: 800px;
+    height: 1000px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid navy;
+    float: left;
+}
+
+section:active {
+ background-color: #4b768d;   
 }
 
 * {
-    border-radius: 2px;
-
+    border-radius: 5px;
+     z-index: -2;
+    
 }
 
 div {
-    transform: skew(50deg);
-    transform: rotate(50deg)
-}
-
-p {
     transform: skew(50deg);
     transform: rotate(50deg)
 }
@@ -23,7 +48,6 @@ p {
     width: 5000px;
     background-color: #3dd2ff;
     float: right;
-    
 }
 
 #two {
@@ -48,12 +72,15 @@ p {
     float: right;
 }
 
+#four:active {
+    background-color: white;
+}
+
 #five {
     height: 50px;
     width: 210px;
     background-color: #ff803d;
     float: right;
-    
 }
 
 #six {
@@ -61,14 +88,66 @@ p {
     width: 2570px;
     background-color: #3dd2ff;
     float: right;
-    
+    transition: all 0.5s ease-in-out;
+}
+
+#six:hover {
 }
 
 #seven {
     height: 120px;
-    width: 332px;
+    width: 300px;
     background-color: #98e7ff;
     float: right;
+    transition: all 0.2s ease-in-out;
+}
+
+#seven:hover {
+    width: 300px;
+    color: white;
+    background-image:url(https://wordsfordesigners.com/wp-content/uploads/2016/09/71b9db140a0d577a2f73a48e8b7a6756.jpg) cover;
+    
+    /* PICTURE-TEXT MASK EFFECT */
+    background: url(http://xinature.com/wp-content/uploads/2017/03/beaches-beach-pink-nature-sunset-animated-wallpaper-windows-7-1920x1080.jpg) no-repeat;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease-in-out;
+    
+    /* FADE IN ON LOAD */
+    -webkit-animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s;
+}
+    @keyframes fadein {
+        0% {opacity:0;}
+        50% {opacity:0}
+        100% {opacity:100}
+    }
+    @-moz-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+    @-webkit-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+/* PICTURE-TEXT MASK EFFECT */
+    background: url(http://xinature.com/wp-content/uploads/2017/03/beaches-beach-pink-nature-sunset-animated-wallpaper-windows-7-1920x1080.jpg) no-repeat;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease-in-out;
+    
+    /* FADE IN ON LOAD */
+    -webkit-animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s;
+}
 }
 
 #eight {
@@ -80,7 +159,7 @@ p {
 
 #nine {
     height: 60px;
-    width: 102px;
+    width: 10px;
     background-color: #ff803d;
     float: right;
 }
@@ -88,39 +167,82 @@ p {
 #ten {
     height: 10px;
     width: 800px;
-    background-color: #ff803d;
+    background-color: #ffffff;
     float: right;
-    
+}
+
+#ten:hover {
+    border-radius: 50px;
 }
 
 p {
-   text-align: center;
+    transform: skew(50deg);
+    transform: rotate(50deg);
+    text-align: left;
     position: relative;
-    font-family: Roboto;
     text-transform: uppercase;
-    top: 30vh;
+    top: 23.5vh;
     left: 50vh;
-    font-size: 25px;
+    font-size: 23.5px;
     width: 180px;
-    padding: 50px;
+    padding: 25px;
     border: 2px solid #ff7600;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+#name:hover {
+    background-color: #ff7600;
+    border-radius: 5px;
+    color: white;
 }
 
 
 h2 {
-    font-family: "Roboto";
     font-size: 10px;
     width: 300px;
     transform: rotate(-40deg);
     position: relative;
     width: 300px;
     line-height: 2;
-    top: 50px;
+    top: -40px;
     left: 100px;
     clear: both;
     padding: 50px;
     border: 2px solid white;
+    transition: all .5s ease-in-out;
+    z-index: 1;
 }
+
+h2:hover {
+    background-color: #98e7ff;
+    border-radius: 50px;
+}
+
+.circle {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+h3 {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
