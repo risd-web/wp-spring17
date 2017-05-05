@@ -17,7 +17,12 @@ body {
 	width: 50px;
 	height: 50px;
 	margin: 10px;
-	background-color: #f4ca16;    
+	background-color: #f4ca16;
+	transition: background 1s ease-in-out;    
+}
+
+.element:hover{
+	background: black;
 }
 
 .element::before{
@@ -69,8 +74,8 @@ figure p {
 	
 }
 
-.element:first-child:hover{
-	animation: spin 1s ease-in-out alternate infinite;
+#spinning:hover{
+	animation: spin 1s linear alternate 3;
 }
 
 
@@ -96,6 +101,7 @@ figure p {
 	transition-property: all;
 	transition-duration: 2s;
 	transition-timing-function: ease-in;
+	/*shorthand would be transition: all 2s ease-in;*/
 }
 
 .element:nth-child(6):hover {
@@ -124,10 +130,10 @@ a:hover{
 
 @keyframes spin {
 	0% {
-		transform: rotateY(0deg);
+		transform: rotateX(0deg);
 	}
 	100% {
-		transform: rotateY(360deg) ;
+		transform: rotateX(360deg) ;
 	}
 }
 
