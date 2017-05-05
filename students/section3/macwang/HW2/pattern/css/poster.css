@@ -1,0 +1,49 @@
+.layer1, .layer2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	mix-blend-mode: multiply;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	background: green;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	float: left;
+	margin-top: 20px;
+}
+
+.circle1 {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	float: left;
+	margin-top: 100px;
+}
+
+
+.minus{
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: red;
+	margin-top: 20px;
+	margin-left: 20px;
+	transform: rotate(10deg);
+}
+
+.minus1{
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: yellow;
+	margin-top: 120px;
+	margin-left: 20px;
+	transform: rotate(70deg);
+}
