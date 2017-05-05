@@ -1,13 +1,21 @@
  body {
-        	font-family:verdana;
-        	background-image:url(http://wallpapercave.com/wp/KHjmeCJ.jpg);
-        	background-repeat: no-repeat;
+        	font-family:courier;
+        	background-image:url(https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif);
+        	background-repeat: repeat;
     background-position: right top;
     background-attachment: fixed;
-    color:red;
+    color:lavender;
+    text-align:center;
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
         }
 
 h1{
-	color:#cc6699;font-family:verdana;
+	color:lavender;font-family:courier;
 	text-align:center;
 }
