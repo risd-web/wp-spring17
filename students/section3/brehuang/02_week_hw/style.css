@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Karla|Pacifico');
 
+* {
+    box-shadow: 10px 10px 10px 10px #f7d371;
+}
+
 h1 {
     font-family: 'Karla';
     font-size: 19px;
     text-align: center;
-    text-transform: uppercase;s
+    text-transform: uppercase;
+    z-index: 1;
 }
 
 body {
@@ -305,7 +310,7 @@ div {
 }
 
 .nineteen {
-    border-bottom: 140px solid #ffaff9;
+    border-bottom: 140px solid #ff9575;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	height: 0;
