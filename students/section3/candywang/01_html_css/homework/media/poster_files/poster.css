@@ -1,0 +1,56 @@
+body{
+	
+background: repeating-linear-gradient(
+  to right,
+  #ffffe6,
+  #ffffe6 20px,
+  black 20px,
+  black 25px
+);
+
+}
+
+.squareroom {
+	width: 280px;
+    height: 500px;
+    background: #ffffe6;
+    position: absolute;
+    top: 223px;
+    left: 400px;
+
+}
+.circle{
+ width: 300px;
+    height: 130px; /* as the half of the width */
+    background-color:#ffffe6;
+    border-top-left-radius: 200px;  
+    border-top-right-radius: 200px; 
+    border: 10px solid black;
+	border-bottom: 0;
+	position: absolute;
+	top: 170px;
+	left:390px;
+}
+
+
+
+.umbrella{	
+	position: absolute;
+	left: 390px;
+	top: 280px;
+	
+}
+
+#circles{
+	width: 50px;
+	height: 24px;
+	background-color:#ffffe6;
+	border-top-left-radius: 200px;  
+    border-top-right-radius: 200px;
+    border: 8px solid black;
+	border-bottom: 0;
+	float:left;
+	width: 60px;
+	margin:0px;
+	
+}

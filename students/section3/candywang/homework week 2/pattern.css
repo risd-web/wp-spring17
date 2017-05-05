@@ -1,0 +1,76 @@
+body{
+  background-color: black;
+}
+
+
+.main{
+  float: left;
+  width:2000px;
+  height:0px;
+  margin:auto;
+
+  
+
+}
+
+.final{
+  position:relative;
+  width:2000px;
+
+  
+
+}
+
+
+ .total {
+    height: 200px;
+    float: left;
+    width: 100px;
+    margin: 70px;
+}
+
+.total1{
+    height: 200px;
+    float: left;
+    width: 100px;
+    margin: 66px;
+    transform: rotate(180deg);
+  }
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom, #ff99ff 10%, #ff99cc 20%);
+    position: relative;
+    top: 40px;
+    left: -35px;
+}
+
+.circle {
+    width: 250px; 
+    height: 250px;
+    background: linear-gradient(to bottom, #ff0066 10%, #9966ff 100%);
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: -70px;
+}
+
+#top-left {
+    width: 148px;
+    height: 147px;
+    background: black;
+    position: relative;
+    top: -150px;
+    left:30px;
+    border-top-left-radius: 118px;
+
+
+}
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+body{
+  background-color: black;
+}
+
+.final{
+    float: left;
+}
+  
+}
+ .total {
+    height: 297px;
+    float: left;
+    width: 135px;
+    margin: 70px;
+}
+
+.total1{
+    height: 300px;
+    float: left;
+    width: 153px;
+    margin: 66px;
+    transform: rotate(180deg);
+
+}
+.total2{
+    height: 300px;
+    float: left;
+    width: 80px;
+    margin:41px;
+    transform: rotate(90deg);
+}
+
+.total3{
+    height: 312px;
+    float: left;
+    width: -19px;
+    margin:0px;
+    transform: rotate(270deg);
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom, #ff99ff 10%, #ff99cc 20%);
+    position: relative;
+    top: 40px;
+    left: -35px;
+}
+
+.circle {
+    width: 250px; 
+    height: 250px;
+    background: linear-gradient(to bottom, #ff0066 10%, #9966ff 100%);
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: -70px;
+}
+
+#top-left {
+    width: 148px;
+    height: 147px;
+    background: black;
+    position: relative;
+    top: -150px;
+    left:30px;
+    border-top-left-radius: 118px;
+
+
+}
+
+.main{
+  width:500px;
+  height: 1000px;
+}
+
+
+
+
