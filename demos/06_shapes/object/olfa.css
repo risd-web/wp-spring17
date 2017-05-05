@@ -54,10 +54,7 @@ div {
     height: 30px;
     width: 100%;
 }
-#holder {
-    position: absolute;
-    height: 400px;
-    width: 110px;
+
 }
 #sheath {
     background: transparent;

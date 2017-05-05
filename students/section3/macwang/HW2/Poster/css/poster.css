@@ -1,0 +1,175 @@
+.layer1, .layer2 {
+	mix-blend-mode: multiply;
+}
+
+h1{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+	line-height:10px;
+}
+
+h2{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 10px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+	position: relative;
+ 	margin-top: 450px;
+  	text-align: right;
+}
+
+.title2{
+	float: left;
+	background-color: black;
+	padding: 10px;
+	color: white;
+	position: relative;
+	margin-top: 66px;
+	margin-left: 10px;
+}
+
+.title1{
+	float: left;
+}
+
+.name{
+	float: bottom;
+	background-color: black;
+	padding: 5px;
+	color: white;
+	
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: top;
+	margin-top: 100px;
+}
+
+.minus{
+	width: 300px;
+	height: 100px;
+	background: red;
+	position: relative;
+	top: 150px;
+}
+
+.plus {
+	left: 450px;
+	top: -50px;
+  background: red;
+  height: 300px;
+  position: relative;
+  width: 100px;
+}
+.plus:after {
+  background: red;
+  content: "";
+  height: 100px;
+  left: -100px;
+  position: absolute;
+  top:100px; 
+  width: 300px;
+}
+
+.x {
+	transform: rotate(45deg);
+	left: 800px;
+	top:-350px;
+  background: red;
+  height: 300px;
+  position: relative;
+  width: 100px;
+}
+.x:after {
+  background: red;
+  content: "";
+  height: 100px;
+  left: -100px;
+  position: absolute;
+  top: 100px;
+  width: 300px;
+}
+
+.devide {
+	width: 300px;
+	height: 100px;
+	background: red;
+	position: relative;
+	top: -200px;
+	left: 900px;
+}
+
+.dot1 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50px;
+	margin-top: 100px;
+	top:-890px;
+	left:1000px;
+}
+
+.dot2 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50px;
+	margin-top: 100px;
+	top:-1310px;
+	left:1000px;
+}
+
+.plus1 {
+		transform: rotate(45deg);
+	left: 300px;
+	top: -400px;
+  background: red;
+  height: 300px;
+  position: relative;
+  width: 100px;
+}
+.plus1:after {
+  background: red;
+  content: "";
+  height: 100px;
+  left: -100px;
+  position: absolute;
+  top:100px; 
+  width: 300px;
+}
+
+.x1 {
+
+	left: 650px;
+	top:-700px;
+  background: red;
+  height: 300px;
+  position: relative;
+  width: 100px;
+}
+.x1:after {
+  background: red;
+  content: "";
+  height: 100px;
+  left: -100px;
+  position: absolute;
+  top: 100px;
+  width: 300px;
+}

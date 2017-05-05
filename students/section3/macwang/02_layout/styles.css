@@ -140,7 +140,7 @@ h2::after{
 
 @media screen and (max-width: 920px){
     #first .event{
-        width: 100%;
+        width: 50%;
         }    
 
 }

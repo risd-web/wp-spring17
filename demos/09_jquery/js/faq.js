@@ -4,24 +4,22 @@ $(document).ready(function() {
 
   console.log(banana);
 
+  var h3Text = $("h3").html();
+  $("#message").append("The html of my h3 tag is " + h3Text);
 
   $("#trigger").click(function(){
+
+   
+      $("h3").text("This is new text");
       
+      h3Text = $("h3").html();
 
-      var h3TextColor = $("h3").css("color");
-      console.log("The heading 3 text color is " + h3TextColor);
-
-      $('#message').append("The heading 3 text color is " + h3TextColor);
-
-      $("h3").css("color", "red");
-      
-      h3TextColor = $("h3").css("color");
-      console.log('After changing, the heading 3 text color is ' + h3TextColor);
+      $("#message").append('<p>After changing, the heading 3 html is ' + h3Text +'</p>');
 
   });
 
   $(".dropdown").click(function(){ //<div class="dropdown"> is my trigger
-  	var text = $("dd",this); //store dd of clicked dropdown in 'text' variable
+  	var text = $('dd',this); //store dd of clicked dropdown in 'text' variable
   	var icon = $('.toggle',this); //store .toggle of clicked dropdown in 'icon' variable
 
     text.slideToggle(400,callbackExample); //slideToggle dd when dropdown is clicked. execute callback function when done.

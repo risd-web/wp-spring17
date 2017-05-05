@@ -1,10 +1,13 @@
-.button {background-color: 
-        border: none;
-        color: white;
-        border-radius: 5px;
-        display: inline-block;
-        text-align: center;
-        padding: 10px 10px;}
+.button {
+	background-color: 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+}
+
 .play{
 	animation: wheel 1s ease-in-out alternate infinite;
 }
@@ -40,9 +43,13 @@
   	justify-content: center;
 }
 
-h1{
-	display: none;
+.controls div:hover{
+	opacity: 0.5;
 }
+
+/*h1{
+	display: none;
+}*/
 
 .element {
 	width: 100px;
@@ -51,13 +58,15 @@ h1{
 	background-color: #f4ca16;    
 }
 
-<<<<<<< Updated upstream
 #red{
 	border-radius: 50%;
-=======
-.red{border-radius: 50%;
->>>>>>> Stashed changes
+	width: 100px;
+	height: 100px;
 	background: tomato;
+}
+
+#red:hover{
+	opacity: 0.5;
 }
 
 
