@@ -31,7 +31,7 @@ h2{
         margin-top: 3em;
 }
 
-p{      
+p{
         margin: 0;
         margin-bottom: 5px;
         line-height: 1.5;
@@ -51,7 +51,6 @@ p:hover{
         padding: 1em;
         box-sizing: border-box;
 }
-
 
 
 section{
@@ -142,14 +141,15 @@ h2::after{
 @media screen and (max-width: 920px){
     #first .event{
         width: 100%;
-        }    
+        background-color: pink;
+        }
 
 }
 
 @media screen and (max-width: 620px){
-    #first .event{
-        background: yellow; 
-        }    
+     .event{
+        background-color: yellow;
+        }
 
 }
 

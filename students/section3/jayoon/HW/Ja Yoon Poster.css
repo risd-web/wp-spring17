@@ -1,0 +1,62 @@
+body{
+background: black;
+	font-family: Akzidenz-Grotesk BQ, Helvetica;
+}
+
+.text{
+	z-index: 3;
+	float: left;
+	position: absolute;
+	top:225px;
+	left: 50px;
+	line-height: 14pt;
+	font-size: 10px;
+	text-align: left;
+	/*transform: rotate(300deg);*/
+}
+
+.container{transform: rotate(-45deg); position: relative; top: 60px;}
+
+.texttwo{
+	width:100%;
+	float: left;
+	position:absolute;
+	top:100px;
+	left:10px;
+	font-size: 100pt;
+	text-align: left;
+	font-weight: bold;
+}
+
+#triangle{
+	width: 0;
+	height: 0;
+	border-bottom: 500px solid Aliceblue;
+	border-left: 300px solid transparent;
+	position: absolute;
+	top: 800px;
+	left:500px;
+	z-index: -1;
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+
+ h2{
+	font-size: 100pt;
+	color: tomato;
+	/*transform: rotate(300deg);*/
+}
+
+p{
+ font-size: 12pt;
+ margin: 0;
+ color: white;
+}

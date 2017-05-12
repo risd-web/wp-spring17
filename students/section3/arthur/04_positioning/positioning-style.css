@@ -1,6 +1,6 @@
 body{
 	background: #ccc;
-	height: 200vh;
+	height: 200px;
 }
 
 .box{
@@ -64,5 +64,5 @@ body{
 
 }
 
-.absolute img:hover { 
+.absolute img:hover {
  }

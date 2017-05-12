@@ -65,7 +65,10 @@ section{
 #right{
 	width: 50%;
 }
-
+p{
+ font-size: 8pt;
+ margin: 0;
+}
 h2{
 	font-size: 3rem;
 	margin: 0;
