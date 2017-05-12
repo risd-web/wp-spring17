@@ -1,0 +1,61 @@
+
+body{
+	text-align: center;
+	background-color: #F7F4A7;
+	display: block;
+	margin: 25px;
+}
+
+.container {
+	margin: 0 auto;
+	top: 60px;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	transform: rotate(-90deg);
+}
+
+/*.love, .love2{
+	float: left;
+}*/
+
+.love{
+	width: 200px;
+	height: 300px;
+	background-color: #F7B5A2;
+	border-radius: 50%;
+	position: relative;
+	top: 120px
+	left: 30px;
+	transform: rotate(20deg);
+	display: inline-block;
+	z-index: 20;
+	animation: colorchange 2s infinite;
+}
+
+.love2{
+	width: 200px;
+	height: 300px;
+	background-color: #F79F8C;
+	border-radius: 50%;
+	position: relative;
+	top: 120px;
+	left: 40px;
+	transform: rotate(-20deg);
+	display: inline-block;
+	z-index: 20;
+	animation: colorchange 2s infinite;
+}
+
+@keyframes colorchange
+
+{
+0%   {background: #00E899;}
+15%  {background: #F79F8C;}
+30%  {background:#F781CB;}
+45%  {background: #D46CF7;}
+60% {background: #8993F7;}
+75% {background: #89D0F7;}
+90% {background: #6EF3E2;}
+100% {background: #5BF795;}
+}

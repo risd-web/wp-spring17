@@ -1,0 +1,51 @@
+body{
+    margin:0;
+}
+
+.y{
+    position:absolute;
+    top:.5vw;
+    left:1vw;
+    color:#84B4FF;
+    font-family:"Comic Sans MS";
+    font-size:60vw;
+}
+
+.o{
+    position:absolute;
+    font-family:"Comic Sans MS";
+    font-weight: bold;
+    color:#F7F4A7;
+    font-size:35vw;
+    top:25vw;
+    left:29vw;
+}
+
+.o1{
+    position:absolute;
+    font-family:"Comic Sans MS";
+    font-weight: bold;
+    color:#F7F4A7;
+    font-size:35vw;
+    top:25vw;
+    left:47vw;
+}
+
+.n{
+    position:absolute;
+    font-family:"Comic Sans MS";
+    font-weight: bold;
+    color:#84B4FF;
+    font-size:35vw;
+    top:25vw;
+    left:66vw;
+}
+
+
+
+@keyframes blink
+{
+0%   {background: black;}
+    50% {background: none;}
+100% {background: black;}
+}
