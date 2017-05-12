@@ -1,0 +1,38 @@
+#container{
+	display: block;
+	margin: 15% auto;
+	width: 50%;
+}
+img{
+	width:100%;
+	margin: 0 auto;
+}
+
+body {
+	background: #7FFF00
+}
+
+@media screen and (max-width: 1050px){
+	body{background: #228B22;
+}
+}
+
+@media screen and (max-width: 920px){
+	body{background: #006400;
+}
+}
+
+@media screen and (max-width: 800px){
+	body{background: #DAA520;
+}
+}
+
+@media screen and (max-width: 620px){
+	body{background: #FFD700;
+}
+}
+
+@media screen and (max-width: 420px){
+	body{background: #FF0000;
+}
+}

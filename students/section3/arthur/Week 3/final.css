@@ -1,0 +1,41 @@
+body {
+	background-color: black;
+}
+
+.box{
+	width: 50rem;
+	margin-top: 10rem;
+	margin-left: 10rem;
+	position: fixed;
+}
+h1{
+	color:white;
+}
+h2 {
+	color: white;
+}
+
+.people {
+	display: inline-block;
+}
+
+.lottery{
+	display: inline-flex;
+}
+
+.morning{
+	display: inline-block;
+}
+
+.time{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	opacity: 0.7;
+}
