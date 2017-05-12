@@ -13,6 +13,18 @@ body {
   	-webkit-flex-flow: wrap;
   	justify-content: center;
 }
+
+.element:nth-child(6) {
+	transition-property:all;
+	transition-duration:5s;
+	transition-timing-function: ease-in;
+
+}
+
+.element:nth-child(6):hover{
+	background-color: tomato;
+	transform: rotate(20deg) scale(5);
+}
 .element {
 	width: 50px;
 	height: 50px;
