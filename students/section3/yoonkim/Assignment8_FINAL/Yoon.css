@@ -2,43 +2,41 @@ body{
     margin:0;
 }
 
-.y{
-    position:absolute;
-    top:.5vw;
-    left:1vw;
-    color:#84B4FF;
+img {
+    float: right;
+}
+
+
+.popup{
+    text-transform: uppercase;
+    position: absolute;
+}
+.text{
+    position: absolute;
+    top: 20vh;
     font-family:"Comic Sans MS";
+    font-weight: bold;    
+}
+.y{
+    color:#84B4FF;
     font-size:60vw;
 }
 
 .o{
-    position:absolute;
-    font-family:"Comic Sans MS";
     font-weight: bold;
     color:#F7F4A7;
     font-size:35vw;
-    top:25vw;
-    left:29vw;
+    margin-left: -100px;
 }
 
 .o1{
-    position:absolute;
-    font-family:"Comic Sans MS";
-    font-weight: bold;
     color:#F7F4A7;
     font-size:35vw;
-    top:25vw;
-    left:47vw;
 }
 
 .n{
-    position:absolute;
-    font-family:"Comic Sans MS";
-    font-weight: bold;
     color:#84B4FF;
     font-size:35vw;
-    top:25vw;
-    left:66vw;
 }
 
 
