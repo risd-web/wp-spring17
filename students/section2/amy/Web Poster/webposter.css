@@ -1,0 +1,117 @@
+*{font-family:"Helvetica","Arial", sans-serif; text-decoration:none; list-style:none;}
+body{
+    margin:0;
+}
+
+.background {
+    height:600px;
+    width:435px;
+    background: #dddfdf;
+    position: absolute;
+    top:20px;
+    left:20px;
+    overflow: hidden;
+}
+
+.musica{
+    color: black;
+    position:absolute;
+    top: 483px;
+    left: 18rem;
+    display: inline-block;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    			}
+
+.text{
+    font-size: 9.7px;
+    margin-top:490px;
+    margin-left:5px;
+    float:left;
+    display: inline-block;
+    
+}
+.text:hover {
+    color:firebrick;
+    transition:1s;
+    top:500px;
+}
+.text2 {
+    font-size: 9.7px;
+    margin-left: 9px;
+    margin-top:210px;
+    display: inline-block;
+    float:left;
+    
+}
+
+.text2:hover {
+    color:firebrick;
+    transition:1s;
+    top:500px;
+}
+.text3 {
+    font-size: 9.7px;
+    margin-top: 270px;
+    display: inline-block;
+}
+.text3:hover {
+    color:firebrick;
+    transition:1s;
+    top:500px;
+}
+
+
+
+
+
+.one {position: absolute;
+    background: black;
+    border-radius: 100%;
+    width:245px;
+    height:245px;
+    margin-top: 165px;
+    margin-left: 10px;
+}
+.one:hover {
+  transform: skew(10deg,80deg);
+    transition: 1s;
+}
+
+.two {
+    position: absolute;
+    background: black;
+    border-radius: 100%;
+    width:90px;
+    height:90px;
+    margin-top: 360px;
+    margin-left: 212px;  
+}
+.two:hover {
+    transform: skew(-10deg,-90deg);
+    transition: 1s;;
+}
+.three{
+    position: absolute;
+    background: black;
+    border-radius: 100%;
+    width:35px;
+    height:35px;
+    margin-top: 336px;
+    margin-left: 280px;  
+    
+}
+.three:hover {
+transform:skew(-50deg,-80deg);
+transition:1s;
+}
+
+.four { width: 280px;
+     height: 280px;
+     background: #000000;
+     border-radius: 0 0 0 200px;
+     -moz-border-radius: 0 0 0 200px;
+     -webkit-border-radius: 0 0 0 300px;
+    float:right;
+
+}

@@ -1,0 +1,28 @@
+body{
+	font-family: Akzidenz-Grotesk BQ, Helvetica;
+}
+
+.top{
+  background: black;
+  color: white;
+}
+
+h2{
+  font-size: 100pt;
+  color: tomato;
+  margin-top: 0;
+}
+
+.info{
+  padding-left: 410px;
+}
+
+.bottom{
+  background: aliceblue;
+}
+.circle{
+  width: 100pt;
+  height: 100pt;
+  border-radius: 50%;
+  background: black;
+}

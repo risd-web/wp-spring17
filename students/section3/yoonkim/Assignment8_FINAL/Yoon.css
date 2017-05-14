@@ -1,0 +1,49 @@
+body{
+    margin:0;
+}
+
+img {
+    float: right;
+}
+
+
+.popup{
+    text-transform: uppercase;
+    position: absolute;
+}
+.text{
+    position: absolute;
+    top: 20vh;
+    font-family:"Comic Sans MS";
+    font-weight: bold;    
+}
+.y{
+    color:#84B4FF;
+    font-size:60vw;
+}
+
+.o{
+    font-weight: bold;
+    color:#F7F4A7;
+    font-size:35vw;
+    margin-left: -100px;
+}
+
+.o1{
+    color:#F7F4A7;
+    font-size:35vw;
+}
+
+.n{
+    color:#84B4FF;
+    font-size:35vw;
+}
+
+
+
+@keyframes blink
+{
+0%   {background: black;}
+    50% {background: none;}
+100% {background: black;}
+}

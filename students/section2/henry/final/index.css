@@ -1,0 +1,91 @@
+body{
+    margin:0;
+}
+
+.searchbar{
+    position:absolute;
+    width:50vw;
+    height:3vw;
+    left:25vw;
+    top:22vw;
+    border: 1vw;
+    border-style: solid;
+    border-width: 1vw;
+    border-radius: 1vw;
+}
+
+.text{
+    position: absolute;
+    background:black;
+    height:2vw;
+    width:.4vw;
+    left:27vw;
+    top:23.5vw;
+    animation: blink .55s infinite;
+}
+
+.g{
+    position:absolute;
+    top:.5vw;
+    left:1vw;
+    color:#4885ed;
+    font-family:Helvetica;
+    font-size:50vw;
+}
+
+.o{
+    position:absolute;
+    font-family:Helvetica;
+    font-weight: bold;
+    color:#db3236;
+    font-size:23vw;
+    top:25vw;
+    left:38vw;
+}
+
+.o1{
+    position:absolute;
+    font-family:Helvetica;
+    font-weight: bold;
+    color:#f4c20d;
+    font-size:23vw;
+    top:25vw;
+    left:52vw;
+}
+
+.g1{
+    position:absolute;
+    font-family:Helvetica;
+    font-weight: bold;
+    color:#4885ed;
+    font-size:23vw;
+    top:25vw;
+    left:66vw;
+}
+
+.l{
+    position:absolute;
+    font-family:Helvetica;
+    font-weight: bold;
+    color:#3cba54;
+    font-size:23vw;
+    top:25vw;
+    left:79vw;
+}
+
+.e{
+    position:absolute;
+    font-family:Helvetica;
+    font-weight: bold;
+    color:#db3236;
+    font-size:23vw;
+    top:25vw;
+    left:85vw;
+}
+
+@keyframes blink
+{
+0%   {background: black;}
+    50% {background: none;}
+100% {background: black;}
+}

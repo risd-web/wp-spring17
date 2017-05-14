@@ -1,0 +1,11 @@
+@keyframes colorchange
+{
+0%   {background: #00E899;}
+15%  {background: #F79F8C;}
+30%  {background:#F781CB;}
+45%  {background: #D47CF7;}
+60% {background: #8992F7;}
+75% {background: #89D9F7;}
+90% {background: #6EF7E2;}
+100% {background: #5BF795;}
+}

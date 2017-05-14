@@ -1,0 +1,84 @@
+body{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+h1{
+    background-color: pink;
+    border: 3px solid blue;
+    text-align: center;
+    color: green;
+    padding: 1em;  
+    font-family: helvetica;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.jiyeon{background-color: #ffe200;}
+
+.sans{
+    font-family: 
+}
+.special{
+    text-decoration:underline;
+}
+
+.box{
+    border: 1px dashed blue;
+    font-family: Georgia, serif;
+    width: 500px;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+/* section is an html5 element */
+
+
+.awesome{
+    margin-top: 5rem;
+}
+
+.box p{
+    background: pink;
+    padding: 1rem;
+    /*border-width: 1px;
+    border-style: solid;
+    border-color: pink;*/
+}
+section{
+    font-style: italic;
+}
+
+h3{
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.blueberry{
+    color: blue;
+}
+
+ul {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#last{
+    background: yellow;
+}
+
+li:nth-child(3){
+    font-weight: bold;
+}
+
+section{
+    overflow: auto;
+}
+
+#left, #right{
+    width: 50%;
+    float: left;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+<img src="for_danielle/1">

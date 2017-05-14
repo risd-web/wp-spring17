@@ -1,0 +1,54 @@
+
+body{
+	text-align: center;
+	background-color: green;
+	display: block;
+	margin: 25px;
+}
+
+.container {
+	margin: 0 auto;
+	top: 60px;
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+
+.love{
+	width: 200px;
+	height: 300px;
+	background-color: #F7B5A2;
+	border-radius: 50%;
+	position: relative;
+	top: 120px
+	left: 30px;
+	transform: rotate(20deg);
+	display: inline-block;
+	z-index: 20;
+}
+
+.love2{
+	width: 200px;
+	height: 300px;
+	background-color: #F79F8C;
+	border-radius: 50%;
+	position: relative;
+	top: 120px;
+	left: 40px;
+	transform: rotate(-20deg);
+	display: inline-block;
+	z-index: 20;
+}
+
+@keyframes colorchange
+
+{
+0%   {background: #00E899;}
+15%  {background: #F79F8C;}
+30%  {background:#F781CB;}
+45%  {background: #D47CF7;}
+60% {background: #8992F7;}
+75% {background: #89D9F7;}
+90% {background: #6EF7E2;}
+100% {background: #5BF795;}
+}

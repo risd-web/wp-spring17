@@ -1,0 +1,40 @@
+
+    h1{
+    	color:red;
+    	text-align: center;
+    }
+    h2{
+    	color:coral;
+    	text-align: left;
+    	font-family: "Universe", sans-serif;
+    	
+    }
+    h3{
+    	color: blue
+   
+    }
+
+
+    li{
+    	margin-bottom: 0.5rem;
+        margin-top: 0.5rem;}
+
+	.special{
+		text-decoration: underline;}
+
+	.box{
+		border:3px dashed yellow;
+		font-family: Georgia; 
+		padding: 1rem; 
+		width: 500px; 
+		box-sizing: border-box;
+		text-align:center;}
+
+	.box2{
+		font-family:"Universe";
+		padding: 1rem;
+		width: 1000px;
+		box-sizing: : border-box;
+	}
+
+.box p {background:pink; padding:1rem;}

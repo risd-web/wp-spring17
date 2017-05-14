@@ -1,0 +1,117 @@
+* {margin:0; padding:0; text-decoration:none; list-style:none; font-family:"Akzidenz-Grotesk", sans-serif; font-weight:normal;}
+
+/*mainstuff*/
+/*.overflow {overflow:hidden;}*/
+body {background-color:black;} /*will need to be changed*/
+
+
+
+
+/*submain*/
+#submain1 {width:40rem; height:60rem; margin:5rem auto; background-color:#e4e4e2;}
+#submain2 {width:40rem; height:60rem; margin:5rem auto; background-color:#faede6;}
+
+
+/*left*/
+#left {float:left;}
+#ul01 {position:relative; width:20rem; height:37rem; background-color:#eb9406;}
+#li01 {position:absolute; float:left; left:6rem; top:20.2rem;
+}
+#li01 #p01 {text-align:right; font-size:10px; font-weight:bold; line-height:1.4rem;}
+#li02 {position:absolute; float:left; top:20rem; left:9.5rem;}
+#li02 #p02 { font-size:22px; font-weight:bold;}
+#li02 a {color:black;}
+#li02 a:link {color:black;}
+#li02 a:hover {text-decoration:underline;}
+#li02 a:active {color:black;}
+#li02 a:visited {color:black;}
+
+#ul02 {position:relative;}
+#li03 {position:absolute; float:left; left:3.5rem; top:8.8rem;}
+#li03 p {font-size:10px; font-weight:bold; text-align:right;}
+
+
+
+#subul02 {position:relative; float:left; left:9.5rem; top:0.5rem;}
+#li05 {font-size:10px; font-weight:bold;}
+#li06 {font-size:10px; font-weight:bold; margin-top:3rem; margin-bottom:2rem;}
+#li07 {font-size:10px; font-weight:bold;}
+
+/*right*/
+#right {float:left;}
+#li09 {width:10rem; height:35rem; background-color:#eb9406; margin-left:5px; margin-top:16rem; float:left;}
+#li10 {width:5rem; height:30rem; background-color:#eb9406; margin-left:5px; margin-top:30rem; float:left;}
+#li11 {width:2.5rem; height:35rem; background-color:#eb9406; margin-left:5px; margin-top:10rem; float:left;}
+#li12 {width:1.25rem; height:37rem; background-color:#eb9406; margin-left:5px; float:left;}
+
+
+/* second one */
+#main2 {position:relative;}
+#triangle1 {position:absolute; width: 0; height: 0; border-bottom: 40rem solid rgba(17,113,130,0.7); border-right:40rem solid transparent; z-index:2;
+animation: triangleone 2s linear normal infinite;}
+
+#triangle2 {position:absolute; width: 0; height: 0; border-bottom: 40rem solid #ffe702; border-left: 40rem solid transparent; top:20rem; left:0;
+animation: triangletwo 2s linear normal infinite;
+}
+
+#ul04 {position:relative; top:5rem; left:1rem; z-index:70; transform:rotate(315deg);
+animation: letters 2s ease alternate infinite;
+
+}
+#li13 {position:relative; float:left; top:12.5rem; right:0; right:0.7rem;}
+#li14 {text-align:right; margin-bottom:2.7rem; font-size:0.8rem;}
+#li15 {text-align:right; font-size:0.8rem;}
+#li16 {position:relative; float:left; font-size:4.5rem; font-weight:bold; line-height:4rem;}
+#li16 a:link {color:black; font-weight:bold;}
+#li16 a:hover {text-decoration:underline;}
+#li16 a:active {color:black;}
+#li16 a:visited {color:black;}
+
+
+
+/*buttonfor toggle*/
+#button {width:50px; height:40px; position:fixed; background-color:#ddd; border-radius:10px; border:2px solid black; z-index:10000; left:3rem; top:3rem;}
+#button:hover {background-color:yellow; cursor:pointer;}
+
+ /*submain1*/
+
+
+
+/*submain2*/
+@keyframes triangleone {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg) ;
+	}
+}
+
+
+@keyframes triangletwo {
+	0% {
+		transform: rotateX(0deg);
+	}
+	100% {
+		transform: rotateX(-360deg) ;
+	}
+}
+
+@keyframes letters {
+   0% {transform: rotateZ(0deg);}
+
+   50% {transform: rotateZ(-40deg);}
+
+
+}
+
+
+/*@media (min-width: 501px) and (max-width:550px) {
+    body {
+        background: #ffe1f0; color:#190a12;}
+	ul li a:link {color:#190a12;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#190a12;}
+	ul li a:visited {color:#190a12;}
+	ul {border:1px dashed #190a12;border-style:dashed;}
+}*/

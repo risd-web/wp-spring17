@@ -1,0 +1,91 @@
+
+body {
+		font-size: 2 em;
+		color: rgb(200, 200, 200);
+		font-family: "Avenir", Sans-Serif;
+		font-style: bold;
+
+}
+
+#fun {
+	float:left
+	padding: 20rem;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background:rgb(200, 200, 200);
+	position: fixed;
+	z-index: -20;
+}
+
+#square1 {
+	top: 50%;
+	left: 30%;
+}
+
+#square2 {
+	top: 10%;
+	left: 10%;
+}
+
+#square3 {
+	top: 25%;
+	left: 50%;
+}
+
+#square4 {
+	top: 75%;
+	left: 70%;
+}
+
+#square5 {
+	top: 90%;
+	left: 20%;
+}
+
+#square6 {
+	top: 2%;
+	left: 80%;
+}
+
+#square7 {
+	top: 68%;
+	left: 0%;
+}
+
+#rectangle {
+	width: 100%;
+	height: 300px;
+	background:rgba(250, 100, 40 ,0.4);
+	position: absolute;
+	top: 35%;
+	left: 0%;
+	z-index: -10;
+
+}
+
+#rectangle2 {
+	width: 100%;
+	height: 50px;
+	background:rgba(250, 100, 40 ,0.4);
+	position: absolute;
+	top: 10%;
+	left: 0%;
+	z-index: -10;
+	pointer-events: none;
+}	  
+
+
+
+#rectangle3 {
+	width: 100%;
+	height: 100px;
+	background:rgba(250, 100, 40 ,0.4);
+	position: absolute;
+	top: 110%;
+	left: 0%;
+	z-index: -10;
+
+}	  	  		  	  		  	  	

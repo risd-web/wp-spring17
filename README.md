@@ -4,6 +4,7 @@
 * Spring 2017, 8:00am–1:00pm, Fridays. Room 404
 * 1 credit
 * Instructor: Marie Otsuka (motsuka@risd.edu)
+* TA: Eury Kim (ekim06@risd.edu)
 
 This three-session workshop combines the tactical skills needed to structure web pages with a looser more playful compositional mindset. Students are introduced to the structural elements and properties of HTML and CSS through hands-on demos, in-class exercises and take-home assignments. Typographic markup and hierarchy establishes the basis for more abstract form making in week two. Week three incorporates interaction, introducing CSS3 transform, animation, and other user-controlled properties. The final assignment for week four will allow you to combine what you learned in the first three weeks.
 
@@ -24,16 +25,15 @@ This three-session workshop combines the tactical skills needed to structure web
 
 ### Week Two: Form
 >Week two encourages a different mindset, using code and the browser to discover designs as you make.  
-* Assignment 3: Draw a concrete object
-* Assignment 4: Web Poster 1: use abstract shapes / grids (Muller-Brockman)
-* Assignment 5: Web Poster 2: incorporate the work of peers to develop patterns
+* Assignment 3: Draw concrete objects using CSS shapes
+* Assignment 4: Web Poster — use abstract shapes / grids (Muller-Brockman)
+* Assignment 5: Pattern — incorporate the work of peers / repeat shapes to develop patterns
 
 ### Week Three: Behavior
 >Week three delves into designing with time, adding interactivity and motion.
-* Assignment 6: Create a responsive animation with Web Poster 2
-* Assignment 7: Animate a Web Poster with css
-* Assignment 8: Set triggers with jQuery
-* Final: Combine your skills to make a website
+* Assignment 6: Create a responsive animation using media queries
+* Assignment 7: Animate your web poster and set triggers with jQuery
+* Final: Combine your skills to make a responsive website
 
 ### Week Four
 >Putting it all together
@@ -48,7 +48,8 @@ This three-session workshop combines the tactical skills needed to structure web
 * Google Chrome browser or Safari
 
 ## Resources
-* [Lectures](https://drive.google.com/open?id=0B3lDDEnD7CkNOVBFdk9xX2pGams) are available on Google Drive
+* [Lectures](https://drive.google.com/open?id=0B3lDDEnD7CkNOVBFdk9xX2pGams) are available on Google Drive 
+* Sample [web planning docs](https://drive.google.com/open?id=0B3lDDEnD7CkNc1FVQVdlYUtiLXM)
 * Be sure to refer to the [Wiki](https://github.com/risd-web/wp17/wiki) on the Github page for useful resources
 * Check out & add to [Examples](https://github.com/risd-web/wp17/wiki/Examples) for inspiration
 * Clone the Github Repo from [last year's class](https://github.com/risd-gd/wp16)

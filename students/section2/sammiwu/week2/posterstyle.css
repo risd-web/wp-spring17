@@ -1,0 +1,107 @@
+body{
+	background: rgb(80,50,50);
+	font-family: Helvetica, sans-serif;
+}
+section{
+	width: 40%;
+	margin: auto;
+	height: 690px;
+	overflow: hidden;
+	background: rgb(215,215,208);
+}
+
+.circle1{
+	position: relative;
+	top:-350px;
+	left: 140px;
+	width: 700px;
+	height: 700px;
+	background: black;
+	-moz-border-radius: 350px;
+	-webkit-border-radius: 350px;
+	border-radius: 350px;
+}
+
+.circle2{
+	position: relative;
+	top:-490px;
+	left: 5px;
+	width: 260px;
+	height: 260px;
+	background: black;
+	-moz-border-radius: 130px;
+	-webkit-border-radius: 130px;
+	border-radius: 130px;	
+}
+.circle3{
+	position: relative;
+	top:-540px;
+	left: 215px;
+	width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;	
+}
+.circle4{
+	position: relative;
+	top:-665px;
+	left: 295px;
+	width: 40px;
+	height: 40px;
+	background: black;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;	
+}
+
+#first, #second, #third{
+	position: relative;
+	top: -570px;
+	float: left;
+	width: 31%;
+	padding: .2em
+}
+#first{
+	position: relative;
+	top: -570px;
+	float: left;
+	width: 28%;
+	margin-left: 9px;
+}
+#third{
+	position: relative;
+	top: -605px;
+	float: left;
+	width: 29%;
+}
+
+#second{
+	position: relative;
+	top: -570px;
+	float: left;
+	width: 34%;
+}
+
+.text{
+	font-size: 10.45px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.head{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	line-height: 59px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,201 @@
+<html>
+<head>
+    <title>RISD LP</title></head>
+<body>
+    
+<iframe style="display:none;" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/316879467&amp;auto_play=true&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+
+    
+    <div class="risdioContainer">
+    <div class="risdio"><img class="logoimage" src="risdio.jpg">
+    </div>
+    </div>
+    
+    <hr>
+    <div class="listContainer">
+        <div class="list">
+            
+            <div class="music" id="music1">
+                <span class="musicArtist">Joanna Newsom</span> - <span class="musicName">Sadie</span>
+                <img class="musicimg" id="musicimg1" src="Joanna%20Newsom%20-%20Sadie.jpg">
+            </div>
+            
+            <div class="music" id="music2">
+                <span class="musicArtist">Nellie McKay</span> - <span class="musicName">The Dog Song</span>
+                <img class="musicimg" id="musicimg2" src="Nellie%20McKay%20-%20The%20Dog%20Song.jpg">
+            </div>
+            
+            <div class="music" id="music3">
+                <span class="musicArtist">Fatima Al Qadiri, Hito Steyerl & Juliana Huxtable</span> - <span class="musicName">Nothing Forever</span>
+                <img class="musicimg" id="musicimg3" src="fatima%20al%20qadiri%20hito%20steyerl%20&%20juliana%20huxtable%20nothing%20forever.jpg">
+            </div>
+            
+            <div class="music" id="music4">
+                <span class="musicArtist">GFOTY & Spinee</span> - <span class="musicName">Dog Food Mix 1</span>
+                <img class="musicimg" id="musicimg4" src="gfoty%20&%20spinee%20dog%20food%20mix%201.png">
+            </div>
+            
+            <div class="music" id="music5">
+                <span class="musicArtist">Connie Converse</span> - <span class="musicName">Man in the Sky</span>
+                <img class="musicimg" id="musicimg5" src="connie%20converse%20man%20in%20the%20sky.jpg">
+            </div>
+            
+            <div class="music" id="music6">
+                <span class="musicArtist">Devendra Banhart</span> - <span class="musicName">Little Boys</span>
+                <img class="musicimg" id="musicimg6" src="Devendra%20Banhart%20little%20boy.jpg">
+            </div>
+            
+            <div class="music" id="music7">
+                <span class="musicArtist">The Antlers</span> - <span class="musicName">Putting the Dog to Sleep</span>
+                <img class="musicimg" id="musicimg7" src="the%20antlers%20-%20putting%20the%20dog%20to%20sleep.jpg">
+            </div>
+            
+            <div class="music" id="music8">
+                <span class="musicArtist">Elliott Smith</span> - <span class="musicName">Say Yes</span>
+                <img class="musicimg" id="musicimg8" src="Elliott%20smith%20say%20yes.jpg">
+            </div>
+            
+            <div class="music" id="music9">
+                <span class="musicArtist">Nina Simone</span> - <span class="musicName">I Wish I Knew How It Would Feel to Be Free</span>
+                <img class="musicimg" id="musicimg9" src="nina%20simone%20i%20wish%20i%20knew%20how%20it%20would%20feel%20to%20be%20free.jpg">
+            </div>
+            
+        </div>
+    </div>
+    </body>
+    
+<style>
+    
+    html body{
+        margin: 0;
+        animation: bgImg 5s infinite;
+        font-family: monospace;
+    }
+    
+    @keyframes bgImg{
+    0%   {top: 0px; left: 0px; background: skyblue;}
+    25%  {top: 0px; left: 100px; background: greenyellow;}
+    50%  {top: 100px; left: 100px; background: yellow;}
+    75%  {top: 100px; left: 0px; background: coral;}
+    100% {top: 0px; left: 0px; background: skyblue;}
+    }
+    
+    .risdioContainer{
+        position: absolute;
+        width:430px;
+        height:430px;
+        overflow: hidden;
+        top:250px;
+        left:13%;
+    }
+    
+    .risdio{
+        margin-left: -15px;
+    }
+    
+    
+    hr { 
+        margin-top:290px;
+        margin-left:710px;
+        width:800px;
+	    border-top: 1px solid black;
+        background:none;
+    } 
+    
+    .listContainer{
+        position: absolute;
+        top:300px;
+        left:50%;
+        display: inline-block;
+    }
+    
+    .music{
+        width:700px;
+        font-size: 15px;
+        margin: 25px;
+    }
+    
+    .musicimg{
+        display:none;
+        width:600px;
+    }
+</style>
+    
+    <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            $("#music1").hover(function(){
+                $("#musicimg1").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg1").hide();
+            });
+            
+            $("#music2").hover(function(){
+                $("#musicimg2").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg2").hide();
+            });
+            
+            $("#music3").hover(function(){
+                $("#musicimg3").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg3").hide();
+            });
+            
+            $("#music4").hover(function(){
+                $("#musicimg4").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg4").hide();
+            });
+            
+            $("#music5").hover(function(){
+                $("#musicimg5").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg5").hide();
+            });
+            
+            $("#music6").hover(function(){
+                $("#musicimg6").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg6").hide();
+            });
+            
+            $("#music7").hover(function(){
+                $("#musicimg7").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg7").hide();
+            });
+            
+            $("#music8").hover(function(){
+                $("#musicimg8").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg8").hide();
+            });
+            
+            $("#music9").hover(function(){
+                $("#musicimg9").show();
+                $().css("z-index", 9999);},
+                                function(){
+                $().css("z-index", 0);
+                $("#musicimg9").hide();
+            });
+        });
+    </script>
+    
+</html>

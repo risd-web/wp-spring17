@@ -1,0 +1,125 @@
+body{
+  background: #c02e44;
+  margin:100px auto;
+  position: absolute;
+
+}
+
+
+
+.first div {
+  background: #1c1c1c;
+  height: 100px;
+  position: relative;
+  margin-left: 90px;
+  width: 20px;
+}
+.first div:after {
+  background: #1c1c1c;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+
+.second div {
+  width: 40px;
+  height: 40px;
+  background: white;
+}
+
+.second {
+    margin-top: -1416px;
+    margin-left: 180px;
+}
+
+
+.third div {
+  background: #1c1c1c;
+  height: 100px;
+  position: relative;
+  margin-left: 90px;
+  width: 20px;
+}
+.third div:after {
+  background: #1c1c1c;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+
+.third {
+  margin-top:-1394px;
+  margin-left:200px;
+}
+
+.forth div {
+  width: 40px;
+  height: 40px;
+  background: white;
+}
+
+.forth {
+    margin-top: -1416px;
+    margin-left: 385px;
+}
+
+.fifth div {
+  background: #1c1c1c;
+  height: 100px;
+  position: relative;
+  margin-left: 90px;
+  width: 20px;
+}
+.fifth div:after {
+  background: #1c1c1c;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+
+.fifth {
+  margin-top:-1394px;
+  margin-left:410px;
+}
+
+.sixth div {
+  width: 40px;
+  height: 40px;
+  background: white;
+}
+
+.sixth {
+    margin-top: -1416px;
+    margin-left: 600px;
+}
+
+.seventh div {
+  background: #1c1c1c;
+  height: 100px;
+  position: relative;
+  margin-left: 90px;
+  width: 20px;
+}
+.seventh div:after {
+  background: #1c1c1c;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+
+.seventh {
+  margin-top:-1394px;
+  margin-left:630px;
+}

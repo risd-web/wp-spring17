@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'gt_americabold';
+    src: url('gt_america_bold-webfont.woff2') format('woff2'),
+         url('gt_america_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gt_americaregular';
+    src: url('gt_america_regular-webfont.woff2') format('woff2'),
+         url('gt_america_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+            body{
+                font-family: "gt_americaregular", sans-serif; 
+                margin-top: 5em;
+                margin-left: 15em;
+                margin-right: 15em;
+                margin-bottom: 15em;
+            }
+
+            h1{
+                font-family: "gt_americabold", sans-serif;
+                color:red ;
+            }
+
+                .describe{
+                    font-style: italic;
+                    font-size: 0.8em;
+
+            }
+
+            h3{
+                color:red;
+                margin-bottom: 0.2em;
+            }
+
+            .blue{
+                color:blue;
+            }
+
+            .list{
+                font-size: 0.8em;
+            }
+
+
+            #flexbox{
+                display:flex;
+            }
+
+            .col1{
+            flex: 1;
+            padding-right: 0.5em;
+
+            }
+
+            .col2{
+            margin: 0em;
+            flex: 1;
+            padding-left: 0.5em;
+            }
+
+            .col3{
+            padding-right: 15%;
+            }
+
+           /* #last{
+                background: yellow;
+            }
+
+            #left{
+                width: 45%;
+                float:left;
+                padding: 1em;
+            }
+
+            #right{
+                width: 45%;
+                float:right;
+                padding: 1em;
+            }
+*/
+            /*li:nth-child(3){
+                font-size:2px;
+            }
+            */  

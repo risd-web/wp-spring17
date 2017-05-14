@@ -1,0 +1,83 @@
+body {
+	background-color: Mistyrose;
+}
+
+
+.egg {
+   display:block;
+   width: 200px;
+   height: 300px;
+	 transform: rotate(270deg);
+   background-color: gold;
+   -webkit-border-radius: 50px 50px 50px 50px / 80px 80px 60px 60px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+position: relative;
+	 top: 100px;
+ 	left: 500px;
+}
+
+.circle{
+	width: 10px;
+	height: 20px;
+	border-radius: 1px;
+	position: absolute;
+	background: black;
+	border-radius: 50%;
+	top: 200px;
+	left: 550px;
+}
+
+.circle2{
+	width: 10px;
+	height: 20px;
+	border-radius: 1px;
+	position: absolute;
+	background: black;
+	border-radius: 50%;
+	top: 200px;
+	left: 500px;
+}
+
+.beak {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 50px solid tomato;
+	border-bottom: 20px solid transparent;
+position: absolute;
+	 top: 230px;
+ 	left: 470px;
+}
+
+.wing{
+   display:block;
+   width: 100px;
+   height: 150px;
+	 transform: rotate(100deg);
+   background-color: #ffc107;
+   -webkit-border-radius: 25px 25px 25px 25px / 40px 40px 30px 30px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+position: absolute;
+	 top: 200px;
+ 	left: 650px;
+}
+
+.legs1 {
+	width: 10px;
+	height: 70px;
+	background: tomato;
+	position: absolute;
+	 top: 330px;
+ 	left: 700px;
+	z-index: -2;
+}
+
+.legs2 {
+	width: 10px;
+	height:70px;
+	background: tomato;
+	position: absolute;
+	 top: 330px;
+ 	left: 600px;
+	z-index: -1;
+}

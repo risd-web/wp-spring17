@@ -1,0 +1,222 @@
+body {
+	font-family: sans-serif;
+	color: black;
+	background-color: #ddd;
+}
+.back {
+	font-size: 100px;
+	line-height: 200px;
+	padding-left: 100px;
+	margin-top: -50px;
+	color: white;
+}
+
+.options {
+	position: fixed;
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+/*index buttons*/
+.option1 {
+	float: left;
+	margin: 100px  -30px -30px 200px;
+	border: 3px dashed;
+	padding: 30px;
+
+}
+
+.option2 {
+	float: left;
+	margin: 150px  -30px -30px 50px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option3 {
+	float: left;
+	margin: 50px  -30px -30px 200px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option4 {
+	float: right;
+	margin: 100px 100px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option5 {
+	float: right;
+	margin: 250px 100px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+
+/*b buttons*/
+.option1b {
+	float: left;
+	margin: 50px  -30px -30px 250px;
+	border: 3px dashed;
+	padding: 30px;
+
+}
+
+.option2b {
+	float: left;
+	margin: 200px  -30px -30px 100px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option3b {
+	float: left;
+	margin: 150px  -30px -30px 150px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option4b {
+	float: right;
+	margin: 50px 300px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option5b {
+	float: right;
+	margin: 200px 100px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+
+/*c buttons*/
+.option1c {
+	float: left;
+	margin: 150px  -30px -30px 100px;
+	border: 3px dashed;
+	padding: 30px;
+
+}
+
+.option2c {
+	float: left;
+	margin: 200px  -30px -30px 300px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option3c {
+	float: left;
+	margin: -30pxpx  -30px -30px 250px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option4c {
+	float: right;
+	margin: 300px 200px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option5c {
+	float: right;
+	margin: 250px 300px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+
+
+/*d buttons*/
+.option1d {
+	float: left;
+	margin: -30pxpx  -30px -30px 200px;
+	border: 3px dashed;
+	padding: 30px;
+
+}
+
+.option2d {
+	float: left;
+	margin: 150px  -30px -30px 50px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option3d {
+	float: left;
+	margin: 300px  -30px -30px 100px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option4d {
+	float: right;
+	margin: -30pxpx 100px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option5d {
+	float: right;
+	margin: 50px 300px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+
+/*e buttons*/
+
+.option1e {
+	float: left;
+	margin: 100px  -30px -30px 300px;
+	border: 3px dashed;
+	padding: 30px;
+
+}
+
+.option2e {
+	float: left;
+	margin: 150px  -30px -30px 50px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option3e {
+	float: left;
+	margin: 50px  -30px -30px 50px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option4e {
+	float: right;
+	margin: 200px 100px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.option5e {
+	float: right;
+	margin: 200px 300px -30px -30px;
+	border: 3px dashed;
+	padding: 30px;
+}
+
+.optionwin {
+	float: left;
+	margin: 100px -30px -30px 500px;
+	border: 3px dashed;
+	padding: 30px;
+}

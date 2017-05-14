@@ -1,0 +1,41 @@
+                       
+                        @font-face{
+                        /*  declare fonts to call later */
+
+                        }
+
+   
+
+    html { 
+  background: url(media/1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+    h2{
+    color: rgba(255, 0, 0);
+    }
+
+
+    #left {
+		padding: 5px;
+    width: 50%;
+		float: center;
+    padding: 1rem; 
+    }
+
+
+.box{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+}
+
+
+#centering{
+        display: flex;
+        align-items: center;
+}

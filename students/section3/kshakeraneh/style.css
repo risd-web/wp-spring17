@@ -1,0 +1,21 @@
+ body {
+        	font-family:courier;
+        	background-image:url(https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif);
+        	background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color:lavender;
+    text-align:center;
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+        }
+
+h1{
+	color:lavender;font-family:courier;
+	text-align:center;
+}

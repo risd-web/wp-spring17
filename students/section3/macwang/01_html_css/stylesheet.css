@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.lala{
+	color: rgba(25,100,65,50);
+
+}
+
+.title{
+	font-family: 'Bree Serif', serif;
+	font-size: 48px;
+	color: rgba(200,20,30,40);
+
+}

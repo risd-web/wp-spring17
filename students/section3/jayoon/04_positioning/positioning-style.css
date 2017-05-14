@@ -1,0 +1,68 @@
+body{
+	background: #ccc;
+	height: 200vh;
+}
+
+.box{
+	width: 300px;
+	height: 300px;
+	float: left;
+	background: #000;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.relative{
+	position: relative;
+	top: 100px;
+	right: 100px;
+	background: blue;
+}
+
+.absolute{
+	position: absolute;
+<<<<<<< Updated upstream
+	top: 200px;
+	left: 100px;
+	background: yellow;
+=======
+	top: 40px;
+	left: 40px;
+	background: red;
+>>>>>>> Stashed changes
+	overflow: hidden;
+}
+
+.fixed{
+	background: red;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	border-radius: 50%;
+	transform: skew(30deg);
+}
+
+.container{
+	position: absolute;
+	bottom: 100px;
+	right: 500px;
+}
+
+.circle{
+	width: 300px;
+	height: 300px;
+<<<<<<< Updated upstream
+	background: green;
+	border-radius: 3px;
+	position: absolute;
+=======
+	background: red;
+>>>>>>> Stashed changes
+	border-radius: 50%;
+	top: 150px;
+	left: 150px;
+
+}
+
+.absolute img:hover { 
+ }

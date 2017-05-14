@@ -1,0 +1,228 @@
+<html>
+	<head>
+		<title>pattern</title>
+        <link rel="stylesheet" type="text/css" href="pattern.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        console.log("hello!");
+    </script>
+
+        
+        
+		<style>
+			body { margin:0;
+            background:#ffffff;}
+			
+            
+            div{transition:1.5s all;}
+            
+            .clickedDiv {
+				transform: rotate(360deg);
+				margin-top: 100px;
+				height:100px;
+			}
+            
+			.circle { 
+				background: #ffffff;
+				width: 100vh; height: 100vh;
+				overflow: hidden; 
+                margin: 50px;
+				  }
+
+			.circle div { 
+				mix-blend-mode: multiply;
+				float: left;
+				height:80px;
+				width:80px;
+				background:#f26f6f;
+
+
+				top:50%;
+				left:50%;
+				border-radius:200px;
+			
+				  }
+			.circle div:nth-child(n) {  background: #ff9bff; }
+			.circle div:nth-child(2n) {  background: #aea3ff; }
+            .circle div:nth-child(3n) {  background: #80d8ff; }
+
+
+		</style>
+	</head>
+	<body>
+		<div class="circle">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+				<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>	<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>	<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>	<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>	<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>	<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+            <div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+            <div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+            <div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+            <div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+		</div>
+        
+        
+        <script>
+			$("div").click(function() {
+				$(this).toggleClass("clickedDiv");
+				$("body").toggleClass("bgChange");
+			});
+
+
+		</script>
+        
+	</body>
+</html>

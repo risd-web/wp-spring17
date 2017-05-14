@@ -1,0 +1,25 @@
+body { 
+    font-family: 'Raleway', sans-serif;
+    text-align: center;	
+ 	margin-top: 200px;
+    background-color: rgba(236, 125, 63, 0.53);
+}
+
+
+img { height: 850px; width: 850px;  }
+
+#laundry {font-family: 'Lobster', cursive; 
+color: #128112;}
+
+
+#white {color: #f17389;
+		font-size: 25px;
+		 padding-top: 0em;
+
+		}
+
+#pink {color: white;
+		font-size: 25px;
+		 padding-top: 0em;
+
+		}

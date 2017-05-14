@@ -1,0 +1,82 @@
+
+html{
+    background-color:ivory;
+}
+
+.tear {
+    border-color: forestgreen;
+    position:absolute;
+    left:45vw;
+    top:20vw;
+  width: 100px;
+  height: 200px;
+  border-style: dotted;
+    border-width: 3px;
+  border-radius: 80%;
+    color:rgba(0,0,0,0);
+  background: lawngreen;
+}
+
+/*
+
+.tear:hover{
+    transform: rotateY(520deg) scale(1.5) rotateZ(900deg) ;
+    background: pink;
+    transition: all 3s;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    color:rgba(0,0,0,.5);
+    top:15vw;
+}
+*/
+
+
+.tear:hover{
+    transform:  scale(1.5)  ;
+    background: lightpink;
+    transition: all 3s;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    color:rgba(0,0,0,.5);
+    top:15vw;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 0 20vw #FF0000, 0 0 20vw pink;
+  border-style: none;
+}
+
+.tear1{
+    position: relative;
+    left:50vw;
+    top:23vw;
+    width:100px;
+    height:200px;
+    background-color:lawngreen;
+    border-top-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+     transform: rotateY(40deg) rotateZ(90deg) rotateX(120deg);
+}
+
+.tear2{
+    position: absolute;
+    left:39.5vw;
+    top:23.5vw;
+    width:100px;
+    height:200px;
+    background-color:lawngreen;
+    border-top-right-radius: 80%;
+    border-bottom-left-radius: 80%;
+     transform: rotateY(40deg) rotateZ(90deg) rotateX(120deg);
+}
+
+.tear3{
+    position: absolute;
+    left:47.6vw;
+    top:30vw;
+    width:15px;
+    height:50vw;
+    background-color:lawngreen;
+}

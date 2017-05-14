@@ -1,0 +1,77 @@
+img.pic {
+	float: left;
+	width: 300px;
+}
+
+.clear {
+	clear: left;
+}
+
+.floatedchild {
+	float: left;
+}
+
+.child {
+	float: left;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	margin-right: 30px;
+}
+
+.right {
+	margin-right: 100px;
+}
+
+h4 {
+	top: 100px;
+	right:0;
+	width: 100px;
+	position: absolute;
+}
+
+.block{
+	position: fixed;
+	background-color: rgba(100,100,100,0.3);
+	height:50px;
+	width: 100%;
+	top: 0;
+}
+
+.next{
+	color: grey;
+	margin-right: 100px;
+}
+
+.offset {
+/*	height: 200px;
+	width: 100%;*/
+	left: 100px;
+}
+
+.blue {
+	width: 200px;
+	height: 100px;
+	background-color: blue;
+	float: left;
+	z-index: 10;
+}
+
+.green {
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	float: left;
+	margin-left: -150px;
+	z-index: 0;
+}
+
+.red {
+	width: 200px;
+	height: 100px;
+	background-color: red;
+	float: left;
+}

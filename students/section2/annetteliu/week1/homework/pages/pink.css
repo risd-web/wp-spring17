@@ -1,0 +1,26 @@
+body { 
+    
+    text-align: center;	
+ 	margin-top: 200px;
+    background-color: rgba(252, 227, 147, 0.59);
+}
+
+img { height: 850px; width: 850px;  }
+
+#laundry {font-family: 'Clicker Script', cursive;
+color: #128112;}
+
+
+#green {font-family: 'Raleway', sans-serif;
+color: white;
+		font-size: 25px;
+		 padding-top: 0em;
+
+		}
+
+#white {font-family: 'Raleway', sans-serif;
+color: #f17389;
+		font-size: 25px;
+		 padding-top: 0em;
+
+		}

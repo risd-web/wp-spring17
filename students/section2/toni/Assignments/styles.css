@@ -1,0 +1,326 @@
+        @font-face {
+            font-family: 'tensoregular';
+            src: url('fonts/tensoregular/03_Tenso_Regular-webfont.eot');
+            src: url('fonts/tensoregular/03_Tenso_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('fonts/tensoregular/03_Tenso_Regular-webfont.woff2') format('woff2'),
+                 url('fonts/tensoregular/03_Tenso_Regular-webfont.woff') format('woff'),
+                 url('fonts/tensoregular/03_Tenso_Regular-webfont.ttf') format('truetype'),
+                 url('fonts/tensoregular/03_Tenso_Regular-webfont.svg#museo_sans500') format('svg');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+        @font-face {
+            font-family: 'kelsonmedium';
+            src: url('fonts/kelson_medium/kelson_md-webfont.eot');
+            src: url('fonts/kelson_medium/kelson_md-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('fonts/kelson_medium/kelson_md-webfont.woff2') format('woff2'),
+                 url('fonts/kelson_medium/kelson_md-webfont.woff') format('woff'),
+                 url('fonts/kelson_medium/kelson_md-webfont.ttf') format('truetype'),
+                 url('fonts/kelson_medium/kelson_md-webfont.svg#kelsonmedium') format('svg');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+        *{
+            margin:0;
+            padding:0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        html {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            background-color: black;
+
+        }
+
+        *, *:before, *:after {
+            -webkit-box-sizing: inherit;
+            -moz-box-sizing: inherit;
+            box-sizing: inherit;
+        }
+
+        ::selection {
+            background: #76FF03; /* WebKit/Blink Browsers */
+        }
+        ::-moz-selection {
+            background: #76FF03; /* Gecko Browsers */
+        }
+
+
+        .workTitle {
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-family: 'kelsonmedium', sans-serif;
+            font-size: 68px;
+            line-height: 1.0;
+            color: white;
+            font-weight: 100;
+            letter-spacing: -3px;
+
+        }
+
+        h2 {
+            /*font-family: 'Roboto', sans-serif;*/
+            font-family: 'tensoregular', sans-serif;
+            font-size: 21px;
+            font-weight: 100;
+            margin-top: 10px;
+            /*text-align: center;*/
+            color: white;
+            line-height: 1.3;
+        }
+
+        h3 {
+            font-family: 'tensoregular', sans-serif;
+            font-size: 21px;
+            font-weight: 500;
+            margin-top: 10px;
+            /*text-align: center;*/
+            color: black;
+            line-height: 1.3;
+        }
+
+        h4 {
+            font-family: 'tensoregular', sans-serif;
+            font-size: 21px;
+            font-weight: 500;
+            margin-top: 10px;
+            /*text-align: center;*/
+            color: white;
+            line-height: 1.3;
+        }
+
+        h5 {
+            font-family: 'tensoregular', sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 10px;
+            /*text-align: center;*/
+            color: black;
+            line-height: 1.3;
+        }
+
+        h6 {
+            font-family: 'kelsonmedium', sans-serif;
+            font-size: 36px;
+            line-height: 1.2;
+            color: black;
+            font-weight: 100;
+            letter-spacing: -2px;
+
+        }
+
+        h7 {
+            font-family: 'kelsonmedium', sans-serif;
+            font-size: 36px;
+            line-height: 1.2;
+            color: white;
+            font-weight: 100;
+            letter-spacing: -2px;
+
+        }
+
+        p {
+            font-family: 'questasansregular', sans-serif;
+            font-size: 68px;
+            line-height: 1.0;
+            color: white;
+            font-weight: 100;
+
+        }
+
+        td {
+            font-family: sans-serif;
+            font-size: 17px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .textbox {
+            background-color: transparent;
+            position:inherit;
+            width: 100%;
+            text-align: center;
+
+        }
+
+        .worktextbox {
+            background-color: transparent;
+            width:90%;
+            text-align: left;
+            margin: 0 auto;
+            height: 100%;
+            overflow: hidden;
+        }
+
+
+        video {
+            display: block;
+            margin:auto;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition-property: color;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-out;
+        }
+
+        a:hover {
+            /*border-bottom: 2px solid black;*/
+            /*color: #76FF03;*/
+            text-decoration: line-through;
+            cursor: pointer;
+
+        }
+
+        a:hover span {
+            /*border-bottom: 2px solid black;*/
+            color: black;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-out;
+        }
+
+        .line {
+            width: 90%;
+            margin: 0 auto;
+            background-color: black;
+            height: 2px;
+
+        }
+
+        .header {
+            display: none;
+
+        }
+
+        .header2 {
+            display: none;
+
+        }
+
+
+        .headerbar {
+            display: none;
+
+        }
+
+        .headerbargrey {
+            display: none;
+
+        }
+
+        @media only screen and (min-width:150px) and (max-width:600px)
+        {
+
+            h1 {
+                font-size: 36px;
+                line-height: 1.0;
+                font-weight: 100;
+
+            }
+
+            h6 {
+                font-size: 36px;
+                line-height: 1.0;
+                font-weight: 100;
+
+            }
+
+            .header {
+                background-color:transparent;
+                height: 50px;
+                width: 100%;
+                margin: 0 auto;
+                position: fixed;
+                padding: 20px;
+                display: block;
+
+            }
+
+                .header h1:nth-child(1){
+                    float:left;
+                    line-height: 50px;
+                }
+
+                .header h1:nth-child(2){
+                    float:right;
+                    line-height: 50px;
+                }
+
+                .header h1:nth-child(3){
+                    line-height: 50px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+
+            .header2 {
+                    background-color:transparent;
+                    height: 50px;
+                    width: 100%;
+                    margin: 0 auto;
+                    position: fixed;
+                    padding: 20px;
+                    display: block;
+
+                }
+
+                    .header2 h6:nth-child(1){
+                        float:left;
+                        line-height: 50px;
+                    }
+
+                    .header2 h6:nth-child(2){
+                        float:right;
+                        line-height: 50px;
+                    }
+
+                    .header2 h6:nth-child(3){
+                        line-height: 50px;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+
+            .headerbar {
+                width: 100%;
+                height: 90px;
+                margin: 0 auto;
+                position: static;
+                display: inline-block;
+                padding: 20px;
+                background-color: black;
+
+            }
+
+            #headerbargrey {
+                background-color: #E0E0E0;
+
+            }
+
+            #headerbarwhite {
+                background-color: white;
+
+            }
+
+            .infobox {
+                width:90%;
+                margin-left: 5%;
+            }
+
+            img {
+                width:100%;
+                margin: 0 auto;
+            }
+
+
+        }

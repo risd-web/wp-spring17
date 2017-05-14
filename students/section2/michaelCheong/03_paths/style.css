@@ -1,0 +1,12 @@
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18em;
+	font-family: Helvetica;
+}
+
+body {
+	background-image: url(images/cat.gif);
+	background-size: cover;
+
+}

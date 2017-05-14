@@ -1,0 +1,38 @@
+.cube {width:100px; height: 100px;
+        position:absolute;
+        left: 600px;
+        top: 100px;
+        perspective:10px;
+        transform: translate (-50%, -50%);
+        transform-style: preserve-3d;
+        animation: rotate 20s linear infinite;}
+
+div {display: block;
+    position: absolute;
+        width: 100%; height: 100%;
+        outline: 1px solid transparent; }
+.top {background-color: yellow;
+    position: absolute;
+        transform: rotateX(90deg) translateZ(6.2vw);}
+.bottom {background-color: blue;
+    position: absolute;
+        transform: rotateX(-90deg) translateZ(6.2vw);}
+.left {background-color: #ff00d8;
+    position: absolute;
+        transform: rotateY(90deg) translateZ(6.2vw);}
+.right {background-color: #00ff93;
+    position: absolute;
+        transform: rotateY(-90deg) translateZ(6.2vw);}
+.front {background-color: #ff9300;
+    position: absolute;
+    transform: rotateY( 0deg) translateZ(6.2vw);}
+.back {background-color: #ff2700;
+    position: absolute;
+    
+        transform: rotateX(180deg) translateZ(6.2vw);}
+
+@keyframes rotate {
+    0% {transform: rotateX(0deg) rotateY(0deg);}
+    100% {transform: rotateX(720deg) rotateY(360deg);}
+}
+

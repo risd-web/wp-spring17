@@ -1,0 +1,65 @@
+
+
+.object1{
+    position:absolute;
+    background:red;
+    background:#000000;
+    top:8vw;
+    left:41vw;
+    width:23vw;
+    height:40vw;
+    border-radius: 2vw;
+}
+
+.object2{
+    position:absolute;
+    background:#000048;
+    top:8.5vw;
+    left:41.5vw;
+    width:22vw;
+    height:39vw;
+    border-radius: 2vw
+}
+
+.object3{
+    position:absolute;
+    background:white;
+    top:44vw;
+    left:51.2vw;
+    width:2.5vw;
+    height:2.5vw;
+    border-radius: 10vw;
+}
+
+.object4{
+    position:absolute;
+    background:pink;
+    top:11vw;
+    left:42.5vw;
+    width:20vw;
+    height:32vw;
+    animation: colorchange 1s infinite;
+}
+
+.object5{
+    position:absolute;
+    background:red;
+    width:3vw;
+    height:1vw;
+    left:51vw;
+    top:9.2vw;
+    border-radius: 1vw;
+    background:white;
+}
+
+@keyframes colorchange
+{
+0%   {background: #e74c3c;}
+15%  {background: violet;}
+30%  {background:indigo;}
+45%  {background: blue;}
+60% {background: green;}
+75% {background: orange;}
+90% {background: purple;}
+100% {background: #e74c3c;}
+}

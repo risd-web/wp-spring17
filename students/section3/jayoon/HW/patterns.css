@@ -1,0 +1,74 @@
+body {
+	background-color:rgba(147, 227, 253, 0.66);
+}
+
+
+
+.layer1 div {
+	width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid;
+  border-left: 60px solid;
+  border-bottom: 60px solid;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+	transform: rotate(45deg);
+	color: salmon;
+	margin: -10px;
+	float: left;
+	mix-blend-mode: multiply;
+
+}
+
+
+
+.layer1 div:nth-child(2n) {
+	transform: rotate(75deg);
+	width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid;
+  border-left: 60px solid;
+  border-bottom: 60px solid;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+	color: cornflowerblue;}
+
+
+
+	.layer1 div:hover{
+		transform: scale(.5);
+	}
+
+	.layer1 div:nth-child(3n) {
+		transform: rotate(100deg);
+		width: 0px;
+	  height: 0px;
+	  border-right: 60px solid transparent;
+	  border-top: 60px solid;
+	  border-left: 60px solid;
+	  border-bottom: 60px solid;
+	  border-top-left-radius: 60px;
+	  border-top-right-radius: 60px;
+	  border-bottom-left-radius: 60px;
+	  border-bottom-right-radius: 60px;
+		color: Antiquewhite;}
+
+		.layer1 div:nth-child(5n) {
+			transform: rotate(125deg);
+			width: 0px;
+			height: 0px;
+			border-right: 60px solid transparent;
+			border-top: 60px solid;
+			border-left: 60px solid;
+			border-bottom: 60px solid;
+			border-top-left-radius: 60px;
+			border-top-right-radius: 60px;
+			border-bottom-left-radius: 60px;
+			border-bottom-right-radius: 60px;
+			color: Lavender;}

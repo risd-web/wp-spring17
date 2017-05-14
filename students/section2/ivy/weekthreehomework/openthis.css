@@ -1,0 +1,234 @@
+/*body*/
+*{margin:0; padding:0; font-family:"Brown", sans-serif;text-decoration:none; list-style:none;}
+
+
+#main { background:orange; width:100% overflow:auto; float:left; }
+/*ul {
+background:blue;}*/
+
+
+
+ul {position:absolute; float:left; left:50%; top:50%; margin-left:-16rem; margin-top:-8rem;}
+ul li {float:left; margin:4rem;}
+
+
+@media (max-width: 500px) {
+    body {
+        background: #fff0f7;}
+	ul li a:link {color:#000000;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#000000;}
+	ul li a:visited {color:#000000;}
+	ul {border:1px dotted #000000; border-style:dotted; position:absolute; width:50%; top:50%; left:65%; margin-left:-40%; margin-top:-50%;}
+	ul li {position:relative; margin-left:40px;}
+
+}
+
+@media (min-width: 501px) and (max-width:550px) {
+    body {
+        background: #ffe1f0; color:#190a12;}
+	ul li a:link {color:#190a12;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#190a12;}
+	ul li a:visited {color:#190a12;}
+	ul {border:1px dashed #190a12;border-style:dashed;}
+}
+
+@media (min-width: 551px) and (max-width:600px) {
+    body {
+        background: #ffd2e8; }
+ 	ul li a:link {color:#331524;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#331524;}
+	ul li a:visited {color:#331524;}
+	ul {border:1px solid #331524;border-style:solid;}
+}
+
+@media (min-width: 601px) and (max-width:650px) {
+    body {
+        background: #ffc3e1; }
+	ul li a:link {color:#4c1f36;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#4c1f36;}
+	ul li a:visited {color:#4c1f36;}
+	ul {border:1px double #4c1f36; border-style:double;}
+}
+
+@media (min-width: 651px) and (max-width:700px) {
+    body {
+        background: #ffb4d9; }
+	ul li a:link {color:#662a48;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#662a48;}
+	ul li a:visited {color:#662a48;}
+	ul {border:1px groove #662a48;border-style:groove;}
+}
+
+
+@media (min-width: 701px) and (max-width:750px) {
+    body {
+        background: #ffa5d2; }
+	ul li a:link {color:#7f345a;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#7f345a;}
+	ul li a:visited {color:#7f345a;}
+	ul {border:1px ridge #7f345a;border-style:ridge;}
+}
+
+@media (min-width: 751px) and (max-width:800px) {
+    body {
+        background: #ff96ca; }
+	ul li a:link {color:#993f6c;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#993f6c;}
+	ul li a:visited {color:#993f6c;}
+	ul {border:1px inset #993f6c; border-style:inset;}
+}
+
+@media (min-width: 801px) and (max-width:850px) {
+    body {
+        background: #ff87c3;}
+	ul li a:link {color:#b2497d ;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#b2497d ;}
+	ul li a:visited {color:#b2497d ;}
+	ul {border:1px outset #b2497d; border-style:outset;}
+}
+
+@media (min-width: 851px) and (max-width:900px) {
+    body {
+        background: #ff78bb;}
+	ul li a:link {color:#cc5490;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#cc5490;}
+	ul li a:visited {color:#cc5490;}
+	ul {border:1px dotted #cc5490; border-style:dotted;}
+}
+
+@media (min-width: 901px) and (max-width:950px) {
+    body {
+        background: #ff69b4; }
+	ul li a:link {color:#e55ea2;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#e55ea2;}
+	ul li a:visited {color:#e55ea2;}
+	ul {border:1px dashed #e55ea2; border-style:dashed;}
+}
+
+
+@media (min-width: 951px) and (max-width:1000px) {
+    body {
+        background: #e55ea2; }
+	ul li a:link {color:#ff69b4;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ff69b4;}
+	ul li a:visited {color:#ff69b4;}
+	ul {border:1px solid #ff69b4; border-style:solid;}
+}
+
+@media (min-width: 1001px) and (max-width:1050px) {
+    body {
+        background: #cc5490; color:#ff78bb;}
+	ul li a:link {color:#ff78bb;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ff78bb;}
+	ul li a:visited {color:#ff78bb;}
+	ul {border:1px double #ff78bb; border-style:double;}
+}
+
+@media (min-width: 1051px) and (max-width:1100px) {
+    body {
+        background: #b2497d; }
+	ul li a:link {color:#ff87c3;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ff87c3;}
+	ul li a:visited {color:#ff87c3;}
+	ul {border:1px groove #ff87c3; border-style:groove;}
+}
+
+@media (min-width: 1101px) and (max-width:1150px) {
+    body {
+        background: #993f6c; }
+	ul li a:link {color:#ff96ca;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ff96ca;}
+	ul li a:visited {color:#ff96ca;}
+	ul {border:1px ridge #ff96ca; border-style:ridge;}
+}
+
+@media (min-width: 1151px) and (max-width:1200px) {
+    body {
+        background: #7f345a; }
+	ul li a:link {color:#ffa5d2;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ffa5d2;}
+	ul li a:visited {color:#ffa5d2;}
+	ul {border:1px inset #ffa5d2; border-style:inset;}
+}
+
+@media (min-width: 1201px) and (max-width:1250px) {
+    body {
+        background: #662a48; }
+	ul li a:link {color:#ffb4d9;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ffb4d9;}
+	ul li a:visited {color:#ffb4d9;}
+	ul {border:1px outset #ffb4d9; border-style:outset;}
+}
+
+
+@media (min-width: 1251px) and (max-width:1300px) {
+    body {
+        background: #4c1f36; }
+	ul li a:link {color:#ffc3e1;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ffc3e1;}
+	ul li a:visited {color:#ffc3e1;}
+	ul {border:1px dotted #ffc3e1; border-style:dotted;}
+}
+
+
+@media (min-width: 1301px) and (max-width:1350px) {
+    body {
+        background: #331524; }
+	ul li a:link {color:#ffd2e8;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ffd2e8;}
+	ul li a:visited {color:#ffd2e8;}
+	ul {border:1px dashed #ffd2e8;border-style:dashed;}
+}
+
+
+@media (min-width: 1351px) and (max-width:1400px) {
+    body {
+        background: #190a12; }
+	ul li a:link {color:#ffe1f0;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#ffe1f0;}
+	ul li a:visited {color:#ffe1f0;}
+	ul {border:1px solid #ffe1f0;border-style:solid ;}
+}
+
+@media (min-width: 1401px) {
+    body {
+        background: #000000; }
+    ul li a:link {color:#fff0f7;}
+	ul li a:hover {text-decoration:underline;}
+	ul li a:active {color:#fff0f7;}
+	ul li a:visited {color:#fff0f7;}
+	ul {border:1px double #fff0f7; border-style:double;}
+
+}
+
+
+
+
+
+/*https://css-tricks.com/logic-in-media-queries/*/
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+div { box-sizing: border-box;
+ }
+
+ .object{ 
+ 	display: block;
+ 	width: 200px;
+ 	height: 200px;
+ 	margin: 0 auto;
+margin-top: 180px; }
+
+#green {
+	border-bottom: 100px solid darkolivegreen;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 0;
+	width: 200px;
+	margin: 0 auto;
+	position: absolute;
+}
+
+
+
+#head{ 
+  background: forestgreen;
+  top: 20px;
+    width: 40px;
+    height: 70px;
+    margin: 0 auto;
+
+}
+
+.eye { 
+	background: black;
+	width: 10px; 
+	height: 10px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px; 
+	float: left;
+	margin: 5px;
+/*	margin-top: : 200px; 
+	margin-left: 100px;
+	position: fixed;*/
+
+ }
+

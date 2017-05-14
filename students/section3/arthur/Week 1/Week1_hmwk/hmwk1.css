@@ -1,0 +1,28 @@
+body {
+	font-family: Helvetica, sans-serif;
+	color: tomato;
+}
+
+
+h1:hover {
+	opacity: 0.50;
+}
+
+a {
+	text-decoration: none; color: tomato;
+}
+
+p {
+	color: tomato;
+}
+
+img.resize {
+	max-width: 30%;
+	max-height: 30%;
+}
+
+.container{
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left:40px;
+}

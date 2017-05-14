@@ -1,0 +1,54 @@
+body { 
+    margin: 0px;
+    background-color: lightslategray;
+
+ }
+
+
+.pattern {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: aliceblue;
+    align-items: center;
+
+}
+
+.pattern:hover {
+	transform: scale(.5,.5);
+}
+
+
+
+.pattern1  {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: bisque;
+    align-items: center;
+
+}   
+
+
+
+.pattern1:hover{
+	background: black;	
+	animation: spin 1s ease-in-out 3; 
+}
+
+.lol div:nth-child(odd) {
+	background: lightgray;
+}
+
+.lol2 div:nth-child(odd) {
+	background: mistyrose;
+}
+
+
+
+@keyframes spin {
+ 0% {transform: roatateX(8deg);}
+ 100% {transform: rotatex(360deg);}
+}

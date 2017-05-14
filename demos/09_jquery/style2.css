@@ -1,0 +1,80 @@
+.button {
+	background-color: 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.play{
+	animation: wheel 1s ease-in-out alternate infinite;
+}
+
+#red.play{
+	background: blue;
+}
+
+#start, #stop{
+	color: red;
+	font-size: 3rem;
+}
+
+.button{
+	padding: 2rem 3rem;
+	background: green;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+
+.elementcontainer {
+	height: 80vh;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+}
+
+.controls div:hover{
+	opacity: 0.5;
+}
+
+/*h1{
+	display: none;
+}*/
+
+.element {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background-color: #f4ca16;    
+}
+
+#red{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: tomato;
+}
+
+#red:hover{
+	opacity: 0.5;
+}
+
+
+
+@keyframes wheel {
+	100% {
+		transform: rotateY(0deg);
+	}
+	40% {
+		transform: rotateY(360deg);
+	}

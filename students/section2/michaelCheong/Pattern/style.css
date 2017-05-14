@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+}
+
+.first, .second, .third {
+	position: absolute;
+
+}
+
+.first div{
+	width: 70px;
+	height: 25px;
+	background-color: red;
+	margin: 2px;
+	float: left;
+	opacity: 0.8;
+}
+
+.second div{
+	width: 25px;
+	height: 70px;
+	background-color: blue;
+	margin: 2px;
+	float: left;
+	opacity: 0.8;
+}
+
+.third div {
+	width: 25px;
+	height: 70px;
+	float: left;
+	background-color: yellow;
+	margin: 5px;
+	transform: skew(45deg);
+	opacity: 0.8;
+}
+
+.button	{
+	background-color: purple;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 100px;
+	width: 190px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background-color: tomato;
+	cursor: pointer;
+}
+
+.red {
+	background-color: green;
+	opacity: 0.8;
+}
+
+.blue {
+	background-color: pink;
+	opacity: 0.8;
+}
+
+.yellow {
+	background-color: purple;
+	opacity: 0.8;
+}
+

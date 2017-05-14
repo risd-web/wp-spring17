@@ -1,0 +1,189 @@
+body{
+    font-family: 'Times New Roman', serif;
+    padding: 1rem 5rem;
+    margin: 0;
+}
+
+
+
+ul.nav{
+    color: blue;
+}
+
+.orange{
+    background: grey;
+
+}
+.orange ul{
+    color: orange;
+}
+
+
+.yellow{
+    background: yellow;
+}
+
+
+h1 {
+        font-size: 30px;
+}
+
+h2{
+        margin-top: 3em;
+}
+
+p{      
+        margin: 0;
+        margin-bottom: 5px;
+        line-height: 1.5;
+}
+
+p:hover{
+        color: grey;
+}
+
+.event{
+        background: rgba(255,0,0,0.2);
+        border: 3px solid tomato;
+       /* above is shorthand for
+        border-width: 1px;
+        border-style: solid;
+        border-color: tomato;*/
+        padding: 1em;
+        box-sizing: border-box;
+}
+
+.event img{
+    width: 100%;
+}
+
+section{
+    overflow: auto;
+    border: 5px solid green;
+}
+
+/*Floated*/
+#floated .event{
+    float: left;
+    width: 300px;
+}
+
+.tall{
+        height: 500px;
+}
+
+/*Flexbox*/
+#flexbox{
+        display: flex;
+}
+.fixed {
+        width: 150px;
+        background: yellow;
+}
+
+.col1{
+        flex: 3;
+}
+
+.col2, .col3{
+        flex: 1;
+}
+
+/*change display property*/
+
+#display .event{
+        width: 300px;
+        display: table-cell; /*or inline-block;*/
+}
+
+/*vertical centering*/
+#centering{
+        height: 100vh;
+        background: #c8dfff;
+        display: flex;
+        align-items: center;
+}
+
+.box{
+        width: 200px;
+        height: 200px;
+        background: #d3c52e;
+        margin: auto;
+}
+
+.intro{
+        color: red;
+}
+
+.container{
+    position: relative;
+}
+
+.circle{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    background: red;
+    border-radius: 50%;
+}
+
+a{
+        text-decoration: none;
+        color: green;
+}
+
+
+a:hover {
+        color: blue;
+}
+
+
+li{
+        list-style-type: none;
+        text-align: right;
+        width: 500px;
+}
+
+/*li::before{
+        content: '$ ';
+}*/
+
+h2::after{
+        content: '*';
+}
+
+/*Responsive Design via Media Queries*/
+
+@media screen and (max-width: 1200px){
+    #floated .event{
+        width: 50%;
+        background: orange;
+    }    
+
+    h3{
+        color: white;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+    body{
+        padding: 0;
+    }
+   #floated .event{
+        width: 100%;
+        background: blue;
+        color: white;
+    }       
+
+}
+
+<<<<<<< Updated upstream
+.special{text-decoration: underline;}
+=======
+img {width: 100%;
+}
+>>>>>>> Stashed changes

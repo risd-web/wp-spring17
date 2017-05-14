@@ -1,0 +1,227 @@
+html body{
+    margin: 0;
+    background:beige;
+}
+
+.circles{
+    position:absolute;
+    margin-left:50px;
+    border-radius: 85px;
+    width:85px;
+    height:85px;
+    background-color:deepskyblue;
+}
+
+.ballappear{
+    display:none;
+}
+
+#ball{
+    top:385px;
+    left:715px;
+    background-color: coral;
+}
+
+.ball1{
+    top:300px;
+    left:885px;
+}
+
+.ball2{
+    top:215px;
+    left:800px;
+}
+
+.ball3{
+    top:130px;
+    left:885px;
+}
+
+.ball4{
+    top:45px;
+    left:800px;
+}
+
+.ball5{
+    top:470px;
+    left:885px;
+}
+
+.ball6{
+    top:555px;
+    left:800px;
+}
+
+.ball7{
+    top:640px;
+    left:885px;
+}
+
+.ball8{
+    top:725px;
+    left:800px;
+}
+
+.ball9{
+    top:300px;
+    left:715px;
+}
+
+.ball10{
+    top:130px;
+    left:715px;
+}
+
+.ball11{
+    top:470px;
+    left:715px;
+}
+
+.ball12{
+    top:640px;
+    left:715px;
+}
+
+.ball13{
+    top:640px;
+    left:375px;
+}
+
+.ball14{
+    top:725px;
+    left:630px;
+}
+
+.ball15{
+    top:555px;
+    left:630px;
+}
+
+.ball16{
+    top:640px;
+    left:545px;
+}
+
+.ball17{
+    top:725px;
+    left:460px;
+}
+
+.ball18{
+    top:555px;
+    left:460px;
+}
+
+.ball19{
+    top:385px;
+    left:460px;
+}
+
+.ball20{
+    top:215px;
+    left:460px;
+}
+
+.ball21{
+    top:300px;
+    left:545px;
+}
+
+.ball22{
+    top:215px;
+    left:630px;
+}
+
+.ball23{
+    top:130px;
+    left:545px;
+}
+
+.ball24{
+    top:45px;
+    left:630px;
+}
+
+.ball25{
+    top:470px;
+    left:545px;
+}
+
+.ball26{
+    top:300px;
+    left:1055px;
+}
+
+.ball27{
+    top:130px;
+    left:1055px;
+}
+
+.ball28{
+    top:385px;
+    left:800px;
+}
+
+.ball29{
+    top:300px;
+    left:375px;
+}
+
+.ball30{
+    top:130px;
+    left:375px;
+}
+
+.ball31{
+    top:470px;
+    left:375px;
+}
+
+.ball32{
+    top:640px;
+    left:1055px;
+}
+
+.ball33{
+    top:385px;
+    left:630px;
+}
+
+.ball34{
+    top:725px;
+    left:970px;
+}
+
+.ball35{
+    top:555px;
+    left:970px;
+}
+
+.ball36{
+    top:45px;
+    left:460px;
+}
+
+.ball37{
+    top:385px;
+    left:970px;
+}
+
+.ball38{
+    top:215px;
+    left:970px;
+}
+
+.ball39{
+    top:45px;
+    left:970px;
+}
+
+.ball40{
+    top:470px;
+    left:1055px;
+}
+
+
+
+

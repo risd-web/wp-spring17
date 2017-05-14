@@ -1,0 +1,152 @@
+body {
+	counter-reset: section;
+	font-family: courier, sans-serif;
+	text-align: center;
+}
+
+.container {
+	height: 80vh;
+
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+}
+
+.element:nth-child(6) {
+	transition-property:all;
+	transition-duration:5s;
+	transition-timing-function: ease-in;
+
+}
+
+.element:nth-child(6):hover{
+	background-color: tomato;
+	transform: rotate(20deg) scale(5);
+}
+.element {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	background-color: yellow;
+	transition: background 1s ease-in-out;    
+}
+
+.element:hover{
+	background: black;
+}
+
+.element::before{
+	counter-increment: section; 
+	content: counter(section); 
+	color: #fff;
+	padding-top: 10px;
+	display: block;
+}
+
+.icon {
+    background: #DEE6EC;
+    position: fixed;
+    top: 0;
+    left: 2em;
+    padding: .5em;
+	height: 80px;
+    overflow: hidden;
+
+}
+
+
+figure {
+	transition: transform 0.4s;
+	margin: 0;
+}
+
+figure:hover{
+	transform: translateY(-90px);
+}
+
+figure h3 {
+	margin-top: 2em;
+	margin-bottom: 0;	
+}
+
+figure p {
+	margin-top: .5em;
+}
+
+
+
+.element:first-child {
+	border-radius: 50%;
+	background: red;
+	width: 300px;
+	height: 300px;
+	/*box-sizing: border-box;*/
+	
+}
+
+#spinning:hover{
+	animation: spin 1s linear alternate 3;
+}
+
+
+.element:nth-child(3) {
+	background: #613056;
+	color: #fff;
+	transition: border-radius 1s ease-in-out;
+	width: 100px;
+	height: 100px;
+}
+
+.element:nth-child(4) {
+	transform: skew(20deg);
+}
+
+.element:nth-child(6):hover {
+	border-radius: 50%;
+	background: tomato;
+}
+
+
+.element:nth-child(6) {
+	transition-property: all;
+	transition-duration: 2s;
+	transition-timing-function: ease-in;
+	/*shorthand would be transition: all 2s ease-in;*/
+}
+
+.element:nth-child(6):hover {
+	background-color: tomato;
+	transform: rotate(20deg) scale(5);
+}
+
+.element:last-child {
+	transform: translate(-30px,-30px);
+	background: #1B5C7B;
+}
+
+a {
+	display: block;
+	margin-top: 3rem;
+	color: red;
+	font-weight: bold;
+	transition: color 0.5s ease-in; /*shorthand for: property, duration, timing-function, delay*/
+}
+
+a:hover{
+	color: grey;
+}
+
+/*Animations*/
+
+@keyframes spin {
+	0% {
+		transform: rotateX(0deg);
+	}
+	100% {
+		transform: rotateX(360deg) ;
+	}
+}
+
+
