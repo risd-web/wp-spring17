@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>toggle demo</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <style>
+  div {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    border: 1px solid #000;
+  }
+  </style>
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+ 
+<button>toggle the div</button>
+<div></div>
+ 
+<script>
+$( "button" ).click(function() {
+  $( "div" ).toggle( "fold", 1000 );
+});
+</script>
+ 
+</body>
+</html>
