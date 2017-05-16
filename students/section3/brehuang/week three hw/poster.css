@@ -1,22 +1,8 @@
 html {
     background-color: #3e3e48;
     font-family: Roboto;
-    transition: all 1s fadeIn;
+    transition: all 1s ease-in-out;
 }
-    @keyframes fadein {
-        0% {opacity:0;}
-        50% {opacity:0}
-        100% {opacity:100}
-    }
-    @-moz-keyframes fadein {
-        from { opacity: 0; }
-        to   { opacity: 1; }
-    }
-    @-webkit-keyframes fadein {
-        from { opacity: 0; }
-        to   { opacity: 1; }
-    }
-
 
 section {
     background-color: #ffa54b;
@@ -99,55 +85,11 @@ div {
     width: 300px;
     background-color: #98e7ff;
     float: right;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #seven:hover {
-    width: 300px;
-    color: white;
-    background-image:url(https://wordsfordesigners.com/wp-content/uploads/2016/09/71b9db140a0d577a2f73a48e8b7a6756.jpg) cover;
-    
-    /* PICTURE-TEXT MASK EFFECT */
-    background: url(http://xinature.com/wp-content/uploads/2017/03/beaches-beach-pink-nature-sunset-animated-wallpaper-windows-7-1920x1080.jpg) no-repeat;
-    background-attachment: fixed;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 1s ease-in-out;
-    
-    /* FADE IN ON LOAD */
-    -webkit-animation: fadein 3s;
-    -moz-animation: fadein 3s;
-    -ms-animation: fadein 3s;
-    -o-animation: fadein 3s;
-    animation: fadein 3s;
-}
-    @keyframes fadein {
-        0% {opacity:0;}
-        50% {opacity:0}
-        100% {opacity:100}
-    }
-    @-moz-keyframes fadein {
-        from { opacity: 0; }
-        to   { opacity: 1; }
-    }
-    @-webkit-keyframes fadein {
-        from { opacity: 0; }
-        to   { opacity: 1; }
-    }
-/* PICTURE-TEXT MASK EFFECT */
-    background: url(http://xinature.com/wp-content/uploads/2017/03/beaches-beach-pink-nature-sunset-animated-wallpaper-windows-7-1920x1080.jpg) no-repeat;
-    background-attachment: fixed;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 1s ease-in-out;
-    
-    /* FADE IN ON LOAD */
-    -webkit-animation: fadein 3s;
-    -moz-animation: fadein 3s;
-    -ms-animation: fadein 3s;
-    -o-animation: fadein 3s;
-    animation: fadein 3s;
-}
+    width: 350px;
 }
 
 #eight {

@@ -1,0 +1,221 @@
+html {
+    background-color: #3e3e48;
+    font-family: Roboto;
+    transition: all 1s ease-in-out;
+}
+
+section {
+    background-color: #ffa54b;
+    width: 800px;
+    height: 1000px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid navy;
+    float: left;
+}
+
+section:active {
+ background-color: #4b768d;   
+}
+
+* {
+    border-radius: 5px;
+     z-index: -2;
+    
+}
+
+div {
+    transform: skew(50deg);
+    transform: rotate(50deg)
+}
+
+#one {
+    height: 10px;
+    width: 5000px;
+    background-color: #3dd2ff;
+    float: right;
+}
+
+#two {
+    height: 5px;
+    width: 200px;
+    background-color: #98e7ff;
+    float: right;
+    
+}
+
+#three {
+    height: 20px;
+    width: 70px;
+    background-color: #3dd2ff;
+    float: right;
+}
+
+#four {
+    height: 60px;
+    width: 102px;
+    background-color: #ff803d;
+    float: right;
+}
+
+#four:active {
+    background-color: white;
+}
+
+#five {
+    height: 50px;
+    width: 210px;
+    background-color: #ff803d;
+    float: right;
+}
+
+#six {
+    height: 24px;
+    width: 2570px;
+    background-color: #3dd2ff;
+    float: right;
+    transition: all 0.5s ease-in-out;
+}
+
+#six:hover {
+}
+
+#seven {
+    height: 120px;
+    width: 300px;
+    background-color: #98e7ff;
+    float: right;
+    transition: all 0.5s ease-in-out;
+}
+
+#seven:hover {
+    width: 350px;
+}
+
+#eight {
+    height: 210px;
+    width: 121px;
+    background-color: #3dd2ff;
+    float: right;
+}
+
+#nine {
+    height: 60px;
+    width: 10px;
+    background-color: #ff803d;
+    float: right;
+}
+
+#ten {
+    height: 10px;
+    width: 800px;
+    background-color: #ffffff;
+    float: right;
+}
+
+#ten:hover {
+    border-radius: 50px;
+}
+
+p {
+    transform: skew(50deg);
+    transform: rotate(50deg);
+    text-align: left;
+    position: relative;
+    text-transform: uppercase;
+    top: 23.5vh;
+    left: 50vh;
+    font-size: 23.5px;
+    width: 180px;
+    padding: 25px;
+    border: 2px solid #ff7600;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+#name:hover {
+    background-color: #ff7600;
+    border-radius: 5px;
+    color: white;
+}
+
+
+h2 {
+    font-size: 10px;
+    width: 300px;
+    transform: rotate(-40deg);
+    position: relative;
+    width: 300px;
+    line-height: 2;
+    top: -40px;
+    left: 100px;
+    clear: both;
+    padding: 50px;
+    border: 2px solid white;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+h2:hover {
+    background-color: #98e7ff;
+    border-radius: 50px;
+}
+
+.circle {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+h3 {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
