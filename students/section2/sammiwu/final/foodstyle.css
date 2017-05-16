@@ -1,0 +1,337 @@
+body{
+	background-color: rgb(50,30,20);
+}
+.circle1{
+		width: 600px;
+		height: 600px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: white;
+		border-radius: 300px;
+}
+.circle2{
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: rgb(245,245,240);
+		border-radius: 150px;
+}
+.shadow{
+		width: 600px;
+		height: 600px;
+		position: absolute;
+		top: 52%;
+		left: 52%;
+		transform: translate(-50%, -50%);
+		background: black;
+		border-radius: 300px;
+}
+.text{
+	font-size: 100px;
+	font-family: 'Baloo Bhaina', cursive;
+	line-height: 1;
+	color: white;
+	padding:.2em;
+	position: absolute;
+	top: -80px;
+}
+#flexbox{
+    display: flex;
+}
+.buttons{
+	font-size: 50px;
+	background: white;
+    flex: 1;
+    background-color: white;
+    font-family: 'Baloo Bhaina', cursive;
+    width: 200px;
+    left: 80%;
+    top: 20%;
+    position: relative;
+}
+
+.buttons:hover{
+	background-color: black;
+	color: white;
+}
+
+
+
+.sushis{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -45%);
+}
+.sushi{
+	position: relative;
+	width: 250px;
+	height: 250px;
+}
+.sushi:hover{
+	animation: shrink 2s;
+}
+.wrap{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: black;
+	border-radius: 100px;	
+}
+.rice{
+	transform: translate(2%, 2%);
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	background: white;
+	border-radius: 80px;	
+}
+.fishplace{
+	transform: translate(15%, 100%);
+}
+.fish{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background: rgb(255,80, 25);
+	animation: spin 1s infinite;
+}
+.playsushi{
+	display
+}
+
+@keyframes spin{
+	100%{
+		transform: rotate(200deg);
+	}
+}
+
+@keyframes shrink{
+	60%{
+		transform: scale(1.2);
+	}
+}
+.cake{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-80%, -120%);
+	display: none;
+}
+.cakee:hover{
+	animation: shrink 2s;
+}
+.cakee{
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+.cone {
+	position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 160px solid transparent;
+  border-right: 160px solid transparent;
+  border-top: 400px solid rgb(255, 252, 160);
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+.cone2 {
+	position: absolute;
+	top: 130px;
+  width: 0;
+  height: 0;
+  border-left: 160px solid transparent;
+  border-right: 160px solid transparent;
+  border-top: 400px solid rgb(255, 253, 193);
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+
+.rectangle{
+	position: absolute;
+	top: 200px;
+	left: -40px;
+	width:400px;
+	height: 130px;
+	background: rgb(255, 253, 193);
+}
+
+.strawberry{
+	position: absolute;
+	left: 200px;
+	top: 95px;
+   width: 100px;
+   height: 130px;
+   background-color: red;
+   border-radius:   60%  60%  50%  50%  / 80%   80%   30%  30%;
+   transform: rotate(-130deg);
+   animation: shrinkk 1s infinite;
+}
+
+@keyframes shrinkk{
+	50%{
+	transform: rotate(-150deg);
+	}
+}
+
+
+.salad{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-80%, -120%);
+	display: none;
+}
+
+.vegies{
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.leaf1{
+	position: absolute;
+	top: -30px;
+	left: -30px;
+  width: 250px; height: 250px;
+  background-color: #2ba04b; 
+  border-radius: 200px 0px;
+  transform: rotate(-10deg);
+}
+.leaf2{
+	position: absolute;
+	top: 80px;
+	left: 39px;
+  width: 250px; height: 250px;
+  background-color: #65bf4a; 
+  border-radius: 200px 0px;
+  transform: rotate(90deg);
+}
+.leaf3{
+	position: absolute;
+	top: 180px;
+	left: 150px;
+  width: 250px; height: 250px;
+  background-color: #2ba04b; 
+  border-radius: 200px 0px;
+  transform: rotate(-30deg);
+}
+.leaf4{
+	position: absolute;
+	top: 200px;
+	left: -80px;
+  width: 250px; height: 250px;
+  background-color: #65bf4a; 
+  border-radius: 200px 0px;
+  transform: rotate(70deg);
+}
+.leaf5{
+	position: absolute;
+	top: 10px;
+	left: 100px;
+  width: 250px; height: 250px;
+  background-color: #2ba04b; 
+  border-radius: 200px 0px;
+  transform: rotate(20deg);
+  animation: shake 2s infinite;
+}
+.tomato1{
+	transform: translate(2%, 2%);
+	position: absolute;
+	top: 50px;
+	left: 80px;
+	width: 80px;
+	height: 80px;
+	background: red;
+	border-radius: 40px;	
+}
+.tomato2{
+	transform: translate(2%, 2%);
+	position: absolute;
+	top: 180px;
+	left: 250px;
+	width: 80px;
+	height: 80px;
+	background: red;
+	border-radius: 40px;	
+}
+.tomato3{
+	transform: translate(2%, 2%);
+	position: absolute;
+	top: 300px;
+	left: 20px;
+	width: 80px;
+	height: 80px;
+	background: red;
+	border-radius: 40px;	
+}
+.vegies:hover{
+	animation: shrink 2s;
+}
+@keyframes shake{
+	50%{
+		transform: rotate(0deg);
+	}
+}
+@media screen and (max-width: 600px) {
+
+	.text{
+		font-size: 50px;
+		top: -40px;
+	}
+	.circle1{
+		width: 400px;
+		height: 400px;
+		top: 70%;
+	}
+	.circle2{
+		width: 200px;
+		height: 200px;
+		top: 70%;
+	}
+	.shadow{
+		width: 400px;
+		height: 400px;
+		top: 70%;
+	}
+	.sushis{
+		transform: scale(0.7,0.7);
+		top:35%;
+		left:30%;
+	}
+	.cake{
+		transform: scale(0.7,0.7);
+		top:35%;
+		left:23%;
+	}
+	.salad{
+		transform: scale(0.7,0.7);
+		top:42%;
+		left:23%;
+	}
+	.buttons{
+		font-size: 43px;
+    	left: 58%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
