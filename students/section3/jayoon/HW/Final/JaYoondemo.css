@@ -2,15 +2,18 @@ body{
 	font-family: Bebas, sans-serif;
 }
 
-h1,h2,h3{
+h1, h3{
 	font-weight: 100;
 }
 
-h2 {color: aquamarine;}
+h2 {color: aquamarine;
+	font-size: 80px;
+}
 
 h3{
 	color: salmon;
 }
+
 dd{
 	display: none;
 }
@@ -24,6 +27,13 @@ dd{
 	top: 15px;
 	margin-right: 1rem;
 }
+
+.position{
+ position: relative;
+top: 80px
+left: 100px
+}
+
 
 #trigger{
 	font-weight: bold;

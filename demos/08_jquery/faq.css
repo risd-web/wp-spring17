@@ -1,0 +1,44 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+	font-weight: 100;
+}
+
+h3{
+	color: blue;
+}
+dd{
+	display: none;
+}
+
+.toggle, dl{
+	float: left;
+}
+
+.toggle{
+	position: relative;
+	top: 15px;
+	margin-right: 1rem;
+}
+
+#trigger{
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .8rem;
+}
+
+#trigger:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.dropdown{
+	clear: both;
+	cursor: pointer;
+}
+
+dt:hover{
+	text-decoration: underline;
+}
