@@ -1,0 +1,99 @@
+html{
+	background-color: lightblue;
+}
+
+body {
+	counter-reset: section;
+	/*font-family: Helvetica, sans-serif;*/
+	text-align: center;
+} 
+
+
+.lemon{
+    position:relative;
+      width: 200px;
+      height: 200px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+      background: yellow;
+    top:60px;
+    left :450px;
+    }
+
+.layer1 div{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 200px solid rgb(255,229,204);
+    position: absolute;
+    left:200px;
+    top:150px;
+    margin: -10px;
+    float: left;
+    mix-blend-mode: multiply;
+
+
+}
+
+
+.layer1 div:nth-child(2n) {
+    transform: rotate(75deg);
+    width: 0px;
+  height: 0px;
+  border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 200px solid rgb(255,229,204);
+  
+  
+    color: cornflowerblue;}
+.layer1 div:hover{
+        transform: scale(.5);
+    }
+
+.layer1 div:nth-child(3n) {
+        transform: rotate(100deg);
+        width: 0px;
+      height: 0px;
+      border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 200px solid rgb(255,229,204);
+        color: Antiquewhite;}
+
+        .layer1 div:nth-child(5n) {
+            transform: rotate(125deg);
+            width: 0px;
+            height: 0px;
+            border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 200px solid rgb(255,229,204);
+            color: Lavender;
+        }
+
+
+.line01{
+    width:112px;
+    height:47px;
+    border-bottom: 2px solid brown;
+    position:absolute;
+    left:345px;
+    top:700px;
+
+}
+
+
+.line02{
+    width:112px;
+    height:397px;
+    border-left: 2px solid brown;
+    position:absolute;
+    left:397px;
+    top:350px;
+
+}
+
+
+
+
+
