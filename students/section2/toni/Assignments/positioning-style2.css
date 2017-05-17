@@ -17,6 +17,8 @@ body{
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     border-radius: 50%;
+
+    animation: spinX 1s infinite;
 } 
 .button1:hover {
     background-color: white; 
@@ -36,6 +38,7 @@ body{
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     border-radius: 50%;
+    animation: spinY 3s infinite;
 } 
 .button2:hover {
     background-color: white; 
@@ -55,6 +58,7 @@ body{
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     border-radius: 50%;
+    animation: spinX 9s infinite;
 } 
 .button3:hover {
     background-color: white; 
@@ -74,6 +78,8 @@ body{
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     border-radius: 50%;
+    animation: rotateY 6s alternate ease-in-out infinite;
+
 } 
 .button4:hover {
     background-color: white; 
@@ -93,6 +99,7 @@ body{
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     border-radius: 50%;
+    animation: spinY 15s infinite;
 } 
 .button5:hover {
     background-color: white; 
@@ -121,10 +128,35 @@ body{
 
 
 
+@keyframes spinX {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) ;
+    }
+}
 
 
 
+@keyframes spinY {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) ;
+    }
+}
 
+
+@keyframes rotateY {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) ;
+    }
+}
 
 
 

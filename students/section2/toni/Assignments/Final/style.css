@@ -1,30 +1,18 @@
-<!doctype html>
-<html>
-<head>
+body {
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+ 
 
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index, nofollow">
+}
 
-    <title> Joseph Müller-Brockmann </title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" href="animate.min.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-    </script>
-
-</head>
-
-<style>
-        .infobox {
+.infobox {
             background-color: transparent;
             width:450px;
             text-align: left;
             left:50px;
             margin: auto;
+            color: #fff;
         }
 
         .header h1:nth-child(3){
@@ -46,22 +34,24 @@
 
         }
 
-        #works1 {
-            /*display: none;*/
-        }
+     /*   #works1 {
+            display: none;
+
+        }*/
 
         @keyframes slide {
             from {right: -500px}
             to {right: 0px}
         }
 
-        #worksDisplay2 {
+    /*    #worksDisplay2 {
             display: none;
+
         }
 
         #workswhite {
             background-color: white;
-        }
+        }*/
 
         .works {
             display: none;
@@ -77,6 +67,9 @@
             /*width: 50%;*/
             animation-name: slide;
             animation-duration: 0.8s;
+
+
+
         }
 
         .button {
@@ -91,6 +84,19 @@
             margin: 4px 2px;
             cursor: pointer;
         }
+
+        .button1 {
+            border: 1px solid #fff;
+            width: 160px;
+            padding:5px;
+            float: right;
+        }
+
+        .button1:hover {
+            color: #54a5d8;
+            cursor: pointer;
+        }
+
 
         iframe {
             width:800px;
@@ -115,29 +121,12 @@
         	background:white;
         }
 
-</style>
+        .posters {
+            height: 100vh;
+            background-color: blue;
+        }
 
-<body>
-
-        <div class="container animated fadeIn" id="container">
-            <br>
-            <br>
-            <br>
-            <h1>
-As with most graphic designers that can be classified as part of the Swiss International Style, Joseph Müller-Brockmann was influenced by the ideas of several different design and art movements including Constructivism, De Stijl, Suprematism and the Bauhaus. He is perhaps the most well-known Swiss designer and his name is probably the most easily recognized when talking about the period. He was born and raised in <span class="switt">Switzerland</span> and by the age of 43 he became a teacher at the Zurich school of arts and crafts.
-            </h1>
-
-
-
-
-        </div>
-
-        <div>
-
-            <img src="images/beethoven.jpg" alt="DP" width="100%">
-
-        </div>
-
-
-</body>
-</html>
+        .one {
+            height: 100vh;
+            background-color: red;
+        }
