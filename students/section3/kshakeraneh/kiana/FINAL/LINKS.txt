@@ -1,0 +1,18 @@
+background-image:url(https://previews.123rf.com/images/stockbroker/stockbroker1506/stockbroker150605724/41512060-Family-outdoors-Stock-Photo-family.jpg);
+        	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    <img border=0 alt="free glitter text and family website at FamilyLobby.com" src="http://www.familylobby.com/common/tt11509065fltt.gif">
+
+    HOW CAN YOU BE SAD WHEN YOU HAVE A ROOF OVER YOUR HEAD YOU UNGRATEFUL CHILD
+
+    <style type="text/css">
+.centerImage
+{
+text-align:center;
+display:block;
+}
+</style>
+
+http://media.istockphoto.com/photos/irritated-man-with-hands-out-in-stop-gesture-picture-id183380336?s=2048x2048

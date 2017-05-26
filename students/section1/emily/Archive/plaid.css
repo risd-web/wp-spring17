@@ -1,0 +1,140 @@
+body{
+	background-color: #8eafe5
+}
+.verticals{
+	overflow: auto;
+	border: 5px solid yellow;
+	display: flex;
+}
+.bar{
+/*	position: absolute;*/
+	background-color: #5c38dd;
+	width: 100px;
+	height: 100vh;
+	opacity: .5;
+	float: left;
+	margin-right: 30px;
+}
+
+.rotate{
+	transform: rotate(60deg);
+}
+
+
+}
+
+@keyframes wheel{
+	100%{
+		transform: rotate(360deg)
+	}
+}
+
+/*.one{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 200px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.two{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 400px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.three{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 100px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.four{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 300px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.five{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 500px;
+
+}
+.six{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 700px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.seven{
+	width: 2000px;
+	height: 100px;
+	opacity: .5;
+	top: 900px;
+	position: absolute;
+	background-color: #5c38dd;
+}
+.eight{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 600px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd
+}
+.nine{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 800px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd
+}
+.ten{
+	width: 100px;
+	height: 2000px;
+	opacity: .5;
+	left: 1000px;
+	top: 0px;
+	position: absolute;
+	background-color: #5c38dd
+}*/
+
+.horizontals{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.horizontals:hover{
+	background-color: yellow;
+}
+
+.toggle{
+	background: yellow;
+}
+
+.line{
+	width: 2000px;
+	height: 5px;
+	background-color: #0716ed;
+	margin-bottom: 50px;
+}
+
+.line:hover{
+	background-color: red;
+}

@@ -1,0 +1,77 @@
+body{ background-color: #F9E79F; 
+	font-family: courier, sans-serif;
+	font-weight: bold;
+	}
+
+.whole {margin: auto 0;
+margin:40%;}
+
+
+.dia1 div:hover {
+	border-radius: 200%;
+	background-color: #71c4ed;
+}
+
+.blck div:hover {
+	border-radius: 50%;
+	background-color: lavender;
+}
+
+
+
+.diamond {
+  height: 150px;
+  width: 150px;
+  background-color: #7FDBFF;
+  transform: rotate(45deg);
+	}
+
+
+
+h1 {display:block;
+	width:660px;
+    height:100px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-55px 0 0 -339px;;
+}
+
+#topcenter {width: 80%;
+margin-right: 50%;
+text-align: center;
+margin-top: -1480px
+}
+
+h4 {text-align: left;
+	margin-top: 2px;
+margin-bottom: 2px;
+font-size: 22px;
+color: rgb(243, 156, 18);}
+
+h2 {margin-top: 2px;
+margin-bottom: 2px;
+font-size: 22px;
+color: rgb(230, 126, 34);}
+
+h3 {text-align: left;
+	margin-top: 2px;
+margin-bottom: 2px;
+font-size: 22px;
+color: rgb(211, 84, 0);}
+
+#center {width: 100%;
+margin-left: 0px;
+margin-top: 0px;
+position: fixed;}
+
+#right {width: 50%;
+margin-left: 300px;
+margin-top: -153px;
+position: fixed;}
+
+
+#left {width: 150%;
+margin-left: -300px;
+margin-top: -253px;
+position: fixed;}

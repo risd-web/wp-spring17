@@ -1,0 +1,91 @@
+body{
+	background-color: #8eafe5
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	background-color: #ffd800;
+	border-radius: 50%;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+.one{
+	width: 10px;
+	height: 30px;
+	background-color: #ffd800;
+	border-radius: 10px;
+	position: absolute;
+	top: 50px;
+	left: 145px;
+}
+.two{
+	width: 10px;
+	height: 30px;
+	background-color: #ffd800;
+	border-radius: 10px;
+	position: absolute;
+	top: 60px;
+	left: 215px;
+	transform: rotate(45deg)
+}
+.three{
+	width: 30px;
+	height: 10px;
+	background-color: #ffd800;
+	border-radius: 10px;
+	position: absolute;
+	top: 145px;
+	left: 220px;
+}
+.four{
+	width: 10px;
+	height: 30px;
+	background-color: #ffd800;
+	border-radius: 10px;
+	position: absolute;
+	top: 200px;
+	left: 215px;
+	transform: rotate(135deg)
+}
+.five{
+	width: 10px;
+	height: 30px;
+	background-color: #ffd800;
+	border-radius: 10px;
+	position: absolute;
+	top: 220px;
+	left: 145px;
+}
+.six{
+	width: 10px;
+	height: 30px;
+	background-color: #ffd800;
+	border-radius: 10px;
+	position: absolute;
+	top: 200px;
+	left: 75px;
+	transform: rotate(45deg)
+}
+.seven{
+	width: 30px;
+	height: 10px;
+	background-color: #ffd800;
+	border-radius: 10px;
+	position: absolute;
+	top: 145px;
+	left: 50px;
+}
+.eight{
+	width: 10px;
+	height: 30px;
+	background-color: #ffd800;
+	border-radius: 10px;
+	position: absolute;
+	top: 60px;
+	left: 75px;
+	transform: rotate(135deg)
+}
+.drop{
+	
+}
