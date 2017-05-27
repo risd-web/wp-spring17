@@ -66,6 +66,35 @@ img:hover{
    		bottom: 400px;
 }*/
 
+.rain{
+	position: relative;
+
+}
+
+#line{
+	width: 2px;
+	height:3000px;
+	background: purple;
+	float:left;
+	width: 10px;
+	margin:10px;
+	opacity:0.5;
+	animation-name:slideInLeft;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+	
 
 
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
 

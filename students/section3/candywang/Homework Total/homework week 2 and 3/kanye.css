@@ -1,0 +1,64 @@
+body{
+
+background-color: #ffffe6
+
+}
+
+
+.cursor{
+	cursor:url(http://25.media.tumblr.com/tumblr_mbjw9qS9tN1qe759to1_500.png),auto;
+}
+
+#doyou{
+	font-family:'Gravitas One', regular;
+		letter-spacing: 2px;
+		color: black;
+		text-align: center;
+		position: relative;
+		top: 300px;
+		font-size:200%;
+}
+
+
+
+#yes{
+	width:200px;
+	height:80px;
+	background-color:#ffffe6;
+	border: 5px solid black;
+	position: absolute;
+	top: 400px;
+	left:800px;
+	text-align: center;
+	font-size: 30px;
+	font-family:'Gravitas One', regular;
+	letter-spacing: 2px;
+	color: black;
+	transition: all 2s ease;
+}
+
+#yes:hover{
+	height: 42px;
+}
+
+
+#no{
+	width:200px;
+	height:80px;
+	background-color:#ffffe6;
+	border: 5px solid black;
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	text-align: center;
+	font-size: 30px;
+	font-family:'Gravitas One', regular;
+	letter-spacing: 2px;
+	color: black;
+	transition: all 2s ease;
+}
+
+#no:hover{
+	height: 42px;
+}
+

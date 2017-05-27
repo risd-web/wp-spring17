@@ -70,7 +70,7 @@ figure p {
 }
 
 .element:first-child:hover{
-	animation: spin 1s ease-in-out alternate infinite;
+	animation: spin 0.5s ease-in-out alternate infinite;
 }
 
 
@@ -129,6 +129,19 @@ a:hover{
 	100% {
 		transform: rotateY(360deg) ;
 	}
+}
+
+@keyframes stretch {
+  0%, 100%{
+  	transform: translate(0,0);
+  }
+  50%{
+  	transform: translate(100px,0);
+  }
+
+  80%{
+  	transform: translate (-150px,0);
+  }
 }
 
 

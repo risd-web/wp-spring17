@@ -3,7 +3,8 @@ console.log("hello from external script.js");
 $(document).ready(function(){
 
 	$('.button').click(function(){
-		$('.hi').fadeToggle(1200);
+		console.log("test button");
+		$('hi'). fadeToggle(1200);
 	});
 
 	$('#start').click(function(){
@@ -14,9 +15,9 @@ $(document).ready(function(){
 		$('#target').removeClass('play');
 	});
 
-	$('.element').click(function(){
-		$(this).toggleClass('play');
-	});
+	// $('.element').click(function(){
+	// 	$(this).toggleClass('play');
+	// });
 
 });
 
