@@ -1,0 +1,76 @@
+body{
+	background-image: url('tvnoise.gif');
+	background-size: cover;
+	}
+
+h1 {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	color: white;
+	font-family: 'Comic Sans MS', sans-serif;
+	font-size: 50px;
+}
+
+
+div.pic1 {
+	float:left;
+	width: 400px;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+
+
+div.pic2 {
+	float:left;
+	width: 400px;
+	margin-top: 100px;
+	margin-right: 100px;
+}
+
+.pic2 img{width: 80%;}
+
+
+div.pic3 {
+	float:right;
+	width:400px;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+
+
+div.pic4 {
+	float:left;
+	width:400px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+.pic4 img{width: 105%;}
+
+
+div.pic5 {
+	position: relative;
+	left: 400px;
+	top: 100px;
+	width:100px;
+    height:100px;
+    overflow:hidden;
+
+}
+
+div.pic6 {
+	position: relative;
+	left: 400px;
+	top: 100px;
+	width:500px;
+    overflow:hidden;
+}
+
+
+
+
+html{
+    margin-left: 2cm;
+}
