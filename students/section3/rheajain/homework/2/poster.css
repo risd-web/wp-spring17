@@ -1,0 +1,208 @@
+body{background-color: #1b1b1b}
+
+.w{
+	background-color: white;
+	height: 821px;
+    width: 559px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bb1{
+	background-color: black;
+    width: 389px;
+    height: 160px;
+}
+
+.bb2{
+	background-color: black;
+    width: 177px;
+    height: 389px;
+    position: relative;
+    top: -57px;
+    left: 383px;
+
+}
+
+.p1{
+    background-color: #7b42b3;
+    width: 184px;
+    height: 180px;
+    position: relative;
+    left: 98px;
+    top: -517px;
+
+}
+
+.p2{
+	background-color: #7b42b3;
+    width: 177px;
+    height: 391px;
+    position: relative;
+    left: 383px;
+    top: -242px;
+
+}
+
+
+.tri1{
+	width: 0;
+	height: 0;
+	border-bottom: 103px solid #ff9ee3;
+    border-right: 103px solid transparent;
+    position: relative;
+    top: -1120px;
+    left: 389px;
+}
+
+.tri2{
+	width: 0;
+    height: 0;
+    border-bottom: 216px solid #ec4132;
+    border-right: 216px solid transparent;
+    position: relative;
+    top: -617px;
+    left: 167px;
+    transform: rotate(270deg);
+}
+
+.y{
+	background-color: #fae800;
+    width: 79px;
+    height: 216px;
+    position: relative;
+    top: -834px;
+    left: -1px;
+    animation-name: blow;
+    animation-duration: 1.5s; 
+   /* animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+   /* animation-fill-mode: none;*/
+  /*  animation-play-state: running;*/*/
+}
+
+.cb{
+    width: 33px;
+    height: 33px;
+    background: #ec4132;
+    border-radius: 50px;
+    position: relative;
+    left: 183px;
+    top: -1072px;
+    z-index: 1;
+}
+
+
+.cb: hover{
+    background-color: black;
+}
+
+.cs{
+	width: 19px;
+    height: 19px;
+    background: #b03d41;
+    border-radius: 50px;
+    position: relative;
+    left: 190px;
+    top: -1109px;;
+    z-index: 0;
+
+}
+
+
+
+.eye{
+	width: 56px;
+    height: 56px;
+    background-color: none;
+    border: solid 20px black;
+    position: relative;
+    left: 18px;
+    top: -1508px;
+}
+
+.ie{
+	width: 41px;
+    height: 41px;
+    background-color: black;
+    position: relative;
+    left: 46px;
+    top: -1576px;
+    
+
+}
+
+.eye2{
+	width: 56px;
+    height: 56px;
+    background-color: none;
+    border: solid 20px black;
+    position: relative;
+    left: 267px;
+    top: -1645px;
+}
+
+
+.spin{
+    transform: rotate(45deg);
+    animation-name: spin;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.ie2{
+	width: 41px;
+    height: 41px;
+    background-color: black;
+    position: relative;
+    left: 294px;
+    top: -1713px;
+
+}
+
+p{
+	font-family: Akzidenz-Grotesk Pro;
+    font-size: 60px;
+    color: white;
+
+
+}
+
+div.text{
+	position: relative;
+    left: 257px;
+    top: -1873px;
+    transform: rotate(270deg);
+
+}
+
+
+
+
+
+@keyframes spin{
+	from{
+		transform: rotate(45deg);
+	} to{
+		transform: rotate(-45deg);
+	}
+
+}
+
+@keyframes blow{
+	0%{ transform: height(216px);}
+
+	50%{ transform: height(300px);}
+
+	100%{ transform: height(400px);}
+}
+
+
+
+
+
+
+
+

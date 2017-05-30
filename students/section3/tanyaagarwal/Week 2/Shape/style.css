@@ -1,0 +1,65 @@
+.green {
+    width: 500px;
+    height: 250px; 
+    background-color:  red;
+    border-top-left-radius: 270px;  
+    border-top-right-radius: 270px; 
+    border: 20px solid green;
+    border-bottom: 0;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 400px;
+    top: 250px;
+}
+
+.seed{
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid black;
+	position: absolute;
+	left: 850px;
+	top:300px;
+	transform: rotate(340deg);
+}
+
+.seed1{
+	
+	width:25px;
+	height:25px;
+	border-radius:0px 50px 50px 50px;
+	background-color: black;
+	overflow: hidden;
+	position: absolute;
+	left: 800px;
+	top:300px;
+}
+
+.seed2{
+	
+	width:25px;
+	height:25px;
+	border-radius:0px 50px 50px 50px;
+	background-color: black;
+	overflow: hidden;
+	position: absolute;
+	left: 660px;
+	top:375px;
+	transform: rotate(40deg);
+}
+
+.seed3{
+	
+	width:25px;
+	height:25px;
+	border-radius:0px 50px 50px 50px;
+	background-color: black;
+	overflow: hidden;
+	position: absolute;
+	left: 520px;
+	top:300px;
+	transform: rotate(80deg);
+}
+
+

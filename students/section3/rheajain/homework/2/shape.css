@@ -1,0 +1,80 @@
+body{
+	background-color: rgba(255, 215, 18, 0.7);
+}
+
+
+div.half{
+	width:500px;
+	height:250px;
+	border-radius: 0 0 500px 500px;
+	background-color: tomato;
+	overflow: hidden;
+}
+
+
+
+
+div.teeth{
+	width:65px;
+	height:50px;
+	border-radius: 0 0 100px 100px;
+	background-color: white;
+	float:left;
+	margin: 2px;
+}
+
+#main{
+	position: absolute;
+	left: 500px;
+	top: 200px;
+}
+
+#all{
+	position: relative;
+	left: 9px;
+    top: -252px;
+}
+
+
+div.tongue{
+	width: 232px;
+    height: 250px;
+    border-radius: 0 0px 300px 300px;
+    background-color: pink;
+    position: relative;
+    left: 138px;
+    top: -80px;
+
+}
+
+
+div.in{
+	width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: pink;
+    float: left;
+
+}
+
+#right{
+    margin-left: -50px;
+}
+
+.inin{
+	    position: relative;
+    left: 71px;
+    top: 155px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

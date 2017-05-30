@@ -1,0 +1,152 @@
+body{
+	background-color: powderblue;
+}
+
+.unit{
+	width: 200px;
+	height: 500px;
+	float: left;
+}
+
+.object1{
+	position: relative;
+	width:600px;
+}
+.sections{
+	position: relative;
+	
+}
+
+.shape1 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	left:0px;
+	border-top: 100px black solid;
+	border-right: 100px solid transparent;
+
+}
+
+.shape2 {
+	width: 0;
+	height: 0;
+	border-top: 100px #424242 solid;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 50px;
+	top: 40px;
+	-ms-transform: rotate(60deg); 
+    -webkit-transform: rotate(60deg); 
+    transform: rotate(60deg);
+    
+}
+
+.shape3 {
+	width: 0;
+	height: 0;
+	border-top: 100px #717171 solid;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 100px;
+	top: 150px;
+	-ms-transform: rotate(120deg); 
+    -webkit-transform: rotate(120deg); 
+    transform: rotate(120deg);
+}
+
+.shape4 {
+	width: 0;
+	height: 0;
+	border-top: 100px #c3c3c3 solid;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 150px;
+	top: 200px;
+	-ms-transform: rotate(140deg); 
+    -webkit-transform: rotate(140deg); 
+    transform: rotate(140deg);
+}
+
+.shape5 {
+	width: 0;
+	height: 0;
+	border-top: 100px #dedede solid;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 200px;
+	top: 230px;
+	-ms-transform: rotate(120deg); 
+    -webkit-transform: rotate(120deg); 
+    transform: rotate(120deg);
+}
+
+.shape6 {
+	width: 0;
+	height: 0;
+	border-top: 100px #f3f3f3 solid;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 275px;
+	top: 150px;
+	-ms-transform: rotate(275deg); 
+    -webkit-transform: rotate(275deg); 
+    transform: rotate(275deg);
+}
+
+.shape7 {
+	width: 0;
+	height: 0;
+	border-top: 100px white solid;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 300px;
+	top: 170px;
+	-ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+
+.shape8 {
+	width: 0;
+	height: 0;
+	border-top: 100px #ccf9ff solid;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 350px;
+	top: 150px;
+	-ms-transform: rotate(40deg); 
+    -webkit-transform: rotate(40deg); 
+    transform: rotate(40deg);
+}
+
+.shape8 {
+	width: 0;
+	height: 0;
+	border-top: 100px #a6f5ff solid;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 390px;
+	top: 1800px;
+	-ms-transform: rotate(deg); 
+    -webkit-transform: rotate(40deg); 
+    transform: rotate(40deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Brockman</title>
+          <link rel="stylesheet" type="text/css" href="style.css">
+
+          <script
+       src="https://code.jquery.com/jquery-3.2.1.min.js"
+       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+       crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        console.log(5+5);
+        console.log("hello!");
+    </script>
+    <script src="jquery.js"></script>
+
+    </head>
+    <body>
+    <body style= "background-color: black">
+    <div class="section">
+
+        <div class="rectangle">
+        <div id="target">
+        	<div class="rectangle1"></div>
+            <div class="rectangle2"></div>
+            <div class="rectangle3"></div>
+            <div class="rectangle4"></div>
+            <div class="rectangle5"></div>
+            <div class="rectangle6"></div>
+            <div class="rectangle7"></div>
+            <div class="rectangle8"></div>
+        </div>
+
+
+            <div class="musicaviva"> musica viva </div>
+            <div class= "erichschmid"> erich schmid </div>
+            <div class= "adolfneumeier">adolf neumeier</div>
+            <div class= "georgkertesz">georg kertesz</div>
+            <div class="goffredopetrassi">goffredo petrassi </div>
+            <div class="dariusmildhaud">darius mildhaud</div>
+            <div class="paulhindemith">paul hindemith</div>
+            <div class="rolfliebermann">rolf liebermann</div>
+
+            <div class="button">Button</div>
+        
+    				
+        </div>
+    </div>
+
+    </body>
+</html>

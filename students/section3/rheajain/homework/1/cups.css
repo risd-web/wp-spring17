@@ -1,0 +1,58 @@
+body{
+	background-color: rgb(169, 216, 184);
+	/*overflow: hidden;*/
+	
+}
+
+
+a:hover{
+	opacity: 0.5;
+}
+
+
+
+div.main{
+	position: relative;
+	left: 35px;
+	top: 69px;
+	height: 500px;
+}
+
+.cup{
+	float: left;
+	width: 17%;
+	padding: 2em;
+	box-sizing: border-box;
+}
+
+.cup img{
+	width: 100%;
+}
+
+.allcups{
+	margin: auto;
+	width: 100vw;
+	position:relative ;
+	left: 70px;
+
+	
+}
+
+	
+
+h4{
+	font-family: Akzidenz-Grotesk Pro;
+    font-size: 19pt;
+    color: rgb(241,86,69);
+    font-weight: lighter;
+    
+  }
+
+
+  div.pick{
+  	position:relative;
+  	left:58px;
+  	top:50px;
+  }
+
+}

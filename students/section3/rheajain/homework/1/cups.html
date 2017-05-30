@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cups</title>
+        <link rel="stylesheet" type="text/css" href="cups.css">
+              <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+        <script>
+        	//generate random number between 1-10, store it in variable, call it bingo
+        	var bingo = Math.floor((Math.random() * 10) + 1);
+
+        	console.log(bingo);
+        	//use that random number to select winning cup
+        	$(document).ready(function(){
+        		$('.cup:nth-child('+bingo+') a').attr("href", "cups3.html");
+        	});
+        </script>
+    </head>
+    <body>
+    	<!--  -->
+
+    	<div class="pick"><h4> pick one
+    	</h4></div>
+    	
+
+		
+
+	    	<div class="allcups">
+		    	<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+				<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+		    	<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+		    	<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+		    	<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+
+		    	<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+				<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+		    	<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+		    	<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+		    	
+		    	<div class="cup">
+		    		<a href="cups2.html"><img src="media1/cup.png"></a>
+		    	</div>
+	  		</div>
+
+
+	  		
+        
+
+
+
+
+    </body>
+</html>

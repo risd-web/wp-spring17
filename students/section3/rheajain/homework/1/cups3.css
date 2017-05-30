@@ -1,0 +1,38 @@
+body{
+	background-color: rgb(169, 216, 184);
+	overflow:hidden;
+}
+
+div.c4{
+	position:relative;
+	left:813px;
+	top:370px;
+}
+
+div.yes{
+	position: relative;
+	left: 200px;
+	top:48px;
+}
+
+h4{
+	font-family: Avenir;
+    font-size: 19pt;
+    color: rgb(241,86,69);
+    font-weight: lighter;
+    border: dashed;
+    border-color: rgb(241,86,69);
+    text-align: center;
+    width: 169px;
+    height: 40px;
+
+}
+
+
+a:link{
+	text-decoration: none;
+	
+
+
+}
+

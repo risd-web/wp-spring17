@@ -1,0 +1,166 @@
+body{
+	background-color: rgba(21, 130, 74, 0.85);
+  padding-left: 100px;
+}
+
+
+
+.circle1{
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+border-top: 60px solid tomato;
+  border-left: 60px solid orange;
+  border-bottom: 60px solid tomato;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  position: relative;
+  top: 120px;
+}
+
+.circle2{
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid tomato;
+  border-left: 60px solid orange;
+  border-bottom: 60px solid tomato;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  transform: rotate(90deg);
+  position: relative;
+  top: -84px;
+  left: 84px;
+}
+
+.circle3{
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+ border-top: 60px solid tomato;
+  border-left: 60px solid orange;
+  border-bottom: 60px solid tomato;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  transform: rotate(180deg);
+  position: relative;
+  left: 168px;
+  top: -120px;
+
+}
+
+.circle4{
+	width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+ border-top: 60px solid tomato;
+  border-left: 60px solid orange;
+  border-bottom: 60px solid tomato;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  transform: rotate(270deg);
+  position: relative;
+  left: 84px;
+  top: -156px;
+}
+
+div.big{
+	width: 289px;
+    height: 325px;
+	float: left;
+	margin-left: -36px;
+    margin-top: -72px;
+    animation-name: test;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@media only screen and (max-width: 1000px) {
+    .circle4{
+         border-top: 60px solid orange;
+  border-left: 60px solid tomato;
+  border-bottom: 60px solid orange;
+    transition-timing function: ease-in-out;
+   transition-duration: 4s;
+}
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .circle3{
+         border-top: 60px solid orange;
+  border-left: 60px solid tomato;
+  border-bottom: 60px solid orange;
+    transition-timing function: ease-in-out;
+   transition-duration: 6s;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+    .circle2{
+         border-top: 60px solid orange;
+  border-left: 60px solid tomato;
+  border-bottom: 60px solid orange;
+    transition-timing function: ease-in-out;
+   transition-duration: 6s;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+    .circle1{
+         border-top: 60px solid orange;
+  border-left: 60px solid tomato;
+  border-bottom: 60px solid orange;
+  transition-timing function: ease-in-out;
+   transition-duration: 6s;
+  
+}
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+   background-color: black;
+   transition-timing function: ease-in-out;
+   transition-duration: 6s;
+}
+}
+
+@keyframes test{
+ 0% {
+    transform: scale(1);   
+    /*border-radius: 100%;*/
+  }
+ 
+  5% {
+    transform: scale(1);   
+    /*border-radius: 100%;*/
+  }
+
+    95% {
+    transform: scale(1.5);
+   
+  }
+
+  100% {
+    transform: scale(1.5);
+   
+  }
+}
+
+
+
+
+

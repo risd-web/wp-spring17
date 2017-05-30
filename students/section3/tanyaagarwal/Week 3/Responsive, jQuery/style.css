@@ -1,0 +1,211 @@
+.section{
+position: absolute;
+left:350px;
+}
+
+
+
+.rectangle{
+	width: 750px;
+	height: 1000px;
+	background: #b6313a;
+	overflow: hidden;
+
+
+}
+
+.rectangle1{
+	width: 70px;
+	height: 300px;
+	background: #8b2b30;
+	transform: rotate(45deg);
+	position:relative;
+	top:-150px;
+	left: 100px;
+
+}
+
+.rectangle1: hover {opacity: 0.8;}
+
+
+
+@media (max-width:650px){}
+
+#target {hover: 0.8;
+}
+
+#target:hover {opacity: 0.8;}
+
+.rectangle2 {
+	width: 70px;
+	height: 300px;
+	background: #8b2b30;
+	transform: rotate(45deg);
+	position: relative;
+	top: -390px;
+	left: 160px;
+}
+
+.rectangle3 {
+	width: 70px;
+	height: 330px;
+	background: #8b2b30;
+	transform: rotate(45deg);
+	position: relative;
+	top: -655px;
+	left: 230px;
+}
+	
+.rectangle4 {
+	width: 70px;
+	height: 330px;
+	background: black;
+	transform: rotate(45deg);
+	position: relative;
+	top: -800px;
+	left: 162px;
+}
+.rectangle5 {
+	width: 70px;
+	height: 330px;
+	background: #8b2b30;
+	transform: rotate(45deg);
+	position: relative;
+	top: -1200px;
+	left: 350px;
+}
+.rectangle6 {
+	width: 70px;
+	height: 330px;
+	background: black;
+	transform: rotate(45deg);
+	position: relative;
+	top: -1357px;
+	left: 297px;
+}
+
+.rectangle7 {
+	width: 70px;
+	height: 330px;
+	background: black;
+	transform: rotate(45deg);
+	position: relative;
+	top: -1629px;
+	left: 358px;
+}
+
+.rectangle8 {
+	width: 70px;
+	height: 330px;
+	background: black;
+	transform: rotate(45deg);
+	position: relative;
+	top: -1897px;
+	left: 416px;
+}
+
+
+.musicaviva {
+	font-size: 18pt;
+	position: relative;
+	top: -1799px;
+	left: 10px;
+}
+
+.erichschmid {
+	font-size: 18pt;
+	position: relative;
+	top: -1769px;
+	left: 10px;
+}
+
+
+.adolfneumeier {
+	font-size: 18pt;
+	position: relative;
+	top: -1769px;
+	left: 10px;
+}
+
+.georgkertesz {
+	font-size: 18pt;
+	position: relative;
+	top: -1769px;
+	left: 10px;
+}
+
+
+.goffredopetrassi{
+	font-size: 18pt;
+	position: relative;
+	top: -1875px;
+	left: 240px;
+}
+
+.dariusmildhaud{
+	font-size: 18pt;
+	position: relative;
+	top: -1875px;
+	left: 240px;
+}
+
+.paulhindemith {
+font-size: 18pt;
+	position: relative;
+	top: -1875px;
+	left: 240px;
+}
+
+.rolfliebermann{
+	font-size: 18pt;
+	position: relative;
+	top: -1875px;
+	left: 240px;
+}
+
+.para{
+	font-size: 10pt;
+	position: relative;
+	top: -1983px;
+	left: 240px;
+}
+
+.play{
+	animation: wheel 2s ease-in-out alternate infinite;
+}
+
+.button{
+	
+}
+
+@media (max-width:650px){
+
+}
+
+
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) ;
+    }
+}
+
+@keyframes wheel {
+	100% {
+		transform: rotateY(0deg);
+	}
+	40% {
+		transform: rotateY(360deg);
+	}
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+body{
+	 background-color: #009688;;
+}
+
+h1{
+	font-family: helvetica;
+    font-size: 70px;
+    color: #353535;
+
+}
+
+
+
+.carrot {
+	width: 60px;
+    height: 60px;
+    background: #ff8100;
+    border-radius: 25%;
+    float: left;
+    cursor: pointer;
+    margin: 50px;
+}
+
+.pea{
+	width: 50px;
+    height: 50px;
+    background: #88dc19;
+    border-radius: 100%;
+    float: left;
+    cursor: pointer;
+    margin: 23px;
+}
+
+
+
+
+

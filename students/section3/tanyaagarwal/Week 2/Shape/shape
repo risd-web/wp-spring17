@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Watermelon</title>
+          <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+    <body style="background-color:pink;">
+		<div class="green">
+		</div>
+		
+
+		<div class="seed1"> </div>
+		<div class="seed2"> </div>
+		<div class="seed3"> </div>
+
+	
+				
+
+
+	</div>
+
+
+    </body>
+</html>
