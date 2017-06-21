@@ -6,15 +6,24 @@ h1{
 	font-weight: 700;
 	font-size:16px;
 	margin:0;
-	text-align:right;
+}
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size:16px;
+	padding:10px 0 0 5px;
+	margin:0;
+    border-top: 3px solid black;
+
 }
 #menu{
 	position:fixed;
-	left:20%;
+	left:200px;
 	height:50px;
 }
 #menu > div{
 	float:left;
+	text-align:right;
 }
 .btn{
 	padding:20px 40px;
@@ -31,19 +40,33 @@ h1{
 	position:fixed;
 	top:109px;
 	left:10%;
-	width:280px;
+	width:1000px;
 }
-.preview{
-	float:left;
+
+.previewIMG{
 	width:120px;
 	height:120px;
-	margin:0 20px 20px 0;
+	padding:0 5px;
 }
-.preview:hover{
+.previewBox{
+	width:130px;
+	float:left;
+	margin:0 40px 10px 0;
+}
+.nameBox{
+	width:130px;
+	float:left;
+	margin:0 40px 10px 0;
+}
+.nameBox h2{
+	border:0;
+}
+.previewBox:hover{
 	opacity: 0.5;
+	cursor:pointer;
 }
 #work{
-	padding: 109px 0 0 445px;
+	padding: 109px 0 0 350px;
 	margin-bottom:100px;
 }
 .pic{
@@ -56,24 +79,27 @@ h1{
 	width:250px;
 }
 #text{
+	width:450px;
 	display:none;
-	background-color:rgba(255 ,255 ,255, 0.5);
-	padding:10px;
-	margin:20px 0 0 0;
-}
-#text p{
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	font-size:12px;
+	background-color:rgba(255 ,255 ,255, 0.9);
+	padding:10px 10px 10px 6px;
 	margin:0;
-	line-height: 18px;
+	clear:both;
+}
+p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size:16px;
+	margin:0;
+	line-height: 24px;
 
 }
-
-
+#experience{
+	padding:10px 0 0 170px;
+}
 @media screen and (max-width: 1250px) {
   #work{
-  	padding: 109px 0 0 250px;
+  	padding: 109px 0 0 300px;
 	margin-bottom:100px;
   }
   #textContainer{
@@ -84,4 +110,27 @@ h1{
   }
 
 }
+#back {
+	position:fixed;
+	bottom:100px;
+	width:18px;
+}
+@media screen and (max-width: 750px) {
+	#cata{
+		position: static;
+		width: 100%;
+	}
+	
+	.pic img{
+		max-width: 100%;
+	}
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color: rgba(150,150,150,1)
+}
+
 
