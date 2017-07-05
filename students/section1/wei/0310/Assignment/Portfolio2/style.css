@@ -186,7 +186,7 @@ h2{
 }
 		#menu{
 	height:40px;
-	left:2%;
+	left:0;
 	position:relative;
 	width:100%;
 }
@@ -195,14 +195,15 @@ h2{
 	text-align:right;
 }
 	#work{
-	padding: 10px 0 0 0;
+	padding: 0 0 0 10px;
 	margin-bottom:100px;
 		}
   #cata{
 	position:relative;
  	width:100%;
- 	left:2%;
  	top:10px;
+ 	left:0;
+ 	padding:10px 0 0 0;
 		}
 
 	.pic img{
@@ -232,7 +233,7 @@ h2{
 	height:20px;
 }
 #ww{
-	padding:5px 15px 5px 5px;
+	padding:5px 15px 5px 15px;
 }
 #back {
 	position:fixed;
