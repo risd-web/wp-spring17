@@ -212,7 +212,7 @@ h2{
 	p{
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size:12px;
+	font-size:14px;
 	margin:0;
 	line-height: 16px;
 
@@ -248,6 +248,9 @@ h2{
 }
 #blankBtn{
 	padding:10px 0;
+}
+#text{
+	width:100%;
 }
 }
 
