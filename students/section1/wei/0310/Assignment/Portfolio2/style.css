@@ -1,0 +1,135 @@
+body{
+	margin:0;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size:16px;
+	margin:0;
+}
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size:16px;
+	padding:10px 0 0 5px;
+	margin:0;
+    border-top: 3px solid black;
+
+}
+#menu{
+	position:fixed;
+	right:10%;
+	width:100px;
+}
+#menu > div{
+}
+.btn{
+	padding:20px 10px;
+	border-top: 3px solid black;
+}
+#ww{
+	padding:105px 0 20px 10px;
+
+}
+#blankBtn{
+	height:19px;
+}
+#cata{
+	position:fixed;
+	top:109px;
+	left:10%;
+	width:1000px;
+}
+
+.previewIMG{
+	width:120px;
+	height:120px;
+	padding:0 5px;
+}
+.previewBox{
+	width:130px;
+	height:200px;
+	float:left;
+	margin:0 40px 10px 0;
+}
+.nameBox{
+	width:130px;
+	float:left;
+	margin:0 40px 10px 0;
+}
+.nameBox h2{
+	border:0;
+}
+.previewBox:hover{
+	opacity: 0.5;
+	cursor:pointer;
+}
+#work{
+	padding: 109px 0 0 350px;
+	margin-bottom:100px;
+}
+.pic{
+	margin-bottom:20px;
+}
+#textContainer{
+	position:fixed;
+	top:109px;
+	right:5%;
+	width:250px;
+}
+#text{
+	width:450px;
+	display:none;
+	background-color:rgba(255 ,255 ,255, 0.9);
+	padding:10px 10px 10px 6px;
+	margin:0;
+	clear:both;
+}
+p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size:16px;
+	margin:0;
+	line-height: 24px;
+
+}
+#experience{
+	padding:10px 0 0 170px;
+}
+@media screen and (max-width: 1250px) {
+  #work{
+  	padding: 109px 0 0 300px;
+	margin-bottom:100px;
+  }
+  #textContainer{
+  	position:fixed;
+	top:109px;
+	right:5%;
+	width:150px;
+  }
+
+}
+#back {
+	position:fixed;
+	bottom:100px;
+	width:18px;
+}
+@media screen and (max-width: 750px) {
+	#cata{
+		position: static;
+		width: 100%;
+	}
+	
+	.pic img{
+		max-width: 100%;
+	}
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color: rgba(150,150,150,1)
+}
+
+
