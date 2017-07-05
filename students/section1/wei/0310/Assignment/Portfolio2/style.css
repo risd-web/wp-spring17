@@ -46,7 +46,7 @@ h2{
 	height:120px;
 	padding:0 5px;
 }
-.previewBox{
+.previewBox, .titleBox{
 	width:130px;
 	height:200px;
 	float:left;
@@ -94,6 +94,10 @@ p{
 #back {
 	position:fixed;
 	bottom:100px;
+	width:18px;
+}
+#back img{
+
 	width:18px;
 }
 a{
@@ -168,16 +172,16 @@ a:hover{
 	h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size:8px;
+	font-size:12px;
 	margin:0;
 }
 h2{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size:8px;
+	font-size:12px;
 	padding:10px 0 0 5px;
 	margin:0;
-    border-top: 3px solid black;
+    border-top: 1.5px solid black;
 
 }
 	#menu{
@@ -193,11 +197,42 @@ h2{
 	position:relative;
  	width:100%;
  	left:2%;
+ 	top:10px;
 		}
 
 	.pic img{
 		max-width: 100%;
 	}
+	p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size:12px;
+	margin:0;
+	line-height: 16px;
+
+}
+.titleBox{
+	width:100px;
+	height:60px;
+	float:left;
+	margin:0 40px 10px 0;
+}
+	.btn{
+	padding:10px 5px;
+	border-top: 1.5px solid black;
+}
+#ww{
+	padding:20px 0 10px 5px;
+
+}
+#back {
+	position:fixed;
+	bottom:10px;
+	width:9px;
+}
+#back img{
+	width:9px;
+}
 
 
 }
