@@ -172,13 +172,13 @@ a:hover{
 	h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size:12px;
+	font-size:14px;
 	margin:0;
 }
 h2{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size:12px;
+	font-size:14px;
 	padding:10px 0 0 5px;
 	margin:0;
     border-top: 2px solid black;
@@ -188,6 +188,7 @@ h2{
 	height:40px;
 	left:2%;
 	position:relative;
+	width:100%;
 }
 #menu > div{
 	float:left;
@@ -215,6 +216,9 @@ h2{
 	line-height: 16px;
 
 }
+#blankBtn{
+	height:19px;
+}
 .titleBox{
 	width:100px;
 	height:60px;
@@ -222,14 +226,13 @@ h2{
 	margin:0 40px 10px 0;
 }
 	.btn{
-	padding:10px 10px;
+	padding:10px 20px;
 	border-left: 2px solid black;
 	border-top: 0;
 	height:20px;
 }
 #ww{
-	padding:5px 0 5px 5px;
-
+	padding:5px 20px;
 }
 #back {
 	position:fixed;
