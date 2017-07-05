@@ -246,7 +246,9 @@ h2{
 .previewBox{
 	margin:0 10px 10px 0;
 }
-
+#blankBtn{
+	padding:10px 0;
+}
 }
 
 
