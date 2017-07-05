@@ -184,11 +184,15 @@ h2{
     border-top: 2px solid black;
 
 }
-	#menu{
-	position:fixed;
-	right:2%;
-	width:100px;
-		}
+		#menu{
+	height:40px;
+	left:2%;
+	position:relative;
+}
+#menu > div{
+	float:left;
+	text-align:right;
+}
 	#work{
 	padding: 10px 0 0 0;
 	margin-bottom:100px;
@@ -218,11 +222,13 @@ h2{
 	margin:0 40px 10px 0;
 }
 	.btn{
-	padding:10px 5px;
-	border-top: 2px solid black;
+	padding:10px 10px;
+	border-left: 2px solid black;
+	border-top: 0;
+	height:20px;
 }
 #ww{
-	padding:20px 0 10px 5px;
+	padding:5px 0 5px 5px;
 
 }
 #back {
