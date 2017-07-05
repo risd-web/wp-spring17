@@ -18,7 +18,7 @@ h2{
 }
 #menu{
 	position:fixed;
-	right:10%;
+	right:7%;
 	width:100px;
 }
 #menu > div{
@@ -37,7 +37,7 @@ h2{
 #cata{
 	position:fixed;
 	top:109px;
-	left:10%;
+	left:7%;
 	width:1000px;
 }
 
@@ -65,18 +65,13 @@ h2{
 	cursor:pointer;
 }
 #work{
-	padding: 109px 0 0 350px;
+	padding: 109px 0 0 20%;
 	margin-bottom:100px;
 }
 .pic{
 	margin-bottom:20px;
 }
-#textContainer{
-	position:fixed;
-	top:109px;
-	right:5%;
-	width:250px;
-}
+
 #text{
 	width:450px;
 	display:none;
@@ -96,33 +91,10 @@ p{
 #experience{
 	padding:10px 0 0 170px;
 }
-@media screen and (max-width: 1250px) {
-  #work{
-  	padding: 109px 0 0 300px;
-	margin-bottom:100px;
-  }
-  #textContainer{
-  	position:fixed;
-	top:109px;
-	right:5%;
-	width:150px;
-  }
-
-}
 #back {
 	position:fixed;
 	bottom:100px;
 	width:18px;
-}
-@media screen and (max-width: 750px) {
-	#cata{
-		position: static;
-		width: 100%;
-	}
-	
-	.pic img{
-		max-width: 100%;
-	}
 }
 a{
 	text-decoration:none;
@@ -131,5 +103,103 @@ a{
 a:hover{
 	color: rgba(150,150,150,1)
 }
+
+@media screen and (min-width:1151px) and (max-width: 1280px) {
+  
+  #menu{
+	position:fixed;
+	right:4%;
+	width:100px;
+		}
+  #cata{
+	position:fixed;
+	top:109px;
+	left:4%;
+	width:1000px;
+		}
+	.pic img{
+		max-width: 700px;
+	}	
+}
+
+@media screen and (min-width:1025px) and (max-width: 1150px) {
+	#menu{
+	position:fixed;
+	right:2%;
+	width:100px;
+		}
+  #cata{
+	position:fixed;
+	top:109px;
+	left:2%;
+	width:1000px;
+		}
+   #work{
+	padding: 109px 0 0 17%;
+	margin-bottom:100px;
+		}
+	.pic img{
+		max-width: 650px;
+	}
+}
+
+@media screen and (min-width:770px) and (max-width: 1024px) {
+	#menu{
+	position:fixed;
+	right:2%;
+	width:100px;
+		}
+  #cata{
+	position:fixed;
+	top:109px;
+	left:2%;
+	width:1000px;
+		}
+   #work{
+	padding: 109px 0 0 17%;
+	margin-bottom:100px;
+		}
+	.pic img{
+		max-width: 650px;
+	}
+}
+
+@media screen (max-width: 770px) {
+	h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size:8px;
+	margin:0;
+}
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size:8px;
+	padding:10px 0 0 5px;
+	margin:0;
+    border-top: 3px solid black;
+
+}
+	#menu{
+	position:fixed;
+	right:2%;
+	width:100px;
+		}
+  #cata{
+	position:fixed;
+	top:109px;
+	left:2%;
+	width:1000px;
+		}
+   #work{
+	padding: 109px 0 0 17%;
+	margin-bottom:100px;
+		}
+	.pic img{
+		max-width: 100%;
+	}
+}
+
+
 
 
