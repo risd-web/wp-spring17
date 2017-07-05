@@ -232,7 +232,7 @@ h2{
 	height:20px;
 }
 #ww{
-	padding:5px 15px 5px 0;
+	padding:5px 15px 5px 5px;
 }
 #back {
 	position:fixed;
@@ -242,7 +242,9 @@ h2{
 #back img{
 	width:9px;
 }
-
+.previewBox{
+	margin:0 20px 10px 0;
+}
 
 }
 
