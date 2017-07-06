@@ -38,7 +38,7 @@ h2{
 	position:fixed;
 	top:109px;
 	left:7%;
-	width:1000px;
+	width:80%;
 }
 
 .previewIMG{
@@ -60,7 +60,7 @@ h2{
 .nameBox h2{
 	border:0;
 }
-.previewBox:hover{
+.previewBox:hover, .titleBox:hover{
 	opacity: 0.5;
 	cursor:pointer;
 }
@@ -157,7 +157,6 @@ a:hover{
 	position:fixed;
 	top:109px;
 	left:2%;
-	width:1000px;
 		}
    #work{
 	padding: 109px 0 0 17%;
@@ -181,7 +180,7 @@ a:hover{
 	text-align:right;
 }
 	#work{
-	padding: 0;
+	padding: 10px 0 0 0;
 	margin-bottom:80px;
 		}
   #cata{
@@ -191,7 +190,13 @@ a:hover{
  	padding:10px 0 0 0;
  	margin:0px auto;
 		}
-
+  #sideBar{
+  	position:relative;
+ 	top:10px;
+ 	left:0;
+ 	width:100%;
+ 	margin:0 0 30px 0;
+  }
 	.pic img{
 		max-width: 100%;
 	}
@@ -201,21 +206,24 @@ a:hover{
 	font-size:14px;
 	margin:0;
 	line-height: 20px;
+	margin:0 15px;
+
 
 }
 #blankBtn{
 	height:19px;
 }
 .titleBox{
-	width:100px;
+	width:130px;
 	height:60px;
 	float:left;
 	margin:0 0 10px 10px;
 }
 	.btn{
 	padding:10px 15px;
-	border-left: 2px solid black;
 	border-top: 0;
+	border-left: 3px solid black;
+
 	height:20px;
 }
 #ww{
@@ -238,10 +246,8 @@ a:hover{
 }
 #text{
 	width:100%;
+	display:block;
 	padding:0;
-}
-#text p{
-	margin:0px 15px;
 }
 }
 @media screen and (min-width:730px) and (max-width: 770px) {
@@ -257,8 +263,13 @@ a:hover{
  	width:570px;
 		}
 }
-@media screen (max-width: 589px) {
-
+@media screen and (max-width: 589px) {
+.titleBox{
+	width:100px;
+}
+.btn{
+	border-left: 2px solid black;
+}
 h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
