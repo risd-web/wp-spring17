@@ -1,0 +1,200 @@
+.rightteye { 
+				position: absolute;
+				left: 180px;
+				top: 150px;
+				width: 60px;
+				height: 40px;
+				background: yellow;
+				z-index: 100;
+
+				border-radius: 50%;			
+}
+.rightteye:hover{
+
+				background: red;
+				animation: spinning 5s infinite;
+				
+
+}
+
+#spinning:hover{
+	animation: spin 1s linear alternate 3;
+}
+
+
+.lefteye {
+				position: absolute;
+				left: 285px;
+				top: 150px;
+				width: 60px;
+				height: 40px;
+				background: yellow;
+				z-index: 100;
+				border-radius: 50%;	
+			}
+.lefteye:hover {
+				background-color: red;
+				transform: scaleX(1.2);
+				transform: scaleY(1.4);
+			}
+
+
+.rightiris { 
+				position: absolute;
+				left: 180px;
+				top: 160px;
+				width: 30px;
+				height: 20px;
+				background: black;
+				z-index: 100;
+
+				border-radius: 50%;			
+}
+
+.leftiris {
+				position: absolute;
+				left: 285px;
+				top: 160px;
+				width: 30px;
+				height: 20px;
+				background: black;
+				z-index: 100;
+				border-radius: 50%;	
+			}
+.nose {
+	position: absolute;
+	left: 223px;
+	top: 251px;
+  width: 20px; 
+  height: 10px;
+    border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid pink; 
+  z-index: 110;
+
+}
+.mouth {
+	position: absolute;
+	left: 235px;
+	top: 271px;
+	width: 37px;
+	height: 6px;
+	background-color: black;
+	z-index: 110;
+}
+.mouth:hover {
+	position: absolute;
+	left: 228px;
+	top: 271px;
+	width: 10 px;
+	height: 60px;
+	border-left: 10px solid transparent;
+  	border-right: 10px solid transparent;
+  border-top: 30px solid black; 
+  background-color: transparent;
+  border-radius: 30%;
+
+	z-index: 120;
+
+}
+
+
+.leftear {
+				position:absolute;
+				left: 100px;
+				top:-7px;
+				background: #214049;
+				width: 100px;
+				height: 107px;
+				z-index: 5;
+  				clip-path: polygon(33% 30%, 36% 30%, 100% 100%, 0% 120%)
+}
+.rightear {
+				position:absolute;
+				left: 300px;
+				top:-7px;
+				background: #214049;
+				width: 100px;
+				height: 107px;
+				z-index: 5;
+  				clip-path: polygon(63% 30%, 66% 30%, 92% 100%, 0% 100%)
+}
+
+.head {
+				position: absolute;
+				left: 100px;
+				top: 100px;
+				background: #193038;
+				width: 300px;
+				height: 300px;
+				z-index: 10;
+				transform: rotate(180deg);
+				border-radius: 10px;
+  				clip-path: polygon(40% 30%, 60% 30%, 100% 100%, 0% 100%)
+}
+
+.body {
+				position:absolute;
+				left: 50px;
+				top:95px;
+				background: #214049;
+				width: 350px;
+				height: 600px;
+				z-index: 0;
+				border-radius: 250px;
+  clip-path: polygon(45% 30%, 70% 30%, 100% 100%, 0% 100%)
+}
+.leftarm {
+				position:absolute;
+				left: 104px;
+				top:300px;
+				background: #193038;
+				width: 100px;
+				height: 400px;
+				z-index: 0;
+				border-radius: 60px;
+  clip-path: polygon(100% 30%, 70% 215%, 100% 100%, 0% 100%)
+}
+
+
+.rightarm {
+				position:absolute;
+				left: 239px;
+				top:300px;
+				background: #193038;
+				width: 100px;
+				height: 400px;
+				z-index: 0;
+				border-radius: 60px;
+  clip-path: polygon(36% 30%, 70% 80%, 86% 100%, 0% 100%)
+}
+
+
+
+			
+
+
+
+@keyframes spin {
+	0% {transform: rotateX(0deg);
+	}
+	100% {transform: rotateX(360deg);
+	}
+}
+
+
+			.anchor { 
+				background: black;
+				position: fixed;
+				right: 0;
+				bottom: 0;
+				z-index: 35;
+			}
+
+
+
+
+.play{
+	transform: rotate(45deg);
+	}

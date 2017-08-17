@@ -1,26 +1,12 @@
-<html>
-	<head>
-		<style>
-			div {
-/*				background: white; 
-				width: 800px; 
-				height: 1000px;
-				margin: 1px;
-				float: center;
-				z-index: 000	
-				opacity: .1;*/
-			}
-
-			
-			.bluesquare {
+.bluesquare {
 				background: #14C4F5;
 				width: 350px;
 				height: 450px;
 				z-index: 100;
 				opacity: 0.5;
-			}
+}
 
-			.topyellowsquare { 
+.topyellowsquare { 
 				position: absolute;
 				left: -10px;
 				top: -10px;
@@ -30,9 +16,14 @@
 				z-index: 10;
 				opacity: 0.5;
 				transform: rotate(25deg);			
-			}
+}
+.topyellowsquare:hover {
+				transform: scale(2) rotate(30deg);
+				background: red;
+				mix-blend-mode: multiply;
 
-			.middleyellowsquare {
+}
+.middleyellowsquare {
 				position: absolute;
 				left: 85px;
 				top: 18px;
@@ -43,8 +34,12 @@
 				opacity: 0.5;
 				transform: rotate(25deg);
 			}
-
-			.bottomyellowsquare {
+.middleyellowsquare:hover {
+				transform: scale(2) rotate(45deg);
+				background: green;
+				mix-blend-mode: multiply;
+			}
+.bottomyellowsquare {
 				position: absolute;
 				left: 180px;
 				top: 80px;
@@ -55,6 +50,11 @@
 				opacity: 0.5;
 				transform: rotate(25deg);
 
+			}
+.bottomyellowsquare:hover {
+				transform: scale(2) rotate(145deg);
+				background: purple;
+				mix-blend-mode: multiply;
 			}
 			.textbox {
 				position: absolute;
@@ -90,7 +90,7 @@
 				z-index: 0;
 				transform: rotate(25deg);
 				text-align: left;
-				font-size: 6;
+				font-size: 6px;
 							}
 			.topbluesquare {
 				position: absolute;
@@ -166,51 +166,6 @@
 				z-index: 140;
 
 			}
-				
-
-			}
-			}
-		</style>
-		<title>poster</title>
-	</head>
-	<body>
-		<div class="bluesquare"></div>
-		<div class="topyellowsquare"></div>
-		<p class="middleyellowsquare"></p>
-		<div class="bottomyellowsquare"></div>
-		<div class="topbluesquare"></div>
-		<div class=""></div>
-		<div class="middlebluesquare"></div>
-		<div class="bottombluesquare"></div>
-		<div class="crop"></div>
-		<div class="croptop"></div>
-		<div >
-		<div class="cropleftside"></div>
-		</div>
-		<div class="textbox2">
-		paul hindemith
-		<p></p>
-		alban berg
-		<p></p>
-		béla bartók
-		</div>
-		<div class="textbox">
-			végh-quartett musica viva
-
-		</div>
-		<div class="textbox3">
-			1. kammermusikabend der tonhalle-gessellschaft
-			zürick donnerstag.den 30 okt. 1958,20,15 uhr
-			kleiner tonhalle-saal
-			<p></p>
-			paul hindemith drittes streighquartett
-			alban berg     lyrische suites
-			béla bartøk    viertes streichquartett
-			<p></p>
-			karten zu fr. 3.30.7.70
-			vorverkauf tonhalle-kasse. hug jecklin kuoni
-			dep, kasse oerlikon der schweiz kreditansktaff
-		</div>
-	</body>
-	
-</html>
+.play{
+	transform: rotate(45deg);
+	}

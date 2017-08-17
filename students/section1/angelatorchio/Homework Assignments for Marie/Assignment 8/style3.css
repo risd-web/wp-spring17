@@ -1,0 +1,32 @@
+™body{
+	margin: 1;
+	font-family: helvetica; 
+	color: black;
+}
+h2{font-family: helvetica; font-size: 30px; color: grey}
+
+section{
+        overflow: auto;
+}
+
+
+#floated {
+    flex: left;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    max-width: 1000px;
+    height: auto;
+}
+
+
+
+.event{
+        border: 3px ;
+        padding: 1em;
+        box-sizing: border-box;
+}
+
+.event: hover{
+    
+}
