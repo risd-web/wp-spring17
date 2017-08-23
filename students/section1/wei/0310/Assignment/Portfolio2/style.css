@@ -4,92 +4,99 @@ body{
 h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size:16px;
 	margin:0;
+	font-size:1em;
 }
 h2{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size:16px;
-	padding:10px 0 0 5px;
 	margin:0;
-    border-top: 3px solid black;
-
+	font-size:1em;
 }
-#menu{
-	position:fixed;
-	right:7%;
-	width:100px;
-}
-#menu > div{
-}
-.btn{
-	padding:20px 10px;
-	border-top: 3px solid black;
-}
-#ww{
-	padding:105px 0 20px 10px;
-
-}
-#blankBtn{
-	height:19px;
-}
-#cata, #sideBar{
-	position:fixed;
-	top:109px;
-	left:7%;
-	width:80%;
-}
-
-.previewIMG{
-	width:120px;
-	height:120px;
-	padding:0 5px;
-}
-.previewBox, .titleBox{
-	width:130px;
-	height:200px;
-	float:left;
-	margin:0 40px 10px 0;
-}
-.previewBox:hover, .titleBox:hover{
-	opacity: 0.5;
-	cursor:pointer;
-}
-
-.nameBox{
-	width:130px;
-	float:left;
-	margin:0 40px 10px 0;
-}
-.nameBox h2{
-	border:0;
-}
-
-#work{
-	padding: 109px 0 0 20%;
-	margin-bottom:100px;
-}
-.pic{
-	margin-bottom:20px;
-}
-
-#text{
-	width:450px;
-	display:none;
-	background-color:rgba(255 ,255 ,255, 0.9);
-	padding:10px 10px 10px 6px;
-	margin:0;
-	clear:both;
-}
-p{
+span{
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size:16px;
+	line-height:1.5em;
 	margin:0;
-	line-height: 24px;
-
 }
+#headline{
+	position:fixed;
+	width:100%;
+	z-index:2;
+}
+#ww{
+	text-align:center;
+	width:200px;
+	font-size:28px;
+	padding:25px;
+	margin:0 auto;
+}
+#cata{
+	width:90%;
+	margin:0 5%;
+	height:30px;
+	font-size:18px;
+	float:left;
+	display:flex;
+	text-align: center;
+}
+.cataTitle{
+	border-left: 3px solid black;
+}
+.cataTitle:last-child{
+	border-right: 3px solid black;
+}
+.projectTitle{
+	border-left: 3px solid black;
+}
+.flex{
+	flex:1;
+}
+.flex2{
+	flex:2.5;
+}
+#work{
+	padding:170px 5% 0 5%;
+	margin-bottom:100px;
+	display:flex;
+	z-index:1;
+}
+.previewBox{
+	position:relative;
+	margin:0 auto 5% auto;
+	width:90%;
+}
+.previewTitle{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	font-size:18px;
+	background-color: rgba(255 ,255 ,255, 0.8);
+	text-align: center;
+	padding:12px 0;
+	display:none;
+}
+.previewTitle:hover{
+	display:block;
+}
+#text{
+	text-align:left;
+	margin:60px 0 0 0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size:24px;
+	line-height: 30px;
+}
+#picContainer{
+	width:100%;
+}
+
+.pic{
+	margin:0 0 20px 33%;
+	float:left;
+}
+
 #experience{
 	padding:10px 0 0 170px;
 }
@@ -107,95 +114,93 @@ a{
 	color:black;
 }
 
-@media screen and (min-width:1151px) and (max-width: 1280px) {
-  
-  #menu{
-	position:fixed;
-	right:4%;
-	width:100px;
-		}
-  #cata, #sidebar{
-	position:fixed;
-	top:109px;
-	left:4%;
-	width:1000px;
-		}
+
+/* Adjustments on .pic */
+@media screen and (max-width: 1280px) {
+
 	.pic img{
-		max-width: 700px;
+		max-width: 100%;
 	}	
 }
 
-@media screen and (min-width:1025px) and (max-width: 1150px) {
-	#menu{
-	position:fixed;
-	right:2%;
-	width:100px;
-		}
-  #cata, #sideBar{
-	position:fixed;
-	top:109px;
-	left:2%;
-	width:1000px;
-		}
-   #work{
-	padding: 109px 0 0 17%;
-	margin-bottom:100px;
-		}
-	.pic img{
-		max-width: 650px;
+/* Adjustments on types */
+@media screen and (max-width: 1150px) {
+	#ww{
+		font-size:24px;
+		padding:20px;
+	}
+	#text{
+		margin:30px 0 0 0;
+		font-size:18px;
+		line-height: 26px;
+	}
+	#cata{
+		width:95%;
+		margin:0 2.5%;
+		height:20px;
+		font-size:16px;
+	}
+	.cataTitle{
+
+		border-left: 2.5px solid black;
+	}
+	.cataTitle:last-child{
+		border-right: 2.5px solid black;
+	}
+	.projectTitle{
+		border-left: 2.5px solid black;
+	}
+	#work{
+		padding:120px 2.5% 0 2.5%;
+		margin-bottom:100px;
+	}
+	.previewTitle{
+		font-size:16px;
+		padding:8px 0;
 	}
 }
 
-@media screen and (min-width:770px) and (max-width: 1024px) {
-	#menu{
-	position:fixed;
-	right:2%;
-	width:100px;
-		}
-  #cata, #sideBar{
-	position:fixed;
-	top:109px;
-	left:2%;
-		}
-   #work{
-	padding: 109px 0 0 17%;
-	margin-bottom:100px;
-		}
-	.pic img{
-		max-width: 650px;
+@media screen and (max-width: 935px) {
+	#ww{
+		font-size:20px;
+		padding:15px;
+	}
+	#text{
+		font-size:16px;
+		line-height: 20px;
+	}
+	#cata{
+		height:20px;
+		font-size:14px;
+	}
+	.cataTitle{
+		border-left: 2px solid black;
+	}
+	.cataTitle:last-child{
+		border-right: 2px solid black;
+	}
+	.projectTitle{
+		border-left: 2px solid black;
+	}
+	.flex2{
+		flex:3;
+	}
+	.pic{
+	margin:0 0 20px 28%;
+	}
+	#work{
+		padding:100px 2.5% 0 2.5%;
+		margin-bottom:100px;
+	}
+	.previewTitle{
+		font-size:14px;
+		padding:6px 0;
 	}
 }
 
+/* Adjustments for tablets */
 @media screen and (max-width: 770px) {
 	
-		#menu{
-	height:40px;
-	left:0;
-	position:relative;
-	width:100%;
-}
-#menu > div{
-	float:left;
-	text-align:right;
-}
-	#work{
-	padding: 10px 0 0 0;
-	margin-bottom:80px;
-		}
-  #cata{
-	position:relative;
- 	top:10px;
- 	left:0;
- 	padding:10px 0 0 0;
- 	margin:0px auto;
-		}
-  #sideBar{
-  	position:relative;
- 	top:10px;
- 	left:0;
- 	width:100%;
- 	margin:0 0 30px 0;
-  }
 	.pic img{
 		max-width: 100%;
 	}
@@ -206,28 +211,17 @@ a{
 	margin:0;
 	line-height: 20px;
 	margin:0 15px;
+	}
+	.previewTitle{
+	position:relative;
+	font-size:14px;
+	text-align: center;
+	padding:6px 0;
+	display:block;
+}
 
 
-}
-#blankBtn{
-	height:19px;
-}
-.titleBox{
-	width:130px;
-	height:60px;
-	float:left;
-	margin:0 0 10px 10px;
-}
-	.btn{
-	padding:10px 15px;
-	border-top: 0;
-	border-left: 3px solid black;
 
-	height:20px;
-}
-#ww{
-	padding:5px 15px 5px 15px;
-}
 #back {
 	position:fixed;
 	bottom:10px;
@@ -237,69 +231,15 @@ a{
 #back img{
 	width:9px;
 }
-.previewBox{
-	margin:0 0 10px 10px;
-}
-#blankBtn{
-	padding:10px 0;
-}
-#text{
-	width:100%;
-	display:block;
-	padding:0;
-}
 .previewBox:hover, .titleBox:hover{
 	opacity: 1;
 	cursor:pointer;
 }
 
 }
-@media screen and (min-width:730px) and (max-width: 770px) {
-#cata{
 
- 	width:710px;
-		}
-
-}
-@media screen and (min-width:590px) and (max-width: 729px) {
-  #cata{
-
- 	width:570px;
-		}
-}
+/* Adjustments for phones */
 @media screen and (max-width: 589px) {
-.titleBox{
-	width:100px;
-}
-.btn{
-	border-left: 2px solid black;
-}
-h1{
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size:14px;
-	margin:0;
-}
-h2{
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size:14px;
-	padding:10px 0 0 5px;
-	margin:0;
-    border-top: 2px solid black;
-}
-}
-@media screen and (min-width:450px) and (max-width: 589px) {
-#cata{
- 	width:430px;
-		}
-}
-@media screen and (max-width: 449px) {
 
-#cata{
-
- 	width:290px;
-		}
 }
-
 

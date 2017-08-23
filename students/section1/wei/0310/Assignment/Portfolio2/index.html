@@ -13,75 +13,96 @@
     <script src="jQuery.js"></script>
 </head>
 <body>
-  <div id="menu">
-        <div id="ww"><a href="index.html"><h1>Wei</br>WANG</hi></a></div>
-        <div class="btn" id="workBtn"><a href="work.html" style="color: rgba(150,150,150,1)"><h1>work</hi></a></div>
-        <div class="btn" id="aboutBtn"><a href="about.html"><h1>about</h1></a></div>
-        <div class="btn" id="freetalkBtn"><a href="freetalk.html"><h1>free talk</hi></a></div>
-        <div class="btn" id="blankBtn"></div>
-    </div>
+    <div id="headline">
+      <div id="ww"><h1>Wei&nbsp&nbspWANG</hi></div>
+      <div id="cata">
+        <div class="cataTitle flex"><h1>Poster</h1></div>
+        <div class="cataTitle flex"><h1>Book</h1></div>
+        <div class="cataTitle flex"><h1>Illustration</h1></div>
+        <div class="cataTitle flex"><h1>Other</h1></div>
+      </div>
+    </div>    
     <div id="work">
-        <div id="cata">
-            <a href="History.html"><div class="previewBox">
-               <div class="previewIMG" id="History">
-                 <img src="media\work\Btn_History01.jpg">
-               </div>
-               <h2>Designer's</br>Accordian</h2>
-            </div></a>
-
-            <a href="nf.html"><div class="previewBox">
-                <div class="previewIMG" id="nf">
-                 <img src="media\work\Btn_NF01.jpg">
-                </div>
-               <h2>Nutrition Facts</br>Poster</h2>
-            </div></a>
-
-            <a href="white.html">
+        <div id ="poster" class="workBox flex">  
               <div class="previewBox">
-               <div class="previewIMG" id="white">
-                <img src="media\work\Btn_White.jpg">
-               </div>
-               <h2>White Terror</h2>
+                <a href="white.html">
+                 <img src="media\work\Btn_white.jpg" style="width:100%">
+                 <div class="previewTitle">
+                  <h2>White Terror</br><span>2017</span></h2>
+                 </div>
+                </a>                  
               </div>
-            </a>
-
-            <a href="friends.html">
-            <div class="previewBox">
-               <div class="previewIMG" id="friends">
-                <img src="media\work\Btn_friends.jpg" style="width:120px">
-               </div>
-               <h2>Friends'</br>Portraits</h2>
-            </div>
-            </a>
-
-            <a href="wrestlers.html">
-            <div class="previewBox">
-               <div class="previewIMG" id="wrestlers">
-                <img src="media\work\Btn_wrestlers.jpg" style="width:120px">
-               </div>
-               <h2>Wrestlers</h2>
-            </div>
-            </a>
-
-            <a href="hero.html">
-            <div class="previewBox">
-               <div class="previewIMG" id="hero">
-                <img src="media\work\Btn_hero.jpg" style="width:120px">
-               </div>
-               <h2>流浪的英雄</br>Heros </br>on the Way</h2>
-            </div>
-            </a>
-
-            <a href="medals.html">
-            <div class="previewBox">
-               <div class="previewIMG" id="medals">
-                <img src="media\work\Btn_medals.jpg" style="width:120px">
-               </div>
-               <h2>Medals</h2>
-            </div>
-            </a>    
+              <div class="previewBox">
+                <a href="nf.html">
+                 <img src="media\work\Btn_nf.jpg" style="width:100%">
+                <div class="previewTitle">
+                  <h2>Nutrition Facts</br><span>2016</span></h2>
+                </div>
+                </a>
+              </div>
+              <div class="previewBox">
+                <a href="tooling.html">
+                 <img src="media\work\Btn_tooling.jpg" style="width:100%">
+                 <div class="previewTitle">
+                  <h2>Tooling</br><span>2017</span></h2>
+                 </div>  
+                </a>
+              </div>
+              <div class="previewBox">
+                <a href="hero.html">
+                 <img src="media\work\Btn_hero.jpg" style="width:100%">
+                 <div class="previewTitle">
+                  <h2>Heros On The Way</br><span>2016</span></h2>
+                 </div>  
+                </a>
+              </div>
+        </div>
+        <div id ="book" class="workBox flex">  
+              <div class="previewBox">
+                <a href="maxhuber.html">
+                 <img src="media\work\Btn_maxhuber.jpg" style="width:100%">
+                 <div class="previewTitle">
+                  <h2>Max Huber</br><span>2016</span></h2>
+                 </div>
+                </a>                  
+              </div>
+              <div class="previewBox">
+                <a href="beach.html">
+                 <img src="media\work\Btn_beach.jpg" style="width:100%">
+                 <div class="previewTitle">
+                  <h2>What Can You Do</br>At The Beach</br><span>2017</span></h2>
+                 </div>
+                </a>                  
+              </div>
+        </div>
+        <div id ="illustration" class="workBox flex">  
+              <div class="previewBox">
+                <a href="friends.html">
+                 <img src="media\work\Btn_friends.jpg" style="width:100%">
+                 <div class="previewTitle">
+                  <h2>Portraits</br><span>2015</span></h2>
+                 </div>
+                </a>                  
+              </div>
+              <div class="previewBox">
+                <a href="wrestlers.html">
+                 <img src="media\work\Btn_wrestlers.jpg" style="width:100%">
+                 <div class="previewTitle">
+                  <h2>Wrestlers</br><span>2014</span></h2>
+                 </div>
+                </a>                  
+              </div>
+        </div>
+        <div id ="other" class="workBox flex">  
+              <div class="previewBox">
+                <a href="medals.html">
+                 <img src="media\work\Btn_medals.jpg" style="width:100%">
+                 <div class="previewTitle">
+                  <h2>Medals</h2>
+                 </div>
+                </a>                  
+              </div>
+        </div>
     </div>
-
-
 </body>
 </html>
