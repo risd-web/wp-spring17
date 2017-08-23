@@ -1,13 +1,15 @@
 $(document).ready(function(){
-	$("#textSwitch").click(function(){
-		$("#text").toggle(500);
-	});
+	var w;
 	
-	$("#contactBtn").mouseover(function(){
-		 $(this).empty().append("<h1>wwang03@risd.edu</h1>");
-	});
-	$("#contactBtn").mouseout(function(){
-		 $(this).empty().append("<h1>contact</h1>");
-	});
+		$(".previewBox").hover(function(){
+			w = $( window ).width();
+			if (w > 770){
+    			$(this).find("div").fadeIn(200);
+    					}
+    		}, function(){
+    		if (w > 770){
+    			$(this).find("div").stop().hide();
+    					}
+		});
 });
 
