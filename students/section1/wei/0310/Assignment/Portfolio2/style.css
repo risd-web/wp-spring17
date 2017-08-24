@@ -19,7 +19,7 @@ span{
 	line-height:1.5em;
 	margin:0;
 }
-#headline{
+#headline, #headline2{
 	position:fixed;
 	width:100%;
 	z-index:2;
@@ -31,7 +31,7 @@ span{
 	padding:25px;
 	margin:0 auto;
 }
-#cata{
+#cata, #cata2{
 	width:90%;
 	margin:0 5%;
 	height:30px;
@@ -48,6 +48,8 @@ span{
 }
 .projectTitle{
 	border-left: 3px solid black;
+	border-right: 3px solid black;
+	height:100%;
 }
 .flex{
 	flex:1;
@@ -134,7 +136,7 @@ a{
 		font-size:18px;
 		line-height: 26px;
 	}
-	#cata{
+	#cata, #cata2{
 		width:95%;
 		margin:0 2.5%;
 		height:20px;
@@ -149,6 +151,8 @@ a{
 	}
 	.projectTitle{
 		border-left: 2.5px solid black;
+		border-right: 2.5px solid black;
+
 	}
 	#work{
 		padding:120px 2.5% 0 2.5%;
@@ -169,7 +173,7 @@ a{
 		font-size:16px;
 		line-height: 20px;
 	}
-	#cata{
+	#cata, #cata2{
 		height:20px;
 		font-size:14px;
 	}
@@ -181,6 +185,8 @@ a{
 	}
 	.projectTitle{
 		border-left: 2px solid black;
+		border-right: 2px solid black;
+
 	}
 	.flex2{
 		flex:3;
@@ -240,6 +246,35 @@ a{
 
 /* Adjustments for phones */
 @media screen and (max-width: 589px) {
+
+	.flex2{
+		flex:0;
+	}
+	#headline2{
+		position:relative;
+	}
+	#work{
+		padding:100px 0 0 0;
+
+	}
+	.projectTitle{
+	border-right: 2px solid black;
+	}
+	#picContainer{
+		margin:-85px 0 0 0;
+	}
+	.pic{
+	margin:0 0 20px 0;
+	}
+	#text{
+	margin:15px 0 0 0;	
+	}
+	#cata2{
+		float:none;
+		display:block;
+		height:100%;
+	}
+
 
 }
 
