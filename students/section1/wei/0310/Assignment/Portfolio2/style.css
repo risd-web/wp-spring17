@@ -83,7 +83,7 @@ span{
 }
 #text{
 	text-align:left;
-	margin:60px 0 0 0;
+	margin:55px 0 0 0;
 	padding:0;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -132,7 +132,7 @@ a{
 		padding:20px;
 	}
 	#text{
-		margin:30px 0 0 0;
+		margin:28px 0 0 0;
 		font-size:18px;
 		line-height: 26px;
 	}
@@ -224,7 +224,34 @@ a{
 	text-align: center;
 	padding:6px 0;
 	display:block;
-}
+}	
+	.flex2{
+		flex:0;
+	}
+	#headline2{
+		position:relative;
+	}
+	#work{
+		padding:100px 0 0 0;
+
+	}
+	.projectTitle{
+	border-right: 2px solid black;
+	}
+	#picContainer{
+		margin:-85px 0 0 0;
+	}
+	.pic{
+	margin:0 0 20px 0;
+	}
+	#text{
+	margin:15px 0 0 0;	
+	}
+	#cata2{
+		float:none;
+		display:block;
+		height:100%;
+	}
 
 
 
@@ -236,10 +263,6 @@ a{
 }
 #back img{
 	width:9px;
-}
-.previewBox:hover, .titleBox:hover{
-	opacity: 1;
-	cursor:pointer;
 }
 
 }
