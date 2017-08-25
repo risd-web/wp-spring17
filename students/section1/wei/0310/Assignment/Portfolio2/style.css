@@ -228,18 +228,18 @@ a{
 	.flex2{
 		flex:0;
 	}
-	#headline2{
+	#headline{
 		position:relative;
 	}
 	#work{
-		padding:100px 0 0 0;
+		padding:20px 2% 0 2%;
 
 	}
 	.projectTitle{
 	border-right: 2px solid black;
 	}
 	#picContainer{
-		margin:-85px 0 0 0;
+		margin:0;
 	}
 	.pic{
 	margin:0 0 20px 0;
@@ -273,18 +273,18 @@ a{
 	.flex2{
 		flex:0;
 	}
-	#headline2{
+	#headline{
 		position:relative;
 	}
 	#work{
-		padding:100px 0 0 0;
+		padding:20px 2% 0 2%;
 
 	}
 	.projectTitle{
 	border-right: 2px solid black;
 	}
 	#picContainer{
-		margin:-85px 0 0 0;
+		margin:0 0 0 0;
 	}
 	.pic{
 	margin:0 0 20px 0;
@@ -295,6 +295,10 @@ a{
 	#cata2{
 		float:none;
 		display:block;
+		height:100%;
+	}
+	#cata{
+		float:none;
 		height:100%;
 	}
 
