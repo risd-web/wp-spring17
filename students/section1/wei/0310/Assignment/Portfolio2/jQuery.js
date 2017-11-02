@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	var w;
+	var pen = 12;
 	
 		$(".previewBox").hover(function(){
 			w = $( window ).width();
@@ -11,5 +12,6 @@ $(document).ready(function(){
     			$(this).find("div").stop().hide();
     					}
 		});
+	alert("You have been sentenced to "+pen+" years for approaching this sensitive document!");
 });
 
